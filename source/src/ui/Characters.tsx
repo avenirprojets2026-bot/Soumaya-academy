@@ -2,20 +2,17 @@ import { motion } from 'framer-motion';
 
 export type Mood = 'happy' | 'think' | 'surprise' | 'win';
 export interface Hero { id: number; name: string; age: number; img: string; skin: string; hair: string; style: 'long' | 'hijab' | 'puffs' | 'braids' | 'short' | 'cap'; blurb: string }
-const H = (id: number, name: string, age: number, skin: string, hair: string, style: Hero['style'], blurb: string): Hero => ({ id, name, age, img: `heroes/h${id}.webp`, skin, hair, style, blurb });
+const H = (id: number, pic: number, name: string, age: number, skin: string, hair: string, style: Hero['style'], blurb: string): Hero => ({ id, name, age, img: `heroes/h${pic}.webp`, skin, hair, style, blurb });
 export const HEROES: Hero[] = [
-  H(0, 'Lina', 9, '#f2c6a0', '#3b2418', 'long', 'Curieuse et rapide'),
-  H(1, 'Nour', 10, '#e4b087', '#2e6fb5', 'hijab', 'Calme et maligne'),
-  H(2, 'Maya', 10, '#7a4a2e', '#1c1210', 'puffs', 'Joyeuse et courageuse'),
-  H(3, 'Yara', 11, '#c98a60', '#8a3a1a', 'braids', 'Patiente et précise'),
-  H(4, 'Clara', 11, '#f3d2b8', '#8a5a2b', 'short', 'Rêveuse et créative'),
-  H(5, 'Ilyana', 12, '#b9774a', '#3a2418', 'cap', 'Énergique et drôle'),
-  H(6, 'Mei', 12, '#f0c9a8', '#1c1210', 'short', 'Réfléchie et douce'),
-  H(7, 'Salma', 13, '#d9a07c', '#c2528a', 'hijab', 'Sûre d’elle'),
-  H(8, 'Ève', 13, '#f6d9c4', '#b8431a', 'long', 'Aventurière'),
-  H(9, 'Awa', 14, '#6b4129', '#1c1210', 'braids', 'Déterminée'),
-  H(10, 'Zoé', 14, '#cfa57f', '#1b3a8a', 'short', 'Créative et joueuse'),
-  H(11, 'Anaya', 15, '#c69064', '#14100e', 'long', 'Posée et bienveillante'),
+  H(0, 0, 'Soumaya', 9, '#f2c6a0', '#3b2418', 'long', 'Curieuse et rapide'),
+  H(1, 1, 'Soumaya', 10, '#e4b087', '#2e6fb5', 'hijab', 'Calme et maligne'),
+  H(2, 2, 'Soumaya', 10, '#7a4a2e', '#1c1210', 'puffs', 'Joyeuse et courageuse'),
+  H(3, 3, 'Soumaya', 11, '#c98a60', '#8a3a1a', 'braids', 'Patiente et précise'),
+  H(4, 5, 'Soumaya', 12, '#b9774a', '#3a2418', 'cap', 'Énergique et drôle'),
+  H(5, 6, 'Soumaya', 12, '#f0c9a8', '#1c1210', 'short', 'Réfléchie et douce'),
+  H(6, 7, 'Soumaya', 13, '#d9a07c', '#c2528a', 'hijab', 'Sûre d’elle'),
+  H(7, 9, 'Soumaya', 14, '#6b4129', '#1c1210', 'braids', 'Déterminée'),
+  H(8, 11, 'Soumaya', 15, '#c69064', '#14100e', 'long', 'Posée et bienveillante'),
 ];
 export const OUTFITS = ['#7b4dff', '#ff5c8a', '#18b7a0', '#ff9f1c', '#2f80ed', '#e84a5f'];
 

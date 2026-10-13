@@ -50,7 +50,7 @@ export function AvatarPick({ nav }: { nav: Nav }) {
     <div className="h-full overflow-y-auto" style={{ background: 'linear-gradient(#2b1b8a,#6a3df0)' }}>
       <div className="max-w-4xl mx-auto p-4 flex flex-col gap-4">
         <div className="flex justify-between items-center"><button className="btn btn-ghost !py-2 !text-base" onClick={() => nav.go('welcome')}>← Accueil</button><h1 className="text-3xl font-extrabold">Choisis ton héros</h1><span /></div>
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+        <div className="grid grid-cols-3 gap-3">
           {HEROES.map((h) => (
             <button key={h.id} aria-pressed={h.id === save.profile.avatarId} className={`panel p-2 flex flex-col items-center focusable ${h.id === save.profile.avatarId ? '!border-amber-300 !border-4' : ''}`} onClick={() => { sfx.click(); update((s) => ({ ...s, profile: { ...s.profile, avatarId: h.id } })); }}>
               <Avatar hero={h} outfit={save.profile.outfit} size={84} /><b>{h.name} · {h.age} ans</b><span className="text-xs opacity-80">{h.blurb}</span>
