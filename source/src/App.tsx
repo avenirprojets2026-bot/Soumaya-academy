@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { AvatarPick, ResultScreen, Settings, Welcome, WorldLevels, WorldMap, type Nav, type Screen } from './ui/Screens';
 import LevelPlayer from './ui/LevelPlayer';
+import WorldMap3D from './ui/WorldMap3D';
 import Parent from './ui/Parent';
 import { SeriesHub, SeriesPlayer, type SeriesPlay } from './ui/Series';
 import { EXAM_NOMBRES, type LevelDef } from './engine/levels';
@@ -40,7 +41,7 @@ export default function App() {
       {overTime && !breakShown && (<div className="fixed inset-x-0 bottom-0 p-3 flex justify-center"><div className="panel px-4 py-3 text-lg">⏸ Tu joues depuis plus de {save.settings.sessionMin} minutes : une petite pause te fera du bien ! <button className="btn btn-gold !py-1 !text-base ml-2" onClick={() => setBreakShown(true)}>OK</button></div></div>)}
     </>);
   else if (play) view = <LevelPlayer key={play.key} level={play.level} mode={play.mode} review={play.review} onExit={() => setPlay(null)} onDone={(s) => { if (s.stars > s.prevStars || s.mode === 'exam') sfx.win(); setSummary(s); setPlay(null); }} />;
-  else view = ({ welcome: <Welcome nav={nav} />, avatar: <AvatarPick nav={nav} />, map: <WorldMap nav={nav} />, world1: <WorldLevels nav={nav} worldId={1} />, world2: <WorldLevels nav={nav} worldId={2} />, world3: <WorldLevels nav={nav} worldId={3} />, world4: <WorldLevels nav={nav} worldId={4} />, world5: <WorldLevels nav={nav} worldId={5} />, castle: <SeriesHub nav={nav} />, settings: <Settings nav={nav} />, parent: <Parent nav={nav} /> } as Record<Screen, React.ReactNode>)[screen];
+  else view = ({ welcome: <Welcome nav={nav} />, avatar: <AvatarPick nav={nav} />, map: <WorldMap3D nav={nav} fallback={<WorldMap nav={nav} />} />, world1: <WorldLevels nav={nav} worldId={1} />, world2: <WorldLevels nav={nav} worldId={2} />, world3: <WorldLevels nav={nav} worldId={3} />, world4: <WorldLevels nav={nav} worldId={4} />, world5: <WorldLevels nav={nav} worldId={5} />, castle: <SeriesHub nav={nav} />, settings: <Settings nav={nav} />, parent: <Parent nav={nav} /> } as Record<Screen, React.ReactNode>)[screen];
 
   const k = sp ? 'sp' + sp.ref : summary ? 'sum' : play ? 'play' + play.key : screen;
   return <AnimatePresence mode="wait"><motion.div key={k} className="h-full" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>{view}</motion.div></AnimatePresence>;

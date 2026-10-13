@@ -68,6 +68,3 @@ Version en ligne : GitHub Pages du dépôt `avenirprojets2026-bot/Soumaya-academ
 
 ## Corrigés proposés — juin 2025
 Les 39 pages officielles ont un corrigé **proposé** (champ `corrige` de `public/bank/official.json`, `corrigeStatut: "proposition"`), rédigé par Claude à la demande de l’enseignant à partir des pages numérisées. Ce ne sont pas des corrigés officiels : 101 réponses sûres, 35 libres (critères d’acceptation), 19 dépendant d’un document non fourni (textes de lecture, dictée, cahier de documents), 13 à vérifier. Les marques ⚠ et ✎ sont affichées dans le jeu. À valider par l’enseignant ; modifier le JSON pour corriger.
-
-## Reconstruire depuis ce dépôt
-Le code source est dans le dossier `source/`. Le site publié (à la racine du dépôt) est le résultat de `npm install && npx vite build` (dossier `dist/`), copié à la racine avec `.nojekyll`, `robots.txt` et la balise `noindex` dans `index.html`.
