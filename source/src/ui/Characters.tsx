@@ -4,7 +4,7 @@ export type Mood = 'happy' | 'think' | 'surprise' | 'win';
 export interface Hero { id: number; name: string; age: number; img: string; skin: string; hair: string; style: 'long' | 'hijab' | 'puffs' | 'braids' | 'short' | 'cap'; blurb: string }
 const H = (id: number, pic: number, name: string, age: number, skin: string, hair: string, style: Hero['style'], blurb: string): Hero => ({ id, name, age, img: `heroes/h${pic}.webp`, skin, hair, style, blurb });
 export const HEROES: Hero[] = [
-  H(0, 0, 'Soumaya', 9, '#f2c6a0', '#3b2418', 'long', 'Curieuse et rapide'),
+  H(0, 0, 'Soumaya', 9, '#e8bd98', '#6b3f22', 'long', 'Curieuse et rapide'),
   H(1, 1, 'Soumaya', 10, '#e4b087', '#2e6fb5', 'hijab', 'Calme et maligne'),
   H(2, 2, 'Soumaya', 10, '#7a4a2e', '#1c1210', 'puffs', 'Joyeuse et courageuse'),
   H(3, 3, 'Soumaya', 11, '#c98a60', '#8a3a1a', 'braids', 'Patiente et précise'),
