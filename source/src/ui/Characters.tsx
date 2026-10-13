@@ -1,14 +1,21 @@
 import { motion } from 'framer-motion';
 
 export type Mood = 'happy' | 'think' | 'surprise' | 'win';
-export interface Hero { id: number; name: string; skin: string; hair: string; style: 'long' | 'hijab' | 'puffs' | 'braids' | 'short' | 'cap'; blurb: string }
+export interface Hero { id: number; name: string; age: number; img: string; skin: string; hair: string; style: 'long' | 'hijab' | 'puffs' | 'braids' | 'short' | 'cap'; blurb: string }
+const H = (id: number, name: string, age: number, skin: string, hair: string, style: Hero['style'], blurb: string): Hero => ({ id, name, age, img: `heroes/h${id}.webp`, skin, hair, style, blurb });
 export const HEROES: Hero[] = [
-  { id: 0, name: 'Lina', skin: '#f2c6a0', hair: '#3b2418', style: 'long', blurb: 'Curieuse et rapide' },
-  { id: 1, name: 'Nour', skin: '#e4b087', hair: '#2e6fb5', style: 'hijab', blurb: 'Calme et maligne' },
-  { id: 2, name: 'Maya', skin: '#a8714b', hair: '#1c1210', style: 'puffs', blurb: 'Joyeuse et courageuse' },
-  { id: 3, name: 'Yara', skin: '#d19a73', hair: '#6b2d1a', style: 'braids', blurb: 'Patiente et précise' },
-  { id: 4, name: 'Adam', skin: '#f0c9a8', hair: '#8a5a2b', style: 'short', blurb: 'Rêveur et créatif' },
-  { id: 5, name: 'Ilyas', skin: '#c68a62', hair: '#1c1210', style: 'cap', blurb: 'Énergique et drôle' },
+  H(0, 'Lina', 9, '#f2c6a0', '#3b2418', 'long', 'Curieuse et rapide'),
+  H(1, 'Nour', 10, '#e4b087', '#2e6fb5', 'hijab', 'Calme et maligne'),
+  H(2, 'Maya', 10, '#7a4a2e', '#1c1210', 'puffs', 'Joyeuse et courageuse'),
+  H(3, 'Yara', 11, '#c98a60', '#8a3a1a', 'braids', 'Patiente et précise'),
+  H(4, 'Clara', 11, '#f3d2b8', '#8a5a2b', 'short', 'Rêveuse et créative'),
+  H(5, 'Ilyana', 12, '#b9774a', '#3a2418', 'cap', 'Énergique et drôle'),
+  H(6, 'Mei', 12, '#f0c9a8', '#1c1210', 'short', 'Réfléchie et douce'),
+  H(7, 'Salma', 13, '#d9a07c', '#c2528a', 'hijab', 'Sûre d’elle'),
+  H(8, 'Ève', 13, '#f6d9c4', '#b8431a', 'long', 'Aventurière'),
+  H(9, 'Awa', 14, '#6b4129', '#1c1210', 'braids', 'Déterminée'),
+  H(10, 'Zoé', 14, '#cfa57f', '#1b3a8a', 'short', 'Créative et joueuse'),
+  H(11, 'Anaya', 15, '#c69064', '#14100e', 'long', 'Posée et bienveillante'),
 ];
 export const OUTFITS = ['#7b4dff', '#ff5c8a', '#18b7a0', '#ff9f1c', '#2f80ed', '#e84a5f'];
 
@@ -31,6 +38,15 @@ function HairFront({ h }: { h: Hero }) {
 }
 
 export function Avatar({ hero, outfit, accessory = 'aucun', mood = 'happy', size = 140 }: { hero: Hero; outfit: string; accessory?: string; mood?: Mood; size?: number }) {
+  if (hero.img) {
+    const a2 = mood === 'win' ? { y: [0, -10, 0] } : mood === 'think' ? { rotate: [0, -2, 0] } : mood === 'surprise' ? { scale: [1, 1.06, 1] } : { y: [0, -2, 0] };
+    return (
+      <motion.div animate={a2} transition={{ duration: mood === 'win' ? 0.7 : 2.4, repeat: Infinity, ease: 'easeInOut' }} role="img" aria-label={`${hero.name}, ${hero.age} ans`} className="relative shrink-0" style={{ width: size, height: size }}>
+        <img src={hero.img} alt="" draggable={false} className="w-full h-full object-cover rounded-full" style={{ border: `${Math.max(3, size / 24)}px solid ${outfit}`, boxShadow: `0 0 ${size / 6}px ${outfit}88` }} />
+        {accessory === 'couronne' && <svg viewBox="0 0 100 40" className="absolute left-1/2 -translate-x-1/2" style={{ top: -size * 0.16, width: size * 0.5 }}><path d="M6 36l6-28 20 16 18-22 18 22 20-16 6 28z" fill="#ffd23f" stroke="#c99700" strokeWidth="3" /></svg>}
+        {accessory === 'casque' && <svg viewBox="0 0 100 60" className="absolute left-1/2 -translate-x-1/2" style={{ top: -size * 0.1, width: size * 0.8 }}><path d="M6 56C6 20 28 4 50 4s44 16 44 52z" fill="#b8c2cc" stroke="#6b7782" strokeWidth="4" opacity=".92" /></svg>}
+      </motion.div>);
+  }
   const anim = mood === 'win' ? { y: [0, -14, 0], rotate: [0, -4, 4, 0] } : mood === 'think' ? { rotate: [0, -3, 0] } : mood === 'surprise' ? { scale: [1, 1.08, 1] } : { y: [0, -3, 0] };
   return (
     <motion.svg viewBox="0 0 100 120" width={size} height={size * 1.2} animate={anim} transition={{ duration: mood === 'win' ? 0.7 : 2.4, repeat: Infinity, ease: 'easeInOut' }} role="img" aria-label={`Avatar ${hero.name}`}>
