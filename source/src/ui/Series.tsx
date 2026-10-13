@@ -4,6 +4,8 @@ import { update, type SeriesRun } from '../store/save';
 import { listDocs, type ImportedDoc } from '../store/imports';
 import { sfx } from '../engine/sfx';
 import type { Nav } from './Screens';
+import { useSave } from '../store/save';
+import { questFor, QuestIntro, MimiCoach, SealTrack, QuestFinale } from './Quest';
 
 export interface SeriesPlay { ref: string; label: string; kind: 'serie' | 'officiel'; items: BankItem[]; mode: 'exam' | 'training'; corrigeImages?: string[]; maxPoints?: number }
 
@@ -82,7 +84,9 @@ export function SeriesPlayer({ play, onExit, onSaved }: { play: SeriesPlay; onEx
   const { items, mode, kind } = play;
   const [idx, setIdx] = useState(0);
   const [notes, setNotes] = useState<Record<string, string>>({});
-  const [phase, setPhase] = useState<'work' | 'mark'>('work');
+  const [phase, setPhase] = useState<'intro' | 'work' | 'mark' | 'finale'>('intro');
+  const quest = useMemo(() => questFor(play), [play]);
+  const pname = (useSave().profile.name || 'toi').trim();
   const [marks, setMarks] = useState<Record<string, number>>({});
   const [open, setOpen] = useState<Record<string, boolean>>({});
   const cur = items[idx];
@@ -95,7 +99,7 @@ export function SeriesPlayer({ play, onExit, onSaved }: { play: SeriesPlay; onEx
     const parts: Record<string, [number, number]> = {};
     if (kind === 'serie') for (const it of items) { const k = it.partie ?? 'autre'; const [g, m] = parts[k] ?? [0, 0]; parts[k] = [g + (marks[it.id] ?? 0), m + (it.points ?? 0)]; }
     const run: SeriesRun = { t: Date.now(), ref: play.ref, label: play.label, kind, score: got, total: totalMax, parts, marks: items.map((it) => ({ id: it.id, got: marks[it.id] ?? 0, max: it.points ?? null })) };
-    update((s) => ({ ...s, seriesRuns: [...s.seriesRuns, run] })); sfx.win(); onSaved();
+    update((s) => ({ ...s, seriesRuns: [...s.seriesRuns, run] })); sfx.win(); setPhase('finale');
   };
 
   const Img = ({ it }: { it: BankItem }) => (<div className="overflow-x-auto rounded-2xl bg-white"><img src={it.image} alt={`${it.label ?? `Page ${it.page}`} — ${play.label}`} className="block w-full min-w-[640px] max-w-[980px] mx-auto" loading="lazy" /></div>);
@@ -111,12 +115,17 @@ export function SeriesPlayer({ play, onExit, onSaved }: { play: SeriesPlay; onEx
     );
   };
 
+  if (phase === 'intro') return <QuestIntro quest={quest} name={pname} onGo={() => setPhase('work')} onBack={onExit} />;
+  if (phase === 'finale') return <QuestFinale quest={quest} name={pname} got={got} total={totalMax} onDone={onSaved} />;
+
   if (phase === 'work') return (
     <div className="h-full overflow-y-auto" style={{ background: 'linear-gradient(#2b1b8a,#4a2fb0 60%,#6a3df0)' }}>
       <div className="max-w-4xl mx-auto p-3 flex flex-col gap-3">
         <div className="flex items-center justify-between gap-2"><button className="btn btn-ghost !py-2 !text-base" onClick={onExit}>← Quitter</button><div className="text-center"><div className="font-extrabold">{play.label}</div><div className="text-sm opacity-80">{cur.label ?? `Page ${cur.page}`} · {idx + 1} / {items.length}{cur.points ? ` · /${fmt(cur.points)}` : ''} · {mode === 'exam' ? 'examen' : 'entraînement'}</div></div><span className="w-20" /></div>
         <div className="h-3 rounded-full bg-black/30 overflow-hidden" role="progressbar" aria-valuenow={idx + 1} aria-valuemin={1} aria-valuemax={items.length}><div className="h-full bg-gradient-to-r from-amber-300 to-pink-400" style={{ width: `${((idx + 1) / items.length) * 100}%` }} /></div>
+        <SealTrack count={items.length} at={idx} color={quest.color} />
         <Img it={cur} />
+        <MimiCoach quest={quest} idx={idx} name={pname} />
         <label className="panel p-3 flex flex-col gap-1"><span className="font-bold">Ma réponse ou mes notes (facultatif — tu peux aussi écrire sur papier)</span>
           <textarea id={`n-${cur.id}`} rows={3} value={notes[cur.id] ?? ''} onChange={(e) => setNotes({ ...notes, [cur.id]: e.target.value })} className="rounded-xl p-2 text-indigo-900 text-lg focusable" /></label>
         {mode === 'training' && <div><button className="btn btn-gold !py-2 !text-base" onClick={() => setOpen({ ...open, [cur.id]: !open[cur.id] })}>{open[cur.id] ? 'Cacher le corrigé' : 'Voir le corrigé'}</button>{open[cur.id] && <div className="mt-2"><Corr it={cur} /></div>}</div>}
