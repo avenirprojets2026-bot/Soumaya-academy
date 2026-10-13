@@ -5,14 +5,14 @@ export interface Hero { id: number; name: string; age: number; img: string; skin
 const H = (id: number, pic: number, name: string, age: number, skin: string, hair: string, style: Hero['style'], blurb: string): Hero => ({ id, name, age, img: `heroes/h${pic}.webp`, skin, hair, style, blurb });
 export const HEROES: Hero[] = [
   H(0, 0, 'Soumaya', 9, '#e8bd98', '#6b3f22', 'long', 'Curieuse et rapide'),
-  H(1, 1, 'Soumaya', 10, '#e4b087', '#2e6fb5', 'hijab', 'Calme et maligne'),
-  H(2, 2, 'Soumaya', 10, '#7a4a2e', '#1c1210', 'puffs', 'Joyeuse et courageuse'),
-  H(3, 3, 'Soumaya', 11, '#c98a60', '#8a3a1a', 'braids', 'Patiente et précise'),
-  H(4, 5, 'Soumaya', 12, '#b9774a', '#3a2418', 'cap', 'Énergique et drôle'),
-  H(5, 6, 'Soumaya', 12, '#f0c9a8', '#1c1210', 'short', 'Réfléchie et douce'),
-  H(6, 7, 'Soumaya', 13, '#d9a07c', '#c2528a', 'hijab', 'Sûre d’elle'),
-  H(7, 9, 'Soumaya', 14, '#6b4129', '#1c1210', 'braids', 'Déterminée'),
-  H(8, 11, 'Soumaya', 15, '#c69064', '#14100e', 'long', 'Posée et bienveillante'),
+  H(1, 1, 'Soumaya', 8, '#e4b087', '#2e6fb5', 'hijab', 'Calme et maligne'),
+  H(2, 2, 'Soumaya', 8, '#7a4a2e', '#1c1210', 'puffs', 'Joyeuse et courageuse'),
+  H(3, 3, 'Soumaya', 9, '#c98a60', '#8a3a1a', 'braids', 'Patiente et précise'),
+  H(4, 4, 'Soumaya', 8, '#b9774a', '#3a2418', 'cap', 'Énergique et drôle'),
+  H(5, 5, 'Soumaya', 9, '#f0c9a8', '#1c1210', 'short', 'Réfléchie et douce'),
+  H(6, 6, 'Soumaya', 9, '#d9a07c', '#c2528a', 'hijab', 'Sûre d’elle'),
+  H(7, 7, 'Soumaya', 8, '#f6d9c4', '#b8431a', 'long', 'Aventurière'),
+  H(8, 8, 'Soumaya', 9, '#c69064', '#14100e', 'braids', 'Créative et joueuse'),
 ];
 export const OUTFITS = ['#7b4dff', '#ff5c8a', '#18b7a0', '#ff9f1c', '#2f80ed', '#e84a5f'];
 
