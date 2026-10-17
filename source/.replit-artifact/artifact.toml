@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Maïssa Academy"
+description = "Application pédagogique publique mobile-first pour une élève de quatrième primaire belge : six mondes fantasy, exercices originaux, correction immédiate, étoiles et progression locale, sans inscription."
+version = "1.0.0"
+id = "artifacts/soumaya-academy"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20762
+
+[services.development]
+run = "pnpm --filter @workspace/soumaya-academy run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/soumaya-academy", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/soumaya-academy/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20762"
+BASE_PATH = "/"

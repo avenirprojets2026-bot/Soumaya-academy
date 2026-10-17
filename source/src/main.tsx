@@ -1,16 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
+
 import App from './App';
+import { ErrorBoundary } from '@/components/error-boundary';
+
 import './index.css';
 
-class Boundary extends React.Component<{ children: React.ReactNode }, { err: boolean; msg: string }> {
-  state = { err: false, msg: '' };
-  static getDerivedStateFromError(e: unknown) { return { err: true, msg: String((e as Error)?.message ?? e) }; }
-  render() { return this.state.err ? <div className="p-8 text-center"><h1 className="text-3xl font-bold mb-3">Oups, quelque chose s’est mal passé</h1><p className="mb-2">Ta progression est sauvegardée.</p><p className="mb-4 text-sm opacity-70">{this.state.msg}</p><button className="btn btn-gold" onClick={() => location.reload()}>Recharger</button></div> : this.props.children; }
-}
-ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><Boundary><App /></Boundary></React.StrictMode>);
+createRoot(document.getElementById('root')!, {
+  // Keeps caught errors off reportError(), which would raise the dev overlay.
+  onCaughtError: (error, errorInfo) => {
+    console.error(error, errorInfo.componentStack);
+  },
+}).render(
+  <ErrorBoundary>
+    <App />
+  </ErrorBoundary>,
+);
 
-// Mode hors connexion : enregistrement silencieux (ignoré si le navigateur ou l'hébergement ne le permet pas).
-if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator && import.meta.env.PROD) {
-  window.addEventListener('load', () => { try { navigator.serviceWorker.register('./sw.js').catch(() => undefined); } catch { /* ignoré */ } });
+if ('serviceWorker' in navigator && import.meta.env.PROD) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(() => { /* hors ligne indisponible : l'app fonctionne quand même */ });
+  });
 }

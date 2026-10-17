@@ -1,0 +1,17 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html,body,#root{height:100%;margin:0}
+body{font-family:'Baloo 2','Nunito',system-ui,sans-serif;background:#1c1250;color:#fff;overflow:hidden;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.btn{border-radius:1.25rem;padding:.75rem 1.5rem;font-weight:800;font-size:1.25rem;box-shadow:0 6px 0 rgba(0,0,0,.28);transition:transform .08s,box-shadow .08s;min-height:56px}
+.btn:active{transform:translateY(4px);box-shadow:0 2px 0 rgba(0,0,0,.28)}
+.btn:focus-visible,.focusable:focus-visible{outline:4px solid #fff;outline-offset:3px}
+.btn-gold{background:linear-gradient(#ffe27a,#ffb300);color:#4a2c00}
+.btn-violet{background:linear-gradient(#9d7bff,#6a3df0);color:#fff}
+.btn-green{background:linear-gradient(#7be08a,#27a644);color:#06310f}
+.btn-ghost{background:rgba(255,255,255,.15);color:#fff}
+.panel{background:rgba(24,12,80,.78);backdrop-filter:blur(6px);border:2px solid rgba(255,255,255,.22);border-radius:1.5rem}
+@keyframes drift{from{transform:translateX(-20%)}to{transform:translateX(120vw)}}
+@keyframes twinkle{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.floaty{animation:floaty 3.2s ease-in-out infinite}
+.reduce-motion *{animation:none!important;transition:none!important}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
