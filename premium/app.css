@@ -177,3 +177,8 @@ button{font:inherit;color:inherit;cursor:pointer}
 .choice{transition:transform .12s,border-color .15s,background .15s}
 .choice:active{transform:scale(.97)}
 @media (prefers-reduced-motion:reduce){.dialog{animation:none}}
+.hero-say{position:absolute;left:50%;bottom:99%;translate:-50% 0;white-space:nowrap;background:#fffbe9;color:#2a1b5c;font-weight:700;font-size:15px;padding:6px 12px;border-radius:14px;border:2px solid var(--gold);pointer-events:none;animation:say-pop .25s ease-out;z-index:6}
+.hero-say::after{content:'';position:absolute;left:50%;top:100%;translate:-50% 0;border:7px solid transparent;border-top-color:var(--gold)}
+.puff{position:absolute;font-size:26px;pointer-events:none;opacity:0;translate:-50% 0;animation:heart-up 1.7s ease-out forwards}
+@media (prefers-reduced-motion:reduce){.puff{display:none}}
+.acting .hotspot,.acting .edge{opacity:0!important;pointer-events:none!important;transition:opacity .2s}
