@@ -227,3 +227,20 @@ button{font:inherit;color:inherit;cursor:pointer}
 .doc-link.parent{border-style:dashed}
 .doc-row{display:flex;flex-direction:column;gap:4px;padding-bottom:6px;border-bottom:1px solid #ffffff14}
 .doc-row .actions{margin:0;justify-content:flex-start}
+
+.compass-draw{position:absolute;pointer-events:none;z-index:3}
+.compass-draw svg{width:100%;height:100%;overflow:visible}
+.compass-draw circle{fill:none;stroke:#ffd84a;stroke-width:5;stroke-linecap:round;filter:drop-shadow(0 0 4px #ffb800);stroke-dasharray:100;stroke-dashoffset:100;animation:compass-trace 2.2s .3s ease-in-out forwards}
+.compass-draw span{position:absolute;left:50%;top:50%;font-size:min(40px,60%);transform-origin:0 0;animation:compass-turn 2.2s .3s ease-in-out forwards}
+@keyframes compass-trace{to{stroke-dashoffset:0}}
+@keyframes compass-turn{from{transform:rotate(-90deg) translate(-20%,-100%)}to{transform:rotate(270deg) translate(-20%,-100%)}}
+
+.rose-map{position:absolute;pointer-events:none;z-index:3}
+.rose-map .rose{position:absolute;left:50%;top:50%;font-size:min(9vh,70px);line-height:1;color:#ffd84a;text-shadow:0 0 8px #ffb800,0 0 18px #fff3;transform:translate(-50%,-50%) scale(0);transition:transform .7s cubic-bezier(.3,1.6,.5,1)}
+.rose-map.go .rose{transform:translate(-50%,-50%) scale(1)}
+.rose-map.spin .rose{animation:rose-spin 1.4s ease-in-out}
+@keyframes rose-spin{from{transform:translate(-50%,-50%) rotate(0) scale(1)}50%{transform:translate(-50%,-50%) rotate(200deg) scale(1.35)}to{transform:translate(-50%,-50%) rotate(360deg) scale(1)}}
+.rose-map b{position:absolute;font:700 clamp(12px,2.4vh,22px) Georgia,serif;color:#fff6c8;background:#1d2b5ecc;border:1px solid #ffd84a;border-radius:10px;padding:2px 6px;white-space:nowrap;opacity:0;transform:scale(.4);transition:opacity .35s,transform .45s cubic-bezier(.3,1.6,.5,1);box-shadow:0 0 12px #ffd84a88}
+.rose-map .cn{left:50%;top:-4%;translate:-50% -100%}.rose-map .cs{left:50%;bottom:-4%;translate:-50% 100%}
+.rose-map .ce{right:-6%;top:50%;translate:100% -50%}.rose-map .co{left:-6%;top:50%;translate:-100% -50%}
+.rose-map.on-n .cn,.rose-map.on-e .ce,.rose-map.on-s .cs,.rose-map.on-o .co{opacity:1;transform:scale(1)}
