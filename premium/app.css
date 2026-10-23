@@ -205,3 +205,18 @@ button{font:inherit;color:inherit;cursor:pointer}
 .door-leaf{position:absolute;top:0;bottom:0;width:50%;background-size:100% 100%;transition:transform 1.2s cubic-bezier(.5,0,.3,1)}
 .door-leaf.l{left:0;transform-origin:0 50%}.door-leaf.r{right:0;transform-origin:100% 50%}
 .door-open.go .door-glow{opacity:1}.door-open.go .door-leaf.l{transform:rotateY(78deg)}.door-open.go .door-leaf.r{transform:rotateY(-78deg)}
+.rain-l{position:absolute;top:-8%;z-index:2;pointer-events:none;font-family:Georgia,'Times New Roman',serif;font-weight:700;color:#fff6b8;text-shadow:0 0 4px #fff,0 0 10px #ffd84a,0 0 22px #ffb800;animation-name:rain-fall,rain-sway;animation-timing-function:linear,ease-in-out;animation-iteration-count:1,infinite;animation-direction:normal,alternate;opacity:0}
+@keyframes rain-fall{0%{transform:translateY(0) rotate(-8deg);opacity:0}8%{opacity:1}85%{opacity:.95}100%{transform:translateY(var(--fall)) rotate(10deg);opacity:0}}
+@keyframes rain-sway{from{margin-left:0}to{margin-left:var(--sw)}}
+
+.world .sky-ov{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;user-select:none;animation:sky-tw 5s ease-in-out infinite alternate;opacity:.85}
+@keyframes sky-tw{0%{opacity:.55}50%{opacity:.95}100%{opacity:.7}}
+.sdust{position:absolute;pointer-events:none;border-radius:50%;background:radial-gradient(circle,#fff 0 30%,#cfe3ff 45%,rgba(140,190,255,0) 72%);transform:translate(-50%,-50%);animation:sdust 1.6s ease-out forwards}
+.sdust.big::before,.sdust.big::after{content:'';position:absolute;left:50%;top:50%;width:320%;height:1px;background:linear-gradient(90deg,transparent,#fff,transparent);transform:translate(-50%,-50%)}
+.sdust.big::after{width:1px;height:320%}
+@keyframes sdust{0%{opacity:0;transform:translate(-50%,-50%) scale(.4)}15%{opacity:1}100%{opacity:0;transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(1.1)}}
+.hero .hstar{position:absolute;left:50%;top:8.5%;width:6%;aspect-ratio:1;transform:translate(-50%,-50%);pointer-events:none;border-radius:50%;background:radial-gradient(circle,#fff 0 25%,#d8e8ff 40%,rgba(140,190,255,0) 70%);animation:hstar 2.4s ease-in-out infinite}
+.hero .hstar::before,.hero .hstar::after{content:'';position:absolute;left:50%;top:50%;width:360%;height:1.5px;background:linear-gradient(90deg,transparent,#fff,transparent);transform:translate(-50%,-50%)}
+.hero .hstar::after{width:1.5px;height:360%}
+@keyframes hstar{0%,100%{opacity:.55;transform:translate(-50%,-50%) scale(.8) rotate(0)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.15) rotate(20deg)}}
+@media (prefers-reduced-motion:reduce){.world .sky-ov,.hero .hstar{animation:none}}
