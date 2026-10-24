@@ -1256,3 +1256,40 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .ea-lit{transition:filter .8s}.ea-lit.nuit{filter:brightness(.45) saturate(.7)}
 .ea-lit.nuit .ea-lamp{filter:drop-shadow(0 0 10px #fff2a0)}
 .ea-panel{max-width:min(1000px,94vw);width:94vw;box-sizing:border-box}
+/* ---------- forêt : soleil et points cardinaux ---------- */
+.so-fx{position:absolute;inset:0;pointer-events:none;z-index:3}
+.so-tint{position:absolute;inset:0;mix-blend-mode:multiply;transition:background 1s}
+.so-sun{position:absolute;width:6%;aspect-ratio:1;translate:-50% -50%;transition:opacity 1.5s;--c:#fff2a0}
+.so-sun b{position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle,#fffbe6 0 30%,var(--c) 45%,#ffd96a00 72%);box-shadow:0 0 60px 30px color-mix(in srgb,var(--c) 45%,transparent);animation:pulse 3s infinite}
+.so-plank{position:absolute;font:900 clamp(7px,1vw,15px)/1 system-ui;color:#3a1e08;letter-spacing:.06em;text-shadow:0 1px 0 #f0c890aa;translate:-50% -50%;white-space:nowrap}
+.so-plank.p1{left:81.7%;top:50.8%;rotate:-3deg}.so-plank.p2{left:83.5%;top:56.6%;rotate:2deg}.so-plank.p3{left:81.5%;top:62.3%;rotate:-2deg}
+.so-rose{position:absolute;left:84%;top:43.5%;width:3.4%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;background:radial-gradient(circle,#fff6d0,#e8c070);border:2px solid #7a4a1a;box-shadow:0 0 12px #ffd96a}
+.so-rose b{position:absolute;font:900 clamp(6px,.75vw,11px)/1 system-ui;color:#7a1a1a;translate:-50% -50%}
+.so-rose .n{left:50%;top:16%}.so-rose .s{left:50%;top:86%}.so-rose .e{left:86%;top:52%}.so-rose .o{left:14%;top:52%}
+.so-rose i{position:absolute;left:46%;top:22%;width:8%;height:56%;background:linear-gradient(#d02a2a 50%,#333 50%);clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}
+.so-mini{position:relative;height:200px;border-radius:14px;overflow:hidden;background:linear-gradient(#7ac0ff,#ffe0b0)}
+.so-mini-sun{position:absolute;width:42px;height:42px;translate:-50% -50%;border-radius:50%;background:radial-gradient(circle,#fffbe6,#ffd96a 60%,#ffb84a);box-shadow:0 0 30px 10px #ffd96a99}
+.so-ground{position:absolute;left:0;right:0;bottom:0;height:22%;background:#5a9a3a}
+.so-h{position:absolute;bottom:26%;font-weight:900;color:#1a1240;background:#fffbe9cc;border-radius:8px;padding:2px 8px;z-index:2}
+.so-h.l{left:3%}.so-h.r{right:3%}.so-h.c{left:50%;translate:-50% 0;bottom:auto;top:30%}
+.so-arms{position:relative;height:220px;border-radius:14px;background:#2a2060;display:grid;grid-template:1fr 1fr 1fr/1fr 1fr 1fr;align-items:center;justify-items:center;font-weight:800;color:#fff}
+.so-arms .n{grid-area:1/2}.so-arms .o{grid-area:2/1}.so-arms .e{grid-area:2/3}.so-arms .s{grid-area:3/2}.so-arms .kid{grid-area:2/2;font-size:56px}
+.ea-panel{width:auto;max-width:100%}.ea-wrap>*{min-width:0}
+.so-sun{width:7%}
+.so-sun b{background:radial-gradient(circle,#fffef5 0 34%,#ffe57a 40%,var(--c) 52%,#ffd96a00 72%);box-shadow:0 0 70px 34px color-mix(in srgb,var(--c) 55%,transparent),0 0 0 2px #fff8 inset}
+.so-plank{font-size:clamp(8px,1.15vw,17px);color:#fff4d6;text-shadow:0 0 3px #3a1e08,0 1px 2px #3a1e08,0 0 6px #000a}
+/* constellations animées (observatoire) */
+.anim-ov{position:absolute;pointer-events:none;z-index:1;mix-blend-mode:screen}
+.anim-ov img{width:100%;height:100%;display:block;animation:c-twinkle 2.6s ease-in-out infinite alternate}
+@keyframes c-twinkle{from{filter:drop-shadow(0 0 2px #9fe0ff) brightness(1)}to{filter:drop-shadow(0 0 8px #bfeaff) brightness(1.35)}}
+.c-walk{animation:c-walk 14s ease-in-out infinite}
+@keyframes c-walk{0%,100%{transform:translateX(0) translateY(0)}20%{transform:translateX(12%) translateY(-3%)}25%{transform:translateX(14%) translateY(0)}45%{transform:translateX(26%) translateY(-3%)}50%{transform:translateX(28%) translateY(0) scaleX(1)}52%{transform:translateX(28%) scaleX(-1)}75%{transform:translateX(12%) translateY(-3%) scaleX(-1)}98%{transform:translateX(0) scaleX(-1)}}
+.c-fly{animation:c-fly 9s ease-in-out infinite}
+.c-fly img{animation:c-flap .8s ease-in-out infinite alternate,c-twinkle 2.6s ease-in-out infinite alternate;transform-origin:50% 60%}
+@keyframes c-flap{from{transform:scaleY(1)}to{transform:scaleY(.82) translateY(4%)}}
+@keyframes c-fly{0%,100%{transform:translate(0,0) rotate(0)}25%{transform:translate(20%,-18%) rotate(-6deg)}50%{transform:translate(45%,-6%) rotate(3deg)}75%{transform:translate(22%,10%) rotate(5deg)}}
+.c-roar{animation:c-roar 5s ease-in-out infinite;transform-origin:50% 100%}
+@keyframes c-roar{0%,70%,100%{transform:scale(1)}78%{transform:scale(1.08) rotate(-3deg)}86%{transform:scale(1.05) rotate(2deg)}}
+.c-hop{animation:c-hop 6s ease-in-out infinite;transform-origin:50% 100%}
+@keyframes c-hop{0%,40%,100%{transform:translate(0,0)}50%{transform:translate(-14%,-14%) rotate(-8deg)}60%{transform:translate(-28%,0)}70%{transform:translate(-28%,0) scaleX(-1)}80%{transform:translate(-14%,-14%) scaleX(-1) rotate(8deg)}90%{transform:translate(0,0) scaleX(-1)}}
+@media (prefers-reduced-motion:reduce){.anim-ov,.anim-ov img{animation:none!important}}
