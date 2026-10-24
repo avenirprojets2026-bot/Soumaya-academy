@@ -939,3 +939,53 @@ ul.nu-list{padding-left:26px}
 @keyframes th-next{to{box-shadow:inset 0 -10px 0 var(--c),0 0 26px var(--c);transform:translateY(-4px)}}
 .th-sheet .muted{color:#6a5030}
 .th-nl{paint-order:stroke;stroke:#3b2a12;stroke-width:3px}
+/* La Machine des Idées */
+.dialog:has(.ia-panel){width:min(980px,100%)}
+.ia-rail{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.ia-dot{width:38px;height:38px;border-radius:50%;border:2px solid #8fb8ff66;background:#1a2350;color:#cfe0ff;font-weight:800;cursor:pointer}
+.ia-dot.seen{background:#2c4fa8;color:#fff}.ia-dot.on{border-color:#ffd84a;box-shadow:0 0 0 3px #ffd84a55}.ia-dot[disabled]{opacity:.4;cursor:default}
+.ia-h{margin:6px 0;color:#ffe9a8}
+.ia-stage{position:relative;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 10px 26px #0008}
+.ia-vid{width:100%;display:block;aspect-ratio:16/9;background:#000}
+.ia-sub{position:absolute;left:4%;right:4%;bottom:5%;text-align:center;color:#fff;font-weight:700;font-size:clamp(.85rem,2.2vw,1.15rem);text-shadow:0 2px 6px #000,0 0 2px #000;line-height:1.35}
+.ia-leg{position:absolute;top:4%;left:50%;translate:-50% -10px;opacity:0;transition:all .6s;padding:6px 14px;border-radius:20px;background:#0b1338cc;border:1px solid #ffd84a88;color:#ffe9a8;font-weight:800;white-space:nowrap;font-size:clamp(.75rem,2vw,1rem)}
+.ia-leg.on{opacity:1;translate:-50% 0}
+.ia-act{margin-top:12px;padding:12px;border-radius:14px;background:#0f1a44aa;border:1px solid #8fb8ff44}
+.ia-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:8px 0}
+.ia-card{min-height:60px;padding:8px;border-radius:12px;border:2px dashed #d8b878;background:#fff6dd;color:#5a3b12;font:inherit;font-weight:700;cursor:pointer}
+.ia-card.read{border-style:solid;background:#fffdf3;color:#2b2440;font-weight:600}
+.ia-bars{display:flex;flex-direction:column;gap:5px;margin:8px 0;padding:10px;border-radius:12px;background:#ffffff10}
+.ia-bar{display:grid;grid-template-columns:120px 1fr 48px;align-items:center;gap:8px}
+.ia-bar i{display:block;height:14px;border-radius:7px;background:linear-gradient(90deg,#5b8cff,#c86bff);transition:width .5s;min-width:2px}
+.ia-outs{display:flex;flex-direction:column;gap:4px;margin:8px 0;max-height:150px;overflow:auto}
+.ia-out{padding:6px 10px;border-radius:10px;background:#ffffff14;animation:jb-in .4s}
+.ia-prompt{padding:10px 14px;border-radius:12px;background:#fff;color:#2b2440;font-weight:700;margin:6px 0}
+.ia-rep{padding:10px 14px;border-radius:12px;background:#1d2a66;border:1px solid #5b8cff66;margin:6px 0}
+.ia-rep.sure{font-size:1.1rem}
+.vi-chip.on{background:#ffd84a;color:#3b2a12}
+.ia-book{padding:12px 14px;border-radius:12px;background:#fff6dd;color:#3b2a12;border-left:6px solid #2f9a5a;margin:8px 0}
+.ia-carnet{padding:14px;border-radius:16px;background:linear-gradient(135deg,#f6efd9,#efe2bf);color:#3b2a12}
+.ia-carnet li{margin:.35em 0}.ia-badge{font-weight:800;color:#7a4a10}
+.ia-stage{max-width:min(100%,calc(56vh * 16 / 9));margin:0 auto}
+.ia-carnet h3{color:#6a3a12;margin-top:0}
+/* actualités : point discret qui scintille + parcours en 6 temps */
+.hotspot.hs-actu .hs-ring{animation:ac-twinkle 1.6s ease-in-out infinite;border-color:#fff3b0}
+.hotspot.hs-actu .hs-icon{filter:drop-shadow(0 0 8px #ffe36b)}
+@keyframes ac-twinkle{50%{box-shadow:0 0 22px 6px #ffe36baa;transform:scale(1.12)}}
+.dialog:has(.ac-panel){width:min(960px,100%)}
+.ac-steps{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 10px}
+.ac-steps span{padding:4px 10px;border-radius:14px;background:#ffffff12;font-size:.82rem;opacity:.7}
+.ac-steps span.on{background:#ffd84a;color:#3b2a12;opacity:1;font-weight:800}.ac-steps span.done{background:#2f9a5a66;opacity:1}
+.ac-t{margin:.2em 0;color:#ffe9a8}
+.ac-intro{font-style:italic;padding:10px 14px;border-radius:12px;background:#ffffff10;border-left:4px solid #ffd84a}
+.ac-res{line-height:1.5}
+.ac-vid{width:100%;max-height:46vh;border-radius:14px;background:#000;display:block;margin:8px 0}
+.ac-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin:8px 0}
+.ac-card{display:flex;flex-direction:column;gap:3px;padding:10px;border-radius:12px;background:#fff8e6;color:#3b2a12}
+.ac-card span{font-size:1.8rem}.ac-card small{color:#6a5030;line-height:1.35}
+.ac-cv{width:100%;max-width:600px;aspect-ratio:2;display:block;margin:8px auto;border-radius:14px;touch-action:none;cursor:pointer}
+.ac-item{margin:8px auto;padding:12px 16px;max-width:520px;border-radius:12px;background:#fff;color:#2b2440;font-weight:700;text-align:center}
+.ac-bilan{padding:14px;border-radius:16px;background:linear-gradient(135deg,#1d2a66,#2c1f5a);border:1px solid #ffd84a55}
+.ac-bilan h3{margin-top:0;color:#ffe9a8}
+.ac-src{margin-top:8px;font-size:.85rem}.ac-src a{color:#9fd0ff}
+.ac-older{display:flex;flex-direction:column;gap:6px;margin-top:10px}
