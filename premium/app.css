@@ -1018,3 +1018,90 @@ ul.nu-list{padding-left:26px}
 .ho-mcard{border:3px solid #ffffff22;border-radius:50%;background:none;padding:4px;cursor:pointer}
 .ho-mcard.ok{border-color:#3ee08f;box-shadow:0 0 16px #3ee08f}.ho-mcard.ko{border-color:#ff5a6a}
 .ho-hands{top:1.6%}
+/* étiquettes des points d'intérêt : côté choisi automatiquement pour ne rien masquer */
+.hotspot.p-t .hs-label{top:auto;bottom:100%}
+.hotspot.p-t .hs-meta{top:auto;bottom:-6px}
+.hotspot.p-r .hs-label{top:50%;left:88%;right:auto;transform:translateY(-50%)}
+.hotspot.p-l .hs-label{top:50%;right:88%;left:auto;transform:translateY(-50%)}
+.hotspot.p-l .hs-meta{right:auto;left:-14px}
+/* quand Soumaya (ou un visiteur) parle : sa bulle passe devant, les boutons s'effacent un peu */
+.room.talking .hero{z-index:420!important}
+.room.talking .hotspot{opacity:.38;transition:opacity .25s}
+.room.talking .hotspot .hs-label{opacity:0}
+.hotspot{transition:opacity .25s}
+.critter .cr-say{position:absolute;left:50%;bottom:100%;translate:-50% -6px;white-space:normal;width:max-content;max-width:min(260px,60vw);text-align:center;background:#fffbe9;color:#2a1b5c;font-weight:700;font-size:15px;line-height:1.25;padding:6px 12px;border-radius:14px;border:2px solid #f3c86a;animation:say-pop .25s ease-out;z-index:2}
+.critter .cr-say::after{content:'';position:absolute;left:50%;top:100%;translate:-50% 0;border:7px solid transparent;border-top-color:#f3c86a}
+.critter.talk{z-index:420!important}
+.cine-sub{position:absolute;left:50%;bottom:9%;translate:-50% 0;max-width:86vw;padding:8px 16px;border-radius:16px;background:#fffbe9ee;color:#2a1b5c;font-weight:800;font-size:clamp(15px,2.4vw,22px);border:2px solid #f3c86a;opacity:0;transition:opacity .25s;pointer-events:none;text-align:center}
+.cine-sub.on{opacity:1}
+canvas.globe-spin{background:none;animation:none;border-radius:50%;box-shadow:0 0 22px #ffe9a877,inset 0 0 0 1px #0000}
+canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
+/* ---------- armoire magique des fichiers (Tour numérique) ---------- */
+.ar-panel{max-width:min(980px,96vw);width:96vw}
+.ar-body{min-height:200px}
+.ar-levels{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:10px 0}
+.ar-lvl{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;padding:12px 14px;min-height:84px}
+.ar-lvl small{opacity:.85;font-weight:600}
+.ar-lvl.locked{opacity:.5}
+.ar-memo{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.ar-memo span{border-left:5px solid var(--c);background:#ffffff14;padding:4px 10px;border-radius:8px;font-size:13px}
+.ar-top{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.ar-wrap{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:12px;align-items:center}
+@media (max-width:700px),(orientation:portrait){.ar-wrap{grid-template-columns:1fr}}
+.ar-stage{position:relative;aspect-ratio:1;width:100%;max-width:min(560px,64vh);margin:auto;border-radius:18px;overflow:hidden;box-shadow:0 10px 40px #0008,0 0 0 2px #ffd96a55;touch-action:none}
+.ar-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;user-select:none}
+.ar-dr{position:absolute;border:0;padding:0;background-repeat:no-repeat;border-radius:8px;cursor:pointer;transition:transform .35s cubic-bezier(.3,1.4,.5,1),box-shadow .3s,filter .3s;transform-origin:50% 100%;z-index:2}
+.ar-dr .ar-in{position:absolute;inset:6%;border-radius:6px;background:radial-gradient(circle,#fff6c8 0,#ffd96a88 40%,#0000 75%);opacity:0;transition:opacity .3s}
+.ar-dr .ar-lab{position:absolute;left:50%;bottom:4%;translate:-50% 0;white-space:nowrap;font-size:clamp(10px,1.7vw,14px);font-weight:800;background:#150f3cd9;color:#fff;padding:3px 8px;border-radius:12px;border:1px solid var(--c);pointer-events:none}
+.ar-dr.hover,.ar-dr:focus-visible{filter:brightness(1.18);box-shadow:0 0 0 3px var(--c),0 0 26px 6px var(--c)}
+.ar-dr.open{transform:translateY(7%) scale(1.12);box-shadow:0 18px 30px #000a,0 0 30px 8px var(--c);filter:brightness(1.15)}
+.ar-dr.open .ar-in{opacity:1}
+.ar-dr.nope{animation:ar-nope .4s}
+.ar-dr.glow{box-shadow:0 0 22px 6px var(--c);filter:brightness(1.12)}
+@keyframes ar-nope{20%,60%{transform:translateX(-4px)}40%,80%{transform:translateX(4px)}}
+.ar-trash{position:absolute;right:3%;bottom:3%;z-index:3;display:flex;flex-direction:column;align-items:center;font-size:30px;background:#150f3ccc;color:#fff;border:2px solid #ffffff55;border-radius:14px;padding:6px 10px;cursor:pointer}
+.ar-trash small{font-size:11px;font-weight:700}
+.ar-trash.hover{box-shadow:0 0 18px 4px #ff9b9b}
+.ar-fly{display:flex;flex-direction:column;align-items:center;gap:10px;min-height:150px;justify-content:center}
+.ar-card{display:flex;align-items:center;gap:8px;padding:14px 18px;border-radius:16px;background:linear-gradient(160deg,#1d6fd8cc,#0d2f7acc);border:2px solid #8fd0ff;box-shadow:0 0 22px #5ab8ffaa,inset 0 0 18px #9fe0ff55;color:#fff;font-size:clamp(17px,2.6vw,22px);cursor:grab;touch-action:none;user-select:none;transition:translate .7s cubic-bezier(.5,0,.4,1),scale .7s,opacity .7s;position:relative;z-index:5}
+.ar-card.in{animation:ar-in .55s ease-out}
+.ar-card.drag{transition:none;cursor:grabbing;scale:1.06;box-shadow:0 0 32px #8fd0ff}
+.ar-card.into{scale:.2;opacity:0}
+.ar-card.shake{animation:ar-nope .4s}
+.ar-ic{font-size:1.4em}
+.ar-ext{color:#ffe08a;background:#0006;padding:1px 6px;border-radius:8px}
+@keyframes ar-in{from{opacity:0;translate:60px -30px;scale:.6;rotate:8deg}to{opacity:1}}
+.ar-count{font-weight:700;opacity:.85}
+.ar-sub{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;grid-column:1/-1}
+.ar-sub p{margin:0;font-weight:700}
+.ar-end{text-align:center;display:flex;flex-direction:column;gap:10px}
+.ar-guide{display:flex;align-items:flex-end;gap:10px;margin-top:10px}
+.ar-guide img{width:64px;height:auto;flex:none;filter:drop-shadow(0 3px 4px #0006)}
+.ar-say{flex:1;background:#fffbe9;color:#2a1b5c;font-weight:700;border-radius:14px;padding:8px 12px;border:2px solid #f3c86a;min-height:2.4em}
+.ar-hole{position:absolute;z-index:1;border-radius:6px;background:radial-gradient(ellipse at 50% 30%,color-mix(in srgb,var(--c) 55%,#fff) 0,#1a0f05 60%);box-shadow:inset 0 8px 18px #000c;pointer-events:none}
+.ar-dr.open{transform:translateY(16%) scale(1.14)}
+/* carte des mondes : position fixe, identique dans toutes les salles */
+.hotspot.hs-fixed{position:absolute;left:auto;right:auto;top:auto;left:calc(14px + 32px + env(safe-area-inset-left));bottom:calc(30px + 32px + env(safe-area-inset-bottom));transform:translate(-50%,50%);z-index:450}
+.hotspot.hs-fixed .hs-ring{background:radial-gradient(circle,#2a1f6bcc,#150f3cee);border-color:#ffd96a}
+.hotspot.hs-fixed .hs-label{font-size:12px;padding:2px 8px}
+.room.talking .hotspot.hs-fixed{opacity:1}
+.en-parch{background:linear-gradient(160deg,#f6e7c1,#e8cf98);color:#3b2405;border-radius:12px;padding:16px 18px;font-size:clamp(16px,2.4vw,20px);font-style:italic;line-height:1.45;box-shadow:inset 0 0 30px #a0742a66,0 6px 20px #0007;border:2px solid #b8862b}
+.en-hint{font-style:normal;font-weight:700;color:#6a3d00}
+.hotspot[hidden]{display:none!important}
+.room.talking .hero{pointer-events:none}
+/* grimoire des Défis des Grands Explorateurs */
+.gb-panel{background:linear-gradient(170deg,#2a1d5c,#1a1240)}
+.gb-intro{font-style:italic;opacity:.92}
+.gb-page{background:linear-gradient(160deg,#f7ebcd,#ead29f);color:#3b2405;border-radius:14px;padding:14px 16px;box-shadow:inset 0 0 40px #a0742a55,0 8px 24px #0008;border:2px solid #b8862b;transform-origin:0 50%;min-height:200px}
+.gb-page .muted{color:#6b4a1c}
+.gb-page .doc-link{color:#3b2405}
+.gb-page .doc-row{border-color:#b8862b55}
+.gb-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.gb-head h3{margin:0;font-size:clamp(18px,2.6vw,24px)}
+.gb-ic{font-size:30px}
+.gb-nav{display:flex;align-items:center;justify-content:center;gap:16px;margin:10px 0;font-weight:700}
+.gb-page.flip-r{animation:gb-flip .55s ease-out}.gb-page.flip-l{animation:gb-flipl .55s ease-out}
+@keyframes gb-flip{from{transform:perspective(1200px) rotateY(-70deg);opacity:.2}to{transform:none;opacity:1}}
+@keyframes gb-flipl{from{transform:perspective(1200px) rotateY(70deg);opacity:.2}to{transform:none;opacity:1}}
+.room{isolation:isolate}
+.gb-page .gb-head h3{color:#3b2405}.gb-page .doc-link{background:#fff6dd;border-color:#b8862b66}
