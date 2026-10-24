@@ -897,3 +897,24 @@ ul.nu-list{padding-left:26px}
 .jb-legend{color:#d9f2cc}
 .jb-garden img{max-height:min(40vh,330px);object-fit:cover}
 .jb-hhead h3{color:#5a3b12}
+/* la moitié magique (symétrie sur quadrillage) */
+.th-mwrap{width:min(380px,82vw)}
+.th-mgrid{display:grid;grid-template-columns:repeat(var(--c),1fr);gap:2px;padding:6px;background:#10163a;border-radius:12px;touch-action:none;user-select:none}
+.th-mc{aspect-ratio:1;border-radius:3px;background-color:#1e2756;position:relative}
+.th-mc.free{cursor:pointer;background-color:#262f63}
+.th-mc.ax{box-shadow:3px 0 0 -1px #ffe36b}
+.th-mc.model{opacity:.98}
+.th-mc.bad::after{content:'✕';position:absolute;inset:0;display:grid;place-items:center;color:#ff3b3b;font-weight:900;font-size:.8em}
+.th-mc.miss{outline:2px dashed #ffb02e;outline-offset:-2px}
+.th-mcol{width:36px;height:36px;border-radius:50%;border:3px solid #ffffff55;cursor:pointer;background:#2a2f4f;font-size:1rem}
+.th-mcol.on{border-color:#fff;box-shadow:0 0 0 3px #ffd84a}
+/* pièges de la page web */
+.nu-browser [data-z]{cursor:pointer;border-radius:6px;transition:background .2s}
+.nu-browser .trap{background:#ffd6d6;outline:2px solid #e04a4a;animation:nu-shake .35s}
+@keyframes nu-shake{25%{translate:-3px 0}75%{translate:3px 0}}
+.nu-ad{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:-4px 0 10px;padding:8px 12px;border-radius:10px;background:linear-gradient(90deg,#ffe8a8,#ffc6e0);color:#5a2a40}
+.nu-ad small{font-size:.65rem;letter-spacing:.08em;opacity:.7}.nu-adurl{font-family:monospace;font-size:.85rem;text-decoration:underline}
+.nu-fig{margin:10px 0}.nu-fig figcaption{font-size:.8rem;color:#7a7290}
+.nu-bigpic{font-size:clamp(56px,14vw,96px);text-align:center;background:linear-gradient(#e8f4ff,#f8f1e4);border-radius:12px;padding:8px}
+.nu-art{color:#3d3556;margin:.5em 0}.nu-link{color:#2a5bd8;text-decoration:underline;font-family:monospace}
+.nu-com{border-top:1px solid #e6e2f2;margin-top:10px;padding-top:6px;font-size:.88rem;color:#5a5270}
