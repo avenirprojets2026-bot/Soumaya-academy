@@ -712,3 +712,70 @@ ul.nu-list{padding-left:26px}
 .da-clues{background:#fff8e6;color:#3a2a10;border-radius:12px;padding:10px 10px 10px 30px}
 .da-cell{cursor:pointer;min-width:70px;height:48px;font-size:1.3rem}
 @media (max-width:600px){.da-row{grid-template-columns:90px 1fr auto auto auto}.da-axis{margin-left:96px}}
+.hero-say.long{white-space:normal;width:min(300px,68vw);text-align:center;line-height:1.3;border-color:#7ab8ff;box-shadow:0 0 18px #7ab8ff88}
+/* sanctuaire du corps */
+.co-panel{max-width:960px}
+.co-skel,.co-man{width:min(240px,55vw);height:auto;background:#1b1238;border-radius:14px}
+.co-bone{fill:#f3ecd8;stroke:#f3ecd8;cursor:pointer;transition:fill .2s}
+.co-bone .hole{fill:#1b1238;stroke:none}
+.co-bone.on,.co-bone.good{fill:#ffd84a;stroke:#ffd84a;filter:drop-shadow(0 0 6px #ffd84a)}
+.co-bone.bad{fill:#ff6a6a;stroke:#ff6a6a}
+.co-bone.slot{fill:transparent;stroke:#9ad8ff;stroke-dasharray:4 3;stroke-width:2}
+.co-bone.slot line{stroke:#9ad8ff55}
+.co-ghost .co-bone{cursor:default}
+.co-info{max-width:340px}
+.co-info h3{color:#ffe9a8;margin:4px 0}
+.co-tray{display:flex;flex-direction:column;gap:8px}
+.co-arm{width:min(420px,86vw);height:auto;background:#1b1238;border-radius:12px}
+.co-skin{fill:#9ad8ff22;stroke:#9ad8ff;stroke-width:2}
+.co-layer-s .co-bone{fill:#ffffff99;stroke:#ffffff99;pointer-events:none}
+.co-layer-m{fill:#e86a6a;stroke:#e86a6a;pointer-events:none}
+.co-layer-s,.co-layer-m{transition:opacity .4s}
+.co-org{cursor:pointer;transition:filter .2s}
+.co-org.on{filter:drop-shadow(0 0 8px #fff) brightness(1.3)}
+.co-coeur{animation:co-beat 1s infinite;transform-origin:104px 136px}
+@keyframes co-beat{0%,100%{transform:scale(1)}15%{transform:scale(1.18)}30%{transform:scale(1)}45%{transform:scale(1.1)}}
+.co-poumons{animation:co-breath 3.6s ease-in-out infinite;transform-origin:100px 128px}
+@keyframes co-breath{50%{transform:scale(1.08)}}
+.co-cerveau{animation:q-pulse 3s infinite}
+.co-dig{width:min(260px,60vw);height:auto;background:#1b1238;border-radius:12px}
+.co-order{display:flex;flex-direction:column;gap:4px;margin:6px 0}
+.co-oslot{padding:6px 10px;border-radius:8px;background:#ffffff10}.co-oslot.full{background:#3ee08f33}
+.co-senses{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:8px}
+.co-sense{display:flex;flex-direction:column;align-items:center;padding:8px 12px;border-radius:12px;background:#ffffff10;min-width:90px}
+.co-sense span{font-size:32px}
+.co-eye{width:min(280px,70vw);height:auto;transition:filter .3s}
+.co-eye circle{transition:r .4s}
+.co-ill{width:min(300px,76vw);height:auto}
+/* village */
+.vl-panel,.pa-panel{max-width:960px}
+.vl-stall{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:6px}
+.vl-item,.vl-shop{display:flex;flex-direction:column;align-items:center;gap:1px;padding:6px 8px;border-radius:10px;background:#fff8e6;color:#3a2a10;min-width:84px;font-size:.8rem}
+.vl-item span,.vl-shop span{font-size:26px}
+.vl-shop{border:2px solid transparent;cursor:pointer;font:inherit;font-size:.8rem}
+.vl-shop.on{border-color:#2fbf71;background:#e6ffe6}
+.vl-wallet,.vl-purse{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:6px 0;min-height:44px}
+.vl-money{border:none;cursor:pointer;font-weight:800;font-family:inherit}
+.vl-money.coin{width:48px;height:48px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#fff3b0,#d8a82a);color:#5a3a0a;box-shadow:0 3px 0 #a87a1a}
+.vl-money.note{width:84px;height:46px;border-radius:6px;background:linear-gradient(135deg,#9ad8b8,#4a9a7a);color:#123;box-shadow:0 3px 0 #2a6a4a}
+.ws-big.over{color:#ff8a8a}
+.vl-clock{width:min(220px,60vw);height:auto}
+.vl-plan{width:min(700px,92vw);height:auto;background:#fffdf4;border-radius:10px}
+.vl-wall{fill:#f1eef8;stroke:#2b2440;stroke-width:3;transition:fill .4s}
+.vl-grid{stroke:#c8c0e8;stroke-width:1}
+.vl-room{cursor:pointer}
+.vl-lab{font-size:14px;font-weight:800;fill:#2b2440}
+.vl-dim{font-size:12px;fill:#5a5270}
+.vl-pots{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:8px 0}
+.vl-pot{display:flex;align-items:center;gap:6px;padding:10px 14px;border-radius:12px;border:3px solid var(--c);background:#ffffff10;color:inherit;font:inherit;font-weight:700;cursor:pointer}
+.vl-pot span{font-size:26px}.vl-pot.on{background:var(--c);color:#2b2440}
+/* vallée */
+.pa-river,.pa-bloc,.pa-croquis{width:min(520px,90vw);height:auto;border-radius:12px}
+.pa-river [data-z],.pa-bloc [data-z]{cursor:pointer}
+.pa-flow{animation:pa-flow 1.4s linear infinite}
+@keyframes pa-flow{from{transform:translateX(-10px);opacity:0}30%{opacity:1}to{transform:translateX(20px);opacity:0}}
+.pa-croquis path{cursor:pointer;transition:fill .3s}
+.pa-legend{display:flex;flex-direction:column;gap:6px}
+.pa-leg{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;border:2px solid #ffffff33;background:#ffffff10;color:inherit;font:inherit;cursor:pointer}
+.pa-leg span{width:26px;height:18px;border-radius:4px;border:1px solid #0006}
+.pa-leg.on{border-color:#ffd84a}
