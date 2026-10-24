@@ -779,3 +779,47 @@ ul.nu-list{padding-left:26px}
 .pa-leg{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;border:2px solid #ffffff33;background:#ffffff10;color:inherit;font:inherit;cursor:pointer}
 .pa-leg span{width:26px;height:18px;border-radius:4px;border:1px solid #0006}
 .pa-leg.on{border-color:#ffd84a}
+/* atlas */
+.at-panel{max-width:1000px}
+.at-lab{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start}
+.at-mapw{position:relative;flex:2;min-width:min(620px,100%);overflow:hidden;border-radius:12px}
+.at-map{width:100%;height:auto;display:block}
+.at-sea{fill:#1d4a8a}
+.at-ocean{fill:#9ad0ff;font-size:13px;font-style:italic;opacity:.75;pointer-events:none}
+.at-land{fill:#3a6a5a;stroke:#1d3a4a;stroke-width:.4;cursor:pointer;transition:fill .25s}
+.at-land.known{fill:#e8d8a0}
+.at-land:hover{fill:#fff3c4}
+.at-land.on,.at-land.good{fill:#ffd84a;filter:drop-shadow(0 0 4px #fff)}
+.at-land.show{fill:#7affb0}
+.at-land.gold{fill:#ffd84a;animation:at-glow 1.2s ease-in-out infinite}
+@keyframes at-glow{50%{fill:#fff3a0;filter:drop-shadow(0 0 8px #ffd84a)}}
+.at-dot{fill:#ff6fa0;stroke:#fff;stroke-width:1.5;cursor:pointer}
+.at-side{flex:1;min-width:220px}
+.at-card{background:#fff8e6;color:#3a2a10;border-radius:14px;padding:12px 14px}
+.at-card h3{margin:2px 0;color:#3a2a10}.at-card p{margin:.3em 0}
+.at-flag{font-size:56px;line-height:1}
+.at-legend{display:flex;gap:12px;flex-wrap:wrap;margin:4px 0 8px}
+.at-legend span{display:flex;align-items:center;gap:5px}.at-legend i{width:18px;height:12px;border-radius:3px}
+.at-petal{position:absolute;font-size:20px;pointer-events:none;animation:at-fall 4s ease-in forwards}
+@keyframes at-fall{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(-40px,160px) rotate(220deg)}}
+.at-fuji{position:absolute;right:4%;top:18%;font-size:44px;animation:say-pop .6s ease-out;pointer-events:none}
+.co-trip{width:min(520px,90vw);height:auto;border-radius:14px}
+.co-float{animation:co-fl 3s ease-in-out infinite}
+@keyframes co-fl{50%{transform:translate(-14px,6px)}}
+.co-zap{animation:q-pulse .9s infinite}
+.co-capsule{transform:translate(200px,110px);animation:co-cap 3s ease-in-out infinite}
+@keyframes co-cap{50%{transform:translate(215px,100px)}}
+.co-beat2{animation:co-beat 0.8s infinite;transform-origin:200px 100px}
+.co-patient{position:relative;font-size:120px;line-height:1;padding:10px 30px}
+.co-bigheart{position:absolute;left:50%;top:55%;translate:-50% -50%;font-size:40px}
+.co-bigheart.pulse{animation:co-pul .35s ease-out}
+@keyframes co-pul{40%{transform:scale(1.45)}}
+.co-thermo{display:flex;align-items:center;gap:10px;justify-content:center;font-size:2rem;background:#fff8e6;color:#3a2a10;border-radius:14px;padding:10px;max-width:280px;margin:0 auto 8px}
+.ec-scene{height:min(260px,40vh);border-radius:16px;display:flex;align-items:center;justify-content:center;overflow:hidden;transition:background .6s}
+.ec-ic{font-size:min(150px,22vh)}
+.ec-ic.in{animation:ec-in .6s ease-out}.ec-ic.out{animation:ec-out .6s ease-out}
+@keyframes ec-in{from{transform:scale(.2);opacity:0}}@keyframes ec-out{from{transform:scale(3);opacity:0}}
+.ec-lab{margin:8px 0;font-size:1.05rem}
+.ec-bar{display:flex;gap:4px;flex-wrap:wrap;justify-content:center}
+.ec-dot{width:40px;height:40px;border-radius:50%;border:2px solid #ffffff33;background:#ffffff10;font-size:20px;cursor:pointer}
+.ec-dot.on{border-color:#ffd84a;background:#ffd84a33}
