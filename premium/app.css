@@ -1168,3 +1168,9 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .co-card .co-ic{font-size:40px}
 .co-card.seen{border-color:#2fae6a}
 .co-card small{opacity:.85}
+.st-spot{position:absolute;width:10%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;border:3px solid #fff;background:radial-gradient(circle,#ffe08a99,#ffe08a00 70%);box-shadow:0 0 16px #ffd96a;animation:pulse 1.6s infinite;z-index:10;cursor:pointer}
+.st-spot.done{border-color:#2fae6a;box-shadow:0 0 12px #2fae6a}
+.st-head{position:absolute;font-size:34px;translate:-50% -50%;opacity:0;transition:left .5s,top .5s,opacity .3s;z-index:11;pointer-events:none;filter:drop-shadow(0 2px 4px #000a)}
+.st-head.on{opacity:1}
+.st-board.beat .anim-heart,.st-board.beat img[src*="o_heart"]{animation:lb-beat .75s ease-in-out infinite}
+.st-board.breath img[src*="o_lungs"]{animation:lb-breathe 3.6s ease-in-out infinite}
