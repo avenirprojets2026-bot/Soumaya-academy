@@ -483,3 +483,30 @@ button{font:inherit;color:inherit;cursor:pointer}
 .ws-bar span{border-radius:4px;background:#ffffff14;transition:background .4s}
 .ws-doses{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
 .ws-dose{padding:7px 4px;border-radius:10px;border:2px solid var(--c);background:#ffffff0e;color:inherit;font:inherit;font-weight:700;cursor:pointer}
+/* porte magique, mission potion, carnet */
+.ws-pic{display:flex;justify-content:center}
+.q-fig{width:min(320px,80vw);max-height:30vh}
+.q-grid{stroke:#ffffff22;stroke-width:1}
+.q-cell{fill:#8fb8ff55}
+.q-edge{stroke:#ffe36b;stroke-width:3;stroke-linecap:round}
+.q-shape{fill:#8fb8ff44;stroke:#ffe36b;stroke-width:3;stroke-linejoin:round}
+.q-lbl{fill:#ffe9a8;font-size:15px;font-weight:800}
+.q-ray{stroke:#ffe36b;stroke-width:4;stroke-linecap:round}
+.q-arc{fill:none;stroke:#ff9de2;stroke-width:2.5}
+.q-tick{stroke:#ff9de2;stroke-width:2.5}
+.q-doorwrap{position:relative;width:min(300px,70vw);aspect-ratio:300/360}
+.q-door{width:100%;height:100%;display:block}
+.q-door.open{filter:drop-shadow(0 0 22px #c86bff)}
+.q-door.open .q-core{animation:q-pulse 1.6s ease-in-out infinite}
+@keyframes q-pulse{50%{fill:#ffe36b}}
+.q-sym{position:absolute;transform:translate(-50%,-50%);width:58px;height:58px;border-radius:50%;border:3px solid var(--c);background:#1d1238;font-size:28px;cursor:pointer;opacity:.55;filter:grayscale(.7)}
+.q-sym.lit{opacity:1;filter:none;box-shadow:0 0 18px var(--c),0 0 4px var(--c) inset}
+.q-potion{position:relative;width:90px;height:150px;border:4px solid #e8f6ff;border-radius:18px 18px 40px 40px;overflow:hidden;background:#ffffff10}
+.q-potion span{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(#ffe36b,#c86bff 60%,#5b2ad6);transition:height 1s}
+.q-potion.full{box-shadow:0 0 30px #ffe36b}
+.q-steps{display:flex;flex-direction:column;gap:6px;margin:0;padding-left:22px;max-width:520px}
+.q-steps li{opacity:.65}.q-steps li.now{opacity:1;color:#ffe9a8}.q-steps li.done{opacity:1;color:#8ff0b8}
+.q-carnet{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+.q-page{display:flex;flex-direction:column;gap:4px;padding:12px;border-radius:12px;background:#fff8e6;color:#3a2a10;box-shadow:0 3px 8px #0004}
+.q-page.empty{opacity:.6}
+.q-ic{font-size:28px}
