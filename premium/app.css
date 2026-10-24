@@ -989,3 +989,32 @@ ul.nu-list{padding-left:26px}
 .ac-bilan h3{margin-top:0;color:#ffe9a8}
 .ac-src{margin-top:8px;font-size:.85rem}.ac-src a{color:#9fd0ff}
 .ac-older{display:flex;flex-direction:column;gap:6px;margin-top:10px}
+/* les vrais moteurs de recherche */
+.mo-br{max-width:760px}
+.mo-wrap{position:relative;line-height:0}
+.mo-img{width:100%;height:auto;display:block;cursor:pointer;user-select:none}
+.mo-fiche{margin:8px auto;max-width:760px;padding:10px 14px;border-radius:12px;background:#fff8e6;color:#3b2a12}
+.mo-fiche p{margin:.3em 0}
+/* la grande horloge */
+.ho-clock{position:relative;aspect-ratio:1;margin:0 auto;user-select:none}
+.ho-clock img{width:100%;height:100%;display:block;pointer-events:none}
+.ho-hands{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;filter:drop-shadow(0 2px 3px #0008)}
+.ho-clock.drag{cursor:grab;touch-action:none}
+.ho-room{position:absolute;z-index:1;pointer-events:none;aspect-ratio:1;filter:drop-shadow(0 8px 18px #0009)}
+.ho-room .ho-glow{position:absolute;inset:-12%;border-radius:50%;background:radial-gradient(circle,#ffe9a033,#ffe9a000 65%);z-index:-1;animation:ho-glow 4s ease-in-out infinite alternate}
+@keyframes ho-glow{to{opacity:.45;transform:scale(1.05)}}
+.dialog:has(.ho-panel){width:min(960px,100%)}
+.ho-lab{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start}
+@media (max-width:700px){.ho-lab{grid-template-columns:1fr}}
+.ho-col{display:flex;flex-direction:column;gap:8px;align-items:stretch}
+.ho-t{margin:0;color:#ffe9a8}.ho-txt{font-size:1.05rem;line-height:1.5}
+.ho-digbox{display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 14px;border-radius:12px;background:#0a0f24;border:2px solid #3a4a8a;align-self:center}
+.ho-digbox small{color:#8fa8e8;font-size:.75rem}
+.ho-dig{font-family:'Courier New',monospace;font-weight:900;font-size:2.2rem;color:#5cff9a;text-shadow:0 0 10px #2fdc7a;letter-spacing:.06em}
+.ho-digbox.big .ho-dig{font-size:3rem}
+.ho-mots{text-align:center;font-weight:800;color:#ffe9a8;font-size:1.1rem}
+.ho-pm{display:flex;gap:6px;align-items:center;font-size:.9rem}
+.ho-mini{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.ho-mcard{border:3px solid #ffffff22;border-radius:50%;background:none;padding:4px;cursor:pointer}
+.ho-mcard.ok{border-color:#3ee08f;box-shadow:0 0 16px #3ee08f}.ho-mcard.ko{border-color:#ff5a6a}
+.ho-hands{top:1.6%}
