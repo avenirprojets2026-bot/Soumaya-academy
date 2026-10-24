@@ -918,3 +918,24 @@ ul.nu-list{padding-left:26px}
 .nu-bigpic{font-size:clamp(56px,14vw,96px);text-align:center;background:linear-gradient(#e8f4ff,#f8f1e4);border-radius:12px;padding:8px}
 .nu-art{color:#3d3556;margin:.5em 0}.nu-link{color:#2a5bd8;text-decoration:underline;font-family:monospace}
 .nu-com{border-top:1px solid #e6e2f2;margin-top:10px;padding-top:6px;font-size:.88rem;color:#5a5270}
+/* la partition magique */
+.th-sheet{position:relative;overflow:hidden;margin:6px auto;max-width:760px;padding:10px 14px 6px;border-radius:14px;background:linear-gradient(#fffaf0,#f5e6c4);box-shadow:inset 0 0 0 2px #d8b878,0 8px 22px #0006;color:#3b2a12}
+.th-title{font-weight:800;color:#6a3a12;margin-bottom:2px}
+.th-staff{width:100%;height:auto;max-height:190px;display:block;overflow:visible}
+.th-sl{stroke:#6a5030;stroke-width:1.4}
+.th-clef{font-size:62px;fill:#6a3a12;font-family:serif}
+.th-nl{font-size:13px;font-weight:800;text-anchor:middle}
+.th-note{transition:transform .2s;transform-box:fill-box;transform-origin:center}
+.th-note.cur{transform:scale(1.35);filter:drop-shadow(0 0 6px #ffcf3a)}
+.th-note.ok{opacity:.55}
+.th-note.hint{filter:drop-shadow(0 0 8px #ff4a6a)}
+.th-fly{position:absolute;bottom:0;font-size:1.6rem;color:#e0a020;pointer-events:none;animation:th-fly 1.8s ease-out forwards;text-shadow:0 0 8px #ffd84a}
+@keyframes th-fly{to{transform:translateY(-140px) rotate(20deg);opacity:0}}
+.th-levels .btn[disabled]{opacity:.55}
+.th-choices{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:8px}
+.th-rchoice{display:flex;flex-direction:column;align-items:center;gap:2px;background:#fffaf0!important;color:#3b2a12!important}
+.th-rhy{height:56px;width:auto}
+.th-key.next{animation:th-next .8s ease-in-out infinite alternate}
+@keyframes th-next{to{box-shadow:inset 0 -10px 0 var(--c),0 0 26px var(--c);transform:translateY(-4px)}}
+.th-sheet .muted{color:#6a5030}
+.th-nl{paint-order:stroke;stroke:#3b2a12;stroke-width:3px}
