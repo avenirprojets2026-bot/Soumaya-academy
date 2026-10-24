@@ -840,3 +840,60 @@ ul.nu-list{padding-left:26px}
 .critter{position:absolute;translate:-50% -100%;pointer-events:none}
 .critter .cr-img{display:block;width:100%;transform-origin:50% 100%;filter:drop-shadow(0 3px 4px #0005)}
 .critter .cr-shadow{position:absolute;left:20%;right:20%;bottom:-3%;height:9%;border-radius:50%;background:#0004;filter:blur(3px)}
+/* Jardin Botanique Enchanté */
+.dialog:has(.jb-panel){width:min(1000px,100%)}
+.jb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;margin:8px 0}
+.jb-card{display:flex;flex-direction:column;align-items:center;gap:4px;padding:8px;border-radius:16px;border:2px solid #cfe9c0;background:linear-gradient(#fffef6,#f1fbe9);cursor:pointer;transition:transform .15s,box-shadow .15s}
+.jb-card:hover{transform:translateY(-2px);box-shadow:0 6px 16px #2f6b2a22}
+.jb-card.got{border-color:#7cc96a;background:linear-gradient(#f3ffe8,#dff6cf)}
+.jb-card.no{opacity:.45}
+.jb-card .jb-img{width:100%;aspect-ratio:1;object-fit:contain}
+.jb-card.mini{padding:4px}.jb-card.mini small{font-size:.72rem}
+.jb-card small{color:#557a4a}
+.jb-pick{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}
+.jb-fiche{display:grid;grid-template-columns:minmax(160px,300px) 1fr;gap:14px;align-items:start}
+@media (max-width:620px){.jb-fiche{grid-template-columns:1fr}}
+.jb-fpic{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px}
+.jb-big{width:100%;max-width:300px;aspect-ratio:1;object-fit:contain;animation:jb-in .6s ease-out}
+@keyframes jb-in{from{transform:scale(.6) rotate(-6deg);opacity:0}to{transform:none;opacity:1}}
+.jb-seed{position:absolute;left:46%;top:22%;width:10px;height:14px;background:radial-gradient(circle at 50% 30%,#fff 0 3px,#fff0 4px),linear-gradient(#fff0 45%,#b8a57a 45% 55%,#fff0 55%);animation:jb-seed 3s ease-out forwards;pointer-events:none}
+@keyframes jb-seed{to{transform:translate(var(--dx),var(--dy)) rotate(40deg);opacity:0}}
+.jb-txt ul{margin:.3em 0 .6em 1.1em;padding:0}.jb-txt li{margin:.25em 0}
+.jb-coupe{display:grid;grid-template-columns:minmax(200px,320px) 1fr;gap:14px;align-items:start}
+@media (max-width:620px){.jb-coupe{grid-template-columns:1fr}}
+.jb-bloom{animation:jb-in .9s ease-out}
+.jb-svg{width:100%;height:auto;display:block}
+.jb-part{cursor:pointer;transition:filter .2s,transform .2s;transform-box:fill-box;transform-origin:center}
+.jb-part:hover{filter:brightness(1.12)}
+.jb-part.on{filter:drop-shadow(0 0 6px #ffd84a) brightness(1.15)}
+.jb-part.ok{filter:drop-shadow(0 0 5px #6fdc5a)}
+.jb-info{min-height:3.2em;padding:10px 12px;border-radius:12px;background:#f5fbef;border:1px solid #d6ecc8;margin-bottom:8px}
+.jb-legend{columns:2;margin:0 0 10px 1.1em;padding:0;font-size:.92rem;color:#4d6b45}
+.jb-field{position:relative;height:min(52vh,360px);border-radius:18px;background:linear-gradient(#bfe8ff,#e9fbd9 55%,#9fd77e);overflow:hidden;margin-top:8px}
+.jb-flower{position:absolute;width:26%;max-width:150px;aspect-ratio:1;border:0;background:none;padding:0;cursor:pointer;transition:transform .2s}
+.jb-flower img{width:100%;height:100%;object-fit:contain}
+.jb-flower:hover{transform:scale(1.05)}
+.jb-flower.from{filter:drop-shadow(0 0 8px #ffd84a)}
+.jb-flower.done{filter:drop-shadow(0 0 8px #7be36a);transform:scale(1.04)}
+.jb-bee{position:absolute;width:13%;max-width:80px;z-index:2;pointer-events:none;transition:left .8s ease-in-out,top .8s ease-in-out;animation:jb-buzz .25s ease-in-out infinite alternate}
+.jb-bee.pollen{filter:drop-shadow(0 0 6px #ffcc00)}
+@keyframes jb-buzz{to{translate:0 -4px}}
+.jb-herbier{padding:12px;border-radius:18px;background:linear-gradient(135deg,#f6efd9,#efe2bf);border:2px solid #d9c38e}
+.jb-hhead{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.jb-hhead h3{margin:0}
+.jb-bar{flex:1;min-width:120px;height:12px;border-radius:8px;background:#fff8;overflow:hidden}.jb-bar i{display:block;height:100%;background:linear-gradient(90deg,#7cc96a,#c6e85a)}
+.jb-hgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}
+@media (max-width:520px){.jb-hgrid{grid-template-columns:repeat(2,1fr)}}
+.jb-hcard{display:flex;flex-direction:column;align-items:center;padding:8px;border-radius:12px;background:#fffdf5;border:1px dashed #cdb67c;min-height:120px;justify-content:center;text-align:center}
+.jb-hcard.got{border-style:solid;border-color:#8fbf6a}
+.jb-hcard img{width:80%;aspect-ratio:1;object-fit:contain}
+.jb-lock{font-size:2rem;opacity:.5}
+.jb-garden{--g:1;border-radius:18px;overflow:hidden;margin:6px 0}
+.jb-garden img{width:100%;display:block;filter:grayscale(var(--g)) brightness(calc(1 - var(--g) * .15));transition:filter 1.2s ease}
+.jb-steps{display:flex;gap:8px;justify-content:center;font-size:1.4rem;margin:6px 0}
+.jb-order{margin:6px 0 10px 1.3em}.jb-order li{padding:4px 0}.jb-order li.full{color:#2f7d2b;font-weight:600}
+.jb-win{text-align:center;padding:10px}
+.jb-card,.jb-info,.jb-hcard,.jb-herbier{color:#2d4626}
+.jb-card b{color:#2d4626}.jb-card small{color:#557a4a}
+.jb-legend{color:#d9f2cc}
+.jb-garden img{max-height:min(40vh,330px);object-fit:cover}
+.jb-hhead h3{color:#5a3b12}
