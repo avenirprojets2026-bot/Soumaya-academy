@@ -1552,3 +1552,4 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .an-q p{margin:4px 0}
 .th-dance{background:linear-gradient(#1c1040,#3a1f5e)}
 .da-count{display:inline-flex;align-items:center;justify-content:center;min-width:54px;height:44px;border-radius:12px;background:#ffd96a;color:#2a1a00;font-size:24px}
+.nl-tel{display:block;margin:6px auto 12px;padding:10px 18px;border-radius:999px;border:2px solid #f3c46a;background:linear-gradient(135deg,#ffd98a,#f5a623);color:#4a2a10;font-weight:700;cursor:pointer}
