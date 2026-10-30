@@ -1625,3 +1625,7 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .hk-chat.nofr .hk-fr{display:none}
 .hk-play{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:#ffffffaa;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:15px}
 .hk-next{margin-top:6px;align-self:flex-start}
+/* English Academy (leçon pilote en iframe) */
+.en-panel{width:100%;height:min(90dvh,900px);padding:46px 0 0;overflow:hidden;display:flex;flex-direction:column;background:#140e36}
+.dialog:has(.en-panel){width:min(1100px,96vw);padding:0;overflow:hidden;max-height:94dvh}
+.en-panel .en-frame{flex:1;width:100%;border:0;border-radius:inherit;background:#140e36}
