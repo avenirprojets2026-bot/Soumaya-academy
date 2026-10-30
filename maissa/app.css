@@ -1612,7 +1612,7 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .oc-reco{margin:8px auto 12px;max-width:560px;padding:14px 18px;border-radius:14px;background:#fff;color:#1e293b;font-size:clamp(16px,2.4vw,20px);text-align:center;font-weight:700;box-shadow:0 4px 14px #0004}
 @media (max-width:640px){.oc-dets{grid-template-columns:repeat(2,1fr)}.oc-desk.vs{flex-direction:column}.oc-vsbox{flex:0 0 auto}}
 .oc-res .oc-hl{outline-width:2px;outline-offset:0}.oc-reco + .actions .btn.right{background:#22c55e;color:#fff}
-/* Ma journée à El Hikma */
+/* Ma journée à l’École belge de Rabat */
 .hk-img{display:block;width:100%;max-width:640px;margin:0 auto 8px;border-radius:14px;box-shadow:0 6px 18px #0006}
 .hk-chat{display:flex;flex-direction:column;gap:8px;margin:10px 0;max-height:52vh;overflow:auto;padding:4px}
 .hk-b{position:relative;max-width:82%;padding:9px 40px 9px 12px;border-radius:16px;display:flex;flex-direction:column;gap:2px;animation:ocPop .3s}
