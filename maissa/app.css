@@ -1710,3 +1710,17 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
   .lx-board b{font-size:clamp(16px,6vw,36px)}
   .lx-board small{font-size:clamp(9px,2.6vw,15px)}
 }
+/* English Academy — carte des leçons (passeport) */
+.lx-map{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:10px;width:min(900px,100%)}
+.lx-card{position:relative;display:flex;flex-direction:column;align-items:center;gap:2px;padding:12px 8px 10px;border-radius:16px;border:2px solid #e8c27a;background:linear-gradient(160deg,#173f86,#0c2552);color:#fff;font:inherit;cursor:pointer;box-shadow:0 5px 0 #071634;text-align:center;transition:transform .15s}
+.lx-card:active{transform:translateY(3px);box-shadow:0 2px 0 #071634}
+.lx-card b{font-size:.95em;color:#ffd76a}
+.lx-card small{font-size:.75em;opacity:.8;line-height:1.15}
+.lx-card .lx-ce{font-size:30px;line-height:1.1}
+.lx-card .lx-cn{position:absolute;left:8px;top:6px;font-weight:900;font-size:.8em;opacity:.7}
+.lx-card .lx-cs{color:#ffd23f;font-size:.85em;letter-spacing:1px;text-shadow:0 0 6px #ffb800}
+.lx-card.done{background:linear-gradient(160deg,#1f7a4a,#0f4a2c);box-shadow:0 5px 0 #08301b}
+.lx-card.done::after{content:'✔';position:absolute;right:8px;top:6px;color:#bff0b4;font-weight:900}
+.lx-card.locked{cursor:not-allowed;opacity:.45;filter:grayscale(.6)}
+@media (max-width:560px){.lx-map{grid-template-columns:repeat(3,1fr);gap:7px}.lx-card{padding:9px 4px 8px}.lx-card .lx-ce{font-size:24px}}
+.lx-stars[hidden]{display:none}
