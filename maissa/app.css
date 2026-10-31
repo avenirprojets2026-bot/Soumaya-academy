@@ -1724,3 +1724,11 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .lx-card.locked{cursor:not-allowed;opacity:.45;filter:grayscale(.6)}
 @media (max-width:560px){.lx-map{grid-template-columns:repeat(3,1fr);gap:7px}.lx-card{padding:9px 4px 8px}.lx-card .lx-ce{font-size:24px}}
 .lx-stars[hidden]{display:none}
+
+/* panneaux de direction de la Forêt des Mots : on regarde vers le Sud (Est à gauche, Ouest à droite, Sud devant, Nord derrière) */
+.so-board{position:absolute;translate:-50% -50%;height:4.6%;display:flex;align-items:center;justify-content:center;font:900 clamp(8px,1.15vw,17px)/1 system-ui;letter-spacing:.06em;color:#fff4d6;text-shadow:0 1px 2px #3a1e08;white-space:nowrap;background:linear-gradient(180deg,#b78550,#7a4a1e 58%,#5a3412);box-shadow:inset 0 2px 0 #dca978;filter:drop-shadow(0 3px 3px #000a)}
+.so-board::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,#0000 0 6px,#3a1e0822 6px 7px);pointer-events:none}
+.so-board.est{left:81.6%;top:50.6%;width:13%;clip-path:polygon(13% 0,100% 0,100% 100%,13% 100%,0 50%);padding-left:1.4%;rotate:-2deg}
+.so-board.ouest{left:82.6%;top:56.8%;width:13%;clip-path:polygon(0 0,87% 0,100% 50%,87% 100%,0 100%);padding-right:1.4%;rotate:2deg}
+.so-board.sud{left:82%;top:63%;width:11%;border-radius:4px;clip-path:polygon(0 18%,50% 0,100% 18%,100% 100%,0 100%);padding-top:.5%}
+.so-board.nord{left:84%;top:69.2%;width:10.5%;border-radius:4px;clip-path:polygon(0 0,100% 0,100% 82%,50% 100%,0 82%);padding-bottom:.4%}
