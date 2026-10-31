@@ -1736,3 +1736,59 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 /* cercle « Monde suivant » : en bas à droite, dans toutes les salles */
 .hotspot.hs-fixed.hs-fixed4{left:auto;right:calc(14px + 48px + env(safe-area-inset-right));transform:translate(50%,50%)}
 .hotspot.hs-fixed4 .hs-ring{border-color:#9dffb0;background:radial-gradient(circle,#1f6b4acc,#0c3a26ee);animation:ac-twinkle 2.4s ease-in-out infinite}
+
+/* ===== La Cité sous l'Océan ===== */
+.oc-panel{background:linear-gradient(180deg,#e9fbff,#cdeefb 60%,#b6e2f5)}
+.oc-panel h2{color:#0b4f7a}
+.oc-body{display:flex;flex-direction:column;gap:12px;align-items:center}
+.oc-dive{display:flex;gap:12px;align-items:stretch;width:min(720px,100%)}
+.oc-deep{--oc1:#4fd3ff;--oc2:#0b6fb8;--sub:8%;--ray:1;position:relative;flex:1;height:clamp(240px,46vh,380px);border-radius:22px;overflow:hidden;background:linear-gradient(180deg,var(--oc1),var(--oc2));transition:background .8s;box-shadow:inset 0 0 40px #0006,0 10px 24px #0b4f7a55}
+.oc-rays{position:absolute;inset:-20% 0 auto;height:80%;opacity:var(--ray);background:repeating-linear-gradient(100deg,#ffffff00 0 40px,#ffffff2e 40px 70px);filter:blur(6px);animation:ocray 6s ease-in-out infinite alternate;transition:opacity .8s}
+@keyframes ocray{to{transform:translateX(30px)}}
+.oc-sub{position:absolute;left:46%;top:var(--sub);font-size:44px;transition:top .4s;filter:drop-shadow(0 0 10px #fff9)}
+.oc-meter{position:absolute;right:10px;top:10px;padding:4px 10px;border-radius:999px;background:#0009;color:#fff;font-weight:900}
+.oc-zoo{position:absolute;inset:0}
+.oc-ani{position:absolute;font-size:clamp(26px,5vw,40px);animation:ocswim 4s ease-in-out calc(var(--i)*.6s) infinite alternate}
+.oc-ani.glow{filter:drop-shadow(0 0 10px #8ff) drop-shadow(0 0 18px #4ff)}
+@keyframes ocswim{to{transform:translate(18px,-10px)}}
+.oc-ctrl{display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:6px;font-size:12px;font-weight:800;color:#0b4f7a}
+.oc-range{writing-mode:vertical-lr;direction:ltr;height:clamp(200px,40vh,330px);width:34px;accent-color:#0b6fb8}
+.oc-card{width:min(720px,100%);padding:12px 16px;border-radius:16px;background:#fff;border:2px solid #7fd0f0;box-shadow:0 6px 16px #0b4f7a22}
+.oc-card b{color:#0b4f7a;font-size:1.1em}.oc-card p{margin:4px 0 0}
+.oc-chain{display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:center;min-height:96px}
+.oc-link{width:92px;height:92px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;border:3px dashed #7fd0f0;background:#ffffff99;color:#0b4f7a;font-weight:900;font-size:26px;text-align:center}
+.oc-link.on{border-style:solid;border-color:#25a36a;background:#eafff3;animation:lxpop .45s}
+.oc-link small,.oc-chip small{font-size:11px;line-height:1.1;font-weight:700}
+.oc-arrow{font-size:26px;color:#7fbcd6}.oc-arrow.on{color:#25a36a}
+.oc-big{font-size:34px;line-height:1}
+.oc-pool{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.oc-chip{display:flex;flex-direction:column;align-items:center;gap:2px;padding:10px 12px;min-width:96px;border-radius:16px;border:2px solid #7fd0f0;background:linear-gradient(180deg,#fff,#e3f7ff);color:#0b4f7a;font:inherit;cursor:pointer;box-shadow:0 4px 0 #7fbcd6}
+.oc-chip.ko{animation:lxshake .45s}
+.oc-tank{position:relative;width:min(420px,100%);height:260px;border-radius:18px 18px 26px 26px;border:4px solid #bfe9f8;background:linear-gradient(180deg,#e9fbff 0 22%,transparent 22%);overflow:hidden;box-shadow:inset 0 0 30px #0b4f7a33}
+.oc-water{position:absolute;left:0;right:0;top:22%;bottom:0;background:linear-gradient(180deg,#7fd8f5cc,#1f8fc8ee);border-top:3px solid #ffffffaa}
+.oc-item{position:absolute;left:50%;top:2%;translate:-50% 0;font-size:54px;transition:top 1.6s cubic-bezier(.3,.7,.3,1)}
+.oc-item.float{top:13%;animation:ocbob 1.6s ease-in-out 1.6s infinite alternate}
+.oc-item.sink{top:72%}
+@keyframes ocbob{to{transform:translateY(6px) rotate(6deg)}}
+.oc-sea{position:relative;width:min(720px,100%);height:clamp(260px,44vh,360px);border-radius:20px;overflow:hidden;background:radial-gradient(ellipse at 50% -20%,#9ff0ff,#1f8fc8 55%,#0b4f7a);box-shadow:inset 0 0 30px #0006}
+.oc-hud{display:flex;gap:14px;font-weight:900;color:#0b4f7a}
+.oc-swim{position:absolute;left:-12%;border:0;background:none;font-size:clamp(30px,6vw,44px);cursor:pointer;animation:ocacross linear forwards;padding:6px}
+.oc-swim.rtl{animation-name:ocback}
+@keyframes ocacross{to{left:110%}}@keyframes ocback{from{left:110%}to{left:-14%}}
+.oc-swim.got{animation:none;transform:scale(0);transition:transform .3s}
+.oc-swim.oops{filter:drop-shadow(0 0 8px #f55)}
+.oc-end{position:absolute;inset:10%;display:flex;flex-direction:column;gap:8px;align-items:center;justify-content:center;text-align:center;padding:14px;border-radius:18px;background:#ffffffee;color:#0b4f7a}
+.oc-end b{font-size:1.3em}
+.oc-bemap{position:relative;width:min(720px,100%);height:170px;border-radius:18px;overflow:hidden;background:linear-gradient(180deg,#6fc6ea 0 55%,#f3dfa8 55% 64%,#7fc06a 64%)}
+.oc-sea-n{position:absolute;top:18%;left:50%;translate:-50% 0;font-weight:900;color:#fff;text-shadow:0 1px 3px #0b4f7a;font-size:1.2em}
+.oc-coast{position:absolute;left:0;right:0;top:52%}
+.oc-town{position:absolute;font-size:11px;font-weight:800;color:#5a3a12;white-space:nowrap;translate:0 -50%}
+.oc-land{position:absolute;bottom:10px;left:50%;translate:-50% 0;font-weight:900;color:#fff;text-shadow:0 1px 3px #2b5a1a}
+@media (max-width:560px){.oc-link{width:74px;height:74px}.oc-town{font-size:9px}.oc-town:nth-child(odd){top:-14px}}
+.oc-panel,.oc-panel .prompt,.oc-panel p,.oc-panel .muted{color:#0b4f7a}
+.oc-panel .btn{color:#0b4f7a;background:#ffffff;border:2px solid #7fd0f0;box-shadow:0 3px 0 #7fbcd6}
+.oc-panel .btn.primary{background:linear-gradient(180deg,#ffe27a,#f5b82e);color:#4a2a00;border-color:#d99a12;box-shadow:0 3px 0 #b07a0a}
+.oc-panel .choice{color:#0b4f7a;background:#fff;border-color:#7fd0f0}
+.oc-panel .choice.right{background:#e3ffe9;border-color:#25a36a}.oc-panel .choice.wrong{background:#ffe8e8;border-color:#e05a5a}
+.oc-panel .close-x{background:#0b4f7a;color:#fff;border-color:#fff}
+.oc-panel .be-say{color:#0b3550}
