@@ -1855,3 +1855,7 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .zx-laser{position:absolute;left:50%;top:50%;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;background:radial-gradient(circle,#fff 0 18%,#ff2a2a 30%,#ff0000aa 55%,transparent 72%);box-shadow:0 0 10px 4px #ff1a1a99;opacity:0;pointer-events:none;z-index:5;transition:left .9s cubic-bezier(.4,0,.2,1),top .9s cubic-bezier(.4,0,.2,1),opacity .25s}
 .zx-laser.on{opacity:1;animation:zx-laser 1.1s ease-in-out infinite}
 @keyframes zx-laser{0%,100%{translate:0 0;scale:1}25%{translate:1.5px -1px;scale:1.12}50%{translate:-1px 1.5px;scale:.95}75%{translate:1px 1px;scale:1.08}}
+
+/* présentatrice animée (vidéos détourées) */
+.zx-pres{position:absolute;right:-17%;bottom:0;height:110%;width:auto;aspect-ratio:16/9;object-fit:contain;pointer-events:none;z-index:3;opacity:0;transition:opacity .12s linear}
+.zx-pres.on{opacity:1}
