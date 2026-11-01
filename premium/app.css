@@ -1816,7 +1816,7 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 @keyframes zx-in{from{opacity:.2;scale:.97}to{opacity:1;scale:1}}
 .zx-neck{width:7%;height:22px;background:linear-gradient(90deg,#2a2d36,#4a4e5a,#2a2d36)}
 .zx-foot{width:34%;height:12px;border-radius:50% 50% 8px 8px;background:linear-gradient(#4a4e5a,#1d1f26);box-shadow:0 6px 10px #0004}
-.zx-kid{width:min(18%,150px);align-self:flex-end;filter:drop-shadow(0 6px 6px #0004)}
+.zx-kid{width:min(22%,190px);align-self:flex-end;filter:drop-shadow(0 6px 6px #0004)}
 .zx-end .zx-screen{border-color:#c99a2e;box-shadow:0 0 30px #ffd84a,0 10px 26px #0006}
 .zx-cap{margin:10px 4px 4px;text-align:center}
 .zx-num{display:inline-block;font:800 13px/1 system-ui;background:#1d3a8a;color:#fff;border-radius:999px;padding:4px 10px;margin-bottom:6px}
