@@ -1798,13 +1798,21 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 @media (prefers-reduced-motion:reduce){.world .spin-fx{animation-duration:40s!important}}
 
 .world .mar-tile{position:absolute;translate:-50% -50%;aspect-ratio:2.2;border-radius:10px;background:radial-gradient(circle,var(--c) 0%,color-mix(in srgb,var(--c) 55%,transparent) 55%,transparent 75%);box-shadow:0 0 22px 6px var(--c);mix-blend-mode:screen;pointer-events:none;animation:mar-tile 1.6s ease-out forwards;z-index:2}
+/* marelle : cases du tapis qui brillent en arc-en-ciel */
+.world .mar-glow{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:2;animation:mar-glow 1.3s ease-out forwards}
+.world .mar-glow.big{animation:mar-glow-big 2.2s ease-in-out forwards}
+@keyframes mar-glow{0%{opacity:0;filter:hue-rotate(0deg) drop-shadow(0 0 3px #fff)}15%{opacity:.82}60%{opacity:.7}100%{opacity:0;filter:hue-rotate(300deg) drop-shadow(0 0 10px #fff)}}
+@keyframes mar-glow-big{0%{opacity:0;filter:hue-rotate(0deg)}20%{opacity:.78}80%{opacity:.72;filter:hue-rotate(360deg)}100%{opacity:0;filter:hue-rotate(540deg)}}
 @keyframes mar-tile{0%{opacity:0;scale:.6}15%{opacity:1;scale:1.08}60%{opacity:.85;scale:1}100%{opacity:0;scale:1}}
 
 /* exposé Zidane : écran LCD sur pied + Soumaya qui présente */
 .zx-stage{position:relative;display:flex;align-items:flex-end;justify-content:center;gap:2%;padding:10px 8px 0;background:radial-gradient(ellipse at 50% 100%,#ffe9b8 0%,#f6d7a0 40%,transparent 75%);border-radius:16px}
 .zx-tv{position:relative;width:min(78%,760px);display:flex;flex-direction:column;align-items:center}
 .zx-screen{width:100%;aspect-ratio:16/9;background:#111;border:10px solid #1d1f26;border-radius:12px;box-shadow:0 10px 26px #0006,inset 0 0 0 2px #3a3d48;overflow:hidden}
+.zx-sl{position:relative;width:100%;height:100%}
 .zx-slide{width:100%;height:100%;object-fit:contain;display:block;animation:zx-in .45s ease}
+.zx-vid{position:absolute;object-fit:cover;display:none;background:#000}.zx-vid.on{display:block}
+.zx-tip{color:#bdf5c8!important;font-style:italic}
 @keyframes zx-in{from{opacity:.2;scale:.97}to{opacity:1;scale:1}}
 .zx-neck{width:7%;height:22px;background:linear-gradient(90deg,#2a2d36,#4a4e5a,#2a2d36)}
 .zx-foot{width:34%;height:12px;border-radius:50% 50% 8px 8px;background:linear-gradient(#4a4e5a,#1d1f26);box-shadow:0 6px 10px #0004}
