@@ -1792,3 +1792,42 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .oc-panel .choice.right{background:#e3ffe9;border-color:#25a36a}.oc-panel .choice.wrong{background:#ffe8e8;border-color:#e05a5a}
 .oc-panel .close-x{background:#0b4f7a;color:#fff;border-color:#fff}
 .oc-panel .be-say{color:#0b3550}
+
+.world .spin-fx{position:absolute;translate:-50% -50%;aspect-ratio:1;pointer-events:none;user-select:none;animation:spin-fx 9s linear infinite;z-index:1}
+@keyframes spin-fx{to{rotate:360deg}}
+@media (prefers-reduced-motion:reduce){.world .spin-fx{animation-duration:40s!important}}
+
+.world .mar-tile{position:absolute;translate:-50% -50%;aspect-ratio:2.2;border-radius:10px;background:radial-gradient(circle,var(--c) 0%,color-mix(in srgb,var(--c) 55%,transparent) 55%,transparent 75%);box-shadow:0 0 22px 6px var(--c);mix-blend-mode:screen;pointer-events:none;animation:mar-tile 1.6s ease-out forwards;z-index:2}
+@keyframes mar-tile{0%{opacity:0;scale:.6}15%{opacity:1;scale:1.08}60%{opacity:.85;scale:1}100%{opacity:0;scale:1}}
+
+/* exposé Zidane : écran LCD sur pied + Soumaya qui présente */
+.zx-stage{position:relative;display:flex;align-items:flex-end;justify-content:center;gap:2%;padding:10px 8px 0;background:radial-gradient(ellipse at 50% 100%,#ffe9b8 0%,#f6d7a0 40%,transparent 75%);border-radius:16px}
+.zx-tv{position:relative;width:min(78%,760px);display:flex;flex-direction:column;align-items:center}
+.zx-screen{width:100%;aspect-ratio:16/9;background:#111;border:10px solid #1d1f26;border-radius:12px;box-shadow:0 10px 26px #0006,inset 0 0 0 2px #3a3d48;overflow:hidden}
+.zx-slide{width:100%;height:100%;object-fit:contain;display:block;animation:zx-in .45s ease}
+@keyframes zx-in{from{opacity:.2;scale:.97}to{opacity:1;scale:1}}
+.zx-neck{width:7%;height:22px;background:linear-gradient(90deg,#2a2d36,#4a4e5a,#2a2d36)}
+.zx-foot{width:34%;height:12px;border-radius:50% 50% 8px 8px;background:linear-gradient(#4a4e5a,#1d1f26);box-shadow:0 6px 10px #0004}
+.zx-kid{width:min(18%,150px);align-self:flex-end;filter:drop-shadow(0 6px 6px #0004)}
+.zx-end .zx-screen{border-color:#c99a2e;box-shadow:0 0 30px #ffd84a,0 10px 26px #0006}
+.zx-cap{margin:10px 4px 4px;text-align:center}
+.zx-num{display:inline-block;font:800 13px/1 system-ui;background:#1d3a8a;color:#fff;border-radius:999px;padding:4px 10px;margin-bottom:6px}
+.zx-nl{font:700 clamp(15px,2.1vw,20px)/1.35 system-ui;margin:4px 0;color:#ffe7a3}
+.zx-fr{font:500 clamp(13px,1.7vw,16px)/1.35 system-ui;margin:2px 0;color:#e6e0ff}
+@media (max-width:600px){.zx-tv{width:74%}.zx-kid{width:22%}}
+
+.dialog:has(.zx-panel){width:min(1100px,97vw)!important}
+.zx-panel{width:100%}
+.zx-wrap{width:100%;min-width:0}.zx-side{min-width:0}
+.zx-panel h2{margin:0 40px 6px 0;font-size:clamp(16px,2.4vw,24px)}
+.zx-tv{width:min(80%,calc((100dvh - 330px) * 1.78),900px)}
+.zx-wrap .actions{justify-content:center}
+@media (orientation:landscape) and (max-height:560px){
+  .zx-wrap{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:10px;align-items:center}
+  .zx-tv{width:min(80%,calc((100dvh - 120px) * 1.6))}
+  .zx-kid{width:16%}
+  .zx-panel{overflow-x:hidden}
+  .zx-stage{padding-top:4px}
+  .zx-panel h2{font-size:16px;margin-bottom:2px}
+  .zx-nl{font-size:14px}.zx-fr{font-size:12px}
+}

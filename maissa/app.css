@@ -1792,3 +1792,10 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .oc-panel .choice.right{background:#e3ffe9;border-color:#25a36a}.oc-panel .choice.wrong{background:#ffe8e8;border-color:#e05a5a}
 .oc-panel .close-x{background:#0b4f7a;color:#fff;border-color:#fff}
 .oc-panel .be-say{color:#0b3550}
+
+.world .spin-fx{position:absolute;translate:-50% -50%;aspect-ratio:1;pointer-events:none;user-select:none;animation:spin-fx 9s linear infinite;z-index:1}
+@keyframes spin-fx{to{rotate:360deg}}
+@media (prefers-reduced-motion:reduce){.world .spin-fx{animation-duration:40s!important}}
+
+.world .mar-tile{position:absolute;translate:-50% -50%;aspect-ratio:2.2;border-radius:10px;background:radial-gradient(circle,var(--c) 0%,color-mix(in srgb,var(--c) 55%,transparent) 55%,transparent 75%);box-shadow:0 0 22px 6px var(--c);mix-blend-mode:screen;pointer-events:none;animation:mar-tile 1.6s ease-out forwards;z-index:2}
+@keyframes mar-tile{0%{opacity:0;scale:.6}15%{opacity:1;scale:1.08}60%{opacity:.85;scale:1}100%{opacity:0;scale:1}}
