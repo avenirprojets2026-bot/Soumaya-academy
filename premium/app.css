@@ -1813,7 +1813,7 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .zx-slide{width:100%;height:100%;object-fit:contain;display:block;animation:zx-in .45s ease}
 .zx-vid{position:absolute;object-fit:cover;display:none;background:#000}.zx-vid.on{display:block}
 .zx-tip{color:#bdf5c8!important;font-style:italic}
-@keyframes zx-in{from{opacity:.2;scale:.97}to{opacity:1;scale:1}}
+@keyframes zx-in{0%{opacity:0;transform:translateX(5%) scale(.94) rotate(.6deg)}60%{opacity:1;transform:translateX(-.6%) scale(1.01)}100%{opacity:1;transform:none}}
 .zx-neck{width:7%;height:22px;background:linear-gradient(90deg,#2a2d36,#4a4e5a,#2a2d36)}
 .zx-foot{width:34%;height:12px;border-radius:50% 50% 8px 8px;background:linear-gradient(#4a4e5a,#1d1f26);box-shadow:0 6px 10px #0004}
 .zx-kid{width:min(22%,190px);align-self:flex-end;filter:drop-shadow(0 6px 6px #0004)}
@@ -1857,5 +1857,5 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 @keyframes zx-laser{0%,100%{translate:0 0;scale:1}25%{translate:1.5px -1px;scale:1.12}50%{translate:-1px 1.5px;scale:.95}75%{translate:1px 1px;scale:1.08}}
 
 /* présentatrice animée (vidéos détourées) */
-.zx-pres{position:absolute;right:-17%;bottom:0;height:110%;width:auto;aspect-ratio:16/9;object-fit:contain;pointer-events:none;z-index:3;opacity:0;transition:opacity .12s linear}
+.zx-pres{position:absolute;right:-17%;bottom:0;height:110%;transform-origin:75% 96%;will-change:transform;width:auto;aspect-ratio:16/9;object-fit:contain;pointer-events:none;z-index:3;opacity:0;transition:opacity .12s linear}
 .zx-pres.on{opacity:1}
