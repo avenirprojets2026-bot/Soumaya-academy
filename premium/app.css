@@ -1859,3 +1859,20 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 /* présentatrice animée (vidéos détourées) */
 .zx-pres{position:absolute;right:-17%;bottom:0;height:110%;transform-origin:75% 96%;will-change:transform;width:auto;aspect-ratio:16/9;object-fit:contain;pointer-events:none;z-index:3;opacity:0;transition:opacity .12s linear}
 .zx-pres.on{opacity:1}
+
+/* Missions en Flandre et mots de Belgique */
+.vl-mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:10px 0}
+.vl-mcard{display:flex;flex-direction:column;gap:4px;padding:0 0 10px;border-radius:16px;overflow:hidden;border:2px solid rgba(255,190,90,.5);background:linear-gradient(160deg,#fff7e6,#ffe3b8);color:#4a2a10;cursor:pointer;font:inherit;text-align:center;transition:transform .15s}
+.vl-mcard:hover{transform:translateY(-2px)}
+.vl-mcard img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.vl-mcard b{font-size:17px;color:#c2410c;padding:0 8px}
+.vl-mcard small{font-size:13px;opacity:.85}
+.vl-mcard.done{border-color:#22c55e}
+.vl-scene{position:relative;border-radius:16px;overflow:hidden;margin:6px 0 10px;max-height:34vh}
+.vl-scene img{width:100%;max-height:34vh;object-fit:cover;display:block}
+.vl-scene b{position:absolute;left:12px;bottom:10px;background:rgba(20,10,40,.72);color:#fff;padding:6px 12px;border-radius:12px;font-size:clamp(15px,2.2vw,20px)}
+.vl-big{font-size:clamp(20px,3vw,26px);font-weight:700;color:#c2410c}
+.vl-zone{margin-top:10px}
+.vl-new{max-width:260px;margin:8px auto;cursor:default}
+.vl-bilan p{margin:6px 0}
+.vl-end{margin-top:10px}
