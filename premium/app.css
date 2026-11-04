@@ -1915,3 +1915,19 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .rb-pitch.goal .rb-keeper{transform:translateX(-140%) rotate(-25deg)}
 @keyframes rb-goal{to{bottom:95px;left:68%;font-size:22px}}
 @keyframes rb-save{to{bottom:70px;left:50%;font-size:22px}}
+
+/* La Papeterie Enchantée */
+.pp-gm{max-height:140px}
+.pp-ruler{position:relative;height:74px;margin:14px 4px 22px;border-radius:8px;background:linear-gradient(#fff6c2,#f7dc6f);border:2px solid #c9a227;overflow:visible}
+.pp-seg{position:absolute;left:0;top:-12px;height:10px;border-radius:5px;background:#e91e63;box-shadow:0 2px 4px rgba(0,0,0,.25)}
+.pp-tick{position:absolute;top:0;width:1px;height:12px;background:#5d4300}
+.pp-tick.half{height:20px}
+.pp-tick.cm{height:30px;width:2px}
+.pp-tick span{position:absolute;top:32px;left:50%;transform:translateX(-50%);font-size:12px;font-weight:700;color:#5d4300;font-style:normal}
+.pp-mine{display:flex;flex-wrap:wrap;gap:6px;min-height:48px;padding:8px;margin:8px 0;border-radius:14px;background:linear-gradient(135deg,#fde2f3,#e0e7ff);border:2px dashed #c084fc}
+.pp-shop{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px}
+.pp-item{display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px;border-radius:14px;border:2px solid #f9a8d4;background:#fff;color:#4a1d4f;font:inherit;cursor:pointer}
+.pp-item b{color:#b45309}
+.pp-item.own{border-color:#86efac;background:#f0fdf4}
+.pp-mine .pp-item{flex-direction:row;padding:4px 8px;font-size:24px;cursor:default}
+.pp-big{font-size:34px}
