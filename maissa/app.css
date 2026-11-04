@@ -1804,3 +1804,42 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 @keyframes mar-glow{0%{opacity:0;filter:hue-rotate(0deg) drop-shadow(0 0 3px #fff)}15%{opacity:.82}60%{opacity:.7}100%{opacity:0;filter:hue-rotate(300deg) drop-shadow(0 0 10px #fff)}}
 @keyframes mar-glow-big{0%{opacity:0;filter:hue-rotate(0deg)}20%{opacity:.78}80%{opacity:.72;filter:hue-rotate(360deg)}100%{opacity:0;filter:hue-rotate(540deg)}}
 @keyframes mar-tile{0%{opacity:0;scale:.6}15%{opacity:1;scale:1.08}60%{opacity:.85;scale:1}100%{opacity:0;scale:1}}
+
+/* L'École belge de Rabat (monde marocain) */
+.rb-head{position:relative;border-radius:16px;overflow:hidden;margin:6px 0 10px;max-height:30vh}
+.rb-head>img:first-child{width:100%;max-height:30vh;object-fit:cover;display:block}
+.rb-head b{position:absolute;left:12px;bottom:10px;background:rgba(40,20,10,.72);color:#fff;padding:6px 12px;border-radius:12px;font-size:clamp(15px,2.2vw,20px)}
+.rb-cg{position:absolute;right:8px;bottom:0;height:78%;max-height:150px;filter:drop-shadow(0 4px 8px rgba(0,0,0,.4));animation:rb-bob 2.4s ease-in-out infinite}
+.rb-cg.big{position:static;height:auto;width:min(200px,34vw);max-height:none}
+@keyframes rb-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.rb-hello{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.rb-hello>div{flex:1;min-width:220px}
+.rb-q{font-size:clamp(17px,2.6vw,22px)}
+.rb-mosaic{display:flex;justify-content:center;margin:8px 0}
+.rb-grid{position:relative;display:grid;grid-template-columns:repeat(6,clamp(34px,7vw,52px));gap:3px;padding:6px;background:#f5e6c8;border-radius:12px;border:3px solid #c9a24a}
+.rb-cell{aspect-ratio:1;border-radius:6px;border:1px solid rgba(0,0,0,.15);background:#fffaf0;padding:0;cursor:pointer}
+.rb-cell.fixed{cursor:default;opacity:.95}
+.rb-cell.on{background:var(--c,#1f5fbf);box-shadow:inset 0 0 0 3px rgba(255,255,255,.35)}
+.rb-axis{position:absolute;left:50%;top:4px;bottom:4px;width:3px;margin-left:-1.5px;background:repeating-linear-gradient(#c0392b 0 6px,transparent 6px 11px);pointer-events:none}
+.rb-money{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.rb-coin{width:64px;height:64px;border-radius:50%;border:3px solid #b8860b;background:radial-gradient(circle at 35% 30%,#fff3b0,#d4a017);font:inherit;font-weight:700;color:#4a3000;cursor:pointer}
+.rb-coin.bill{width:92px;height:52px;border-radius:8px;border-color:#2e7d32;background:linear-gradient(135deg,#c8e6c9,#81c784);color:#1b4d1f}
+.rb-word{display:flex;gap:8px;justify-content:center;margin:8px 0}
+.rb-letter{width:48px;height:56px;border-radius:10px;display:grid;place-items:center;font-size:28px;font-weight:800;background:#1e3a8a;color:#9fc3ff;border:2px solid #60a5fa}
+.rb-letter.on{background:#fbbf24;color:#3b2200;border-color:#f59e0b;animation:rb-pop .4s}
+@keyframes rb-pop{0%{transform:scale(.6)}70%{transform:scale(1.15)}100%{transform:scale(1)}}
+.rb-doors{display:flex;gap:10px;justify-content:center;font-size:34px;margin:6px 0}
+.rb-door{padding:6px 10px;border-radius:14px 14px 4px 4px;background:#1d4ed8;border:2px solid #93c5fd}
+.rb-door.cur{box-shadow:0 0 0 4px #fbbf24}
+.rb-door.open{background:#fef3c7}
+.rb-sc{text-align:center;font-size:20px;margin:4px 0}
+.rb-score{font-size:26px;color:#fbbf24;margin:0 8px}
+.rb-pitch{position:relative;height:150px;border-radius:14px;background:linear-gradient(#2e7d32,#43a047);overflow:hidden;margin:6px 0}
+.rb-pitch::before{content:'';position:absolute;left:25%;right:25%;top:8px;height:70px;border:4px solid #fff;border-bottom:none;border-radius:4px 4px 0 0}
+.rb-keeper{position:absolute;left:50%;top:6px;height:90px;transform:translateX(-50%);transition:transform .4s}
+.rb-ball{position:absolute;left:50%;bottom:10px;font-size:30px;transform:translateX(-50%)}
+.rb-pitch.goal .rb-ball{animation:rb-goal .7s forwards}
+.rb-pitch.save .rb-ball{animation:rb-save .7s forwards}
+.rb-pitch.goal .rb-keeper{transform:translateX(-140%) rotate(-25deg)}
+@keyframes rb-goal{to{bottom:95px;left:68%;font-size:22px}}
+@keyframes rb-save{to{bottom:70px;left:50%;font-size:22px}}
