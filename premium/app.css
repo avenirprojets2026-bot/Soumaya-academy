@@ -1998,3 +1998,18 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .ag-pichet{width:200px;height:220px;touch-action:none;cursor:crosshair;background:rgba(255,255,255,.06);border-radius:12px}
 .ag-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin:8px 0}
 .ag-card{font-size:1.15rem;font-weight:700}
+
+.ch-cat h3{margin:10px 0 2px}
+.if-u{text-decoration:underline;text-decoration-thickness:3px;color:#ffe9a8}
+.if-in{width:180px}
+.if-txt{font-size:1.25rem;line-height:2.1;background:#fffaf0;color:#2b2440;border-radius:12px;padding:10px 14px}
+.if-w{cursor:pointer;border-radius:6px;padding:1px 2px}
+.if-w.ok{background:#bbf7d0;outline:2px solid #22c55e}
+.if-w.ko{background:#fecaca}
+.if-gr td,.if-gr th{padding:6px;font-size:.95rem}
+
+.ag-regle-wrap{overflow-x:auto}
+.ag-regle{width:100%;max-width:600px;min-width:420px;display:block;margin:0 auto;touch-action:none}
+.ag-stars{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0}
+.ag-star{padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.1);font-weight:700}
+.ag-star.cur{outline:2px solid #ffd84a}
