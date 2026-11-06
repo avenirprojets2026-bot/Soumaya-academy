@@ -1977,3 +1977,24 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .lb-medal{font-size:3rem}
 .lb-bar{height:14px;border-radius:7px;background:rgba(255,255,255,.15);overflow:hidden;max-width:360px;margin:6px auto}
 .lb-bar span{display:block;height:100%;background:linear-gradient(90deg,#86efac,#22c55e)}
+
+.ag-table{min-width:420px}
+.ag-ref{background:#fff6c2}
+.ag-memo{font-weight:700;letter-spacing:.5px}
+
+.ag-lecon h3{margin:12px 0 4px;color:#ffe9a8}
+.ag-lecon p,.ag-lecon li{margin:4px 0}
+.ag-step{background:rgba(255,255,255,.06);border-radius:12px;padding:8px 10px;margin:8px 0}
+.ag-mini{min-width:0;width:auto}
+.ag-mini .ab-cell{height:40px;font-size:1.3rem;min-width:40px}
+.ag-red{background:#e53950!important;color:#fff!important}
+.ag-add{color:#e53950}
+.ag-res{font-weight:800;text-align:center;margin:4px 0}
+.ag-tip{background:#fff6c2;color:#3b2a00;border-radius:10px;padding:8px}
+.ag-memo-t{min-width:0}
+.ag-memo-t td,.ag-memo-t th{padding:4px 6px;font-size:.9rem}
+
+.ag-pichet-wrap{display:flex;justify-content:center}
+.ag-pichet{width:200px;height:220px;touch-action:none;cursor:crosshair;background:rgba(255,255,255,.06);border-radius:12px}
+.ag-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin:8px 0}
+.ag-card{font-size:1.15rem;font-weight:700}
