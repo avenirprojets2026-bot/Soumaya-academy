@@ -1954,3 +1954,26 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .ab-hi{background:#fff6c2}
 .ab-okin{border-color:#22c55e!important;background:#ecfdf5!important}
 .dc-in.ab-bad{border-color:#ef4444;background:#fef2f2}
+
+/* Het Leesbos van meester Bart */
+.lb-shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px;margin:8px 0}
+.lb-book{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:12px;border-radius:14px;border:0;border-left:10px solid var(--c);background:#fffaf0;color:#2b2440;font:inherit;text-align:left;cursor:pointer;box-shadow:0 3px 8px rgba(0,0,0,.25)}
+.lb-book b{font-size:1.15rem}
+.lb-ico{font-size:2rem}
+.lb-title{margin:0 0 0 8px}
+.lb-player{margin:8px 0}
+.lb-player iframe{width:100%;max-width:640px;aspect-ratio:16/9;border:0;border-radius:12px;display:block;margin:0 auto;background:#000}
+.lb-yt{display:block;text-align:center;font-size:.8rem;color:#cfc6ff;margin-top:4px}
+.lb-stukken{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;width:100%;box-sizing:border-box}
+.lb-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.lb-panel{max-width:100%;box-sizing:border-box;overflow-x:hidden}
+.lb-panel .btn{white-space:normal}
+.lb-stuk{display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+.lb-stuk.done{border-color:#86efac}
+.lb-fr{color:#ffe9a8;margin:2px 0 6px}
+.lb-say{margin-left:4px}
+.lb-badge{text-align:center;padding:14px;border-radius:16px;background:rgba(255,255,255,.08)}
+.lb-badge.gold{background:linear-gradient(135deg,rgba(255,215,0,.35),rgba(255,255,255,.08))}
+.lb-medal{font-size:3rem}
+.lb-bar{height:14px;border-radius:7px;background:rgba(255,255,255,.15);overflow:hidden;max-width:360px;margin:6px auto}
+.lb-bar span{display:block;height:100%;background:linear-gradient(90deg,#86efac,#22c55e)}
