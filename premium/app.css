@@ -1931,3 +1931,26 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .pp-item.own{border-color:#86efac;background:#f0fdf4}
 .pp-mine .pp-item{flex-direction:row;padding:4px 8px;font-size:24px;cursor:default}
 .pp-big{font-size:34px}
+
+/* Mon abaque des nombres */
+.ab-rule{display:inline-block;margin:2px 0 6px;padding:4px 12px;border-radius:10px;background:#111;color:#fff;font-weight:700}
+.ab-wrap{overflow-x:auto;margin:8px 0}
+.ab-table{border-collapse:collapse;margin:0 auto;background:#fff;color:#1d1d1d;font-family:inherit;min-width:540px}
+.ab-table th,.ab-table td{border:2px solid #222;text-align:center}
+.ab-table th{padding:4px 2px;font-weight:600;font-size:.85rem}
+.ab-ent,.ab-dec{font-size:1rem!important;font-weight:800!important;background:#fff}
+.ab-dec,.ab-table th:nth-child(n+10).ab-k{background:#fff4f6}
+.ab-cls{background:#ffe1e7}
+.ab-k{width:8.33%}
+.ab-cell{height:54px;font-size:1.6rem;font-weight:700;position:relative}
+.ab-comma{border-right:4px solid #e53950!important}
+.ab-cell.ab-comma.ab-has::after{content:',';position:absolute;right:-9px;bottom:4px;color:#e53950;font-size:1.8rem;font-weight:900}
+.ab-in{width:100%;height:50px;border:0;background:transparent;text-align:center;font-size:1.6rem;font-weight:700;color:#1d1d1d;outline:none}
+.ab-in:focus{background:#fff6c2}
+.ab-in.ab-bad,.ab-cell.ab-ko{background:#ffd6d6;color:#b00020}
+.ab-cell.ab-ok{background:#c8f7c5}
+.ab-tap{cursor:pointer}
+.ab-tap:hover{background:#fff6c2}
+.ab-hi{background:#fff6c2}
+.ab-okin{border-color:#22c55e!important;background:#ecfdf5!important}
+.dc-in.ab-bad{border-color:#ef4444;background:#fef2f2}
