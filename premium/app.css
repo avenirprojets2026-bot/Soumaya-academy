@@ -2013,3 +2013,10 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .ag-stars{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0}
 .ag-star{padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.1);font-weight:700}
 .ag-star.cur{outline:2px solid #ffd84a}
+
+.ex-amis{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:8px;margin:8px 0}
+.ex-ami{display:flex;flex-direction:column;align-items:center;gap:2px;padding:10px 6px;border-radius:14px;border:0;background:hsl(var(--h) 70% 92%);color:#2b2440;font:inherit;cursor:pointer;box-shadow:0 3px 8px rgba(0,0,0,.25)}
+.ex-av{font-size:2rem}
+.ex-ami.pop{animation:exPop .5s}
+@keyframes exPop{40%{transform:scale(1.15) rotate(-4deg)}}
+.ex-conseils li{margin:6px 0;font-size:1.05rem}
