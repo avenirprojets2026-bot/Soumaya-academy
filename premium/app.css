@@ -2020,3 +2020,16 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .ex-ami.pop{animation:exPop .5s}
 @keyframes exPop{40%{transform:scale(1.15) rotate(-4deg)}}
 .ex-conseils li{margin:6px 0;font-size:1.05rem}
+
+/* Examens blancs */
+.xb-q{white-space:pre-line}
+.xb-fig{color:inherit;margin:6px 0}
+.xb-svg{width:100%;max-width:420px;display:block;margin:0 auto;color:currentColor}
+.xb-opt.sel{outline:3px solid #ffd84a;background:#ffd84a33}
+.xb-comps{display:flex;flex-direction:column;gap:8px;margin:8px 0}
+.xb-comp{display:flex;gap:10px;align-items:center;text-align:left;padding:10px 12px;border-radius:12px;border:1px solid #ffffff2a;background:#ffffff12;color:inherit;font:inherit;cursor:pointer}
+.xb-comp.done{border-color:#2e9e5b;background:#2e9e5b22}
+.xb-dot{font-size:1.2rem;min-width:1.6em;text-align:center}
+.xb-tab{width:100%;border-collapse:collapse;margin:8px 0}
+.xb-tab td,.xb-tab th{border:1px solid #ffffff33;padding:6px 8px;text-align:left}
+.xb-A{color:#3fcf7a;font-weight:800}.xb-PA{color:#ffb84a;font-weight:800}.xb-NA{color:#ff6b6b;font-weight:800}
