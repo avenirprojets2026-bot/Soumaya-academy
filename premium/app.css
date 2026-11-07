@@ -2033,3 +2033,11 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .xb-tab{width:100%;border-collapse:collapse;margin:8px 0}
 .xb-tab td,.xb-tab th{border:1px solid #ffffff33;padding:6px 8px;text-align:left}
 .xb-A{color:#3fcf7a;font-weight:800}.xb-PA{color:#ffb84a;font-weight:800}.xb-NA{color:#ff6b6b;font-weight:800}
+
+.xb-coll{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;font-size:2rem;max-width:360px;margin:0 auto}
+.xb-coll span{padding:2px 4px;border-radius:10px;border:2px solid transparent}
+.xb-coll span.on{border-color:#ffd84a;background:#ffd84a33}
+.xb-figs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.xb-figs>div{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:80px}
+.xb-figs .xb-svg{max-width:150px}
+.xb-lecon p{margin:6px 0}
