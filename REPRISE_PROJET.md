@@ -21,9 +21,9 @@ Soumaya, dessinée, explore un château de 27 mondes ; chaque objet touché ouvr
 |---|---|---|
 | Code source Soumaya (travail) | `/home/claude/work/soumaya-academy` (conteneur cloud de la session, **pas un dépôt git**) | [V] contient aussi une modification non publiée (voir §6) |
 | Code source Maissa (travail) | `/home/claude/work/maissa-academy` (idem) | [V] |
-| **Sauvegarde des sources** | dépôt GitHub `avenirprojets2026-bot/Soumaya-academy`, **branche `sauvegarde-source-2026-11-09`** (dossiers `soumaya-academy/` et `maissa-academy/`, sans `node_modules`, `dist`, `dist-single`, `backups`, `reports`) | voir §10 pour la preuve |
+| **Sauvegarde des sources** | dépôt GitHub `avenirprojets2026-bot/Soumaya-academy`, **branche `sauvegarde-source-2026-11-09`** (dossiers `soumaya-academy/` et `maissa-academy/`, sans `node_modules`, `dist`, `dist-single`, `backups`, `reports`) | [V] poussée, commit `ed66672` (2 011 fichiers, ≈450 Mo) |
 | Site publié (dépôt de publication) | même dépôt, branche `main`, clone local `/home/claude/soumaya-academy` | [V] |
-| Point de restauration du site | tag git `sauvegarde-2026-11-09` sur le commit `c80f574` de `main` | voir §10 |
+| Point de restauration du site | branche `sauvegarde-site-2026-11-09` = commit `c80f574` de `main` (état publié) | [V] poussée ; aucun déploiement déclenché |
 | **Soumaya Academy en ligne** | https://avenirprojets2026-bot.github.io/Soumaya-academy/sa-4fw5xaxekogy/ | [V] déployée (commit c80f574, run GitHub Pages « success ») |
 | Maissa Academy en ligne | https://avenirprojets2026-bot.github.io/Soumaya-academy/maissa/ | [V] |
 | Ancienne adresse `…/premium/` et racine `…/Soumaya-academy/` | page « Ce lien n'est plus disponible » + service worker qui vide le cache | [V] |
@@ -102,6 +102,7 @@ Table des matières complète (chaque matière, son chemin, sa position) : fiche
 - Générateurs examens blancs : 50 000 tirages, 0 erreur ; fractions : 54 000 tirages, 0 erreur [V].
 - Parcours Playwright : examens blancs, fractions, régimes, Wat eten de dieren? — sans erreur JavaScript [V].
 - Déploiements GitHub Pages c80f574, 48745db, 5a64fc4 : « success » [V].
+- Les tags git sont refusés par le proxy de la session (HTTP 403) : la restauration passe par la branche `sauvegarde-site-2026-11-09`.
 - **Non vérifié** : rendu sur le vrai Galaxy Z Fold ; écoute des voix (impossible pour Claude) ; affichage du site en ligne depuis le conteneur (inaccessible).
 
 ## 9. Prochaines actions (par priorité)
@@ -129,7 +130,7 @@ git add -A && git commit -m "…" && git push      # puis suivre le run GitHub P
 # Maissa : même chose avec maissa-academy/dist/* → maissa/
 
 # Restaurer le site à l'état sauvegardé
-git checkout sauvegarde-2026-11-09 -- sa-4fw5xaxekogy maissa && git commit -m "Restauration" && git push
+git fetch origin sauvegarde-site-2026-11-09 && git checkout origin/sauvegarde-site-2026-11-09 -- sa-4fw5xaxekogy maissa && git commit -m "Restauration" && git push
 ```
 
 Après chaque modification, vérifier : build, `content.test`, ouverture du panneau concerné (`window.__game.openPanel('<route>')` dans Playwright), absence d'erreur console.
