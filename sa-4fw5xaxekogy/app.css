@@ -2041,3 +2041,6 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .xb-figs>div{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:80px}
 .xb-figs .xb-svg{max-width:150px}
 .xb-lecon p{margin:6px 0}
+
+.vi-memo{background:#ffd84a22;border-left:4px solid #ffd84a;padding:8px 10px;border-radius:8px}
+.vi-panel .xb-tab td,.vi-panel .xb-tab th{font-size:.9rem}
