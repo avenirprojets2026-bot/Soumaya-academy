@@ -1,0 +1,862 @@
+{
+ "passages": [
+  {
+   "id": "i25-p-doc08-a",
+   "title": "Les chiens guides : des yeux à quatre pattes",
+   "text": "Texte de Clémence Hardy\n\nImagine que tu dois traverser la rue les yeux fermés. Pas facile ! Pour beaucoup de personnes aveugles ou malvoyantes, un chien guide est un compagnon précieux.\n\nUn chien pas comme les autres\nLe chien guide aide son maître à se déplacer en sécurité. Il évite les obstacles, s'arrête au bord du trottoir et trouve une porte ou un escalier. Souvent, c'est un labrador ou un golden retriever, car ces chiens sont calmes et aiment travailler.\n\nUne longue école\nLe chiot vit d'abord pendant environ un an dans une famille d'accueil. Elle lui apprend à être propre et à rester calme dans un magasin ou dans le bus. Ensuite, le jeune chien va à l'école des chiens guides pendant plusieurs mois. Sur dix chiots qui commencent l'école, environ six deviennent chiens guides. Les autres deviennent des chiens de compagnie très bien élevés !\n\nOn croit souvent que…\nLe chien guide n'est pas un chien magique, comme on le croit parfois. Il ne connaît pas tout seul le chemin de la boulangerie : c'est son maître qui lui indique la direction. Le chien, lui, s'occupe des dangers.\n\nAu travail !\nQuand il porte son harnais, le chien travaille. Il ne faut donc pas le caresser ni lui donner à manger sans demander. Les maîtres sont fiers de leur chien et ils aiment qu'on leur pose des questions… avec politesse !",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-p-doc08-b",
+   "title": "Panne de courant !",
+   "text": "Ce soir-là, l'orage gronde au-dessus de la maison. Tout à coup, clac ! La lumière s'éteint. Panne de courant !\nDans le noir, j'entends tout. La pluie tambourine sur le toit. L'horloge du salon fait tic-tac. Moustache, notre chat, ronronne sous le canapé. Le frigo, lui, s'est tu.\n— Je vais chercher les bougies à la cave, annonce mon petit frère Sami. Tu vas voir, Inès, je n'ai pas peur du noir, moi !\nIl prend la lampe de poche et descend l'escalier. Je le suis sur la pointe des pieds. La porte de la cave grince. Mon cœur bat à toute vitesse et mes mains tremblent.\nPar la petite fenêtre, je regarde le jardin. Les éclairs déchirent le ciel noir. Les branches du vieux pommier griffent la vitre comme des doigts crochus.\nSoudain, un cri : « Aïe ! Au secours ! »\nSami lâche les bougies. Nous courons réveiller Papa. Avec lui, nous sortons sous la pluie. Près de la haie, Monsieur Auguste, notre voisin, est assis par terre. Il tient une laisse vide dans la main et appelle doucement : « Filou… Filou… »\nIl a glissé sur les feuilles mouillées. Son poignet est tout gonflé : il s'est fait une entorse. Papa appelle l'ambulance.\nPendant que les ambulanciers soignent Monsieur Auguste, une petite boule de poils trempée sort de la haie en remuant la queue. Sami la prend dans ses bras.\n— Tu vois, je n'ai même pas eu peur ! dit-il fièrement.\nMoi, je souris. J'ai bien vu ses genoux trembler…",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  }
+ ],
+ "questions": [
+  {
+   "id": "i25-doc08-01",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on le texte écrit au dos d'un livre, qui donne envie de le lire en présentant l'histoire ?",
+   "choices": [
+    "Le titre",
+    "La première page",
+    "Le sommaire",
+    "La quatrième de couverture"
+   ],
+   "answer": 3,
+   "explanation": "Le dos du livre s'appelle la quatrième de couverture : on y trouve souvent un résumé. Le titre est sur la couverture (la première de couverture).",
+   "hint": "On compte les « faces » de la couverture : devant, dedans, dedans, derrière.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-02",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Sur la couverture d'un album, qui est l'illustrateur ?",
+   "choices": [
+    "La personne qui a écrit le texte",
+    "La personne qui vend le livre",
+    "La personne qui a fait les dessins",
+    "Le héros de l'histoire"
+   ],
+   "answer": 2,
+   "explanation": "L'illustrateur réalise les illustrations (les dessins). L'auteur écrit le texte.",
+   "hint": "Illustration = image.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-03",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Sous quel intertitre parle-t-on du temps que le chiot passe dans une famille d'accueil ?",
+   "choices": [
+    "Un chien pas comme les autres",
+    "On croit souvent que…",
+    "Au travail !",
+    "Une longue école"
+   ],
+   "answer": 3,
+   "explanation": "Le paragraphe « Une longue école » raconte l'année en famille d'accueil puis l'école des chiens guides.",
+   "hint": "Cherche le paragraphe qui parle de ce que le chiot apprend.",
+   "passage": "i25-p-doc08-a",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-04",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Sous quel intertitre apprend-on qu'il ne faut pas caresser un chien guide qui porte son harnais ?",
+   "choices": [
+    "Au travail !",
+    "Une longue école",
+    "Un chien pas comme les autres",
+    "On croit souvent que…"
+   ],
+   "answer": 0,
+   "explanation": "Dans « Au travail ! » : « Quand il porte son harnais, le chien travaille. Il ne faut donc pas le caresser… »",
+   "hint": "Le harnais, c'est la tenue de travail du chien.",
+   "passage": "i25-p-doc08-a",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-05",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Écris le nom de l'auteure du texte sur les chiens guides.",
+   "accepted": [
+    "Clémence Hardy",
+    "Clemence Hardy",
+    "Hardy"
+   ],
+   "explanation": "Le nom de l'auteure est écrit sous le titre : « Texte de Clémence Hardy ».",
+   "hint": "Regarde juste sous le titre.",
+   "passage": "i25-p-doc08-a",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-06",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle est l'intention dominante de ce texte ?",
+   "choices": [
+    "Informer, expliquer",
+    "Raconter une histoire inventée",
+    "Donner une recette",
+    "Faire rire avec des blagues"
+   ],
+   "answer": 0,
+   "explanation": "Le texte donne des informations vraies, rangées sous des intertitres : c'est un texte informatif (documentaire).",
+   "hint": "Le texte a des intertitres et des explications.",
+   "passage": "i25-p-doc08-a",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-07",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans la situation de communication de ce texte, qui est le destinataire ?",
+   "choices": [
+    "Clémence Hardy",
+    "Les chiens guides",
+    "Des enfants qui lisent le texte",
+    "Le maître du chien"
+   ],
+   "answer": 2,
+   "explanation": "L'énonciateur est l'auteure (Clémence Hardy) ; le message, ce sont les informations sur les chiens guides ; le destinataire, ce sont les enfants lecteurs (le texte dit « tu »).",
+   "hint": "À qui le texte parle-t-il quand il dit « Imagine que tu… » ?",
+   "passage": "i25-p-doc08-a",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-08",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle information est correcte d'après le texte ?",
+   "choices": [
+    "Sur dix chiots, environ six deviennent chiens guides.",
+    "Sur dix chiots, un seul devient chien guide.",
+    "Tous les chiots deviennent chiens guides.",
+    "Sur dix chiots, environ six deviennent chiens de compagnie."
+   ],
+   "answer": 0,
+   "explanation": "Le texte dit : « Sur dix chiots qui commencent l'école, environ six deviennent chiens guides. » Les autres deviennent des chiens de compagnie.",
+   "hint": "Relis le paragraphe « Une longue école ».",
+   "passage": "i25-p-doc08-a",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-09",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "« Le chiot vit d'abord dans une famille d'accueil. Elle lui apprend à être propre. » Que remplace le pronom « Elle » ?",
+   "choices": [
+    "Le chiot",
+    "L'école",
+    "La famille d'accueil",
+    "La propreté"
+   ],
+   "answer": 2,
+   "explanation": "« Elle » est féminin singulier et remplace « la famille d'accueil » : c'est la famille qui apprend au chiot à être propre.",
+   "hint": "Qui apprend quelque chose au chiot ?",
+   "passage": "i25-p-doc08-a",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-10",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "« Les maîtres sont fiers de leur chien et ils aiment qu'on leur pose des questions. » Que remplace le dernier « leur » ?",
+   "choices": [
+    "Le chien",
+    "Les enfants",
+    "Les questions",
+    "Les maîtres"
+   ],
+   "answer": 3,
+   "explanation": "On pose des questions aux maîtres : « leur » = aux maîtres. C'est un pronom placé devant le verbe « pose ».",
+   "hint": "À qui pose-t-on des questions ?",
+   "passage": "i25-p-doc08-a",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-11",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "« Le chien guide n'est pas un chien magique, comme on le croit parfois. » Quelle est la classe du mot « magique » ?",
+   "choices": [
+    "Nom",
+    "Verbe",
+    "Adjectif",
+    "Déterminant"
+   ],
+   "answer": 2,
+   "explanation": "« magique » donne une précision sur le nom « chien » : c'est un adjectif (on peut dire « un chien magique, une baguette magique »).",
+   "hint": "Ce mot décrit le nom « chien ».",
+   "passage": "i25-p-doc08-a",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-12",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Dans « comme on le croit parfois », quelle est la classe du mot « le » ?",
+   "choices": [
+    "Déterminant",
+    "Nom",
+    "Pronom",
+    "Adjectif"
+   ],
+   "answer": 2,
+   "explanation": "Ici, « le » est placé devant un verbe (croit) et remplace une idée : c'est un pronom. Devant un nom (« le chien »), « le » serait un déterminant.",
+   "hint": "Quel mot suit « le » : un nom ou un verbe ?",
+   "passage": "i25-p-doc08-a",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-13",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Dans « Panne de courant ! », écris le prénom de la narratrice (celle qui dit « je »).",
+   "accepted": [
+    "Inès",
+    "Ines"
+   ],
+   "explanation": "Sami lui dit : « Tu vas voir, Inès… ». C'est donc Inès qui raconte l'histoire.",
+   "hint": "Cherche à qui Sami parle.",
+   "passage": "i25-p-doc08-b",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-14",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Que veut prouver Sami à sa sœur ?",
+   "choices": [
+    "Qu'il n'a pas peur du noir",
+    "Qu'il sait réparer l'électricité",
+    "Qu'il court plus vite qu'elle",
+    "Qu'il connaît bien le voisin"
+   ],
+   "answer": 0,
+   "explanation": "Sami dit : « Tu vas voir, Inès, je n'ai pas peur du noir, moi ! » L'information est écrite dans le texte.",
+   "hint": "Relis ce que dit Sami avant de descendre à la cave.",
+   "passage": "i25-p-doc08-b",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-15",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "De quoi souffre Monsieur Auguste après sa chute ?",
+   "choices": [
+    "D'une entorse au poignet",
+    "D'une jambe cassée",
+    "D'un rhume",
+    "D'une bosse sur la tête"
+   ],
+   "answer": 0,
+   "explanation": "Le texte dit : « Son poignet est tout gonflé : il s'est fait une entorse. »",
+   "hint": "Quelle partie du corps est gonflée ?",
+   "passage": "i25-p-doc08-b",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-16",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "« La pluie tambourine. L'horloge fait tic-tac. Moustache ronronne. Le frigo s'est tu. » À quel champ sémantique appartiennent ces mots ? Les mots parlent…",
+   "accepted": [
+    "des bruits",
+    "les bruits",
+    "bruits",
+    "bruit",
+    "le bruit",
+    "des sons",
+    "les sons",
+    "sons",
+    "l'ouïe",
+    "l'ouie",
+    "ouïe",
+    "ouie",
+    "entendre"
+   ],
+   "explanation": "Tambouriner, tic-tac, ronronner, se taire : tous ces mots parlent des bruits (de ce qu'on entend). Dans le noir, Inès utilise ses oreilles.",
+   "hint": "Juste avant, Inès dit : « Dans le noir, j'entends tout. »",
+   "passage": "i25-p-doc08-b",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-17",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "« La porte de la cave grince. Mon cœur bat à toute vitesse et mes mains tremblent. » Dans cet extrait, Inès…",
+   "choices": [
+    "est joyeuse.",
+    "a très chaud.",
+    "a peur.",
+    "est fatiguée."
+   ],
+   "answer": 2,
+   "explanation": "Le cœur qui bat vite et les mains qui tremblent sont des signes de peur. On le déduit à partir des indices, car le mot « peur » n'est pas écrit.",
+   "hint": "Que ressens-tu quand ton cœur bat très fort dans le noir ?",
+   "passage": "i25-p-doc08-b",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-18",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "« Les éclairs déchirent le ciel noir. Les branches du vieux pommier griffent la vitre comme des doigts crochus. » Dans cet extrait, l'atmosphère est…",
+   "choices": [
+    "joyeuse.",
+    "ensoleillée.",
+    "calme.",
+    "angoissante."
+   ],
+   "answer": 3,
+   "explanation": "Les mots « déchirent », « griffent », « doigts crochus » et « ciel noir » créent une atmosphère qui fait peur : angoissante.",
+   "hint": "À quoi ressemblent les branches ?",
+   "passage": "i25-p-doc08-b",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-19",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Pourquoi Monsieur Auguste était-il dans le jardin en pleine nuit ? Choisis l'hypothèse la plus probable.",
+   "choices": [
+    "Il voulait regarder l'orage.",
+    "Il cherchait son chien Filou qui s'était sauvé.",
+    "Il venait chercher des bougies.",
+    "Il ramassait des pommes."
+   ],
+   "answer": 1,
+   "explanation": "Indices : il tient une laisse vide, il appelle « Filou… », et une petite boule de poils sort de la haie en remuant la queue. On déduit qu'il cherchait son chien.",
+   "hint": "Que tient-il dans la main ? Qui appelle-t-il ?",
+   "passage": "i25-p-doc08-b",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-20",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "À la fin, Sami dit qu'il n'a pas eu peur. Qu'en pense Inès ?",
+   "choices": [
+    "Elle le croit, car il est très courageux.",
+    "Elle pense qu'il a eu peur, car elle a vu ses genoux trembler.",
+    "Elle est fâchée parce qu'il a cassé les bougies.",
+    "Elle pense qu'il a eu froid."
+   ],
+   "answer": 1,
+   "explanation": "Inès sourit et dit : « J'ai bien vu ses genoux trembler… » Elle sait donc que Sami a eu peur. Il faut déduire, car ce n'est pas écrit directement.",
+   "hint": "Relis la toute dernière phrase.",
+   "passage": "i25-p-doc08-b",
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-21",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Emma verse de l'eau d'une bouteille dans plusieurs verres pour savoir lequel contient le plus. Quelle grandeur compare-t-elle ?",
+   "choices": [
+    "La longueur",
+    "La masse",
+    "La capacité"
+   ],
+   "answer": 2,
+   "explanation": "Ce qu'un récipient peut contenir, c'est sa capacité (en litres, centilitres…).",
+   "hint": "Elle compare combien d'eau rentre dans chaque verre.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-22",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Théo tient une pomme dans chaque main pour savoir laquelle est la plus lourde. Quelle grandeur compare-t-il ?",
+   "choices": [
+    "La masse",
+    "La capacité",
+    "La longueur"
+   ],
+   "answer": 0,
+   "explanation": "Lourd ou léger : c'est la masse (en grammes, kilogrammes).",
+   "hint": "Plus lourd, plus léger…",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-23",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle phrase indique un moment précis ?",
+   "choices": [
+    "Pendant les vacances de Pâques, nous irons à la mer.",
+    "Durant la récréation, les enfants jouent au ballon.",
+    "Le train part à sept heures et quarante-deux minutes.",
+    "Cet hiver, il a beaucoup neigé."
+   ],
+   "answer": 2,
+   "explanation": "« 7 h 42 » est un moment précis. Les vacances, la récréation et l'hiver sont des durées (des périodes).",
+   "hint": "Cherche une heure exacte.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-24",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Léna mesure un crayon avec sa latte. Le bout du crayon est sur la graduation 2 cm et la pointe sur la graduation 11 cm. Quelle est la longueur du crayon ? (n'oublie pas l'unité)",
+   "accepted": [
+    "9 cm",
+    "9cm",
+    "9",
+    "9 centimètres",
+    "neuf centimètres"
+   ],
+   "explanation": "Elle n'a pas commencé au 0 : longueur = 11 − 2 = 9 cm.",
+   "hint": "Attention, le crayon ne commence pas au 0 de la latte.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-25",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Convertis : 3,2 hm = … m",
+   "accepted": [
+    "320",
+    "320 m",
+    "320m"
+   ],
+   "explanation": "1 hm = 100 m, donc 3,2 hm = 3,2 × 100 = 320 m.",
+   "hint": "Un hectomètre, c'est 100 mètres.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-26",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Convertis : 4 kg = … g",
+   "accepted": [
+    "4000",
+    "4 000",
+    "4000 g",
+    "4 000 g",
+    "4000g"
+   ],
+   "explanation": "1 kg = 1 000 g, donc 4 kg = 4 × 1 000 = 4 000 g.",
+   "hint": "Kilo veut dire mille.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-27",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Convertis : 3 h = … minutes",
+   "accepted": [
+    "180",
+    "180 minutes",
+    "180 min"
+   ],
+   "explanation": "1 h = 60 minutes, donc 3 h = 3 × 60 = 180 minutes.",
+   "hint": "Une heure, c'est 60 minutes.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-28",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Mercredi après-midi, le cours de natation commence. Sur l'horloge à aiguilles, la petite aiguille est entre le 3 et le 4, la grande aiguille est sur le 6. Quelle heure est-il ?",
+   "choices": [
+    "6 h 15",
+    "15 h 30",
+    "16 h 30",
+    "18 h 15"
+   ],
+   "answer": 1,
+   "explanation": "Petite aiguille entre 3 et 4 : il est 3 heures passées. Grande aiguille sur le 6 : 30 minutes. L'après-midi, 3 h 30 = 15 h 30.",
+   "hint": "La grande aiguille sur le 6, c'est la demie.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-29",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Le goûter d'anniversaire s'est terminé un peu avant 20 h. Sur l'horloge, la grande aiguille est sur le 9 et la petite aiguille est presque sur le 8. À quelle heure le goûter s'est-il terminé ?",
+   "accepted": [
+    "19 h 45",
+    "19h45",
+    "19:45",
+    "19 heures 45",
+    "8 heures moins le quart",
+    "20 h moins le quart",
+    "20h moins le quart",
+    "huit heures moins le quart"
+   ],
+   "explanation": "Grande aiguille sur le 9 = 45 minutes. La petite aiguille n'est pas encore sur le 8 : il est 7 h 45 du soir, donc 19 h 45 (20 h moins le quart).",
+   "hint": "La petite aiguille n'a pas encore atteint le 8.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-30",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle est l'estimation la plus juste de la capacité d'un verre d'eau ?",
+   "choices": [
+    "20 l",
+    "20 cl",
+    "2 ml"
+   ],
+   "answer": 1,
+   "explanation": "Un verre contient environ 20 cl (un cinquième de litre). 20 l, c'est un seau entier ; 2 ml, c'est quelques gouttes.",
+   "hint": "Une grande bouteille d'eau fait 1 l = 100 cl.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-31",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Une carte postale est quadrillée en 4 rangées de 6 cases. Chaque case a une aire de 1 cm². Quelle est l'aire de la carte en cm² ?",
+   "accepted": [
+    "24",
+    "24 cm²",
+    "24 cm2",
+    "24cm²"
+   ],
+   "explanation": "4 rangées × 6 cases = 24 cases de 1 cm², donc 24 cm².",
+   "hint": "Compte les cases : rangées × cases par rangée.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-32",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Calcule l'aire d'un rectangle de longueur 7 cm et de largeur 4 cm (formule : L × l). Réponse en cm².",
+   "accepted": [
+    "28",
+    "28 cm²",
+    "28 cm2",
+    "28cm²"
+   ],
+   "explanation": "Aire = L × l = 7 cm × 4 cm = 28 cm².",
+   "hint": "Multiplie la longueur par la largeur.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-33",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans la fraction 5/7, à quoi sert le nombre 7 (le dénominateur) ?",
+   "choices": [
+    "À dire combien de parts égales on a prises",
+    "À dire en combien de parts égales on a partagé l'unité",
+    "À dire combien d'objets il y a dans chaque part",
+    "À dire combien de parts chacun reçoit"
+   ],
+   "answer": 1,
+   "explanation": "Le dénominateur (en bas) dit en combien de parts égales l'unité est partagée : 7 parts. Le numérateur (en haut, 5) dit combien on en prend.",
+   "hint": "Dénominateur : il « nomme » les parts (des septièmes).",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-34",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Une bande est partagée en 12 triangles identiques. Tu dois colorier les 3/4 de la bande. Combien de triangles colories-tu ?",
+   "accepted": [
+    "9",
+    "9 triangles",
+    "neuf"
+   ],
+   "explanation": "1/4 de 12 = 12 : 4 = 3 triangles. Donc 3/4 = 3 × 3 = 9 triangles.",
+   "hint": "Cherche d'abord 1/4 de 12.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-35",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle fraction est équivalente à 2/3 ?",
+   "choices": [
+    "2/6",
+    "3/2",
+    "4/6",
+    "4/3"
+   ],
+   "answer": 2,
+   "explanation": "On multiplie le numérateur et le dénominateur par le même nombre : 2 × 2 = 4 et 3 × 2 = 6, donc 2/3 = 4/6.",
+   "hint": "Multiplie le haut ET le bas par 2.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-36",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Calcule et simplifie : 2/10 + 3/10 + 1/10 = ?",
+   "accepted": [
+    "3/5"
+   ],
+   "explanation": "Même dénominateur : on additionne les numérateurs. 2 + 3 + 1 = 6, donc 6/10. On simplifie par 2 : 6/10 = 3/5.",
+   "hint": "Additionne les numérateurs, puis divise le haut et le bas par 2.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-37",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Calcule et simplifie : 1/9 × 3 = ?",
+   "accepted": [
+    "1/3"
+   ],
+   "explanation": "1/9 × 3 = 3/9 (3 fois un neuvième). On simplifie par 3 : 3/9 = 1/3.",
+   "hint": "Trois fois un neuvième, c'est combien de neuvièmes ?",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-38",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Une gardienne d'animaux gagne 6 € par heure. Dans le tableau « nombre d'heures → salaire », quel est le lien entre les deux colonnes ?",
+   "choices": [
+    "Ajouter 6",
+    "Multiplier par 6",
+    "Multiplier par 10",
+    "Enlever 6"
+   ],
+   "answer": 1,
+   "explanation": "1 h → 6 €, 2 h → 12 €, 3 h → 18 € : on multiplie chaque fois le nombre d'heures par 6. C'est un tableau de proportionnalité.",
+   "hint": "Teste avec 2 heures : 2 + 6 ou 2 × 6 ?",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-39",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "La gardienne gagne 6 € par heure. Combien gagne-t-elle pour 3 heures ? (en €)",
+   "accepted": [
+    "18",
+    "18 €",
+    "18€",
+    "18 euros",
+    "dix-huit"
+   ],
+   "explanation": "3 × 6 € = 18 €.",
+   "hint": "Multiplie par 6.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-40",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "La gardienne gagne 6 € par heure. Elle a gagné 42 €. Combien d'heures a-t-elle travaillé ?",
+   "accepted": [
+    "7",
+    "7 heures",
+    "7 h",
+    "7h",
+    "sept"
+   ],
+   "explanation": "On fait le chemin inverse : 42 : 6 = 7 heures (vérification : 7 × 6 = 42).",
+   "hint": "Pour remonter du salaire aux heures, on divise par 6.",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-doc08-41",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "La gardienne gagne 6 € par heure. Combien d'heures doit-elle travailler pour gagner 54 € ?",
+   "accepted": [
+    "9",
+    "9 heures",
+    "9 h",
+    "9h",
+    "neuf"
+   ],
+   "explanation": "54 : 6 = 9 heures (vérification : 9 × 6 = 54).",
+   "hint": "Dans la table de 6, quel nombre donne 54 ?",
+   "passage": null,
+   "source": "inspire_2025",
+   "exam2025": "doc08"
+  }
+ ],
+ "openTasks": [
+  {
+   "id": "i25-o-doc08-1",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "prompt": "Donne ton avis sur le texte « Panne de courant ! ». Choisis le début de phrase : « J'ai apprécié », « J'ai modérément apprécié » ou « Je n'ai pas apprécié » le texte, puis écris « car… » avec un argument précis tiré de l'histoire.",
+   "rubric": [
+    "Un avis clair est choisi.",
+    "L'argument est en lien avec le texte (un personnage, un moment, l'atmosphère…).",
+    "La phrase est complète, avec majuscule et point."
+   ],
+   "exam2025": "doc08"
+  },
+  {
+   "id": "i25-o-doc08-2",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "prompt": "Lecture à haute voix (fluence) : prépare puis lis à voix haute à papa le paragraphe « Une longue école » du texte sur les chiens guides. Regroupe les mots par groupes de sens, fais des pauses aux points et aux virgules, et mets de l'intonation (surtout au point d'exclamation).",
+   "rubric": [
+    "Lecture fluide, sans hacher les mots.",
+    "Pauses respectées aux virgules et aux points.",
+    "Intonation adaptée (le point d'exclamation s'entend).",
+    "Voix claire et assez forte."
+   ],
+   "exam2025": "doc08"
+  }
+ ]
+}

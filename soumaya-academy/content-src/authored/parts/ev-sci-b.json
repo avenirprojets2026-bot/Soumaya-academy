@@ -1,0 +1,28 @@
+{"subject":"eveil","domain":"sciences","items":[
+[5,"Pour qu'une ampoule s'allume avec une pile, le circuit doit être...","fermé",["ouvert","coupé","vide"],"Le courant circule seulement si le circuit est fermé, sans coupure.",""],
+[5,"Laquelle de ces énergies est renouvelable ?","l'énergie du vent",["le charbon","le pétrole","le gaz naturel"],"Le vent revient toujours : c'est une énergie renouvelable.",""],
+[5,"De quoi les feuilles vertes ont-elles besoin pour fabriquer leur nourriture ?","de lumière",["de nuit","de sel","de vent fort"],"Les feuilles utilisent la lumière du soleil pour fabriquer leur nourriture.",""],
+[5,"Lequel de ces animaux est un mammifère ?","la baleine",["le requin","le pingouin","le crocodile"],"La baleine allaite ses petits : c'est un mammifère, même si elle vit dans l'eau.",""],
+[5,"Que protège le crâne ?","le cerveau",["le cœur","l'estomac","les poumons"],"Le crâne est l'os de la tête : il protège le cerveau.",""],
+[5,"Qu'est-ce que le recyclage ?","réutiliser la matière des déchets pour fabriquer de nouveaux objets",["jeter les déchets dans la nature","brûler tous les déchets","enterrer les déchets dans le jardin"],"Recycler, c'est transformer de vieux objets en matière pour en fabriquer de nouveaux.",""],
+[5,"Combien de temps la Terre met-elle pour faire le tour du Soleil ?","un an",["un jour","un mois","une semaine"],"Un tour de la Terre autour du Soleil dure un an.",""],
+[6,"Quelle partie de la plante fabrique sa nourriture grâce à la lumière ?","les feuilles",["les racines","les graines","les épines"],"Les feuilles captent la lumière et fabriquent la nourriture de la plante.",""],
+[6,"Par quel tuyau l'air passe-t-il pour aller dans les poumons ?","la trachée",["l'œsophage","l'intestin","l'artère"],"La trachée est le tuyau de l'air qui descend vers les poumons.",""],
+[6,"Comment s'appellent les tuyaux dans lesquels circule le sang ?","les vaisseaux sanguins",["les intestins","les nerfs","les muscles"],"Le sang circule dans des vaisseaux sanguins : les artères et les veines.",""],
+[6,"Dans la chaîne alimentaire « herbe → lapin → renard », qui est le prédateur ?","le renard",["le lapin","l'herbe","personne"],"Le renard chasse et mange le lapin : c'est le prédateur.",""],
+[6,"Quelle énergie vient du Soleil ?","l'énergie solaire",["l'énergie du charbon","l'énergie du pétrole","l'énergie du gaz"],"Les panneaux solaires transforment la lumière du Soleil en électricité.",""],
+[6,"Quels aliments aident à construire les muscles ?","la viande, le poisson et les œufs",["les bonbons","les boissons sucrées","les chips"],"Ces aliments contiennent des protéines qui aident le corps à construire ses muscles.",""],
+[6,"Comment se déplace la lumière ?","en ligne droite",["en zigzag","en cercle","en spirale"],"La lumière se déplace toujours en ligne droite : c'est pour cela qu'on a des ombres.",""],
+[7,"Que fait le Soleil dans le cycle de l'eau ?","Il chauffe l'eau, qui s'évapore.",["Il gèle l'eau des mers.","Il fait tomber la pluie.","Il rend l'eau salée."],"La chaleur du Soleil transforme l'eau en vapeur : c'est le début du cycle.",""],
+[7,"Que forme la vapeur d'eau qui monte et qui refroidit ?","des nuages",["des rochers","des montagnes","du sable"],"En refroidissant, la vapeur forme de petites gouttes : ce sont les nuages.",""],
+[7,"De quoi sont faits les nuages ?","de minuscules gouttes d'eau ou de glace",["de fumée","de coton","de sable"],"Un nuage contient une multitude de gouttelettes d'eau ou de cristaux de glace.",""],
+[7,"Où commence la digestion ?","dans la bouche",["dans l'estomac","dans l'intestin","dans le nez"],"On mâche dans la bouche : la digestion commence déjà là.",""],
+[7,"Quel gaz les plantes absorbent-elles pour fabriquer leur nourriture ?","le gaz carbonique",["l'oxygène","l'azote","l'hydrogène"],"Les plantes utilisent le gaz carbonique de l'air et rejettent de l'oxygène.",""],
+[7,"Lequel de ces animaux est un invertébré ?","l'escargot",["le lézard","la souris","la truite"],"L'escargot n'a pas de colonne vertébrale : c'est un invertébré.",""],
+[7,"Lequel de ces objets est un isolant électrique ?","un bâton en plastique",["un clou en fer","une pièce en cuivre","du papier d'aluminium"],"Le plastique ne laisse pas passer l'électricité.",""]
+],
+"saisie":[
+[5,"La Terre tourne sur elle-même en environ combien d'heures ? Écris le nombre.",["24","24 heures","vingt-quatre"],"La Terre fait un tour sur elle-même en environ 24 heures : c'est un jour.",""],
+[6,"Écris le nom du changement d'état de la vapeur d'eau qui redevient de l'eau liquide.",["condensation","la condensation"],"Quand la vapeur refroidit et devient liquide, c'est la condensation.",""],
+[7,"Écris le nom du gaz de l'air que nous respirons pour vivre.",["oxygène","l'oxygène","oxygene","dioxygène"],"Notre corps a besoin d'oxygène pour vivre.",""]
+]}

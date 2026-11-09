@@ -1,0 +1,764 @@
+{
+  "questions": [
+    {
+      "id": "i25-doc07-01",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 4,
+      "type": "qcm",
+      "prompt": "Sur une photo de la place, Nora est debout devant la boulangerie. Un arbre est juste à sa gauche. Une fontaine est de l'autre côté de la rue, en face d'elle. Quelle phrase situe correctement Nora ?",
+      "choices": [
+        "Nora se situe derrière la boulangerie.",
+        "Nora se situe à côté de l'arbre.",
+        "Nora se situe sous la fontaine.",
+        "Nora se situe sur le toit."
+      ],
+      "answer": 1,
+      "explanation": "L'arbre est juste à sa gauche : Nora est à côté de l'arbre. Elle est DEVANT la boulangerie, pas derrière.",
+      "hint": "Un mot pour la position + un repère.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-02",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Sur un plan, un banc est placé entre le kiosque et l'étang. Tim est assis sur ce banc. Quelle phrase est correcte ?",
+      "choices": [
+        "Tim se situe en face du banc.",
+        "Tim se situe derrière l'étang.",
+        "Tim se situe entre le kiosque et l'étang.",
+        "Tim se situe sous le kiosque."
+      ],
+      "answer": 2,
+      "explanation": "Le banc est entre le kiosque et l'étang, et Tim est sur le banc : il se situe donc entre le kiosque et l'étang.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-03",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "Dans un quadrillage, les colonnes s'appellent A, B, C, D, E, F, G, H (de gauche à droite) et les lignes 1, 2, 3, 4, 5 (de haut en bas). Un trésor est dans la 4e colonne et sur la 3e ligne. Écris ses coordonnées (lettre puis chiffre).",
+      "accepted": [
+        "D3",
+        "D 3",
+        "D;3",
+        "D,3",
+        "(D;3)",
+        "(D,3)",
+        "D-3"
+      ],
+      "explanation": "La 4e colonne est D (A, B, C, D) et la ligne est 3 : les coordonnées sont D3. On écrit la lettre de la colonne puis le chiffre de la ligne.",
+      "hint": "Compte les lettres : A = 1re colonne.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-04",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Dans le même quadrillage (colonnes A à H, lignes 1 à 5), un robot est en B2. Il avance de 3 cases vers la droite, sans changer de ligne. Où arrive-t-il ?",
+      "choices": [
+        "B5",
+        "E5",
+        "D2",
+        "E2"
+      ],
+      "answer": 3,
+      "explanation": "Vers la droite, seule la lettre change : B → C → D → E (3 cases). La ligne reste 2 : le robot arrive en E2.",
+      "hint": "Aller à droite change la lettre, pas le chiffre.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-05",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Quelle figure possède TOUJOURS des côtés perpendiculaires (qui forment un angle droit) ?",
+      "choices": [
+        "Un rectangle",
+        "Un losange qui n'est pas un carré",
+        "Un triangle dont les 3 côtés sont égaux",
+        "Un parallélogramme quelconque"
+      ],
+      "answer": 0,
+      "explanation": "Un rectangle a 4 angles droits : ses côtés voisins sont perpendiculaires. Les autres figures n'ont pas d'angle droit (sauf cas particulier).",
+      "hint": "Cherche les angles droits.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-06",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Quelle figure possède au moins deux côtés isométriques (de même longueur) ?",
+      "choices": [
+        "Un triangle de côtés 3 cm, 4 cm et 6 cm",
+        "Un trapèze de côtés 2 cm, 3 cm, 4 cm et 5 cm",
+        "Un losange",
+        "Un triangle de côtés 5 cm, 7 cm et 8 cm"
+      ],
+      "answer": 2,
+      "explanation": "Les 4 côtés d'un losange ont la même longueur : il a donc au moins deux côtés isométriques. Les autres figures ont toutes des côtés de longueurs différentes.",
+      "hint": "Isométrique = même mesure.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-07",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 6,
+      "type": "saisie",
+      "prompt": "Un triangle rectangle possède un angle droit. Combien possède-t-il d'angles aigus ?",
+      "accepted": [
+        "2",
+        "2 angles",
+        "2angles",
+        "deux",
+        "deux angles aigus",
+        "2 angles aigus"
+      ],
+      "explanation": "Un triangle a 3 angles. L'un est droit ; les deux autres sont plus petits qu'un angle droit, donc aigus : 3 − 1 = 2.",
+      "hint": "Un angle aigu est plus petit qu'un angle droit.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-08",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "Un trapèze rectangle a deux angles droits. Ses deux autres angles sont…",
+      "choices": [
+        "deux angles aigus",
+        "un angle aigu et un angle obtus",
+        "deux angles obtus",
+        "deux angles droits"
+      ],
+      "answer": 1,
+      "explanation": "Dans un trapèze rectangle, les deux côtés parallèles sont reliés par un côté perpendiculaire (2 angles droits) et un côté penché : il forme un angle aigu d'un côté et un angle obtus de l'autre.",
+      "hint": "Dessine-le à main levée.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-09",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Combien d'axes de symétrie possède un losange qui n'est pas un carré ?",
+      "choices": [
+        "0",
+        "1",
+        "4",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "Un losange (non carré) a 2 axes de symétrie : ses deux diagonales. Si on plie le long d'une diagonale, les deux moitiés se superposent.",
+      "hint": "Pense au pliage le long des diagonales.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-10",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Une médiane d'un quadrilatère est un segment qui relie…",
+      "choices": [
+        "deux sommets opposés",
+        "les milieux de deux côtés opposés",
+        "deux sommets voisins",
+        "un sommet et le centre"
+      ],
+      "answer": 1,
+      "explanation": "La médiane relie les milieux de deux côtés opposés. Le segment qui relie deux sommets opposés s'appelle une diagonale.",
+      "hint": "Médiane → milieu.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-11",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "Quelle propriété des diagonales d'un rectangle est toujours correcte ?",
+      "choices": [
+        "Elles sont de même longueur.",
+        "Elles sont parallèles entre elles.",
+        "Elles sont parallèles aux côtés.",
+        "Elles sont toujours perpendiculaires."
+      ],
+      "answer": 0,
+      "explanation": "Les diagonales d'un rectangle ont la même longueur et se coupent en leur milieu. Elles ne sont perpendiculaires que si le rectangle est un carré.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-12",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Tu plies une feuille en deux. Puis tu plies encore, en posant le pli exactement sur lui-même. Quel angle obtiens-tu au coin du pli ?",
+      "choices": [
+        "Un angle aigu",
+        "Un angle obtus",
+        "Un angle droit",
+        "Un angle plat"
+      ],
+      "answer": 2,
+      "explanation": "Le deuxième pli, posé bord sur bord sur le premier, partage l'angle plat en deux angles égaux : chacun est un angle droit.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-13",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Dans un parallélogramme, les côtés opposés sont…",
+      "choices": [
+        "perpendiculaires",
+        "parallèles et de même longueur",
+        "de longueurs différentes",
+        "toujours plus longs que les diagonales"
+      ],
+      "answer": 1,
+      "explanation": "Un parallélogramme a deux paires de côtés opposés parallèles, et les côtés opposés ont la même longueur.",
+      "hint": "Le nom de la figure t'aide.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-14",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Deux droites qui ne se coupent jamais, même si on les prolonge, sont…",
+      "choices": [
+        "perpendiculaires",
+        "sécantes",
+        "parallèles",
+        "obliques"
+      ],
+      "answer": 2,
+      "explanation": "Des droites parallèles gardent toujours le même écart : elles ne se coupent jamais. Des droites perpendiculaires se coupent en formant un angle droit.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-15",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Le développement d'un cube est formé de…",
+      "choices": [
+        "4 carrés et 2 rectangles",
+        "5 carrés",
+        "6 carrés identiques",
+        "8 carrés"
+      ],
+      "answer": 2,
+      "explanation": "Le cube a 6 faces carrées, toutes identiques. Son développement est donc formé de 6 carrés identiques (4 carrés + 2 rectangles, c'est un pavé).",
+      "hint": "Compte les faces d'un dé.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-16",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 8,
+      "type": "qcm",
+      "prompt": "Quel assemblage de 6 carrés peut se replier pour former un cube ?",
+      "choices": [
+        "6 carrés alignés en une seule rangée",
+        "Deux rangées de 3 carrés, l'une collée sous l'autre",
+        "Une rangée de 4 carrés, avec un carré au-dessus du 1er et un autre carré au-dessus du 2e",
+        "Une rangée de 4 carrés, avec un carré au-dessus du 1er et un carré en dessous du 4e"
+      ],
+      "answer": 3,
+      "explanation": "La rangée de 4 carrés fait le tour du cube ; un carré au-dessus ferme le haut, un carré en dessous ferme le bas. Avec 2 carrés au-dessus côte à côte, ils se superposent tous les deux sur le haut.",
+      "hint": "Imagine le pliage face par face.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-17",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Une figure tracée sur un grand quadrillage a une base de 6 carreaux et une hauteur de 4 carreaux. Tu la reproduis sur un quadrillage aux carreaux plus petits, en suivant le modèle. Combien de carreaux aura sa base ?",
+      "choices": [
+        "3 carreaux",
+        "12 carreaux",
+        "4 carreaux",
+        "6 carreaux"
+      ],
+      "answer": 3,
+      "explanation": "On garde le même nombre de carreaux : 6 carreaux pour la base et 4 pour la hauteur. Seule la taille des carreaux change, la figure est donc plus petite.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-18",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "Tu as tracé un carré et ses deux médianes. Tu veux tracer un losange dont les diagonales sont ces médianes. Quels points dois-tu relier ?",
+      "choices": [
+        "Les 4 sommets du carré",
+        "Les milieux des 4 côtés du carré",
+        "Le centre et deux sommets",
+        "Deux sommets et deux milieux"
+      ],
+      "answer": 1,
+      "explanation": "Les médianes s'arrêtent aux milieux des côtés. En reliant ces 4 milieux, on obtient un losange (ici même un carré penché) dont les diagonales sont les médianes.",
+      "hint": "Où se terminent les médianes ?",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-19",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Dans quel ordre les aliments passent-ils dans le tube digestif ?",
+      "choices": [
+        "Bouche → estomac → œsophage → gros intestin → intestin grêle",
+        "Bouche → œsophage → estomac → intestin grêle → gros intestin",
+        "Bouche → œsophage → intestin grêle → estomac → gros intestin",
+        "Bouche → estomac → intestin grêle → œsophage → gros intestin"
+      ],
+      "answer": 1,
+      "explanation": "Les aliments sont mâchés dans la bouche, descendent par l'œsophage jusqu'à l'estomac, puis passent dans l'intestin grêle et enfin dans le gros intestin.",
+      "hint": "L'œsophage relie la bouche à l'estomac.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-20",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "D'après le texte, à quel moment le blaireau cherche-t-il sa nourriture ?",
+      "choices": [
+        "Le matin",
+        "À midi",
+        "La nuit",
+        "Seulement en hiver"
+      ],
+      "answer": 2,
+      "explanation": "Le texte dit : « Quand la nuit tombe, il sort pour se nourrir. » Le blaireau est un animal nocturne.",
+      "hint": "",
+      "passage": "i25-p-doc07-a",
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-21",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "Écris un aliment d'origine VÉGÉTALE que mange le blaireau.",
+      "accepted": [
+        "fruits",
+        "fruit",
+        "les fruits",
+        "des fruits",
+        "glands",
+        "gland",
+        "les glands",
+        "des glands",
+        "racines",
+        "racine",
+        "les racines",
+        "des racines",
+        "champignons",
+        "champignon",
+        "les champignons",
+        "des champignons"
+      ],
+      "explanation": "Dans le texte, les aliments qui viennent des plantes sont : les fruits, les glands, les racines (les champignons sont aussi acceptés).",
+      "hint": "Cherche ce qui ne vient pas d'un animal.",
+      "passage": "i25-p-doc07-a",
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-22",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Le blaireau mange des vers, des mulots et des œufs, mais aussi des fruits et des racines. Quel est son régime alimentaire ?",
+      "choices": [
+        "Herbivore",
+        "Omnivore",
+        "Carnivore",
+        "Insectivore"
+      ],
+      "answer": 1,
+      "explanation": "Il mange à la fois des aliments d'origine animale (vers, mulots, œufs) et végétale (fruits, racines) : il est omnivore.",
+      "hint": "Omni = tout.",
+      "passage": "i25-p-doc07-a",
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-23",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Qu'est-ce qui aide le blaireau à trouver sa nourriture dans le noir ?",
+      "choices": [
+        "Ses grandes oreilles",
+        "Ses yeux qui brillent",
+        "Sa longue queue",
+        "Son museau très sensible"
+      ],
+      "answer": 3,
+      "explanation": "Le texte dit que son museau très sensible l'aide à trouver sa nourriture dans le noir.",
+      "hint": "",
+      "passage": "i25-p-doc07-a",
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-24",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Observe la chaine alimentaire : gland → est mangé par → écureuil → est mangé par → martre. Quelle phrase est correcte ?",
+      "choices": [
+        "L'écureuil est une proie pour la martre.",
+        "La martre est une proie pour l'écureuil.",
+        "Le gland mange l'écureuil.",
+        "L'écureuil n'est pas un maillon de la chaine."
+      ],
+      "answer": 0,
+      "explanation": "La flèche « est mangé par » va de l'écureuil vers la martre : la martre mange l'écureuil. L'écureuil est donc une proie et la martre un prédateur.",
+      "hint": "Suis le sens des flèches.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-25",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 6,
+      "type": "saisie",
+      "prompt": "Sur un thermomètre, chaque petite graduation vaut 2 °C. Le liquide s'arrête 2 petites graduations au-dessus du 10. Quelle température indique-t-il ? (en °C)",
+      "accepted": [
+        "14",
+        "14 °C",
+        "14°C",
+        "14 degrés",
+        "14degrés",
+        "14 degres",
+        "14degres",
+        "14 ° C",
+        "14° C"
+      ],
+      "explanation": "2 graduations de 2 °C = 4 °C. 10 + 4 = 14 °C.",
+      "hint": "Une graduation = 2 °C.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-26",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "Sur un autre thermomètre, chaque graduation vaut 1 °C. Le liquide s'arrête 3 graduations SOUS le 0. Quelle température fait-il ?",
+      "choices": [
+        "3 °C",
+        "moins 3 °C (−3 °C)",
+        "moins 30 °C (−30 °C)",
+        "13 °C"
+      ],
+      "answer": 1,
+      "explanation": "Sous le zéro, les températures sont négatives : 3 graduations sous 0 → −3 °C (il gèle).",
+      "hint": "Sous 0, on met le signe −.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-27",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 4,
+      "type": "saisie",
+      "prompt": "Quel instrument utilises-tu pour mesurer la masse d'un paquet de farine ?",
+      "accepted": [
+        "balance",
+        "une balance",
+        "la balance",
+        "balance de cuisine",
+        "pese-personne",
+        "pèse-personne"
+      ],
+      "explanation": "La masse se mesure avec une balance (en grammes ou en kilogrammes).",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-28",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 4,
+      "type": "qcm",
+      "prompt": "Quel instrument permet de mesurer la durée d'une course ?",
+      "choices": [
+        "Un thermomètre",
+        "Une latte",
+        "Une balance",
+        "Un chronomètre"
+      ],
+      "answer": 3,
+      "explanation": "Une durée se mesure avec un chronomètre (ou une montre). Le thermomètre mesure la température, la latte une longueur, la balance une masse.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-29",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Sur le miroir froid de la salle de bain, la vapeur d'eau se transforme en petites gouttes. Comment s'appelle ce passage de l'état gazeux à l'état liquide ?",
+      "choices": [
+        "La fusion",
+        "L'évaporation",
+        "La solidification",
+        "La condensation"
+      ],
+      "answer": 3,
+      "explanation": "Gaz → liquide : c'est la condensation (la buée). L'évaporation est le chemin inverse (liquide → gaz).",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-30",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Une flaque d'eau disparait au soleil : l'eau liquide devient de la vapeur. Comment s'appelle ce changement d'état ?",
+      "choices": [
+        "L'évaporation",
+        "La condensation",
+        "La fusion",
+        "La solidification"
+      ],
+      "answer": 0,
+      "explanation": "Liquide → gaz : c'est l'évaporation. La chaleur du soleil la rend plus rapide.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-31",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Tu mets de l'eau au congélateur et elle devient de la glace. Comment s'appelle ce changement d'état ?",
+      "choices": [
+        "La fusion",
+        "La solidification",
+        "L'évaporation",
+        "La condensation"
+      ],
+      "answer": 1,
+      "explanation": "Liquide → solide : c'est la solidification. Quand la glace fond (solide → liquide), c'est la fusion.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-32",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "Quel est le nom de l'articulation qui se trouve entre le bras et l'avant-bras ?",
+      "accepted": [
+        "coude",
+        "le coude",
+        "un coude"
+      ],
+      "explanation": "Le coude relie le bras et l'avant-bras : il permet de plier le bras.",
+      "hint": "Tu t'appuies dessus sur la table.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-33",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Dans quelle partie du corps se trouve le fémur ?",
+      "choices": [
+        "Le bras",
+        "La cuisse",
+        "Le dos",
+        "L'avant-bras"
+      ],
+      "answer": 1,
+      "explanation": "Le fémur est l'os de la cuisse ; c'est le plus long os du corps. Le tibia, lui, est dans la jambe.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-34",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "Que faut-il pour que la jambe puisse bouger ?",
+      "choices": [
+        "Qu'un os soit attaché à un autre os par un tendon",
+        "Que deux os soient collés ensemble par un muscle",
+        "Qu'un muscle soit attaché à deux os différents par des tendons",
+        "Qu'un muscle soit attaché à un seul os"
+      ],
+      "answer": 2,
+      "explanation": "Le muscle est fixé à deux os par des tendons, de part et d'autre d'une articulation. Quand il se contracte, il tire sur un os et le fait bouger.",
+      "hint": "Le muscle tire, l'articulation tourne.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-doc07-35",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "À quoi sert la cage thoracique (les côtes) ?",
+      "choices": [
+        "À digérer les aliments",
+        "À protéger le cœur et les poumons",
+        "À entendre les sons",
+        "À fabriquer la salive"
+      ],
+      "answer": 1,
+      "explanation": "Le squelette sert à soutenir le corps, à permettre le mouvement et à protéger les organes : les côtes protègent le cœur et les poumons.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    }
+  ],
+  "passages": [
+    {
+      "id": "i25-p-doc07-a",
+      "title": "Le blaireau",
+      "text": "Le blaireau est un animal de nos forêts. Le jour, il dort dans un terrier qu'il a creusé. Quand la nuit tombe, il sort pour se nourrir. Il mange surtout des vers de terre. Il aime aussi les fruits tombés, les glands, les racines et les champignons. Parfois, il attrape un petit mulot ou dévore des œufs trouvés au sol. Son museau, très sensible, l'aide à trouver sa nourriture dans le noir.",
+      "subject": "eveil",
+      "domain": "sciences",
+      "level": 5,
+      "source": "inspire_2025",
+      "exam2025": "doc07"
+    }
+  ],
+  "openTasks": [
+    {
+      "id": "i25-o-doc07-1",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 7,
+      "prompt": "Sur une feuille à points (ou quadrillée), trace avec ta latte : un carré ABCD de 6 carreaux de côté, puis ses deux médianes, puis le losange qui relie les milieux des côtés. Termine en traçant, à l'extérieur, un triangle isocèle sur chaque côté du carré : tu obtiens une étoile.",
+      "rubric": [
+        "Le carré a 4 côtés égaux et 4 angles droits",
+        "Les médianes relient bien les milieux des côtés opposés",
+        "Le losange a ses sommets aux milieux des côtés",
+        "Chaque triangle a pour base un côté du carré et deux côtés égaux",
+        "Tracés précis, faits à la latte"
+      ],
+      "exam2025": "doc07"
+    },
+    {
+      "id": "i25-o-doc07-2",
+      "subject": "maths",
+      "domain": "geometrie",
+      "level": 6,
+      "prompt": "Trace un triangle quelconque PQR. Complète-le en parallélogramme (ajoute un 4e sommet). Trace ensuite en vert une droite perpendiculaire à PQ et en bleu une droite parallèle à PQ.",
+      "rubric": [
+        "Le quadrilatère obtenu a ses côtés opposés parallèles",
+        "La droite verte forme un angle droit avec PQ (vérifié à l'équerre)",
+        "La droite bleue garde le même écart avec PQ",
+        "Tracés à la latte, couleurs respectées"
+      ],
+      "exam2025": "doc07"
+    }
+  ]
+}

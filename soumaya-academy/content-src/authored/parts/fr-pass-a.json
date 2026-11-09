@@ -1,0 +1,47 @@
+{"subject":"francais","passages":[
+{"id":"pa-fr-001","title":"Le chat de Lina","domain":"lecture","level":1,
+"text":"Lina a un petit chat gris. Il s'appelle Pilou. Chaque matin, Pilou saute sur le lit de Lina et miaule très fort. Il veut manger ! Lina se lève, ouvre le placard et prend une boîte de croquettes. Elle remplit la gamelle bleue. Pilou mange vite, puis il boit un peu d'eau. Ensuite, il se couche près de la fenêtre. Le soleil chauffe son poil. Lina part à l'école. Quand elle revient le soir, Pilou l'attend derrière la porte. Il ronronne de joie.",
+"qs":[
+["De quelle couleur est le chat de Lina ?","gris",["noir","blanc","roux"],"Le texte dit : « un petit chat gris ».",""],
+["Pourquoi Pilou miaule-t-il le matin ?","Il veut manger.",["Il veut jouer.","Il a froid.","Il est malade."],"Le texte dit : « Il veut manger ! »",""],
+["Que fait Lina juste après s'être levée ?","Elle prend une boîte de croquettes.",["Elle part à l'école.","Elle joue avec Pilou.","Elle ouvre la fenêtre."],"Elle ouvre le placard et prend une boîte de croquettes.",""],
+["Où Pilou se couche-t-il après avoir mangé ?","près de la fenêtre",["sur le lit de Lina","derrière la porte","dans le placard"],"Le texte dit : « il se couche près de la fenêtre ».",""],
+["Que ressent Pilou quand Lina revient le soir ?","Il est content.",["Il a peur.","Il est fâché.","Il s'ennuie."],"Quand on ronronne de joie, on est content de retrouver quelqu'un.",""]
+]},
+{"id":"pa-fr-002","title":"Une journée à la plage","domain":"lecture","level":2,
+"text":"Samedi, Tom et sa grande sœur Inès vont à la plage avec leurs parents. Papa porte le parasol et maman porte le panier du pique-nique. Tom court vers la mer, mais l'eau est très froide. Il décide donc de construire un château de sable. Inès l'aide à creuser un grand fossé autour. À midi, toute la famille mange des sandwichs et des fraises. Après le repas, un coup de vent emporte le chapeau de Tom. Inès court très vite et le rattrape juste avant la mer. Le soir, tout le monde rentre fatigué mais content.",
+"qs":[
+["Avec qui Tom va-t-il à la plage ?","sa sœur et ses parents",["ses amis","son frère et sa tante","sa classe"],"Tom va à la plage avec Inès, sa sœur, et leurs parents.",""],
+["Pourquoi Tom ne se baigne-t-il pas ?","L'eau est très froide.",["Il a peur des vagues.","Il n'a pas de maillot.","Il pleut."],"Le texte dit : « l'eau est très froide ».",""],
+["Que mange la famille à midi ?","des sandwichs et des fraises",["des pâtes et du fromage","des frites et une glace","une salade et des pommes"],"Le texte dit : « des sandwichs et des fraises ».",""],
+["Qui rattrape le chapeau de Tom ?","Inès",["Tom","Papa","Maman"],"Inès court très vite et rattrape le chapeau.",""],
+["Que se passe-t-il juste après le repas ?","Le vent emporte le chapeau de Tom.",["Tom construit un château.","La famille rentre à la maison.","Tom court vers la mer."],"Après le repas, un coup de vent emporte le chapeau.",""]
+]},
+{"id":"pa-fr-003","title":"Le marché du village","domain":"lecture","level":3,
+"text":"Tous les jeudis, un marché s'installe sur la place du village. Dès sept heures, les marchands dressent leurs étals sous de grandes bâches blanches. Madame Roux vend des légumes frais : carottes, poireaux et courgettes. À côté, le fromager coupe de gros morceaux de gruyère. Le boulanger, lui, sort de son camion des baguettes encore chaudes. Mamie Odile vient toujours très tôt, car elle veut les meilleurs fruits. Elle remplit son grand cabas, bavarde avec chacun et goûte une pomme. Vers midi, les marchands rangent leurs caisses. Il ne reste alors sur la place que quelques feuilles de salade et des papiers.",
+"qs":[
+["Quel jour a lieu le marché ?","le jeudi",["le samedi","le dimanche","le lundi"],"Le texte dit : « Tous les jeudis ».",""],
+["Qui vend les légumes frais ?","Madame Roux",["le fromager","le boulanger","Mamie Odile"],"Madame Roux vend des carottes, des poireaux et des courgettes.",""],
+["Pourquoi Mamie Odile vient-elle très tôt ?","Elle veut les meilleurs fruits.",["Elle n'aime pas la foule.","Elle travaille ensuite.","Elle aide les marchands."],"Le texte dit : « car elle veut les meilleurs fruits ».",""],
+["Que reste-t-il sur la place vers midi, quand les marchands sont partis ?","quelques feuilles de salade et des papiers",["les étals et les bâches","des caisses de fruits","des baguettes chaudes"],"Les marchands rangent leurs caisses. Il reste seulement des feuilles de salade et des papiers.",""],
+["Dans ce texte, un « étal » est...","la table où un marchand présente ses produits",["un camion de livraison","un grand sac pour les courses","un nuage de pluie"],"Les marchands « dressent leurs étals » pour montrer leurs produits : c'est leur table de vente.",""]
+]},
+{"id":"pa-fr-004","title":"La grotte mystérieuse","domain":"lecture","level":4,
+"text":"Pendant les vacances, Hugo et son cousin Malik explorent la forêt derrière la ferme de leur grand-père. Soudain, Malik découvre une ouverture entre deux gros rochers. « Regarde, on dirait une grotte ! » s'écrie-t-il. Hugo allume sa lampe de poche et ils entrent doucement. Sur les murs, l'eau brille comme de petits diamants. Plus loin, des chauves-souris dorment, la tête en bas. Les garçons parlent tout bas pour ne pas les réveiller. Tout à coup, la lampe de Hugo clignote, puis s'éteint. Les deux cousins ont un peu peur, mais Malik garde son calme. Il retrouve la sortie en suivant la lumière du jour. Dehors, Hugo promet de revenir avec des piles neuves.",
+"qs":[
+["Où Hugo et Malik découvrent-ils la grotte ?","dans la forêt, derrière la ferme",["sur une plage","dans le jardin de la maison","en haut d'une montagne"],"Ils explorent la forêt derrière la ferme de leur grand-père.",""],
+["Qu'est-ce qui arrive en premier ?","Malik découvre une ouverture.",["Hugo allume sa lampe.","La lampe s'éteint.","Ils voient des chauves-souris."],"Malik trouve d'abord l'ouverture entre les rochers. Les autres événements arrivent après.",""],
+["Pourquoi les garçons parlent-ils tout bas ?","pour ne pas réveiller les chauves-souris",["parce qu'ils ont peur du noir","parce qu'ils sont fatigués","parce qu'ils jouent à un jeu"],"Le texte dit : « pour ne pas les réveiller ».",""],
+["Comment Malik retrouve-t-il la sortie ?","en suivant la lumière du jour",["avec une autre lampe","en appelant au secours","en suivant les chauves-souris"],"Le texte dit : « en suivant la lumière du jour ».",""],
+["Pourquoi Hugo promet-il de revenir avec des piles neuves ?","Sa lampe s'est éteinte parce que les piles sont usées.",["Il a perdu sa lampe dans la grotte.","Il veut offrir des piles à Malik.","Il a peur de revenir sans lampe de poche."],"La lampe s'est éteinte : Hugo comprend qu'il lui faut de nouvelles piles.",""]
+]},
+{"id":"pa-fr-005","title":"Le potager de Mamie","domain":"lecture","level":4,
+"text":"Chaque printemps, Mamie Rose prépare son potager. Elle bêche la terre, enlève les cailloux et trace de longues lignes droites. Ensuite, elle plante des graines de radis, de salade et de haricots. Zoé vient l'aider le mercredi. Elle arrose les semis avec un petit arrosoir rouge, sans trop verser d'eau. « Si on met trop d'eau, les graines pourrissent », explique Mamie. Au bout de dix jours, de minuscules feuilles vertes sortent de terre. Zoé est très fière. En été, les tomates deviennent rouges et sucrées. Mamie et Zoé les cueillent ensemble et les mangent avec un peu de sel. « Ce que l'on fait pousser soi-même a meilleur goût ! » dit Zoé en souriant.",
+"qs":[
+["À quelle saison Mamie Rose prépare-t-elle son potager ?","au printemps",["en été","en automne","en hiver"],"Le texte dit : « Chaque printemps ».",""],
+["Quel jour Zoé vient-elle aider sa grand-mère ?","le mercredi",["le samedi","le lundi","le dimanche"],"Le texte dit : « Zoé vient l'aider le mercredi ».",""],
+["Pourquoi ne faut-il pas mettre trop d'eau sur les graines ?","Elles pourrissent.",["La terre devient dure.","Les radis deviennent petits.","Les oiseaux viennent les manger."],"Mamie explique : « Si on met trop d'eau, les graines pourrissent. »",""],
+["Au bout de combien de jours sortent de minuscules feuilles ?","dix jours",["trois jours","un mois","deux jours"],"Le texte dit : « Au bout de dix jours ».",""],
+["Dans ce texte, « bêcher la terre » veut dire...","la retourner avec un outil pour la préparer",["la manger","la peindre","la mouiller avec un arrosoir"],"Mamie bêche la terre avant de planter : elle la retourne pour la préparer.",""]
+]}
+]}

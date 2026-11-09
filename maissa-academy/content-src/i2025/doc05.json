@@ -1,0 +1,413 @@
+{
+  "questions": [
+    {
+      "id": "i25-doc05-01",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 4,
+      "type": "qcm",
+      "prompt": "Lou a une boite de boutons. Certains ont 2 trous, d'autres 4 trous. Quelle question lui permet de trier les boutons à 4 trous ?",
+      "choices": [
+        "Le bouton est-il rond ?",
+        "Le bouton a-t-il 4 trous ?",
+        "Combien y a-t-il de boutons ?",
+        "Le bouton est-il joli ?"
+      ],
+      "answer": 1,
+      "explanation": "Pour trier, on pose une question à laquelle on répond par oui ou non pour chaque objet : « A-t-il 4 trous ? ». Oui → dans le groupe ; non → hors du groupe.",
+      "hint": "La question doit parler des trous.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-02",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Théo a rangé des objets dans trois boites.\nBoite 1 : une bille rouge, un dé rouge, un crayon rouge.\nBoite 2 : une bille bleue, un dé bleu.\nBoite 3 : un crayon jaune, une bille jaune.\nQuel critère a-t-il utilisé ?",
+      "choices": [
+        "La forme",
+        "La taille",
+        "La couleur",
+        "La matière"
+      ],
+      "answer": 2,
+      "explanation": "Dans chaque boite, tous les objets ont la même couleur (rouge, bleu, jaune), mais pas la même forme : le critère est la couleur.",
+      "hint": "Regarde ce qui est pareil dans une même boite.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-03",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Des animaux sont classés en trois groupes.\nGroupe 1 : la poule, le canard.\nGroupe 2 : le chat, la vache, le chien.\nGroupe 3 : l'araignée.\nQuel critère a été utilisé ?",
+      "choices": [
+        "Le nombre de pattes",
+        "La couleur",
+        "Le lieu de vie",
+        "Ce qu'ils mangent"
+      ],
+      "answer": 0,
+      "explanation": "Groupe 1 : 2 pattes. Groupe 2 : 4 pattes. Groupe 3 : 8 pattes. Le critère est le nombre de pattes.",
+      "hint": "Compte les pattes de chaque animal.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-04",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Mila veut classer TOUS ses jouets en TROIS catégories : une toupie en bois, un camion en plastique, un robot en métal, un cheval en bois, une poupée en plastique, une voiture en métal. Quel critère lui donne exactement trois catégories ?",
+      "choices": [
+        "Le jouet roule ou ne roule pas",
+        "Le prix du jouet",
+        "La matière du jouet",
+        "Le jouet est neuf ou vieux"
+      ],
+      "answer": 2,
+      "explanation": "Avec la matière, on obtient 3 catégories : bois (toupie, cheval), plastique (camion, poupée), métal (robot, voiture). « Roule / ne roule pas » ne donne que 2 catégories.",
+      "hint": "Cherche un critère avec trois réponses possibles.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-05",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "Mila classe ses jouets selon la matière : bois, plastique, métal. Dans quelle catégorie range-t-elle le robot en métal ? (écris un mot)",
+      "accepted": [
+        "metal",
+        "métal",
+        "en metal",
+        "en métal",
+        "la categorie metal",
+        "la catégorie métal"
+      ],
+      "explanation": "Le robot est en métal : il va dans la catégorie « métal ».",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-06",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Noé trie ses cartes : il garde d'un côté celles qui répondent « oui » à sa question, et de l'autre celles qui répondent « non ». Cartes « oui » : le lion, le tigre, le chat. Cartes « non » : le perroquet, l'aigle. Quelle question a-t-il posée ?",
+      "choices": [
+        "L'animal vole-t-il ?",
+        "L'animal est-il un félin ?",
+        "L'animal a-t-il 2 pattes ?",
+        "L'animal vit-il dans l'eau ?"
+      ],
+      "answer": 1,
+      "explanation": "Lion, tigre et chat sont des félins (« oui ») ; le perroquet et l'aigle n'en sont pas (« non »). « Vole-t-il ? » ou « a-t-il 2 pattes ? » donneraient « oui » pour les oiseaux et « non » pour les félins : c'est l'inverse.",
+      "hint": "Qu'ont en commun le lion, le tigre et le chat ?",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-07",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Voici quatre représentations décrites en mots. Laquelle est un diagramme à bandes ?",
+      "choices": [
+        "Des points reliés par une ligne qui monte et qui descend",
+        "Un disque partagé en parts de tailles différentes",
+        "Des rectangles de même largeur, dont la longueur montre une quantité",
+        "Un tableau avec des « oui » et des « non » dans les cases"
+      ],
+      "answer": 2,
+      "explanation": "Dans un diagramme à bandes, chaque quantité est représentée par une bande (un rectangle) : plus la bande est longue, plus la quantité est grande.",
+      "hint": "Bande = rectangle.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-08",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Comment s'appelle une représentation en forme de disque partagé en parts, comme une tarte ?",
+      "choices": [
+        "Un diagramme circulaire",
+        "Un diagramme à bandes",
+        "Un tableau à double entrée",
+        "Un arbre"
+      ],
+      "answer": 0,
+      "explanation": "Le disque partagé en parts s'appelle un diagramme circulaire : chaque part montre une partie du total.",
+      "hint": "Pense au mot « cercle ».",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-09",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 6,
+      "type": "saisie",
+      "prompt": "Un tableau a des lignes (les jours de la semaine) et des colonnes (les activités). Dans chaque case, on lit « oui » ou « non » au croisement d'une ligne et d'une colonne. Comment s'appelle ce type de tableau ?",
+      "accepted": [
+        "tableau à double entrée",
+        "tableau a double entree",
+        "un tableau à double entrée",
+        "le tableau à double entrée",
+        "tableau à deux entrées",
+        "tableau a 2 entrees",
+        "tableau à 2 entrées"
+      ],
+      "explanation": "On entre dans le tableau par deux côtés (les lignes ET les colonnes) : c'est un tableau à double entrée.",
+      "hint": "On peut y entrer de deux façons.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-10",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 4,
+      "type": "saisie",
+      "prompt": "Le club du quartier a fait un tableau à double entrée.\nPrintemps : vélo oui, natation non, patinage non, cuisine oui.\nÉté : vélo oui, natation oui, patinage non, cuisine non.\nAutomne : vélo oui, natation non, patinage non, cuisine oui.\nHiver : vélo non, natation non, patinage oui, cuisine oui.\nEn quelle saison peut-on faire du patinage ?",
+      "accepted": [
+        "hiver",
+        "en hiver",
+        "l'hiver"
+      ],
+      "explanation": "Dans la colonne « patinage », il n'y a qu'un seul « oui » : sur la ligne « hiver ».",
+      "hint": "Lis la colonne « patinage ».",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-11",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "Le club du quartier a fait un tableau à double entrée.\nPrintemps : vélo oui, natation non, patinage non, cuisine oui.\nÉté : vélo oui, natation oui, patinage non, cuisine non.\nAutomne : vélo oui, natation non, patinage non, cuisine oui.\nHiver : vélo non, natation non, patinage oui, cuisine oui.\nPendant combien de saisons le club propose-t-il de la cuisine ?",
+      "accepted": [
+        "3",
+        "3 saisons",
+        "3saisons",
+        "trois",
+        "trois saisons"
+      ],
+      "explanation": "Colonne « cuisine » : printemps oui, été non, automne oui, hiver oui → 3 « oui », donc 3 saisons.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-12",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Le club du quartier a fait un tableau à double entrée.\nPrintemps : vélo oui, natation non, patinage non, cuisine oui.\nÉté : vélo oui, natation oui, patinage non, cuisine non.\nAutomne : vélo oui, natation non, patinage non, cuisine oui.\nHiver : vélo non, natation non, patinage oui, cuisine oui.\nQuelle activité est proposée à la fois au printemps ET en été ?",
+      "choices": [
+        "La natation",
+        "La cuisine",
+        "Le patinage",
+        "Le vélo"
+      ],
+      "answer": 3,
+      "explanation": "Il faut un « oui » sur les deux lignes. Vélo : oui au printemps, oui en été. La natation n'est qu'en été, la cuisine n'est pas en été.",
+      "hint": "Compare les lignes « printemps » et « été ».",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-13",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 4,
+      "type": "saisie",
+      "prompt": "La classe de Malik a répondu à un sondage sur le fruit préféré : pomme 6 élèves, banane 9 élèves, fraise 12 élèves, poire 2 élèves. Malik dessine un diagramme à bandes avec un axe gradué de 0 à 15.\nJusqu'à quelle graduation doit-il tracer la bande « fraise » ?",
+      "accepted": [
+        "12"
+      ],
+      "explanation": "12 élèves ont choisi la fraise : la bande s'arrête sur la graduation 12.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-14",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 4,
+      "type": "qcm",
+      "prompt": "La classe de Malik a répondu à un sondage sur le fruit préféré : pomme 6 élèves, banane 9 élèves, fraise 12 élèves, poire 2 élèves. Malik dessine un diagramme à bandes avec un axe gradué de 0 à 15.\nQuelle bande sera la plus longue ?",
+      "choices": [
+        "Pomme",
+        "Fraise",
+        "Banane",
+        "Poire"
+      ],
+      "answer": 1,
+      "explanation": "La bande la plus longue représente le plus grand nombre : 12 (fraise) > 9 > 6 > 2.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-15",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 6,
+      "type": "saisie",
+      "prompt": "La classe de Malik a répondu à un sondage sur le fruit préféré : pomme 6 élèves, banane 9 élèves, fraise 12 élèves, poire 2 élèves. Malik dessine un diagramme à bandes avec un axe gradué de 0 à 15.\nCombien d'élèves ont répondu au sondage ?",
+      "accepted": [
+        "29",
+        "29 élèves",
+        "29élèves",
+        "29 eleves",
+        "29eleves"
+      ],
+      "explanation": "On additionne toutes les bandes : 6 + 9 + 12 + 2 = 29 élèves.",
+      "hint": "Additionne les 4 nombres.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-16",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "La classe de Malik a répondu à un sondage sur le fruit préféré : pomme 6 élèves, banane 9 élèves, fraise 12 élèves, poire 2 élèves. Malik dessine un diagramme à bandes avec un axe gradué de 0 à 15.\nCombien d'élèves de plus ont choisi la banane plutôt que la pomme ?",
+      "accepted": [
+        "3",
+        "3 élèves",
+        "3élèves",
+        "3 eleves",
+        "3eleves",
+        "trois"
+      ],
+      "explanation": "Banane 9, pomme 6 : 9 − 6 = 3 élèves de plus.",
+      "hint": "C'est une différence.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-17",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 7,
+      "type": "saisie",
+      "prompt": "Sur un diagramme à bandes « Comment je viens à l'école », la bande « vélo » s'arrête à 8, la bande « bus » à 5, la bande « à pied » à 11 et la bande « voiture » à 4.\nCombien d'élèves ne viennent PAS en voiture ?",
+      "accepted": [
+        "24",
+        "24 élèves",
+        "24élèves",
+        "24 eleves",
+        "24eleves"
+      ],
+      "explanation": "On additionne les autres bandes : 8 + 5 + 11 = 24 élèves.",
+      "hint": "Laisse de côté la bande « voiture ».",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-18",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 8,
+      "type": "qcm",
+      "prompt": "Sur un diagramme à bandes « Comment je viens à l'école », la bande « vélo » s'arrête à 8, la bande « bus » à 5, la bande « à pied » à 11 et la bande « voiture » à 4.\nQuelle phrase est vraie ?",
+      "choices": [
+        "Il y a deux fois plus d'élèves en vélo qu'en voiture.",
+        "Les élèves à pied sont moins nombreux que ceux en vélo.",
+        "Le bus est le moyen le plus utilisé.",
+        "Il y a 10 élèves de plus à pied qu'en voiture."
+      ],
+      "answer": 0,
+      "explanation": "Vélo 8 et voiture 4 : 4 × 2 = 8, donc deux fois plus. À pied (11) > vélo (8) ; le plus utilisé est « à pied » ; 11 − 4 = 7, pas 10.",
+      "hint": "Vérifie chaque phrase avec un calcul.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-doc05-19",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Zoé a tracé un diagramme à bandes pour 7 élèves qui aiment le basket. Sa bande s'arrête entre 6 et 7, au milieu. Qu'a-t-elle mal fait ?",
+      "choices": [
+        "Sa bande est trop longue : elle doit s'arrêter à 6.",
+        "Sa bande est trop courte : elle doit s'arrêter exactement sur 7.",
+        "Elle aurait dû faire un disque.",
+        "Rien, c'est correct."
+      ],
+      "answer": 1,
+      "explanation": "7 élèves → la bande commence à 0 et s'arrête exactement sur la graduation 7. Au milieu entre 6 et 7, cela ferait 6 et demi.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc05"
+    }
+  ],
+  "passages": [],
+  "openTasks": [
+    {
+      "id": "i25-o-doc05-1",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 5,
+      "prompt": "Prends 9 objets de ta trousse ou de ta chambre. Classe-les en TROIS catégories. Écris ton critère, puis le nom de chaque catégorie et les objets que tu y ranges.",
+      "rubric": [
+        "Un seul critère pour tout le classement",
+        "Exactement trois catégories, chacune avec un nom",
+        "Tous les objets sont classés, aucun n'est oublié",
+        "Chaque objet est dans la bonne catégorie"
+      ],
+      "exam2025": "doc05"
+    },
+    {
+      "id": "i25-o-doc05-2",
+      "subject": "maths",
+      "domain": "statistique",
+      "level": 6,
+      "prompt": "Sur une feuille quadrillée, dessine le diagramme à bandes de ce sondage « Mon animal préféré » : chien 9 élèves, chat 7, lapin 3, cheval 5. Donne un titre et gradue l'axe de 0 à 10.",
+      "rubric": [
+        "Un titre et un axe gradué régulièrement de 0 à 10",
+        "Une bande par animal, toutes de même largeur",
+        "Chaque bande s'arrête exactement au bon nombre (9, 7, 3, 5)",
+        "Le nom de chaque animal est écrit à côté de sa bande"
+      ],
+      "exam2025": "doc05"
+    }
+  ]
+}

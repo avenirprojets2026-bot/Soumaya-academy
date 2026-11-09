@@ -1,0 +1,322 @@
+{
+ "note": "Doublons fusionnés (une occurrence conservée : celle avec la meilleure explication). Les quasi-doublons (même énoncé et même bonne réponse mais distracteurs différents) NE sont PAS fusionnés : ils portent un champ dupGroup dans harvest.json.",
+ "mergedGroups": 16,
+ "mergedItems": 17,
+ "groups": [
+  {
+   "kept": "h0320",
+   "prompt": "Combien font 7 × 8 ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "126_sa127script",
+     "origSeries": "mini-défis sa127 math",
+     "prompt": "Combien font 7 × 8 ?",
+     "explanation": "7 fois 8 font 56.",
+     "choices": [
+      "54",
+      "56",
+      "64"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0449",
+   "prompt": "Regroupe 80 étoiles en paquets de 20. Combien de paquets obtient-on ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "032_anon32",
+     "origSeries": "Série 1 (id 0, Facile)",
+     "prompt": "80 étoiles en paquets de 20 : combien de paquets ?",
+     "explanation": "80 ÷ 20 = 4.",
+     "accepted": [
+      "4",
+      "4 paquets",
+      "4paquets"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0450",
+   "prompt": "42 mille et 8 unités : écris le nombre.",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "063_sa60-script/064_sa61-script",
+     "origSeries": "Série 1 — Nombres, question 2a",
+     "prompt": "Écris en chiffres : quarante-deux-mille-huit unités.",
+     "explanation": "42 000 + 8 = 42 008.",
+     "accepted": [
+      "42008",
+      "42 008"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0451",
+   "prompt": "Pose et effectue : 6 458 + 3 726,5",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "032_anon32",
+     "origSeries": "Série 1 (id 2, Moyen)",
+     "prompt": "6 458 + 3 726,5 = ?",
+     "explanation": "Aligne les virgules puis additionne.",
+     "accepted": [
+      "10184,5",
+      "10184.5",
+      "10 184,5"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0452",
+   "prompt": "Pose et effectue : 326 × 24",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "032_anon32",
+     "origSeries": "Série 1 (id 3, Moyen)",
+     "prompt": "326 × 24 = ?",
+     "explanation": "326 × 20 + 326 × 4 = 7 824.",
+     "accepted": [
+      "7824",
+      "7 824"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0453",
+   "prompt": "Transforme : 1/4 = … (écriture décimale)",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "032_anon32",
+     "origSeries": "Série 1 (id 4, Facile)",
+     "prompt": "1/4 sous forme décimale ?",
+     "explanation": "Un quart correspond à 25 centièmes.",
+     "accepted": [
+      "0,25",
+      "0.25"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0455",
+   "prompt": "Dans « Elle le ramasse », que remplace « le » ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "032_anon32",
+     "origSeries": "Série 1 (id 6, Moyen)",
+     "prompt": "Que désigne le pronom « le » dans « Elle le ramasse » ?",
+     "explanation": "Le pronom remplace le carnet.",
+     "accepted": [
+      "le carnet",
+      "carnet",
+      "un carnet",
+      "son carnet"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0456",
+   "prompt": "Dans une école, 96 crayons sont rangés dans des boîtes de 12. Combien de boîtes remplit-on ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "032_anon32",
+     "origSeries": "Série 2 (id 7, Facile)",
+     "prompt": "96 crayons rangés dans des boîtes de 12 : combien de boîtes ?",
+     "explanation": "96 ÷ 12 = 8.",
+     "accepted": [
+      "8",
+      "8 boîtes",
+      "8boîtes"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0457",
+   "prompt": "Écris en chiffres : « soixante-trois-mille-quatre-cent-neuf ».",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "032_anon32",
+     "origSeries": "Série 2 (id 8, Moyen)",
+     "prompt": "Écris en chiffres : soixante-trois-mille-quatre-cent-neuf.",
+     "explanation": "63 000 + 409.",
+     "accepted": [
+      "63409",
+      "63 409"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0458",
+   "prompt": "Dans 483 205, quelle est la valeur du chiffre 8 ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "032_anon32",
+     "origSeries": "Série 2 (id 9, Moyen)",
+     "prompt": "Quelle est la valeur du 8 dans 483 205 ?",
+     "explanation": "Le 8 est dans les dizaines de mille.",
+     "accepted": [
+      "80000",
+      "80 000",
+      "80.000",
+      "80 000 (dizaines de mille)"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0459",
+   "prompt": "Suite : 125 ; 150 ; 175 ; … Quel est le nombre suivant ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "032_anon32",
+     "origSeries": "Série 2 (id 10, Moyen)",
+     "prompt": "125 ; 150 ; 175 ; quel nombre suit ?",
+     "explanation": "On ajoute 25.",
+     "accepted": [
+      "200"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0460",
+   "prompt": "Un musée reçoit 6 classes de 24 élèves. Chaque billet coûte 4 €. Combien le musée encaisse-t-il pour ces élèves (en euros) ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "032_anon32",
+     "origSeries": "Série 2 (id 11, Difficile)",
+     "prompt": "6 classes de 24 élèves paient 4 € chacune par élève : total en euros ?",
+     "explanation": "6 × 24 × 4 = 576.",
+     "accepted": [
+      "576",
+      "576 €",
+      "576€",
+      "576 euro",
+      "576euro",
+      "576 euros",
+      "576euros"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0461",
+   "prompt": "936 ÷ 8 = ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "063_sa60-script/064_sa61-script",
+     "origSeries": "Série 2 — Nombres, question 6d",
+     "prompt": "Pose et effectue : 936 ÷ 8",
+     "explanation": "8 × 117 = 936.",
+     "accepted": [
+      "117"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0463",
+   "prompt": "Qui accompagne Inès ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "063_sa60-script/064_sa61-script",
+     "origSeries": "Série 2 — Écouter, question 5",
+     "prompt": "Qui accompagne Inès ?",
+     "explanation": "Son grand frère Sami.",
+     "accepted": [
+      "sami",
+      "son frère",
+      "son grand frère",
+      "son frère sami",
+      "son grand frère sami"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0537",
+   "prompt": "Quel est le pluriel de « un cheval » ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 2,
+   "merged": [
+    {
+     "source": "058_sa55-script",
+     "origSeries": "mini-examen sa55 fr",
+     "prompt": "Quel est le pluriel de « un cheval » ?",
+     "explanation": "Le pluriel de cheval est chevaux.",
+     "choices": [
+      "des chevals",
+      "des chevaux",
+      "des chevaus"
+     ]
+    },
+    {
+     "source": "062_sa59-script",
+     "origSeries": "mini-examen sa59 fr",
+     "prompt": "Quel est le pluriel de « un cheval » ?",
+     "explanation": "Les noms en -al font souvent leur pluriel en -aux.",
+     "choices": [
+      "des chevals",
+      "des chevaux",
+      "des chevaus"
+     ]
+    }
+   ]
+  },
+  {
+   "kept": "h0556",
+   "prompt": "Combien font 936 ÷ 8 ?",
+   "reason": "même énoncé normalisé et même ensemble de choix (ou même réponse pour les saisies / correspondance explicite d’énoncés reformulés)",
+   "mergedCount": 1,
+   "merged": [
+    {
+     "source": "059_sa56-script",
+     "origSeries": "Série B — Mathématiques",
+     "prompt": "Combien font 936 ÷ 8 ?",
+     "explanation": "8 × 117 = 936.",
+     "choices": [
+      "107",
+      "117",
+      "127"
+     ]
+    }
+   ]
+  }
+ ]
+}

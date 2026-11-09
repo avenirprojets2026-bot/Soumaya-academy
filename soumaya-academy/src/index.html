@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#120d3a">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Soumaya Academy</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="app" data-screen="boot">
+  <div id="stage" aria-label="Décor du château"></div>
+  <div id="hud" hidden>
+    <button id="btn-home" class="hud-btn" aria-label="Retour à la carte">🗺️</button>
+    <div id="hud-title"></div>
+    <div id="hud-stats"><span id="hud-stars">⭐ 0</span><span id="hud-coins">🪙 0</span></div>
+    <button id="btn-menu" class="hud-btn" aria-label="Menu">☰</button>
+  </div>
+  <div id="dialog-layer"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+</div>
+<noscript>Soumaya Academy nécessite JavaScript.</noscript>
+<script src="app.js"></script>
+</body>
+</html>

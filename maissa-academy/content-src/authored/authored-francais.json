@@ -1,0 +1,7513 @@
+{
+ "questions": [
+  {
+   "id": "a-fr-0001",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Je ___ au ballon. (jouer, présent)",
+   "choices": [
+    "jouent",
+    "joue",
+    "joues",
+    "jouons"
+   ],
+   "answer": 1,
+   "explanation": "Avec « je », les verbes en -er se terminent par -e : je joue.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0002",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Tu ___ une glace. (manger, présent)",
+   "choices": [
+    "mange",
+    "mangent",
+    "manges",
+    "mangez"
+   ],
+   "answer": 2,
+   "explanation": "Avec « tu », les verbes en -er se terminent par -es : tu manges.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0003",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Elle ___ gentille. (être, présent)",
+   "choices": [
+    "es",
+    "sont",
+    "êtes",
+    "est"
+   ],
+   "answer": 3,
+   "explanation": "Avec « elle », on écrit : elle est.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0004",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel est l'infinitif du verbe de « nous chantons » ?",
+   "choices": [
+    "chanter",
+    "chantons",
+    "chante",
+    "chantez"
+   ],
+   "answer": 0,
+   "explanation": "L'infinitif est le nom du verbe : chanter.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0005",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Ils ___ un chien. (avoir, présent)",
+   "choices": [
+    "a",
+    "ont",
+    "as",
+    "avons"
+   ],
+   "answer": 1,
+   "explanation": "Avec « ils », on écrit : ils ont.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0006",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Je ___ à l'école. (aller, présent)",
+   "choices": [
+    "vas",
+    "va",
+    "vais",
+    "vont"
+   ],
+   "answer": 2,
+   "explanation": "Avec « je », le verbe aller devient : je vais.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0007",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Tu ___ tes devoirs. (faire, présent)",
+   "choices": [
+    "fait",
+    "faites",
+    "font",
+    "fais"
+   ],
+   "answer": 3,
+   "explanation": "Avec « tu », le verbe faire devient : tu fais.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0008",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Elle ___ bonjour. (dire, présent)",
+   "choices": [
+    "dit",
+    "dis",
+    "disent",
+    "dites"
+   ],
+   "answer": 0,
+   "explanation": "Avec « elle », le verbe dire devient : elle dit.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0009",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Nous ___ du sport. (faire, présent)",
+   "choices": [
+    "faisez",
+    "faisons",
+    "faites",
+    "font"
+   ],
+   "answer": 1,
+   "explanation": "Avec « nous », le verbe faire devient : nous faisons.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0010",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Vous ___ une belle chanson. (chanter, présent)",
+   "choices": [
+    "chantons",
+    "chantes",
+    "chantez",
+    "chantent"
+   ],
+   "answer": 2,
+   "explanation": "Avec « vous », les verbes en -er se terminent par -ez : vous chantez.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0011",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Demain, je ___ au cinéma. (aller, futur)",
+   "choices": [
+    "vais",
+    "allais",
+    "irais",
+    "irai"
+   ],
+   "answer": 3,
+   "explanation": "Au futur, le verbe aller devient : j'irai.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0012",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Demain, tu ___ ta chambre. (ranger, futur)",
+   "choices": [
+    "rangeras",
+    "ranges",
+    "rangeais",
+    "rangerez"
+   ],
+   "answer": 0,
+   "explanation": "Au futur, on ajoute -as à l'infinitif : tu rangeras.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0013",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Autrefois, les gens ___ à pied. (marcher, imparfait)",
+   "choices": [
+    "marchent",
+    "marchaient",
+    "marcheront",
+    "marché"
+   ],
+   "answer": 1,
+   "explanation": "À l'imparfait, avec « ils », on écrit -aient : ils marchaient.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0014",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "À quel temps est la phrase « Elle chantera demain. » ?",
+   "choices": [
+    "au présent",
+    "à l'imparfait",
+    "au futur",
+    "au passé composé"
+   ],
+   "answer": 2,
+   "explanation": "« Chantera » se termine par -era et « demain » indique l'avenir : futur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0015",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quand j'étais petit, je ___ souvent. (jouer, imparfait)",
+   "choices": [
+    "jouai",
+    "jouerai",
+    "joue",
+    "jouais"
+   ],
+   "answer": 3,
+   "explanation": "À l'imparfait, avec « je », on écrit -ais : je jouais.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0016",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Autrefois, nous ___ au village. (habiter, imparfait)",
+   "choices": [
+    "habitions",
+    "habitons",
+    "habiterons",
+    "habitaient"
+   ],
+   "answer": 0,
+   "explanation": "À l'imparfait, avec « nous », on écrit -ions : nous habitions.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0017",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Chaque été, ils ___ à la mer. (aller, imparfait)",
+   "choices": [
+    "iront",
+    "allaient",
+    "vont",
+    "allait"
+   ],
+   "answer": 1,
+   "explanation": "À l'imparfait, avec « ils », on écrit -aient : ils allaient.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0018",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel est l'infinitif du verbe de « tu finissais » ?",
+   "choices": [
+    "finis",
+    "fini",
+    "finir",
+    "finissez"
+   ],
+   "answer": 2,
+   "explanation": "On « finit » donc l'infinitif est finir.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0019",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Hier, j'___ une glace. (manger, passé composé)",
+   "choices": [
+    "mange",
+    "mangeais",
+    "mangerai",
+    "ai mangé"
+   ],
+   "answer": 3,
+   "explanation": "Passé composé : auxiliaire avoir + participe passé. J'ai mangé.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0020",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Hier, nous ___ au ballon. (jouer, passé composé)",
+   "choices": [
+    "avons joué",
+    "jouons",
+    "jouions",
+    "jouerons"
+   ],
+   "answer": 0,
+   "explanation": "Nous avons + joué : nous avons joué.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0021",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Ce matin, tu ___ le bus. (prendre, passé composé)",
+   "choices": [
+    "prends",
+    "as pris",
+    "prenais",
+    "prendras"
+   ],
+   "answer": 1,
+   "explanation": "Tu as + pris : tu as pris le bus.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0022",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Hier, ils ___ leurs devoirs. (faire, passé composé)",
+   "choices": [
+    "font",
+    "faisaient",
+    "ont fait",
+    "feront"
+   ],
+   "answer": 2,
+   "explanation": "Ils ont + fait : ils ont fait leurs devoirs.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0023",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 1,
+   "type": "saisie",
+   "prompt": "Nous ___ (regarder) la télé. Écris le verbe au présent.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "regardons"
+   ],
+   "explanation": "Avec « nous », on écrit -ons : nous regardons.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0024",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 1,
+   "type": "saisie",
+   "prompt": "Vous ___ (être) en retard. Écris le verbe au présent.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "êtes"
+   ],
+   "explanation": "Avec « vous », le verbe être devient : vous êtes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0025",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 2,
+   "type": "saisie",
+   "prompt": "Ils ___ (aller) au parc. Écris le verbe au présent.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "vont"
+   ],
+   "explanation": "Avec « ils », le verbe aller devient : ils vont.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0026",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 2,
+   "type": "saisie",
+   "prompt": "Tu ___ (avoir) faim. Écris le verbe au présent.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "as"
+   ],
+   "explanation": "Avec « tu », le verbe avoir devient : tu as.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0027",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "Demain, nous ___ (jouer) dehors. Écris le verbe au futur.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "jouerons"
+   ],
+   "explanation": "Au futur, avec « nous » : infinitif + ons. Nous jouerons.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0028",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "Demain, il ___ (être) content. Écris le verbe au futur.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "sera"
+   ],
+   "explanation": "Au futur, le verbe être devient : il sera.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0029",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "L'an prochain, j'___ (avoir) un vélo. Écris le verbe au futur.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "aurai"
+   ],
+   "explanation": "Au futur, le verbe avoir devient : j'aurai.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0030",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Il y a longtemps, tu ___ (avoir) un chat. Écris le verbe à l'imparfait.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "avais"
+   ],
+   "explanation": "À l'imparfait, avec « tu », on écrit -ais : tu avais.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0031",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Avant, elle ___ (être) timide. Écris le verbe à l'imparfait.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "était"
+   ],
+   "explanation": "À l'imparfait, le verbe être devient : elle était.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0032",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Autrefois, vous ___ (chanter) tous les jours. Écris le verbe à l'imparfait.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "chantiez"
+   ],
+   "explanation": "À l'imparfait, avec « vous », on écrit -iez : vous chantiez.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0033",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Hier, elle ___ (regarder) un film. Écris le verbe au passé composé.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "a regardé"
+   ],
+   "explanation": "Elle a + regardé : elle a regardé.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0034",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Hier, vous ___ (dire) la vérité. Écris le verbe au passé composé.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "avez dit"
+   ],
+   "explanation": "Vous avez + dit : vous avez dit.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0035",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Ce matin, j'___ (avoir) peur. Écris le verbe au passé composé.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "ai eu",
+    "j'ai eu"
+   ],
+   "explanation": "J'ai + eu : j'ai eu peur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0036",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Hier, Léa ___ au parc. (aller, passé composé)",
+   "choices": [
+    "est allée",
+    "a allé",
+    "est allé",
+    "allait"
+   ],
+   "answer": 0,
+   "explanation": "Aller se conjugue avec être, et Léa est une fille : elle est allée.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0037",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Les élèves ___ leur travail. (finir, présent)",
+   "choices": [
+    "finit",
+    "finissent",
+    "finissons",
+    "finis"
+   ],
+   "answer": 1,
+   "explanation": "Avec « ils », les verbes en -ir font -issent : ils finissent.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0038",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Demain, elle ___ chez moi. (venir, futur)",
+   "choices": [
+    "vient",
+    "venait",
+    "viendra",
+    "venons"
+   ],
+   "answer": 2,
+   "explanation": "Au futur, le verbe venir devient : elle viendra.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0039",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Tu ___ du gâteau ? (vouloir, présent)",
+   "choices": [
+    "veut",
+    "voulez",
+    "voulons",
+    "veux"
+   ],
+   "answer": 3,
+   "explanation": "Avec « tu », le verbe vouloir devient : tu veux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0040",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quelle phrase est au passé composé ?",
+   "choices": [
+    "Il a pris le train.",
+    "Il prend le train.",
+    "Il prenait le train.",
+    "Il prendra le train."
+   ],
+   "answer": 0,
+   "explanation": "Le passé composé a un auxiliaire (a) et un participe passé (pris).",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0041",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Nous ___ le bus tous les matins. (prendre, présent)",
+   "choices": [
+    "prenez",
+    "prenons",
+    "prennent",
+    "prendons"
+   ],
+   "answer": 1,
+   "explanation": "Avec « nous », le verbe prendre devient : nous prenons.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0042",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Demain, ils ___ venir. (pouvoir, futur)",
+   "choices": [
+    "peuvent",
+    "pouvaient",
+    "pourront",
+    "pourraient"
+   ],
+   "answer": 2,
+   "explanation": "Au futur, le verbe pouvoir devient : ils pourront.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0043",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Vous ___ toujours la vérité. (dire, présent)",
+   "choices": [
+    "disez",
+    "disent",
+    "dises",
+    "dites"
+   ],
+   "answer": 3,
+   "explanation": "Avec « vous », le verbe dire devient : vous dites.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0044",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quand j'étais petite, je ___ toujours un chien. (vouloir, imparfait)",
+   "choices": [
+    "voulais",
+    "veux",
+    "voudrai",
+    "voulu"
+   ],
+   "answer": 0,
+   "explanation": "À l'imparfait, avec « je » : je voulais.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0045",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Autrefois, nous ___ le train. (prendre, imparfait)",
+   "choices": [
+    "prenons",
+    "prenions",
+    "prendrons",
+    "prennions"
+   ],
+   "answer": 1,
+   "explanation": "À l'imparfait, on part de « nous prenons » : nous prenions.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0046",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "À quel temps est la phrase « Nous sommes allés au zoo. » ?",
+   "choices": [
+    "à l'imparfait",
+    "au futur",
+    "au passé composé",
+    "au présent"
+   ],
+   "answer": 2,
+   "explanation": "Il y a l'auxiliaire être (sommes) et un participe passé (allés).",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0047",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Demain, ils ___ me voir. (venir, futur)",
+   "choices": [
+    "viennent",
+    "venaient",
+    "sont venus",
+    "viendront"
+   ],
+   "answer": 3,
+   "explanation": "Au futur, le verbe venir devient : ils viendront.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0048",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Le mois dernier, elles ___ en vacances. (partir, passé composé)",
+   "choices": [
+    "sont parties",
+    "ont parti",
+    "sont partis",
+    "sont partie"
+   ],
+   "answer": 0,
+   "explanation": "Partir se conjugue avec être : elles sont parties.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0049",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Si tu veux, tu ___ venir. (pouvoir, présent)",
+   "choices": [
+    "peut",
+    "peux",
+    "pouvez",
+    "pouvons"
+   ],
+   "answer": 1,
+   "explanation": "Avec « tu », le verbe pouvoir devient : tu peux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0050",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel est l'infinitif du verbe de « ils vont » ?",
+   "choices": [
+    "avoir",
+    "faire",
+    "aller",
+    "venir"
+   ],
+   "answer": 2,
+   "explanation": "« Ils vont » est une forme du verbe aller.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0051",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Hier, tu ___ un mensonge ? (dire, passé composé)",
+   "choices": [
+    "dis",
+    "disais",
+    "diras",
+    "as dit"
+   ],
+   "answer": 3,
+   "explanation": "Tu as + dit : tu as dit.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0052",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Avant, vous ___ toujours bonjour. (dire, imparfait)",
+   "choices": [
+    "disiez",
+    "dites",
+    "diriez",
+    "disez"
+   ],
+   "answer": 0,
+   "explanation": "À l'imparfait, on part de « nous disons » : vous disiez.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0053",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Demain, nous ___ une randonnée. (faire, futur)",
+   "choices": [
+    "faisons",
+    "ferons",
+    "faisions",
+    "fait"
+   ],
+   "answer": 1,
+   "explanation": "Au futur, le verbe faire devient : nous ferons.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0054",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Hier, ils ___ un taxi. (prendre, passé composé)",
+   "choices": [
+    "ont prit",
+    "ont prends",
+    "ont pris",
+    "ont prendu"
+   ],
+   "answer": 2,
+   "explanation": "Le participe passé de prendre est « pris » : ils ont pris.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0055",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quelle phrase est à l'imparfait ?",
+   "choices": [
+    "Elles chanteront.",
+    "Elles ont chanté.",
+    "Elles chantent.",
+    "Elles chantaient."
+   ],
+   "answer": 3,
+   "explanation": "« Chantaient » se termine par -aient : c'est l'imparfait.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0056",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Elle ___ (pouvoir) venir. Écris le verbe au présent.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "peut"
+   ],
+   "explanation": "Avec « elle », le verbe pouvoir devient : elle peut.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0057",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Hier, les garçons ___ (venir) à la fête. Écris le verbe au passé composé.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "sont venus"
+   ],
+   "explanation": "Venir se conjugue avec être : ils sont venus.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0058",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Hier, Paul ___ (partir) tôt. Écris le verbe au passé composé.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "est parti"
+   ],
+   "explanation": "Partir se conjugue avec être : il est parti.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0059",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Ils ___ (vouloir) du pain. Écris le verbe au présent.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "veulent"
+   ],
+   "explanation": "Avec « ils », le verbe vouloir devient : ils veulent.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0060",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Hier, elle ___ (prendre) un livre. Écris le verbe au passé composé.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "a pris"
+   ],
+   "explanation": "Elle a + pris : elle a pris un livre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0061",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Demain, je ___ (faire) un gâteau. Écris le verbe au futur.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "ferai"
+   ],
+   "explanation": "Au futur, le verbe faire devient : je ferai.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0062",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Il y a un an, tu ___ (venir) souvent. Écris le verbe à l'imparfait.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "venais"
+   ],
+   "explanation": "À l'imparfait, avec « tu » : tu venais.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0063",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Hier, nous ___ (aller) à la plage. Écris le verbe au passé composé.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "sommes allés",
+    "sommes allées"
+   ],
+   "explanation": "Aller se conjugue avec être : nous sommes allés (ou allées si ce sont des filles).",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0064",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Demain, vous ___ (pouvoir) jouer dehors. Écris le verbe au futur.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "pourrez"
+   ],
+   "explanation": "Au futur, le verbe pouvoir devient : vous pourrez.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0065",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Autrefois, ils ___ (faire) du feu. Écris le verbe à l'imparfait.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "faisaient"
+   ],
+   "explanation": "À l'imparfait, on part de « nous faisons » : ils faisaient.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0066",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "L'été prochain, elle ___ (aller) en Espagne. Écris le verbe au futur.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "ira"
+   ],
+   "explanation": "Au futur, le verbe aller devient : elle ira.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0067",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Hier, elles ___ (venir) me voir. Écris le verbe au passé composé.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "sont venues"
+   ],
+   "explanation": "Venir se conjugue avec être et on accorde : elles sont venues.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0068",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Tu ___ (venir) demain ? Écris le verbe au futur.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "viendras"
+   ],
+   "explanation": "Au futur, le verbe venir devient : tu viendras.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0069",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Hier soir, je ___ (aller) au cinéma. Écris le verbe au passé composé.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "suis allé",
+    "suis allée"
+   ],
+   "explanation": "Aller se conjugue avec être : je suis allé (ou allée).",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0070",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Quand nous étions petits, nous ___ (vouloir) tout. Écris le verbe à l'imparfait.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "voulions"
+   ],
+   "explanation": "À l'imparfait, avec « nous » : nous voulions.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0071",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans la phrase « Marie mange une pomme rouge. », quel mot est le verbe ?",
+   "choices": [
+    "Marie",
+    "pomme",
+    "rouge",
+    "mange"
+   ],
+   "answer": 3,
+   "explanation": "Le verbe dit ce que fait quelqu'un. Ici, Marie mange.",
+   "hint": "Quel mot dit l'action ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0072",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quelle phrase est bien écrite (majuscule et point) ?",
+   "choices": [
+    "Le chien joue dans le jardin.",
+    "le chien joue dans le jardin.",
+    "Le chien joue dans le jardin",
+    "le Chien joue dans le jardin."
+   ],
+   "answer": 0,
+   "explanation": "Une phrase commence par une majuscule et se termine par un point.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0073",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans « La maison est grande. », quel mot est un déterminant ?",
+   "choices": [
+    "maison",
+    "La",
+    "est",
+    "grande"
+   ],
+   "answer": 1,
+   "explanation": "Le déterminant se place devant le nom : la maison.",
+   "hint": "Quel petit mot accompagne le nom ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0074",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans « Le petit garçon rit. », quel mot est un adjectif ?",
+   "choices": [
+    "garçon",
+    "rit",
+    "petit",
+    "Le"
+   ],
+   "answer": 2,
+   "explanation": "L'adjectif dit comment est le garçon : il est petit.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0075",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quelle phrase est une question ?",
+   "choices": [
+    "Je vais à l'école.",
+    "Il pleut.",
+    "Viens ici.",
+    "Où vas-tu ?"
+   ],
+   "answer": 3,
+   "explanation": "Une question se termine par un point d'interrogation et on attend une réponse.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0076",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans « Les enfants courent. », quel est le sujet du verbe ?",
+   "choices": [
+    "Les enfants",
+    "courent",
+    "Les",
+    "enfants courent"
+   ],
+   "answer": 0,
+   "explanation": "Pour trouver le sujet, on demande : qui est-ce qui court ? Ce sont les enfants.",
+   "hint": "Qui est-ce qui court ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0077",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans la liste « pommes, poires, bananes », quel signe sépare les mots ?",
+   "choices": [
+    "le point",
+    "la virgule",
+    "le point d'interrogation",
+    "les guillemets"
+   ],
+   "answer": 1,
+   "explanation": "La virgule sépare les mots d'une liste.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0078",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Dans « Ma sœur lit un livre rouge. », quel mot est un adjectif ?",
+   "choices": [
+    "Ma",
+    "lit",
+    "rouge",
+    "livre"
+   ],
+   "answer": 2,
+   "explanation": "« Rouge » dit comment est le livre : c'est un adjectif.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0079",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Dans « Elle chante une chanson. », quel mot est un pronom ?",
+   "choices": [
+    "chante",
+    "une",
+    "chanson",
+    "Elle"
+   ],
+   "answer": 3,
+   "explanation": "Le pronom « elle » remplace un nom (par exemple Julie).",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0080",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel groupe de mots est au pluriel ?",
+   "choices": [
+    "les fleurs",
+    "la fleur",
+    "une fleur",
+    "ma fleur"
+   ],
+   "answer": 0,
+   "explanation": "« Les fleurs » parle de plusieurs fleurs : c'est le pluriel.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0081",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quelle phrase est une phrase négative ?",
+   "choices": [
+    "Je mange de la soupe.",
+    "Je ne mange pas de soupe.",
+    "Manges-tu de la soupe ?",
+    "Mange ta soupe !"
+   ],
+   "answer": 1,
+   "explanation": "La phrase négative contient « ne ... pas » autour du verbe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0082",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Dans « Nous jouons au ballon. », quel est le verbe ?",
+   "choices": [
+    "Nous",
+    "ballon",
+    "jouons",
+    "au"
+   ],
+   "answer": 2,
+   "explanation": "« Jouons » dit l'action : c'est le verbe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0083",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel mot est un nom propre ?",
+   "choices": [
+    "ville",
+    "jolie",
+    "marcher",
+    "Paris"
+   ],
+   "answer": 3,
+   "explanation": "Un nom propre désigne un lieu ou une personne précise et prend une majuscule.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0084",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Dans « Le livre est sur la table. », quelle est la nature du mot « sur » ?",
+   "choices": [
+    "une préposition",
+    "un nom",
+    "un verbe",
+    "un adjectif"
+   ],
+   "answer": 0,
+   "explanation": "« Sur » est un petit mot invariable qui relie « le livre » et « la table » : c'est une préposition.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0085",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans « Hier, Léo a mangé une pomme au jardin. », quel groupe de mots indique le moment ?",
+   "choices": [
+    "au jardin",
+    "Hier",
+    "une pomme",
+    "Léo"
+   ],
+   "answer": 1,
+   "explanation": "« Hier » répond à la question « quand ? ».",
+   "hint": "Quand ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0086",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans « Le petit chien de ma voisine aboie. », quel est le groupe sujet ?",
+   "choices": [
+    "Le petit chien",
+    "ma voisine",
+    "Le petit chien de ma voisine",
+    "aboie"
+   ],
+   "answer": 2,
+   "explanation": "On demande : qui est-ce qui aboie ? Le petit chien de ma voisine.",
+   "hint": "Qui est-ce qui aboie ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0087",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quelle phrase négative est bien écrite ?",
+   "choices": [
+    "Il aime pas les carottes.",
+    "Il n'aime les carottes pas.",
+    "Il ne aime pas les carottes.",
+    "Il n'aime pas les carottes."
+   ],
+   "answer": 3,
+   "explanation": "Devant une voyelle, « ne » devient « n' » et la négation entoure le verbe : n'aime pas.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0088",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans « Un chevalier courageux arrive. », quelle est la nature du mot « courageux » ?",
+   "choices": [
+    "un adjectif",
+    "un nom",
+    "un verbe",
+    "un déterminant"
+   ],
+   "answer": 0,
+   "explanation": "« Courageux » dit comment est le chevalier : c'est un adjectif.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0089",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel pronom peut remplacer « Julie et sa sœur » ?",
+   "choices": [
+    "Elle",
+    "Elles",
+    "Ils",
+    "Nous"
+   ],
+   "answer": 1,
+   "explanation": "Ce sont deux filles : on dit « elles ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0090",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans quelle phrase y a-t-il un verbe à l'infinitif ?",
+   "choices": [
+    "Les enfants chantent.",
+    "Les enfants ont chanté.",
+    "Les enfants aiment chanter.",
+    "Les enfants chantaient."
+   ],
+   "answer": 2,
+   "explanation": "« Chanter » se termine par -er et ne change pas : c'est l'infinitif.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0091",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel signe faut-il à la fin de la phrase : « Comment t'appelles-tu__ » ?",
+   "choices": [
+    "!",
+    ".",
+    ",",
+    "?"
+   ],
+   "answer": 3,
+   "explanation": "C'est une question : on met un point d'interrogation.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0092",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans « Les élèves écoutent la maîtresse. », quel groupe répond à la question « les élèves écoutent qui ? » ?",
+   "choices": [
+    "la maîtresse",
+    "Les élèves",
+    "écoutent",
+    "Les élèves écoutent"
+   ],
+   "answer": 0,
+   "explanation": "Les élèves écoutent la maîtresse : c'est le complément du verbe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0093",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans « Le lion dort calmement. », quel mot est un adverbe ?",
+   "choices": [
+    "lion",
+    "calmement",
+    "dort",
+    "Le"
+   ],
+   "answer": 1,
+   "explanation": "L'adverbe précise le verbe : on dort comment ? calmement.",
+   "hint": "Dort comment ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0094",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans « Mes amis jouent dans la cour. », que nous indique « dans la cour » ?",
+   "choices": [
+    "le temps",
+    "la manière",
+    "le lieu",
+    "la cause"
+   ],
+   "answer": 2,
+   "explanation": "« Dans la cour » répond à la question « où ? ».",
+   "hint": "Où ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0095",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quelle phrase interrogative est bien écrite ?",
+   "choices": [
+    "Où habites tu ?",
+    "Habites où-tu ?",
+    "Où tu habites-tu ?",
+    "Où habites-tu ?"
+   ],
+   "answer": 3,
+   "explanation": "Quand on inverse le verbe et le pronom, on les relie par un trait d'union.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0096",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans quelle phrase y a-t-il un adjectif ?",
+   "choices": [
+    "Une grosse voiture passe.",
+    "Une voiture passe.",
+    "Elle passe.",
+    "Il passe vite."
+   ],
+   "answer": 0,
+   "explanation": "« Grosse » dit comment est la voiture : c'est un adjectif.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0097",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien y a-t-il de verbes conjugués dans « Léa chante et danse. » ?",
+   "choices": [
+    "1",
+    "2",
+    "3",
+    "0"
+   ],
+   "answer": 1,
+   "explanation": "Léa chante et Léa danse : deux verbes, chante et danse.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0098",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans « mes crayons », quelle est la nature du mot « mes » ?",
+   "choices": [
+    "un pronom",
+    "un nom",
+    "un déterminant",
+    "un verbe"
+   ],
+   "answer": 2,
+   "explanation": "« Mes » se place devant le nom et l'accompagne : c'est un déterminant.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0099",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans « Paul offre un livre à sa sœur. », quel groupe est introduit par la préposition « à » ?",
+   "choices": [
+    "un livre",
+    "Paul",
+    "offre",
+    "à sa sœur"
+   ],
+   "answer": 3,
+   "explanation": "« À sa sœur » commence par la préposition « à ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0100",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans « un énorme gâteau au chocolat », quel est le nom principal ?",
+   "choices": [
+    "gâteau",
+    "énorme",
+    "chocolat",
+    "un"
+   ],
+   "answer": 0,
+   "explanation": "Le nom principal est « gâteau » : c'est de lui qu'on parle.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0101",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans « Il n'y a plus de pain. », quels mots forment la négation ?",
+   "choices": [
+    "Il ... y",
+    "n' ... plus",
+    "y ... a",
+    "de ... pain"
+   ],
+   "answer": 1,
+   "explanation": "La négation entoure le verbe : n'y a plus.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0102",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans « Hier soir, nous avons regardé un film au cinéma. », combien y a-t-il de groupes qui disent quand ou où ?",
+   "choices": [
+    "1",
+    "3",
+    "2",
+    "0"
+   ],
+   "answer": 2,
+   "explanation": "« Hier soir » dit quand et « au cinéma » dit où : deux groupes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0103",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans « Julie a un chien et un chat. », quel mot relie deux groupes de mots ?",
+   "choices": [
+    "un",
+    "a",
+    "chien",
+    "et"
+   ],
+   "answer": 3,
+   "explanation": "« Et » est un mot de liaison : il relie « un chien » et « un chat ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0104",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans « Dans la cour jouent les enfants. », quel est le sujet ?",
+   "choices": [
+    "les enfants",
+    "la cour",
+    "jouent",
+    "Dans la cour"
+   ],
+   "answer": 0,
+   "explanation": "Qui est-ce qui joue ? Les enfants. Le sujet est ici placé après le verbe.",
+   "hint": "Qui est-ce qui joue ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0105",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle phrase est une phrase exclamative ?",
+   "choices": [
+    "Quelle heure est-il ?",
+    "Quelle belle surprise !",
+    "Il est huit heures.",
+    "Viens vite."
+   ],
+   "answer": 1,
+   "explanation": "Elle exprime la surprise et se termine par un point d'exclamation.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0106",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel groupe nominal est bien accordé ?",
+   "choices": [
+    "les grandes fleur blanches",
+    "les grande fleurs blanches",
+    "les grandes fleurs blanches",
+    "les grandes fleurs blanche"
+   ],
+   "answer": 2,
+   "explanation": "Le nom « fleurs » est au pluriel : le déterminant et les adjectifs s'accordent aussi.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0107",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Le chien et le chat ___ dans le panier.",
+   "choices": [
+    "dort",
+    "dors",
+    "dormons",
+    "dorment"
+   ],
+   "answer": 3,
+   "explanation": "Il y a deux sujets (le chien et le chat) : le verbe est au pluriel, ils dorment.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0108",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Les filles sont ___ au parc.",
+   "choices": [
+    "allées",
+    "allé",
+    "allés",
+    "allée"
+   ],
+   "answer": 0,
+   "explanation": "Avec être, le participe passé s'accorde avec le sujet : les filles, donc féminin pluriel.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0109",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans « Elle chante joliment. », quelle est la nature du mot « joliment » ?",
+   "choices": [
+    "un adjectif",
+    "un adverbe",
+    "un nom",
+    "un verbe"
+   ],
+   "answer": 1,
+   "explanation": "« Joliment » précise le verbe chanter et ne change jamais : c'est un adverbe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0110",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans « Le gâteau est délicieux. », quel mot donne une qualité du gâteau ?",
+   "choices": [
+    "est",
+    "gâteau",
+    "délicieux",
+    "Le"
+   ],
+   "answer": 2,
+   "explanation": "« Délicieux » dit comment est le gâteau : c'est un adjectif.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0111",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans « la voiture de mon père », « de mon père » précise quel nom ?",
+   "choices": [
+    "père",
+    "mon",
+    "la",
+    "voiture"
+   ],
+   "answer": 3,
+   "explanation": "« De mon père » dit à qui est la voiture : il complète le nom « voiture ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0112",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle est la phrase « Tu viens avec nous. » à la forme négative ?",
+   "choices": [
+    "Tu ne viens pas avec nous.",
+    "Tu ne viens avec nous pas.",
+    "Tu viens ne pas avec nous.",
+    "Tu pas viens avec nous."
+   ],
+   "answer": 0,
+   "explanation": "La négation « ne ... pas » entoure le verbe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0113",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Mes sœurs sont ___ en retard.",
+   "choices": [
+    "arrivé",
+    "arrivées",
+    "arrivés",
+    "arrivée"
+   ],
+   "answer": 1,
+   "explanation": "Avec être, on accorde avec le sujet : mes sœurs, féminin pluriel.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0114",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Les chats de ma voisine ___ sur le muret.",
+   "choices": [
+    "dort",
+    "dors",
+    "dorment",
+    "dormez"
+   ],
+   "answer": 2,
+   "explanation": "Le sujet est « les chats » (pas « ma voisine ») : le verbe est au pluriel.",
+   "hint": "Qui est-ce qui dort ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0115",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Comment écrit-on « Un petit chien blanc » au féminin ?",
+   "choices": [
+    "Une petit chienne blanc",
+    "Une petite chien blanche",
+    "Une petite chienne blanc",
+    "Une petite chienne blanche"
+   ],
+   "answer": 3,
+   "explanation": "Tout s'accorde au féminin : une, petite, chienne, blanche.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0116",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Ces fleurs sont très ___.",
+   "choices": [
+    "jolies",
+    "joli",
+    "jolie",
+    "jolis"
+   ],
+   "answer": 0,
+   "explanation": "« Fleurs » est féminin pluriel : l'adjectif s'accorde, jolies.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0117",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Pierre et moi, ___ allons au cinéma.",
+   "choices": [
+    "ils",
+    "nous",
+    "vous",
+    "elles"
+   ],
+   "answer": 1,
+   "explanation": "Pierre et moi = plusieurs personnes dont moi : on dit « nous allons ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0118",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quelle phrase est bien ponctuée ?",
+   "choices": [
+    "Demain nous, irons à la mer.",
+    "Demain nous irons, à la mer.",
+    "Demain, nous irons à la mer.",
+    "Demain nous irons à la mer,"
+   ],
+   "answer": 2,
+   "explanation": "La virgule se met après « Demain », qui dit quand.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0119",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Il prend son parapluie ___ il pleut.",
+   "choices": [
+    "mais",
+    "ou",
+    "puis",
+    "car"
+   ],
+   "answer": 3,
+   "explanation": "« Car » donne la raison : il pleut, donc il prend son parapluie.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0120",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Les enfants ont ___ leurs devoirs.",
+   "choices": [
+    "fini",
+    "finis",
+    "finie",
+    "finies"
+   ],
+   "answer": 0,
+   "explanation": "Avec avoir, le participe passé ne s'accorde pas avec le sujet.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0121",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Dans « Léa regarde ses amis. », quel groupe répond à « Léa regarde qui ? » ?",
+   "choices": [
+    "Léa",
+    "ses amis",
+    "regarde",
+    "Léa regarde"
+   ],
+   "answer": 1,
+   "explanation": "Léa regarde qui ? Ses amis : c'est le complément du verbe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0122",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Dans quelle phrase y a-t-il un complément qui dit comment on fait l'action ?",
+   "choices": [
+    "Elle parle à sa mère.",
+    "Elle parle demain.",
+    "Elle parle doucement.",
+    "Elle parle ici."
+   ],
+   "answer": 2,
+   "explanation": "« Doucement » répond à « comment ? ». Les autres répondent à « à qui ? », « quand ? » et « où ? ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0123",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Dans « Nous voulons partir demain. », quel est le verbe à l'infinitif ?",
+   "choices": [
+    "voulons",
+    "demain",
+    "Nous",
+    "partir"
+   ],
+   "answer": 3,
+   "explanation": "« Partir » ne change pas : c'est l'infinitif. « Voulons » est conjugué.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0124",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Mon frère et ma sœur ___ sages.",
+   "choices": [
+    "sont",
+    "est",
+    "es",
+    "êtes"
+   ],
+   "answer": 0,
+   "explanation": "Deux sujets : on utilise le pluriel, ils sont.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0125",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Dans « Les enfants prennent leur vélo. », quelle est la nature du mot « leur » ?",
+   "choices": [
+    "un pronom",
+    "un déterminant",
+    "un verbe",
+    "un adverbe"
+   ],
+   "answer": 1,
+   "explanation": "« Leur » est devant le nom « vélo » et l'accompagne : c'est un déterminant.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0126",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Comment transforme-t-on « Tu aimes les fraises. » en question avec inversion ?",
+   "choices": [
+    "Aimes tu les fraises ?",
+    "Tu aimes-tu les fraises ?",
+    "Aimes-tu les fraises ?",
+    "Les fraises aimes-tu ?"
+   ],
+   "answer": 2,
+   "explanation": "On inverse le verbe et le pronom et on met un trait d'union.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0127",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Ma mère est ___ ce matin.",
+   "choices": [
+    "parti",
+    "partis",
+    "parties",
+    "partie"
+   ],
+   "answer": 3,
+   "explanation": "Avec être, on accorde avec le sujet « ma mère » : féminin singulier.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0128",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Dans ce jardin ___ de belles roses.",
+   "choices": [
+    "poussent",
+    "pousse",
+    "pousses",
+    "poussez"
+   ],
+   "answer": 0,
+   "explanation": "Le sujet est « de belles roses », placé après le verbe : le verbe est au pluriel.",
+   "hint": "Qu'est-ce qui pousse ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0129",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Dans quelle phrase y a-t-il un complément du nom ?",
+   "choices": [
+    "Marie court vite.",
+    "Le chien de Marie court.",
+    "Le chien dort ici.",
+    "Il court dans le parc."
+   ],
+   "answer": 1,
+   "explanation": "« De Marie » complète le nom « chien » : c'est un complément du nom.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0130",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quelle phrase contient deux verbes conjugués ?",
+   "choices": [
+    "Je mange une pomme.",
+    "Une pomme rouge.",
+    "Je mange quand j'ai faim.",
+    "Mange ta pomme !"
+   ],
+   "answer": 2,
+   "explanation": "Dans la première phrase : je mange et j'ai.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0131",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel pronom remplace « Marie et Paul » ?",
+   "choices": [
+    "elles",
+    "nous",
+    "vous",
+    "ils"
+   ],
+   "answer": 3,
+   "explanation": "Avec des garçons et des filles ensemble, on emploie « ils ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0132",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel mot est invariable (il ne change jamais) ?",
+   "choices": [
+    "souvent",
+    "petit",
+    "chanteur",
+    "heureux"
+   ],
+   "answer": 0,
+   "explanation": "« Souvent » est un adverbe : il ne prend ni féminin ni pluriel.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0133",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quelle phrase est à l'impératif ?",
+   "choices": [
+    "Tu ranges ta chambre.",
+    "Range ta chambre !",
+    "Ranges-tu ta chambre ?",
+    "Tu as rangé ta chambre."
+   ],
+   "answer": 1,
+   "explanation": "L'impératif donne un ordre, sans pronom sujet.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0134",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Les garçons sont ___ à la maison.",
+   "choices": [
+    "rentré",
+    "rentrée",
+    "rentrés",
+    "rentrées"
+   ],
+   "answer": 2,
+   "explanation": "Avec être, on accorde avec « les garçons » : masculin pluriel.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0135",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quelle phrase est correctement accordée ?",
+   "choices": [
+    "Mes deux petite sœurs sont gentilles.",
+    "Mes deux petites sœurs sont gentil.",
+    "Mes deux petites sœur sont gentilles.",
+    "Mes deux petites sœurs sont gentilles."
+   ],
+   "answer": 3,
+   "explanation": "Tout s'accorde avec « sœurs » : féminin pluriel.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0136",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Dans « Le soir, les chauves-souris volent dans la grotte. », quel groupe dit où ?",
+   "choices": [
+    "dans la grotte",
+    "Le soir",
+    "les chauves-souris",
+    "volent"
+   ],
+   "answer": 0,
+   "explanation": "« Dans la grotte » répond à la question « où ? ».",
+   "hint": "Où ?",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0137",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Dans « Le chien aboie. Il fait peur au facteur. », que remplace le mot « Il » ?",
+   "choices": [
+    "le facteur",
+    "Le chien",
+    "aboie",
+    "peur"
+   ],
+   "answer": 1,
+   "explanation": "« Il » reprend « Le chien » pour éviter de le répéter.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0138",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Dans « Mon frère mange beaucoup de pain. », quel mot est un adverbe ?",
+   "choices": [
+    "frère",
+    "mange",
+    "beaucoup",
+    "pain"
+   ],
+   "answer": 2,
+   "explanation": "« Beaucoup » dit la quantité et ne change jamais : c'est un adverbe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0139",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quelle phrase est négative ?",
+   "choices": [
+    "Elle a tout dit.",
+    "Elle a bien dit.",
+    "Elle a déjà dit.",
+    "Elle n'a rien dit."
+   ],
+   "answer": 3,
+   "explanation": "« N' ... rien » est une négation.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0140",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Il a beaucoup couru, ___ il est fatigué.",
+   "choices": [
+    "donc",
+    "mais",
+    "ou",
+    "car"
+   ],
+   "answer": 0,
+   "explanation": "« Donc » donne la conséquence : il a couru, alors il est fatigué.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0141",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Complète : Léo ___ un ballon.",
+   "choices": [
+    "à",
+    "a",
+    "as",
+    "ha"
+   ],
+   "answer": 1,
+   "explanation": "« Léo a un ballon » : on peut dire « Léo avait un ballon », donc on écrit « a » sans accent.",
+   "hint": "Essaie de remplacer par « avait ».",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0142",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Complète : Je vais ___ l'école.",
+   "choices": [
+    "a",
+    "as",
+    "à",
+    "ah"
+   ],
+   "answer": 2,
+   "explanation": "On ne peut pas dire « je vais avait l'école » : on écrit « à » avec un accent.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0143",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quelle phrase est bien écrite ?",
+   "choices": [
+    "Il et grand est fort.",
+    "Il est grand est fort.",
+    "Il et grand et fort.",
+    "Il est grand et fort."
+   ],
+   "answer": 3,
+   "explanation": "« Est » est le verbe être (il était). « Et » relie deux mots.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0144",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel est le pluriel de « un chat » ?",
+   "choices": [
+    "des chats",
+    "des chat",
+    "des chates",
+    "des chatx"
+   ],
+   "answer": 0,
+   "explanation": "Au pluriel, on ajoute en général un -s : des chats.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0145",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel mot est bien écrit ?",
+   "choices": [
+    "maizon",
+    "maison",
+    "meison",
+    "maisson"
+   ],
+   "answer": 1,
+   "explanation": "Le son [z] s'écrit avec un seul s entre deux voyelles : mai-son.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0146",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Complète : Marie ___ Paul jouent.",
+   "choices": [
+    "est",
+    "es",
+    "et",
+    "ait"
+   ],
+   "answer": 2,
+   "explanation": "« Et » relie deux mots. On ne peut pas dire « Marie était Paul jouent ».",
+   "hint": "Essaie de remplacer par « était ».",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0147",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Complète : Le ciel ___ bleu.",
+   "choices": [
+    "et",
+    "es",
+    "ai",
+    "est"
+   ],
+   "answer": 3,
+   "explanation": "On peut dire « Le ciel était bleu » : on écrit « est ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0148",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel est le féminin de « un ami » ?",
+   "choices": [
+    "une amie",
+    "une amis",
+    "une ami",
+    "un amie"
+   ],
+   "answer": 0,
+   "explanation": "Au féminin, on ajoute un -e : une amie.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0149",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel mot est bien écrit ?",
+   "choices": [
+    "garson",
+    "garçon",
+    "garcon",
+    "garçhon"
+   ],
+   "answer": 1,
+   "explanation": "Devant la lettre o, le c prend une cédille pour faire le son [s] : garçon.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0150",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Comment écrit-on le mot : un « élève » ?",
+   "choices": [
+    "éleve",
+    "elève",
+    "élève",
+    "élêve"
+   ],
+   "answer": 2,
+   "explanation": "Il y a un accent aigu sur le premier e et un accent grave sur le deuxième.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0151",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Complète : Ils ___ contents.",
+   "choices": [
+    "son",
+    "sons",
+    "sone",
+    "sont"
+   ],
+   "answer": 3,
+   "explanation": "On peut dire « ils étaient contents » : on écrit « sont ».",
+   "hint": "Essaie de remplacer par « étaient ».",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0152",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Complète : Paul prend ___ vélo (le vélo de Paul).",
+   "choices": [
+    "son",
+    "sont",
+    "sons",
+    "sot"
+   ],
+   "answer": 0,
+   "explanation": "« Son vélo » veut dire « le vélo à lui ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0153",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel est le pluriel de « un bateau » ?",
+   "choices": [
+    "des bateaus",
+    "des bateaux",
+    "des bateau",
+    "des batos"
+   ],
+   "answer": 1,
+   "explanation": "Les mots en -eau prennent un x au pluriel : des bateaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0154",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel est le féminin de « un chat » ?",
+   "choices": [
+    "une chate",
+    "une chat",
+    "une chatte",
+    "un chatte"
+   ],
+   "answer": 2,
+   "explanation": "Le féminin de chat est chatte, avec deux t.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0155",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Complète : Il ___ lave les mains.",
+   "choices": [
+    "ce",
+    "ces",
+    "ses",
+    "se"
+   ],
+   "answer": 3,
+   "explanation": "« Se » accompagne un verbe : se laver. On peut dire « elle se lave ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0156",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Complète : ___ matin, il pleut.",
+   "choices": [
+    "Ce",
+    "Se",
+    "Ces",
+    "Ses"
+   ],
+   "answer": 0,
+   "explanation": "« Ce matin » : on peut dire « cet après-midi », « ce » montre quelque chose.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0157",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel est le pluriel de « un cheval » ?",
+   "choices": [
+    "des chevals",
+    "des chevaux",
+    "des chevaus",
+    "des cheveaux"
+   ],
+   "answer": 1,
+   "explanation": "Les mots en -al font leur pluriel en -aux : des chevaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0158",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Complète : Je voulais jouer, ___ il pleuvait.",
+   "choices": [
+    "mes",
+    "mets",
+    "mais",
+    "mai"
+   ],
+   "answer": 2,
+   "explanation": "« Mais » montre une opposition. On peut le remplacer par « pourtant ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0159",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Complète : Regarde ___ oiseaux là-bas ! (je les montre du doigt)",
+   "choices": [
+    "ses",
+    "c'est",
+    "s'est",
+    "ces"
+   ],
+   "answer": 3,
+   "explanation": "« Ces oiseaux » montre des oiseaux qu'on désigne : on peut dire « ces oiseaux-là ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0160",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Complète : Léa ___ lavé les mains.",
+   "choices": [
+    "s'est",
+    "c'est",
+    "ces",
+    "ses"
+   ],
+   "answer": 0,
+   "explanation": "« S'est » vient de « se laver » : elle s'est lavé les mains.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0161",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le féminin de « sportif » ?",
+   "choices": [
+    "sportife",
+    "sportive",
+    "sportif",
+    "sportiv"
+   ],
+   "answer": 1,
+   "explanation": "Les mots en -if font -ive au féminin : sportive.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0162",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le pluriel de « un animal » ?",
+   "choices": [
+    "des animals",
+    "des animales",
+    "des animaux",
+    "des animauxs"
+   ],
+   "answer": 2,
+   "explanation": "Les mots en -al font leur pluriel en -aux : des animaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0163",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 1,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un livre",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des livres"
+   ],
+   "explanation": "On ajoute un -s : des livres.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0164",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 1,
+   "type": "saisie",
+   "prompt": "Complète avec a ou à : Il ___ faim.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "a"
+   ],
+   "explanation": "On peut dire « il avait faim » : on écrit « a » sans accent.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0165",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 2,
+   "type": "saisie",
+   "prompt": "Complète avec et ou est : Papa ___ maman sont là.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "et"
+   ],
+   "explanation": "« Et » relie « papa » et « maman ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0166",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 2,
+   "type": "saisie",
+   "prompt": "Complète avec on ou ont : Ils ___ un vélo.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "ont"
+   ],
+   "explanation": "On peut dire « ils avaient un vélo » : on écrit « ont ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0167",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un gâteau",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des gâteaux"
+   ],
+   "explanation": "Les mots en -eau prennent un x : des gâteaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0168",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "Complète avec son ou sont : Les enfants ___ à l'école.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "sont"
+   ],
+   "explanation": "On peut dire « les enfants étaient à l'école » : on écrit « sont ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0169",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "Écris au féminin avec « une » : un voisin",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "une voisine"
+   ],
+   "explanation": "On ajoute un -e : une voisine.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0170",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un journal",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des journaux"
+   ],
+   "explanation": "Les mots en -al font -aux : des journaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0171",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Complète avec mes ou mais : Je range ___ jouets (les jouets à moi).",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "mes"
+   ],
+   "explanation": "« Mes » va avec « mon, ma » : mes jouets.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0172",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un jeu",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des jeux"
+   ],
+   "explanation": "Les mots en -eu prennent un x : des jeux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0173",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un tuyau",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des tuyaux"
+   ],
+   "explanation": "Les mots en -au prennent un x : des tuyaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0174",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Écris au féminin : actif",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "active"
+   ],
+   "explanation": "Les mots en -if font -ive : active.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0175",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Complète avec c'est ou s'est : Voilà Paul, ___ mon frère.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "c'est"
+   ],
+   "explanation": "On peut dire « cela est mon frère » : on écrit « c'est ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0176",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Complète : Elle a mal ___ la tête.",
+   "choices": [
+    "à",
+    "a",
+    "as",
+    "ah"
+   ],
+   "answer": 0,
+   "explanation": "« À la tête » : on ne peut pas dire « avait la tête » : on écrit « à ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0177",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle phrase est bien écrite ?",
+   "choices": [
+    "Ils on de la chance, ont est contents.",
+    "Ils ont de la chance, on est contents.",
+    "Ils ont de la chance, ont est contents.",
+    "Ils on de la chance, on est contents."
+   ],
+   "answer": 1,
+   "explanation": "« Ils ont » = ils avaient. « On est » = nous sommes, on peut dire « il est ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0178",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel est le pluriel de « un neveu » ?",
+   "choices": [
+    "des neveus",
+    "des neveu",
+    "des neveux",
+    "des neveuxs"
+   ],
+   "answer": 2,
+   "explanation": "Les mots en -eu prennent en général un x au pluriel : des neveux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0179",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel est le féminin de « un coiffeur » ?",
+   "choices": [
+    "une coiffeure",
+    "une coiffrice",
+    "une coiffère",
+    "une coiffeuse"
+   ],
+   "answer": 3,
+   "explanation": "Les mots en -eur font souvent -euse au féminin : coiffeuse.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0180",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel mot est bien écrit ?",
+   "choices": [
+    "ordinateur",
+    "ordinatteur",
+    "ordinnateur",
+    "hordinateur"
+   ],
+   "answer": 0,
+   "explanation": "Il n'y a pas de double consonne et pas de h au début : ordinateur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0181",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel mot est bien écrit ?",
+   "choices": [
+    "beacoup",
+    "beaucoup",
+    "beaucou",
+    "beaucoups"
+   ],
+   "answer": 1,
+   "explanation": "Le mot « beaucoup » finit par un p et ne prend jamais de s.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0182",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel mot est bien écrit ?",
+   "choices": [
+    "fenètre",
+    "fênetre",
+    "fenêtre",
+    "fenaitre"
+   ],
+   "answer": 2,
+   "explanation": "L'accent circonflexe est sur le deuxième e : fenêtre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0183",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel est le pluriel de « un oiseau » ?",
+   "choices": [
+    "des oiseaus",
+    "des oiseau",
+    "des oiseauxs",
+    "des oiseaux"
+   ],
+   "answer": 3,
+   "explanation": "Les mots en -eau prennent un x au pluriel : des oiseaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0184",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "___ chaussures-ci sont à moi.",
+   "choices": [
+    "Ces",
+    "Ses",
+    "C'est",
+    "S'est"
+   ],
+   "answer": 0,
+   "explanation": "On montre des chaussures : « ces chaussures-ci ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0185",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Complète : Il ___ levé tôt.",
+   "choices": [
+    "c'est",
+    "s'est",
+    "ses",
+    "ces"
+   ],
+   "answer": 1,
+   "explanation": "« S'est levé » vient de « se lever » : il s'est levé.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0186",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel est le féminin de « un boulanger » ?",
+   "choices": [
+    "une boulangeuse",
+    "une boulangerre",
+    "une boulangère",
+    "une boulangre"
+   ],
+   "answer": 2,
+   "explanation": "Les mots en -er font -ère au féminin : boulangère.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0187",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel est le pluriel de « un bocal » ?",
+   "choices": [
+    "des bocals",
+    "des bocalx",
+    "des bocauls",
+    "des bocaux"
+   ],
+   "answer": 3,
+   "explanation": "Les mots en -al font leur pluriel en -aux : des bocaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0188",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quelle phrase est bien écrite ?",
+   "choices": [
+    "Mes amis sont partis et ils ont laissé leurs affaires.",
+    "Mes amis sont partis et ils on laissé leur affaires.",
+    "Mes amis son partis et ils ont laissé leurs affaires.",
+    "Mes amis sont partis et il ont laissé leurs affaires."
+   ],
+   "answer": 0,
+   "explanation": "Il y a plusieurs affaires : « leurs ». « Ils ont » avec un t. « Ils » parce que plusieurs amis.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0189",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Complète : Voici ___ amis, ils sont gentils.",
+   "choices": [
+    "mais",
+    "mes",
+    "mets",
+    "mai"
+   ],
+   "answer": 1,
+   "explanation": "« Mes amis » : les amis à moi. On peut dire « mon ami, mes amis ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0190",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Comment écrit-on le son [f] dans le mot « photo » ?",
+   "choices": [
+    "f",
+    "ff",
+    "ph",
+    "fh"
+   ],
+   "answer": 2,
+   "explanation": "Dans photo, le son [f] s'écrit « ph ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0191",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel est le pluriel de « un détail » ?",
+   "choices": [
+    "des détaux",
+    "des détailx",
+    "des détailles",
+    "des détails"
+   ],
+   "answer": 3,
+   "explanation": "Détail prend simplement un -s au pluriel : des détails.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0192",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quelle phrase est bien écrite ?",
+   "choices": [
+    "Mon frère a mal à la tête et il est fatigué.",
+    "Mon frère à mal à la tête et il est fatigué.",
+    "Mon frère a mal a la tête et il est fatigué.",
+    "Mon frère a mal à la tête et il et fatigué."
+   ],
+   "answer": 0,
+   "explanation": "« Mon frère a » (avait), « mal à la tête », « il est » (il était).",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0193",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel mot est bien écrit ?",
+   "choices": [
+    "généralment",
+    "généralement",
+    "génèralement",
+    "généralemant"
+   ],
+   "answer": 1,
+   "explanation": "Le mot s'écrit avec -ement à la fin : généralement.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0194",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel mot est bien écrit ?",
+   "choices": [
+    "hopital",
+    "hôpittal",
+    "hôpital",
+    "ôpital"
+   ],
+   "answer": 2,
+   "explanation": "On écrit un h muet au début et un accent circonflexe sur le o : hôpital.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0195",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel est le pluriel de « un bijou » ?",
+   "choices": [
+    "des bijous",
+    "des bijouxs",
+    "des bijoues",
+    "des bijoux"
+   ],
+   "answer": 3,
+   "explanation": "Bijou est une exception : on met un x au pluriel.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0196",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un chapeau",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des chapeaux"
+   ],
+   "explanation": "Les mots en -eau prennent un x : des chapeaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0197",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Complète avec se ou ce : Il ___ souvient de nous.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "se"
+   ],
+   "explanation": "« Se souvenir » est un verbe : il se souvient.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0198",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un hôpital",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des hôpitaux"
+   ],
+   "explanation": "Les mots en -al font -aux : des hôpitaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0199",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Écris au féminin avec « une » : un chien",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "une chienne"
+   ],
+   "explanation": "Le féminin de chien est chienne, avec deux n.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0200",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Complète avec a ou à : Il offre un cadeau ___ sa sœur.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "à"
+   ],
+   "explanation": "On ne peut pas dire « avait sa sœur » : on écrit « à ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0201",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un tableau",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des tableaux"
+   ],
+   "explanation": "Les mots en -eau prennent un x : des tableaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0202",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Écris au féminin avec « une » : un cuisinier",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "une cuisinière"
+   ],
+   "explanation": "Les mots en -ier font -ière : cuisinière.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0203",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un cheveu",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des cheveux"
+   ],
+   "explanation": "Les mots en -eu prennent un x : des cheveux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0204",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Complète avec leur ou leurs : Les enfants lavent ___ mains.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "leurs"
+   ],
+   "explanation": "Il y a plusieurs mains : on écrit « leurs » avec un s.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0205",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Écris au féminin avec « une » : un lion",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "une lionne"
+   ],
+   "explanation": "Le féminin de lion est lionne, avec deux n.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0206",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Complète avec s'est ou c'est : Il ___ perdu dans la forêt.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "s'est"
+   ],
+   "explanation": "« Il s'est perdu » vient de « se perdre ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0207",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un métal",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des métaux"
+   ],
+   "explanation": "Les mots en -al font -aux : des métaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0208",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Écris au pluriel avec « des » : un signal",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "des signaux"
+   ],
+   "explanation": "Les mots en -al font -aux : des signaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0209",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Écris au féminin avec « une » : un acteur",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "une actrice"
+   ],
+   "explanation": "Acteur devient actrice au féminin.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0210",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Complète avec ces ou ses : Voici Julie avec ___ parents (les parents de Julie).",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "ses"
+   ],
+   "explanation": "« Ses parents » : les parents à elle.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0211",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "De quelle couleur est le chat de Lina ?",
+   "choices": [
+    "gris",
+    "noir",
+    "blanc",
+    "roux"
+   ],
+   "answer": 0,
+   "explanation": "Le texte dit : « un petit chat gris ».",
+   "hint": "",
+   "passage": "pa-fr-001",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0212",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Pourquoi Pilou miaule-t-il le matin ?",
+   "choices": [
+    "Il veut jouer.",
+    "Il veut manger.",
+    "Il a froid.",
+    "Il est malade."
+   ],
+   "answer": 1,
+   "explanation": "Le texte dit : « Il veut manger ! »",
+   "hint": "",
+   "passage": "pa-fr-001",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0213",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Que fait Lina juste après s'être levée ?",
+   "choices": [
+    "Elle part à l'école.",
+    "Elle joue avec Pilou.",
+    "Elle prend une boîte de croquettes.",
+    "Elle ouvre la fenêtre."
+   ],
+   "answer": 2,
+   "explanation": "Elle ouvre le placard et prend une boîte de croquettes.",
+   "hint": "",
+   "passage": "pa-fr-001",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0214",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Où Pilou se couche-t-il après avoir mangé ?",
+   "choices": [
+    "sur le lit de Lina",
+    "derrière la porte",
+    "dans le placard",
+    "près de la fenêtre"
+   ],
+   "answer": 3,
+   "explanation": "Le texte dit : « il se couche près de la fenêtre ».",
+   "hint": "",
+   "passage": "pa-fr-001",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0215",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Que ressent Pilou quand Lina revient le soir ?",
+   "choices": [
+    "Il est content.",
+    "Il a peur.",
+    "Il est fâché.",
+    "Il s'ennuie."
+   ],
+   "answer": 0,
+   "explanation": "Quand on ronronne de joie, on est content de retrouver quelqu'un.",
+   "hint": "",
+   "passage": "pa-fr-001",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0216",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Avec qui Tom va-t-il à la plage ?",
+   "choices": [
+    "ses amis",
+    "sa sœur et ses parents",
+    "son frère et sa tante",
+    "sa classe"
+   ],
+   "answer": 1,
+   "explanation": "Tom va à la plage avec Inès, sa sœur, et leurs parents.",
+   "hint": "",
+   "passage": "pa-fr-002",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0217",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Pourquoi Tom ne se baigne-t-il pas ?",
+   "choices": [
+    "Il a peur des vagues.",
+    "Il n'a pas de maillot.",
+    "L'eau est très froide.",
+    "Il pleut."
+   ],
+   "answer": 2,
+   "explanation": "Le texte dit : « l'eau est très froide ».",
+   "hint": "",
+   "passage": "pa-fr-002",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0218",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Que mange la famille à midi ?",
+   "choices": [
+    "des pâtes et du fromage",
+    "des frites et une glace",
+    "une salade et des pommes",
+    "des sandwichs et des fraises"
+   ],
+   "answer": 3,
+   "explanation": "Le texte dit : « des sandwichs et des fraises ».",
+   "hint": "",
+   "passage": "pa-fr-002",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0219",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Qui rattrape le chapeau de Tom ?",
+   "choices": [
+    "Inès",
+    "Tom",
+    "Papa",
+    "Maman"
+   ],
+   "answer": 0,
+   "explanation": "Inès court très vite et rattrape le chapeau.",
+   "hint": "",
+   "passage": "pa-fr-002",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0220",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Que se passe-t-il juste après le repas ?",
+   "choices": [
+    "Tom construit un château.",
+    "Le vent emporte le chapeau de Tom.",
+    "La famille rentre à la maison.",
+    "Tom court vers la mer."
+   ],
+   "answer": 1,
+   "explanation": "Après le repas, un coup de vent emporte le chapeau.",
+   "hint": "",
+   "passage": "pa-fr-002",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0221",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel jour a lieu le marché ?",
+   "choices": [
+    "le samedi",
+    "le dimanche",
+    "le jeudi",
+    "le lundi"
+   ],
+   "answer": 2,
+   "explanation": "Le texte dit : « Tous les jeudis ».",
+   "hint": "",
+   "passage": "pa-fr-003",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0222",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Qui vend les légumes frais ?",
+   "choices": [
+    "le fromager",
+    "le boulanger",
+    "Mamie Odile",
+    "Madame Roux"
+   ],
+   "answer": 3,
+   "explanation": "Madame Roux vend des carottes, des poireaux et des courgettes.",
+   "hint": "",
+   "passage": "pa-fr-003",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0223",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Pourquoi Mamie Odile vient-elle très tôt ?",
+   "choices": [
+    "Elle veut les meilleurs fruits.",
+    "Elle n'aime pas la foule.",
+    "Elle travaille ensuite.",
+    "Elle aide les marchands."
+   ],
+   "answer": 0,
+   "explanation": "Le texte dit : « car elle veut les meilleurs fruits ».",
+   "hint": "",
+   "passage": "pa-fr-003",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0224",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Que reste-t-il sur la place vers midi, quand les marchands sont partis ?",
+   "choices": [
+    "les étals et les bâches",
+    "quelques feuilles de salade et des papiers",
+    "des caisses de fruits",
+    "des baguettes chaudes"
+   ],
+   "answer": 1,
+   "explanation": "Les marchands rangent leurs caisses. Il reste seulement des feuilles de salade et des papiers.",
+   "hint": "",
+   "passage": "pa-fr-003",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0225",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans ce texte, un « étal » est...",
+   "choices": [
+    "un camion de livraison",
+    "un grand sac pour les courses",
+    "la table où un marchand présente ses produits",
+    "un nuage de pluie"
+   ],
+   "answer": 2,
+   "explanation": "Les marchands « dressent leurs étals » pour montrer leurs produits : c'est leur table de vente.",
+   "hint": "",
+   "passage": "pa-fr-003",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0226",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Où Hugo et Malik découvrent-ils la grotte ?",
+   "choices": [
+    "sur une plage",
+    "dans le jardin de la maison",
+    "en haut d'une montagne",
+    "dans la forêt, derrière la ferme"
+   ],
+   "answer": 3,
+   "explanation": "Ils explorent la forêt derrière la ferme de leur grand-père.",
+   "hint": "",
+   "passage": "pa-fr-004",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0227",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qui arrive en premier ?",
+   "choices": [
+    "Malik découvre une ouverture.",
+    "Hugo allume sa lampe.",
+    "La lampe s'éteint.",
+    "Ils voient des chauves-souris."
+   ],
+   "answer": 0,
+   "explanation": "Malik trouve d'abord l'ouverture entre les rochers. Les autres événements arrivent après.",
+   "hint": "",
+   "passage": "pa-fr-004",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0228",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Pourquoi les garçons parlent-ils tout bas ?",
+   "choices": [
+    "parce qu'ils ont peur du noir",
+    "pour ne pas réveiller les chauves-souris",
+    "parce qu'ils sont fatigués",
+    "parce qu'ils jouent à un jeu"
+   ],
+   "answer": 1,
+   "explanation": "Le texte dit : « pour ne pas les réveiller ».",
+   "hint": "",
+   "passage": "pa-fr-004",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0229",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Comment Malik retrouve-t-il la sortie ?",
+   "choices": [
+    "avec une autre lampe",
+    "en appelant au secours",
+    "en suivant la lumière du jour",
+    "en suivant les chauves-souris"
+   ],
+   "answer": 2,
+   "explanation": "Le texte dit : « en suivant la lumière du jour ».",
+   "hint": "",
+   "passage": "pa-fr-004",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0230",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Pourquoi Hugo promet-il de revenir avec des piles neuves ?",
+   "choices": [
+    "Il a perdu sa lampe dans la grotte.",
+    "Il veut offrir des piles à Malik.",
+    "Il a peur de revenir sans lampe de poche.",
+    "Sa lampe s'est éteinte parce que les piles sont usées."
+   ],
+   "answer": 3,
+   "explanation": "La lampe s'est éteinte : Hugo comprend qu'il lui faut de nouvelles piles.",
+   "hint": "",
+   "passage": "pa-fr-004",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0231",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "À quelle saison Mamie Rose prépare-t-elle son potager ?",
+   "choices": [
+    "au printemps",
+    "en été",
+    "en automne",
+    "en hiver"
+   ],
+   "answer": 0,
+   "explanation": "Le texte dit : « Chaque printemps ».",
+   "hint": "",
+   "passage": "pa-fr-005",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0232",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel jour Zoé vient-elle aider sa grand-mère ?",
+   "choices": [
+    "le samedi",
+    "le mercredi",
+    "le lundi",
+    "le dimanche"
+   ],
+   "answer": 1,
+   "explanation": "Le texte dit : « Zoé vient l'aider le mercredi ».",
+   "hint": "",
+   "passage": "pa-fr-005",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0233",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Pourquoi ne faut-il pas mettre trop d'eau sur les graines ?",
+   "choices": [
+    "La terre devient dure.",
+    "Les radis deviennent petits.",
+    "Elles pourrissent.",
+    "Les oiseaux viennent les manger."
+   ],
+   "answer": 2,
+   "explanation": "Mamie explique : « Si on met trop d'eau, les graines pourrissent. »",
+   "hint": "",
+   "passage": "pa-fr-005",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0234",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Au bout de combien de jours sortent de minuscules feuilles ?",
+   "choices": [
+    "trois jours",
+    "un mois",
+    "deux jours",
+    "dix jours"
+   ],
+   "answer": 3,
+   "explanation": "Le texte dit : « Au bout de dix jours ».",
+   "hint": "",
+   "passage": "pa-fr-005",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0235",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans ce texte, « bêcher la terre » veut dire...",
+   "choices": [
+    "la retourner avec un outil pour la préparer",
+    "la manger",
+    "la peindre",
+    "la mouiller avec un arrosoir"
+   ],
+   "answer": 0,
+   "explanation": "Mamie bêche la terre avant de planter : elle la retourne pour la préparer.",
+   "hint": "",
+   "passage": "pa-fr-005",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0236",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "De quelle couleur est le vélo de Yanis ?",
+   "choices": [
+    "bleu",
+    "rouge",
+    "argenté",
+    "vert"
+   ],
+   "answer": 1,
+   "explanation": "Le texte dit : « un vélo rouge, avec une sonnette argentée ».",
+   "hint": "",
+   "passage": "pa-fr-006",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0237",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Pourquoi Yanis tombe-t-il la première fois ?",
+   "choices": [
+    "Il freine trop fort.",
+    "Un chien traverse l'allée.",
+    "Il perd l'équilibre.",
+    "Une roue se détache."
+   ],
+   "answer": 2,
+   "explanation": "Le texte dit : « il perd l'équilibre et tombe dans les rosiers ».",
+   "hint": "",
+   "passage": "pa-fr-006",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0238",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qui l'aide à réussir la deuxième fois ?",
+   "choices": [
+    "Il roule beaucoup plus vite.",
+    "Il enlève la sonnette.",
+    "Sa mère tient le vélo.",
+    "Il roule doucement en regardant droit devant lui."
+   ],
+   "answer": 3,
+   "explanation": "Son père lui conseille de recommencer doucement et Yanis regarde droit devant lui.",
+   "hint": "",
+   "passage": "pa-fr-006",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0239",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Que montre le fait que Yanis veuille dormir près de son vélo ?",
+   "choices": [
+    "Il aime énormément son vélo.",
+    "Il a peur du noir.",
+    "Il est en colère contre ses parents.",
+    "Il s'ennuie dans sa chambre."
+   ],
+   "answer": 0,
+   "explanation": "On ne veut dormir près d'un objet que si on y tient beaucoup.",
+   "hint": "",
+   "passage": "pa-fr-006",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0240",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans ce texte, « il grimace » veut dire...",
+   "choices": [
+    "Il éclate de rire.",
+    "Il fait une drôle de tête à cause de la douleur.",
+    "Il crie de joie.",
+    "Il s'endort."
+   ],
+   "answer": 1,
+   "explanation": "Yanis s'est griffé le bras : sa grimace montre qu'il a mal.",
+   "hint": "",
+   "passage": "pa-fr-006",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0241",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "À quelle période a lieu la fête ?",
+   "choices": [
+    "en décembre",
+    "en septembre",
+    "en juin",
+    "en mars"
+   ],
+   "answer": 2,
+   "explanation": "Le texte dit : « Chaque année, en juin ».",
+   "hint": "",
+   "passage": "pa-fr-007",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0242",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Qui a préparé le couscous ?",
+   "choices": [
+    "Monsieur Lambert",
+    "Lola",
+    "Un boulanger",
+    "Madame Diallo"
+   ],
+   "answer": 3,
+   "explanation": "Madame Diallo a préparé un grand plat de couscous.",
+   "hint": "",
+   "passage": "pa-fr-007",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0243",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Que doivent faire les enfants pendant le jeu de piste ?",
+   "choices": [
+    "retrouver dix objets cachés",
+    "courir autour de la rue",
+    "dessiner les voisins",
+    "chanter une chanson"
+   ],
+   "answer": 0,
+   "explanation": "Le texte dit : « retrouver dix objets cachés dans la rue ».",
+   "hint": "",
+   "passage": "pa-fr-007",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0244",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Que montre la demande de recette des voisins ?",
+   "choices": [
+    "Ils veulent se moquer de Madame Diallo.",
+    "Ils ont trouvé le couscous très bon.",
+    "Ils n'ont plus faim.",
+    "Ils veulent que Madame Diallo parte."
+   ],
+   "answer": 1,
+   "explanation": "On ne demande la recette que d'un plat qu'on a aimé.",
+   "hint": "",
+   "passage": "pa-fr-007",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0245",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans ce texte, « emménager » veut dire...",
+   "choices": [
+    "quitter sa maison",
+    "construire une maison",
+    "s'installer dans un nouveau logement",
+    "vendre son appartement"
+   ],
+   "answer": 2,
+   "explanation": "Madame Diallo vient d'arriver au numéro 8 : elle s'installe dans sa nouvelle maison.",
+   "hint": "",
+   "passage": "pa-fr-007",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0246",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Comment est le temps avant l'orage ?",
+   "choices": [
+    "Il fait froid et il neige.",
+    "Il pleut et il y a beaucoup de vent.",
+    "Il fait doux et le ciel est dégagé.",
+    "Il fait très chaud et il n'y a pas de vent."
+   ],
+   "answer": 3,
+   "explanation": "Le texte dit : « il faisait très chaud » et « plus un souffle de vent ».",
+   "hint": "",
+   "passage": "pa-fr-008",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0247",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Qui se jette dans les bras de l'autre quand le tonnerre gronde ?",
+   "choices": [
+    "Noé",
+    "Camille",
+    "leur mère",
+    "leur grand-père"
+   ],
+   "answer": 0,
+   "explanation": "« Noé s'est jeté dans les bras de sa sœur. »",
+   "hint": "",
+   "passage": "pa-fr-008",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0248",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Que font les enfants sous la couverture ?",
+   "choices": [
+    "Ils lisent un livre.",
+    "Ils comptent les secondes entre l'éclair et le tonnerre.",
+    "Ils jouent aux cartes.",
+    "Ils s'endorment."
+   ],
+   "answer": 1,
+   "explanation": "Le texte dit qu'ils comptent les secondes entre l'éclair et le tonnerre.",
+   "hint": "",
+   "passage": "pa-fr-008",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0249",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quand le temps entre l'éclair et le tonnerre est court, cela veut dire que...",
+   "choices": [
+    "l'orage s'éloigne",
+    "la pluie va s'arrêter",
+    "l'orage est proche",
+    "le vent va se lever"
+   ],
+   "answer": 2,
+   "explanation": "Le texte dit : « plus le temps était court, plus l'orage était proche ».",
+   "hint": "",
+   "passage": "pa-fr-008",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0250",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qui arrive en dernier ?",
+   "choices": [
+    "Camille ferme les volets.",
+    "Un éclair déchire le ciel.",
+    "La pluie tombe à torrents.",
+    "Un arc-en-ciel apparaît."
+   ],
+   "answer": 3,
+   "explanation": "Après la pluie, le soleil revient et un arc-en-ciel apparaît : c'est la fin de l'histoire.",
+   "hint": "",
+   "passage": "pa-fr-008",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0251",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Pourquoi Nadia cherche-t-elle un livre sur les dauphins ?",
+   "choices": [
+    "pour préparer un exposé",
+    "pour l'offrir à une amie",
+    "pour faire un dessin",
+    "parce qu'elle a peur des dauphins"
+   ],
+   "answer": 0,
+   "explanation": "Le texte dit : « elle doit présenter un exposé devant sa classe ».",
+   "hint": "",
+   "passage": "pa-fr-009",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0252",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Comment Nadia trouve-t-elle le bon rayon ?",
+   "choices": [
+    "Elle demande à ses parents.",
+    "Elle consulte l'ordinateur.",
+    "Elle regarde tous les livres.",
+    "Elle téléphone à une amie."
+   ],
+   "answer": 1,
+   "explanation": "Elle consulte l'ordinateur et note le numéro du rayon.",
+   "hint": "",
+   "passage": "pa-fr-009",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0253",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel livre choisit-elle pour son exposé ?",
+   "choices": [
+    "le petit documentaire",
+    "le roman d'aventures",
+    "le grand album plein de photos",
+    "un dictionnaire"
+   ],
+   "answer": 2,
+   "explanation": "Elle choisit « le premier », c'est-à-dire le grand album.",
+   "hint": "",
+   "passage": "pa-fr-009",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0254",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans combien de temps doit-elle rapporter les livres ?",
+   "choices": [
+    "deux jours",
+    "un mois",
+    "une semaine",
+    "trois semaines"
+   ],
+   "answer": 3,
+   "explanation": "Madame Perrin lui rappelle : « dans trois semaines ».",
+   "hint": "",
+   "passage": "pa-fr-009",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0255",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans ce texte, « emprunter » un livre veut dire...",
+   "choices": [
+    "le prendre pour un temps, puis le rendre",
+    "l'acheter au libraire",
+    "le garder pour toujours",
+    "l'offrir à quelqu'un"
+   ],
+   "answer": 0,
+   "explanation": "Nadia doit rapporter les livres : elle les emprunte seulement un moment.",
+   "hint": "",
+   "passage": "pa-fr-009",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0256",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien de reines y a-t-il dans une ruche ?",
+   "choices": [
+    "deux",
+    "une seule",
+    "dix",
+    "aucune"
+   ],
+   "answer": 1,
+   "explanation": "Le texte dit : « une seule reine ».",
+   "hint": "",
+   "passage": "pa-fr-010",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0257",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Qui pond les œufs ?",
+   "choices": [
+    "les ouvrières",
+    "les faux-bourdons",
+    "la reine",
+    "l'abeille éclaireuse"
+   ],
+   "answer": 2,
+   "explanation": "« La reine pond les œufs. »",
+   "hint": "",
+   "passage": "pa-fr-010",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0258",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Comment une éclaireuse indique-t-elle où se trouvent les fleurs ?",
+   "choices": [
+    "en bourdonnant très fort",
+    "en dessinant une carte",
+    "en rapportant des fleurs entières",
+    "en dansant devant ses sœurs"
+   ],
+   "answer": 3,
+   "explanation": "Sa danse indique la direction et la distance des fleurs.",
+   "hint": "",
+   "passage": "pa-fr-010",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0259",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "À quoi sert le nectar récolté par les abeilles ?",
+   "choices": [
+    "à fabriquer le miel",
+    "à fabriquer la cire",
+    "à nettoyer la ruche",
+    "à nourrir les faux-bourdons"
+   ],
+   "answer": 0,
+   "explanation": "« Avec le nectar, les abeilles fabriquent le miel. »",
+   "hint": "",
+   "passage": "pa-fr-010",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0260",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Pourquoi les abeilles sont-elles utiles aux plantes ?",
+   "choices": [
+    "Elles mangent les mauvaises herbes.",
+    "Elles transportent le pollen d'une fleur à l'autre.",
+    "Elles arrosent les fleurs.",
+    "Elles protègent les fruits des oiseaux."
+   ],
+   "answer": 1,
+   "explanation": "En butinant, elles transportent le pollen, ce qui permet aux plantes de fabriquer des fruits.",
+   "hint": "",
+   "passage": "pa-fr-010",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0261",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Où la tante de Soraya l'attend-elle ?",
+   "choices": [
+    "à l'école de Soraya",
+    "chez elle, à la maison",
+    "à la gare de Namur",
+    "dans le train"
+   ],
+   "answer": 2,
+   "explanation": "Le texte dit : « Sa tante l'attend à la gare de Namur ».",
+   "hint": "",
+   "passage": "pa-fr-011",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0262",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Qu'a promis Soraya à sa mère ?",
+   "choices": [
+    "de téléphoner toutes les heures",
+    "de ne pas s'endormir",
+    "de manger son goûter dans le train",
+    "de ne parler à aucun inconnu"
+   ],
+   "answer": 3,
+   "explanation": "Maman lui a fait promettre « de ne parler à aucun inconnu ».",
+   "hint": "",
+   "passage": "pa-fr-011",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0263",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Où était le billet de Soraya ?",
+   "choices": [
+    "dans son livre, comme marque-page",
+    "dans sa poche",
+    "dans son sac",
+    "chez sa mère"
+   ],
+   "answer": 0,
+   "explanation": "Le billet tombe de la page où elle l'avait glissé comme marque-page.",
+   "hint": "",
+   "passage": "pa-fr-011",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0264",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Pourquoi le cœur de Soraya bat-il très fort ?",
+   "choices": [
+    "Elle est contente de voir sa tante.",
+    "Elle a peur d'avoir perdu son billet.",
+    "Elle vient de courir.",
+    "Elle a vu une vache dans le train."
+   ],
+   "answer": 1,
+   "explanation": "Le contrôleur arrive et elle ne retrouve plus son billet : elle a peur.",
+   "hint": "",
+   "passage": "pa-fr-011",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0265",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Dans ce texte, « un peu gênée » veut dire...",
+   "choices": [
+    "très fâchée",
+    "épuisée",
+    "mal à l'aise",
+    "contente"
+   ],
+   "answer": 2,
+   "explanation": "Soraya détourne les yeux : elle est timide et mal à l'aise devant la dame.",
+   "hint": "",
+   "passage": "pa-fr-011",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0266",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "D'où peut venir l'eau du robinet ?",
+   "choices": [
+    "directement de la mer",
+    "de la pluie recueillie sur les toits",
+    "d'un puits dans chaque maison",
+    "d'une rivière, d'un lac ou d'une nappe souterraine"
+   ],
+   "answer": 3,
+   "explanation": "Le texte dit : « pompée dans une rivière, dans un lac ou dans une nappe souterraine ».",
+   "hint": "",
+   "passage": "pa-fr-012",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0267",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "À quoi servent les filtres de la station de traitement ?",
+   "choices": [
+    "à retenir la terre, les feuilles et les saletés",
+    "à ajouter du sel dans l'eau",
+    "à chauffer l'eau",
+    "à colorer l'eau"
+   ],
+   "answer": 0,
+   "explanation": "Les filtres retiennent la terre, les feuilles et les saletés.",
+   "hint": "",
+   "passage": "pa-fr-012",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0268",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Pourquoi le château d'eau est-il situé en hauteur ?",
+   "choices": [
+    "pour qu'on le voie de loin",
+    "pour que l'eau descende dans les tuyaux jusqu'aux maisons",
+    "pour qu'il reçoive plus de pluie",
+    "pour décorer le village"
+   ],
+   "answer": 1,
+   "explanation": "Grâce à la hauteur, l'eau descend dans les tuyaux sans être poussée à chaque instant.",
+   "hint": "",
+   "passage": "pa-fr-012",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0269",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Que devient l'eau sale après son utilisation ?",
+   "choices": [
+    "Elle retourne directement au château d'eau.",
+    "Elle reste dans les maisons.",
+    "Elle part dans les égouts, puis elle est nettoyée.",
+    "Elle est bue après un simple filtrage."
+   ],
+   "answer": 2,
+   "explanation": "L'eau sale part dans les égouts puis est nettoyée dans la station d'épuration.",
+   "hint": "",
+   "passage": "pa-fr-012",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0270",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Dans ce texte, une « nappe souterraine » est...",
+   "choices": [
+    "un lac très profond",
+    "une rivière gelée",
+    "une nappe de table mouillée",
+    "une réserve d'eau cachée sous le sol"
+   ],
+   "answer": 3,
+   "explanation": "Le texte l'explique : « une réserve d'eau cachée sous le sol ».",
+   "hint": "",
+   "passage": "pa-fr-012",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0271",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel est le score à la mi-temps ?",
+   "choices": [
+    "Les Rouges perdent un à zéro.",
+    "Les Rouges gagnent deux à un.",
+    "Le score est zéro à zéro.",
+    "Le score est un partout."
+   ],
+   "answer": 0,
+   "explanation": "Le texte dit : « À la mi-temps, les Rouges perdent un à zéro ».",
+   "hint": "",
+   "passage": "pa-fr-013",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0272",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel conseil donne l'entraîneur ?",
+   "choices": [
+    "Courir tous derrière le ballon.",
+    "Rester à sa place et se passer la balle.",
+    "Tirer de très loin.",
+    "Jouer sans défenseur."
+   ],
+   "answer": 1,
+   "explanation": "Il dit : « Restez à votre place et passez-vous la balle. »",
+   "hint": "",
+   "passage": "pa-fr-013",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0273",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Qui marque le but de l'égalité ?",
+   "choices": [
+    "Karim",
+    "Inès",
+    "Léo",
+    "l'entraîneur"
+   ],
+   "answer": 2,
+   "explanation": "Léo reçoit une belle passe et marque : un partout.",
+   "hint": "",
+   "passage": "pa-fr-013",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0274",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Qui marque le but de la victoire ?",
+   "choices": [
+    "Léo",
+    "Karim",
+    "un joueur de l'autre équipe",
+    "Inès"
+   ],
+   "answer": 3,
+   "explanation": "Karim donne le ballon à Inès, et celle-ci tire : le ballon entre dans le but.",
+   "hint": "",
+   "passage": "pa-fr-013",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0275",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Que montre la dernière phrase du texte ?",
+   "choices": [
+    "Karim est content du travail de toute l'équipe.",
+    "Karim est jaloux d'Inès.",
+    "Karim est triste de ne pas avoir marqué.",
+    "Karim veut changer d'équipe."
+   ],
+   "answer": 0,
+   "explanation": "Karim n'a marqué aucun but, mais il se sent gagnant grâce à toute l'équipe.",
+   "hint": "",
+   "passage": "pa-fr-013",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0276",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on le magma une fois sorti du volcan ?",
+   "choices": [
+    "les cendres",
+    "la lave",
+    "la cheminée",
+    "le cratère"
+   ],
+   "answer": 1,
+   "explanation": "Le texte dit : « Il s'appelle alors la lave ».",
+   "hint": "",
+   "passage": "pa-fr-014",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0277",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Que devient la lave en refroidissant ?",
+   "choices": [
+    "Elle reste liquide.",
+    "Elle se transforme en eau.",
+    "Elle devient dure comme de la pierre.",
+    "Elle devient transparente."
+   ],
+   "answer": 2,
+   "explanation": "Le texte dit : « en refroidissant, elle devient dure comme de la pierre ».",
+   "hint": "",
+   "passage": "pa-fr-014",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0278",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qu'un volcan « actif » ?",
+   "choices": [
+    "un volcan qui n'a plus craché depuis très longtemps",
+    "un volcan très haut",
+    "un volcan sous la mer",
+    "un volcan qui entre régulièrement en éruption"
+   ],
+   "answer": 3,
+   "explanation": "Un volcan actif entre régulièrement en éruption. Celui qui n'a plus craché depuis très longtemps est éteint.",
+   "hint": "",
+   "passage": "pa-fr-014",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0279",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Pourquoi des agriculteurs cultivent-ils des champs au pied des volcans ?",
+   "choices": [
+    "Les cendres rendent le sol riche en minéraux.",
+    "Il n'y a aucun danger près des volcans.",
+    "Le climat y est toujours froid.",
+    "La lave arrose les plantes."
+   ],
+   "answer": 0,
+   "explanation": "Le texte dit que les cendres contiennent des minéraux qui enrichissent les sols.",
+   "hint": "",
+   "passage": "pa-fr-014",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0280",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Dans ce texte, « jaillit » veut dire...",
+   "choices": [
+    "tombe doucement",
+    "sort avec force",
+    "disparaît",
+    "s'endort"
+   ],
+   "answer": 1,
+   "explanation": "Le magma monte et sort avec force à l'air libre.",
+   "hint": "",
+   "passage": "pa-fr-014",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0281",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Qui est Samir pour Inès ?",
+   "choices": [
+    "son cousin",
+    "son père",
+    "son frère",
+    "son voisin"
+   ],
+   "answer": 2,
+   "explanation": "La lettre est signée « Ton frère, Samir ».",
+   "hint": "",
+   "passage": "pa-fr-015",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0282",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Où habite Inès maintenant ?",
+   "choices": [
+    "à Bruxelles",
+    "à Namur",
+    "à Mons",
+    "à Liège"
+   ],
+   "answer": 3,
+   "explanation": "Samir écrit qu'Inès est « partie vivre à Liège ». La lettre est écrite de Bruxelles, où vit Samir.",
+   "hint": "",
+   "passage": "pa-fr-015",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0283",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Que répond Papa quand Inès demande une écurie ?",
+   "choices": [
+    "Un cheval ne tiendrait pas sous l'escalier.",
+    "Il construira l'écurie dès demain.",
+    "Il a déjà acheté un cheval.",
+    "Il ne répond rien."
+   ],
+   "answer": 0,
+   "explanation": "Papa a ri, puis a répondu qu'un cheval ne tiendrait jamais sous l'escalier.",
+   "hint": "",
+   "passage": "pa-fr-015",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0284",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Que laisse penser le comportement du chat ?",
+   "choices": [
+    "Il est malade.",
+    "Inès lui manque.",
+    "Il a faim.",
+    "Il est fâché contre Samir."
+   ],
+   "answer": 1,
+   "explanation": "Il dort sur l'oreiller d'Inès « comme s'il t'attendait » : elle lui manque.",
+   "hint": "",
+   "passage": "pa-fr-015",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0285",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quand Samir espère-t-il revoir Inès ?",
+   "choices": [
+    "à Noël",
+    "cet été",
+    "aux vacances de Pâques",
+    "demain"
+   ],
+   "answer": 2,
+   "explanation": "Il écrit : « Reviens vite pour les vacances de Pâques ! »",
+   "hint": "",
+   "passage": "pa-fr-015",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0286",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quelle classe va à la piscine ?",
+   "choices": [
+    "la classe de Monsieur Petit",
+    "la classe de Madame Roux",
+    "toute l'école",
+    "la classe de Madame Colin"
+   ],
+   "answer": 3,
+   "explanation": "L'annonce dit : « la classe de Madame Colin va à la piscine ».",
+   "hint": "",
+   "passage": "pa-fr-016",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0287",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "À quelle heure part le car ?",
+   "choices": [
+    "à neuf heures",
+    "à huit heures",
+    "à dix heures",
+    "à midi"
+   ],
+   "answer": 0,
+   "explanation": "L'annonce dit : « Le car part à neuf heures ».",
+   "hint": "",
+   "passage": "pa-fr-016",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0288",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Qu'est-ce que les élèves doivent apporter ?",
+   "choices": [
+    "un ballon et des baskets",
+    "un maillot, une serviette et un bonnet de bain",
+    "un pique-nique et une casquette",
+    "des lunettes et des gants"
+   ],
+   "answer": 1,
+   "explanation": "L'annonce cite : maillot, serviette et bonnet de bain.",
+   "hint": "",
+   "passage": "pa-fr-016",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0289",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Pourquoi n'y a-t-il pas de récréation dans la cour cet après-midi ?",
+   "choices": [
+    "Il fait trop chaud.",
+    "La cour est en travaux.",
+    "Il pleut beaucoup.",
+    "C'est la fête de l'école."
+   ],
+   "answer": 2,
+   "explanation": "L'annonce dit : « car il pleut beaucoup ».",
+   "hint": "",
+   "passage": "pa-fr-016",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0290",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Que se passe-t-il demain ?",
+   "choices": [
+    "la sortie à la piscine",
+    "une visite au musée",
+    "un examen",
+    "la fête de l'école"
+   ],
+   "answer": 3,
+   "explanation": "L'annonce dit : « demain, c'est la fête de l'école ».",
+   "hint": "",
+   "passage": "pa-fr-016",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0291",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Pourquoi Théo téléphone-t-il à sa grand-mère ?",
+   "choices": [
+    "pour savoir si elle vient à son anniversaire",
+    "pour lui dire qu'il est malade",
+    "pour lui demander de l'aide",
+    "pour lui raconter son école"
+   ],
+   "answer": 0,
+   "explanation": "Théo dit : « Je t'appelle pour savoir si tu viens samedi à mon anniversaire ».",
+   "hint": "",
+   "passage": "pa-fr-017",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0292",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel âge Théo va-t-il avoir ?",
+   "choices": [
+    "sept ans",
+    "huit ans",
+    "neuf ans",
+    "dix ans"
+   ],
+   "answer": 1,
+   "explanation": "Théo dit : « J'ai huit ans ».",
+   "hint": "",
+   "passage": "pa-fr-017",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0293",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Qui prépare le gâteau au chocolat ?",
+   "choices": [
+    "Maman",
+    "Mamie",
+    "Papa",
+    "Théo"
+   ],
+   "answer": 2,
+   "explanation": "Théo dit : « Papa prépare un gâteau au chocolat ».",
+   "hint": "",
+   "passage": "pa-fr-017",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0294",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel cadeau Théo souhaite-t-il ?",
+   "choices": [
+    "un vélo",
+    "un ballon",
+    "un livre d'images",
+    "un jeu de construction pas trop grand"
+   ],
+   "answer": 3,
+   "explanation": "Il demande « un jeu de construction, mais pas trop grand ».",
+   "hint": "",
+   "passage": "pa-fr-017",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0295",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "À quelle heure Mamie arrivera-t-elle samedi ?",
+   "choices": [
+    "à deux heures",
+    "à midi",
+    "à trois heures",
+    "à quatre heures"
+   ],
+   "answer": 0,
+   "explanation": "Mamie dit : « Je serai chez toi samedi à deux heures ».",
+   "hint": "",
+   "passage": "pa-fr-017",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0296",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle est la première étape de la visite ?",
+   "choices": [
+    "la tour",
+    "la grande salle",
+    "les cachots",
+    "la cour"
+   ],
+   "answer": 1,
+   "explanation": "Le guide dit : « Nous allons d'abord découvrir la grande salle ».",
+   "hint": "",
+   "passage": "pa-fr-018",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0297",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Pourquoi faut-il prendre son temps dans l'escalier de la tour ?",
+   "choices": [
+    "Il est glissant à cause de la pluie.",
+    "Il est en travaux.",
+    "Il est étroit et compte beaucoup de marches.",
+    "Il est interdit aux enfants."
+   ],
+   "answer": 2,
+   "explanation": "Le guide prévient : « l'escalier compte beaucoup de marches et il est étroit ».",
+   "hint": "",
+   "passage": "pa-fr-018",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0298",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Pourquoi le guide conseille-t-il de garder sa veste dans les cachots ?",
+   "choices": [
+    "Il y pleut.",
+    "Il y fait très chaud.",
+    "Il y fait nuit noire.",
+    "Il y fait très frais, même en été."
+   ],
+   "answer": 3,
+   "explanation": "Le guide dit : « Il y fait très frais, même en été ».",
+   "hint": "",
+   "passage": "pa-fr-018",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0299",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Que dit le guide au sujet des photos ?",
+   "choices": [
+    "Elles sont permises, sauf avec le flash.",
+    "Elles sont interdites partout.",
+    "Elles sont permises seulement avec le flash.",
+    "Elles sont permises seulement dans la cour."
+   ],
+   "answer": 0,
+   "explanation": "Le guide dit : « Les photos sont autorisées, sauf avec le flash ».",
+   "hint": "",
+   "passage": "pa-fr-018",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0300",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Où la visite se termine-t-elle ?",
+   "choices": [
+    "dans la tour",
+    "dans la cour, devant le puits",
+    "dans les cachots",
+    "dans la grande salle"
+   ],
+   "answer": 1,
+   "explanation": "Le guide dit : « La visite se terminera dans la cour, devant le puits ».",
+   "hint": "",
+   "passage": "pa-fr-018",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0301",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel jour passe l'émission ?",
+   "choices": [
+    "le jeudi",
+    "le samedi",
+    "le mercredi",
+    "le lundi"
+   ],
+   "answer": 2,
+   "explanation": "La présentatrice dit : « votre émission du mercredi ».",
+   "hint": "",
+   "passage": "pa-fr-019",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0302",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Pourquoi le hérisson sort-il surtout le soir ?",
+   "choices": [
+    "Il a peur du soleil.",
+    "Il dort dans l'eau.",
+    "Il a perdu son chemin.",
+    "Il chasse la nuit."
+   ],
+   "answer": 3,
+   "explanation": "Le texte dit : « il sort surtout le soir, car il chasse la nuit ».",
+   "hint": "",
+   "passage": "pa-fr-019",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0303",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Que mange le hérisson ?",
+   "choices": [
+    "des escargots, des vers de terre et des insectes",
+    "du lait et du pain",
+    "des carottes et des fruits",
+    "des graines et des noix"
+   ],
+   "answer": 0,
+   "explanation": "Il mange des escargots, des vers de terre et des insectes. Le lait le rend malade.",
+   "hint": "",
+   "passage": "pa-fr-019",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0304",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Que fait le hérisson en automne ?",
+   "choices": [
+    "Il part dans un pays chaud.",
+    "Il mange beaucoup pour faire des réserves de graisse.",
+    "Il construit un nid dans un arbre.",
+    "Il cesse de manger."
+   ],
+   "answer": 1,
+   "explanation": "En automne, il mange beaucoup pour faire des réserves avant l'hiver.",
+   "hint": "",
+   "passage": "pa-fr-019",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0305",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans cette émission, « il hiberne » veut dire...",
+   "choices": [
+    "Il chasse la nuit.",
+    "Il court très vite.",
+    "Il dort pendant l'hiver.",
+    "Il cherche de la nourriture."
+   ],
+   "answer": 2,
+   "explanation": "Le hérisson dort jusqu'au printemps : « on dit alors qu'il hiberne ».",
+   "hint": "",
+   "passage": "pa-fr-019",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0306",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Pourquoi Ilyas ne peut-il pas aller à la patinoire ?",
+   "choices": [
+    "Elle est trop chère.",
+    "Elle est trop loin.",
+    "Il y a trop de monde.",
+    "Elle est fermée pour travaux."
+   ],
+   "answer": 3,
+   "explanation": "Ilyas dit : « elle est fermée pour travaux jusqu'à la fin du mois ».",
+   "hint": "",
+   "passage": "pa-fr-020",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0307",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Pourquoi renoncent-ils au parc d'attractions ?",
+   "choices": [
+    "C'est trop loin et la mère d'Ilyas ne peut pas l'accompagner à la gare.",
+    "Le parc est fermé.",
+    "Il pleut samedi.",
+    "C'est trop cher."
+   ],
+   "answer": 0,
+   "explanation": "Ilyas dit : « C'est trop loin » et sa mère travaille samedi.",
+   "hint": "",
+   "passage": "pa-fr-020",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0308",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "À quelle heure commence le film ?",
+   "choices": [
+    "à treize heures trente",
+    "à quatorze heures",
+    "à seize heures",
+    "à midi"
+   ],
+   "answer": 1,
+   "explanation": "Sara dit : « un nouveau film d'animation, à quatorze heures ». Treize heures trente est l'heure du rendez-vous.",
+   "hint": "",
+   "passage": "pa-fr-020",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0309",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Qui s'occupe de réserver les places ?",
+   "choices": [
+    "Ilyas",
+    "Mehdi",
+    "Sara, avec sa sœur",
+    "Camille"
+   ],
+   "answer": 2,
+   "explanation": "Sara dit : « Je m'en occupe ce soir, avec ma sœur ».",
+   "hint": "",
+   "passage": "pa-fr-020",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0310",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Qui préviendra Mehdi et Camille ?",
+   "choices": [
+    "Sara",
+    "la sœur de Sara",
+    "la mère d'Ilyas",
+    "Ilyas"
+   ],
+   "answer": 3,
+   "explanation": "Ilyas dit : « Je préviendrai Mehdi et Camille ».",
+   "hint": "",
+   "passage": "pa-fr-020",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0311",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Où faut-il mettre ses vieux cahiers pour qu'ils soient recyclés ?",
+   "choices": [
+    "dans le conteneur à papier",
+    "dans la poubelle ordinaire",
+    "dans le compost du jardin",
+    "dans le sac des déchets de cuisine"
+   ],
+   "answer": 0,
+   "explanation": "Le reportage dit : « dans le conteneur à papier ».",
+   "hint": "",
+   "passage": "pa-fr-021",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0312",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Qui sépare les déchets au centre de tri ?",
+   "choices": [
+    "seulement des enfants",
+    "des machines et des employés",
+    "des camions",
+    "des animaux"
+   ],
+   "answer": 1,
+   "explanation": "Le reportage dit : « des machines et des employés séparent le papier propre des déchets ».",
+   "hint": "",
+   "passage": "pa-fr-021",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0313",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quelle est la première étape à l'usine ?",
+   "choices": [
+    "On découpe le papier en feuilles.",
+    "On sèche le papier.",
+    "On plonge le papier dans une cuve d'eau pour en faire une bouillie.",
+    "On imprime des dessins sur le papier."
+   ],
+   "answer": 2,
+   "explanation": "À l'usine, on commence par plonger le papier dans l'eau, où il devient une bouillie. Le séchage et la découpe viennent après.",
+   "hint": "",
+   "passage": "pa-fr-021",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0314",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Pourquoi ne peut-on pas recycler le papier sans fin ?",
+   "choices": [
+    "Il n'y a plus d'arbres.",
+    "Il manque de l'eau.",
+    "Les usines sont fermées.",
+    "Les fibres raccourcissent et deviennent plus fragiles."
+   ],
+   "answer": 3,
+   "explanation": "À chaque recyclage, les fibres raccourcissent et deviennent plus fragiles.",
+   "hint": "",
+   "passage": "pa-fr-021",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0315",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel conseil le journaliste donne-t-il à la fin ?",
+   "choices": [
+    "écrire des deux côtés de la feuille et n'imprimer que ce qui est utile",
+    "jeter plus de papier",
+    "brûler les vieux cahiers",
+    "acheter toujours du papier neuf"
+   ],
+   "answer": 0,
+   "explanation": "Il conclut : « pensez aussi à écrire des deux côtés de la feuille et à n'imprimer que ce qui est utile ».",
+   "hint": "",
+   "passage": "pa-fr-021",
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0316",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel est le contraire de « grand » ?",
+   "choices": [
+    "petit",
+    "gros",
+    "long",
+    "haut"
+   ],
+   "answer": 0,
+   "explanation": "Le contraire de grand est petit.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0317",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel mot veut dire la même chose que « content » ?",
+   "choices": [
+    "triste",
+    "heureux",
+    "fâché",
+    "fatigué"
+   ],
+   "answer": 1,
+   "explanation": "Content et heureux sont des synonymes : ils ont presque le même sens.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0318",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel mot vient en premier dans l'ordre alphabétique ?",
+   "choices": [
+    "banane",
+    "chat",
+    "arbre",
+    "dent"
+   ],
+   "answer": 2,
+   "explanation": "On regarde la première lettre : a vient avant b, c et d.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0319",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel mot est de la même famille que « fleur » ?",
+   "choices": [
+    "flèche",
+    "fleuve",
+    "flou",
+    "fleuriste"
+   ],
+   "answer": 3,
+   "explanation": "Le fleuriste vend des fleurs : le mot contient « fleur ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0320",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel mot n'est PAS un animal ?",
+   "choices": [
+    "table",
+    "chat",
+    "cheval",
+    "lapin"
+   ],
+   "answer": 0,
+   "explanation": "Une table est un meuble, pas un animal.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0321",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel mot veut dire la même chose que « beau » ?",
+   "choices": [
+    "laid",
+    "joli",
+    "petit",
+    "sale"
+   ],
+   "answer": 1,
+   "explanation": "Beau et joli sont des synonymes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0322",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel est le contraire de « monter » ?",
+   "choices": [
+    "sauter",
+    "grimper",
+    "descendre",
+    "marcher"
+   ],
+   "answer": 2,
+   "explanation": "Monter, c'est aller vers le haut. Descendre, c'est aller vers le bas.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0323",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel mot est de la même famille que « dent » ?",
+   "choices": [
+    "danse",
+    "dans",
+    "dîner",
+    "dentiste"
+   ],
+   "answer": 3,
+   "explanation": "Le dentiste soigne les dents : le mot contient « dent ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0324",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Parmi ces mots, lequel vient en premier dans l'ordre alphabétique : mouton, maison, melon, mur ?",
+   "choices": [
+    "maison",
+    "melon",
+    "mouton",
+    "mur"
+   ],
+   "answer": 0,
+   "explanation": "Tous commencent par m. On regarde la 2e lettre : a vient avant e, o et u.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0325",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel mot est un mot composé (formé de deux mots) ?",
+   "choices": [
+    "un chapeau",
+    "un porte-clés",
+    "une table",
+    "un jardin"
+   ],
+   "answer": 1,
+   "explanation": "« Porte-clés » est formé de « porte » et « clés ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0326",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "« Léa a un cœur d'or. » Que veut dire cette phrase ?",
+   "choices": [
+    "Elle a un cœur en or.",
+    "Elle est malade.",
+    "Elle est très gentille.",
+    "Elle est riche."
+   ],
+   "answer": 2,
+   "explanation": "On dit « un cœur d'or » pour une personne très gentille. C'est du sens figuré.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0327",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel mot veut dire la même chose que « commencer » ?",
+   "choices": [
+    "finir",
+    "arrêter",
+    "partir",
+    "débuter"
+   ],
+   "answer": 3,
+   "explanation": "Commencer et débuter sont des synonymes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0328",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans « refaire », que veut dire « re- » ?",
+   "choices": [
+    "de nouveau",
+    "le contraire",
+    "avant",
+    "sans"
+   ],
+   "answer": 0,
+   "explanation": "Refaire, c'est faire de nouveau. Le préfixe « re- » indique la répétition.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0329",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quelle liste est rangée dans l'ordre alphabétique ?",
+   "choices": [
+    "balle, arbre, chien, dent",
+    "arbre, balle, chien, dent",
+    "arbre, chien, balle, dent",
+    "dent, chien, balle, arbre"
+   ],
+   "answer": 1,
+   "explanation": "a, b, c, d : on suit l'ordre de l'alphabet.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0330",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel mot est le contraire de « heureux » ?",
+   "choices": [
+    "content",
+    "joyeux",
+    "malheureux",
+    "gai"
+   ],
+   "answer": 2,
+   "explanation": "Le préfixe « mal- » donne le contraire. Content, joyeux et gai sont proches de heureux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0331",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel mot est le contraire de « coller » ?",
+   "choices": [
+    "recoller",
+    "collier",
+    "colle",
+    "décoller"
+   ],
+   "answer": 3,
+   "explanation": "Le préfixe « dé- » indique souvent le contraire : coller, décoller.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0332",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel mot est de la même famille que « terre » ?",
+   "choices": [
+    "terrain",
+    "tête",
+    "tarte",
+    "terrible"
+   ],
+   "answer": 0,
+   "explanation": "Un terrain est un morceau de terre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0333",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "« Il a un appétit d'oiseau. » Que veut dire cette phrase ?",
+   "choices": [
+    "Il mange des oiseaux.",
+    "Il mange très peu.",
+    "Il a très faim.",
+    "Il chante bien."
+   ],
+   "answer": 1,
+   "explanation": "Un oiseau mange de toutes petites quantités : c'est du sens figuré.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0334",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel mot veut dire la même chose que « bavarder » ?",
+   "choices": [
+    "courir",
+    "dormir",
+    "discuter",
+    "manger"
+   ],
+   "answer": 2,
+   "explanation": "Bavarder et discuter sont des synonymes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0335",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel mot est un mot composé ?",
+   "choices": [
+    "un marteau",
+    "une scie",
+    "une pince",
+    "un tournevis"
+   ],
+   "answer": 3,
+   "explanation": "Tournevis est formé de « tourne » et « vis ».",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0336",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Une « fillette » est...",
+   "choices": [
+    "une petite fille",
+    "une grande fille",
+    "une vieille fille",
+    "une fille triste"
+   ],
+   "answer": 0,
+   "explanation": "Le suffixe « -ette » indique souvent quelque chose de petit.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0337",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel mot est le contraire de « possible » ?",
+   "choices": [
+    "possibler",
+    "impossible",
+    "dépossible",
+    "repossible"
+   ],
+   "answer": 1,
+   "explanation": "Le préfixe « im- » (ou « in- ») donne le contraire.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0338",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel mot est le contraire de « courageux » ?",
+   "choices": [
+    "brave",
+    "fort",
+    "peureux",
+    "héros"
+   ],
+   "answer": 2,
+   "explanation": "Courageux : qui n'a pas peur. Peureux : qui a peur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0339",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel mot vient en premier dans l'ordre alphabétique : crème, crabe, cri, craie ?",
+   "choices": [
+    "craie",
+    "crème",
+    "cri",
+    "crabe"
+   ],
+   "answer": 3,
+   "explanation": "cra- vient avant cre- et cri-. Entre crabe et craie, b vient avant i.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0340",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "« Il est tombé dans les pommes. » Que veut dire cette phrase ?",
+   "choices": [
+    "Il s'est évanoui.",
+    "Il a mangé des pommes.",
+    "Il a glissé.",
+    "Il a cueilli des pommes."
+   ],
+   "answer": 0,
+   "explanation": "« Tomber dans les pommes » veut dire perdre connaissance.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0341",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 1,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « jour ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "nuit"
+   ],
+   "explanation": "Le contraire de jour est nuit.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0342",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 1,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « chaud ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "froid"
+   ],
+   "explanation": "Le contraire de chaud est froid.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0343",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 2,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « ouvrir ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "fermer"
+   ],
+   "explanation": "Le contraire d'ouvrir est fermer.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0344",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 2,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « hier ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "demain"
+   ],
+   "explanation": "Hier est avant aujourd'hui, demain est après.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0345",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « lourd ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "léger"
+   ],
+   "explanation": "Le contraire de lourd est léger.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0346",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « avant ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "après"
+   ],
+   "explanation": "Le contraire d'avant est après.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0347",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « sec ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "mouillé",
+    "humide"
+   ],
+   "explanation": "Le contraire de sec est mouillé (ou humide).",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0348",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Celui qui vend ou livre du lait est un ___ (mot de la famille de « lait »).",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "laitier"
+   ],
+   "explanation": "Laitier vient de lait.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0349",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « construire ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "détruire",
+    "démolir"
+   ],
+   "explanation": "Construire, c'est bâtir. Détruire, c'est abattre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0350",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Écris un synonyme de « un soulier ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "chaussure",
+    "une chaussure"
+   ],
+   "explanation": "Un soulier est une chaussure.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0351",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel mot est de la même famille que « jardin » ?",
+   "choices": [
+    "jardon",
+    "jargon",
+    "jaguar",
+    "jardinier"
+   ],
+   "answer": 3,
+   "explanation": "Le jardinier s'occupe du jardin.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0352",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel mot veut dire la même chose que « se dépêcher » ?",
+   "choices": [
+    "se presser",
+    "ralentir",
+    "attendre",
+    "dormir"
+   ],
+   "answer": 0,
+   "explanation": "Se dépêcher et se presser veulent dire aller vite.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0353",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Un « chou-fleur » est...",
+   "choices": [
+    "une fleur",
+    "un légume",
+    "un chou et une fleur",
+    "un fruit"
+   ],
+   "answer": 1,
+   "explanation": "Chou-fleur est un mot composé : c'est le nom d'un légume.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0354",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel mot est formé avec le préfixe « re- » (de nouveau) ?",
+   "choices": [
+    "renard",
+    "reine",
+    "revoir",
+    "rêve"
+   ],
+   "answer": 2,
+   "explanation": "Revoir, c'est voir de nouveau. Dans renard et reine, « re » n'est pas un préfixe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0355",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "« Il fait un froid de canard. » Que veut dire cette phrase ?",
+   "choices": [
+    "Il fait doux.",
+    "Les canards ont froid.",
+    "Il neige.",
+    "Il fait très froid."
+   ],
+   "answer": 3,
+   "explanation": "C'est une expression : elle veut dire qu'il fait très froid.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0356",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel mot veut dire la même chose que « un récit » ?",
+   "choices": [
+    "une histoire",
+    "une chanson",
+    "un dessin",
+    "une carte"
+   ],
+   "answer": 0,
+   "explanation": "Un récit raconte une histoire.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0357",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel est le contraire de « ancien » ?",
+   "choices": [
+    "vieux",
+    "nouveau",
+    "antique",
+    "passé"
+   ],
+   "answer": 1,
+   "explanation": "Ancien est le contraire de nouveau ou de récent.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0358",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Dans « inutile », que veut dire « in- » ?",
+   "choices": [
+    "la répétition",
+    "l'avant",
+    "le contraire",
+    "la grandeur"
+   ],
+   "answer": 2,
+   "explanation": "Inutile = qui n'est pas utile. Le préfixe « in- » donne le contraire.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0359",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Un « pommier » est...",
+   "choices": [
+    "une pomme",
+    "un marchand de pommes",
+    "un jus de pomme",
+    "un arbre qui donne des pommes"
+   ],
+   "answer": 3,
+   "explanation": "Le suffixe « -ier » désigne souvent un arbre : pommier, cerisier, poirier.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0360",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel mot est de la même famille que « mer » ?",
+   "choices": [
+    "marin",
+    "marron",
+    "marcher",
+    "marché"
+   ],
+   "answer": 0,
+   "explanation": "Un marin travaille sur la mer.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0361",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "« Nous faisons la queue au cinéma. » Que veut dire « la queue » ici ?",
+   "choices": [
+    "la queue d'un animal",
+    "une file de personnes",
+    "la fin d'une poêle",
+    "un bout de papier"
+   ],
+   "answer": 1,
+   "explanation": "Faire la queue, c'est attendre en file. Le même mot peut avoir plusieurs sens.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0362",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel mot veut dire la même chose que « apercevoir » ?",
+   "choices": [
+    "entendre",
+    "toucher",
+    "voir",
+    "goûter"
+   ],
+   "answer": 2,
+   "explanation": "Apercevoir, c'est voir un instant.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0363",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel est le contraire de « généreux » ?",
+   "choices": [
+    "gentil",
+    "riche",
+    "pauvre",
+    "avare"
+   ],
+   "answer": 3,
+   "explanation": "Un généreux donne volontiers. Un avare garde tout pour lui.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0364",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel mot vient en dernier dans l'ordre alphabétique : fleur, flèche, flamme, fleuve ?",
+   "choices": [
+    "fleuve",
+    "flamme",
+    "flèche",
+    "fleur"
+   ],
+   "answer": 0,
+   "explanation": "Ordre : flamme, flèche, fleur, fleuve. On compare lettre par lettre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0365",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "« Il a un grand cœur. » Que veut dire cette phrase ?",
+   "choices": [
+    "Il a un gros cœur.",
+    "Il est généreux.",
+    "Il est malade.",
+    "Il est grand."
+   ],
+   "answer": 1,
+   "explanation": "Avoir un grand cœur veut dire être généreux. C'est du sens figuré.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0366",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel mot veut dire la même chose que « fatigué » ?",
+   "choices": [
+    "reposé",
+    "en forme",
+    "épuisé",
+    "énergique"
+   ],
+   "answer": 2,
+   "explanation": "Épuisé veut dire très fatigué.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0367",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel est le contraire de « autoriser » ?",
+   "choices": [
+    "permettre",
+    "laisser",
+    "accepter",
+    "interdire"
+   ],
+   "answer": 3,
+   "explanation": "Autoriser, c'est permettre. Interdire, c'est défendre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0368",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel mot est formé de deux mots ?",
+   "choices": [
+    "un lave-vaisselle",
+    "un ordinateur",
+    "un médecin",
+    "un pantalon"
+   ],
+   "answer": 0,
+   "explanation": "Lave-vaisselle = lave + vaisselle.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0369",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Un « antivol » sert à...",
+   "choices": [
+    "voler",
+    "empêcher le vol",
+    "rendre un vol",
+    "aimer voler"
+   ],
+   "answer": 1,
+   "explanation": "Le préfixe « anti- » veut dire « contre » : antivol = contre le vol.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0370",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Un fruit « mangeable » est un fruit...",
+   "choices": [
+    "qui mange",
+    "qui a mangé",
+    "qu'on peut manger",
+    "qu'on ne peut jamais manger"
+   ],
+   "answer": 2,
+   "explanation": "Le suffixe « -able » veut dire « qu'on peut » : mangeable.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0371",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "« Elle a la main verte. » Que veut dire cette phrase ?",
+   "choices": [
+    "Elle a peint sa main.",
+    "Elle est malade.",
+    "Elle est jalouse.",
+    "Elle réussit bien avec les plantes."
+   ],
+   "answer": 3,
+   "explanation": "Avoir la main verte veut dire réussir à faire pousser les plantes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0372",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel mot veut dire la même chose que « gigantesque » ?",
+   "choices": [
+    "énorme",
+    "minuscule",
+    "moyen",
+    "faible"
+   ],
+   "answer": 0,
+   "explanation": "Gigantesque veut dire très très grand, comme énorme.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0373",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel est le contraire de « apparaître » ?",
+   "choices": [
+    "paraître",
+    "disparaître",
+    "montrer",
+    "arriver"
+   ],
+   "answer": 1,
+   "explanation": "Apparaître, c'est se montrer. Disparaître, c'est ne plus se voir.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0374",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Dans un dictionnaire, que veut dire « n. f. » ?",
+   "choices": [
+    "nom faux",
+    "nombre fort",
+    "nom féminin",
+    "noter fin"
+   ],
+   "answer": 2,
+   "explanation": "« n. f. » est l'abréviation de nom féminin.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0375",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel mot n'appartient PAS à la famille de « terre » ?",
+   "choices": [
+    "terrain",
+    "atterrir",
+    "enterrer",
+    "terrible"
+   ],
+   "answer": 3,
+   "explanation": "Terrible n'a pas de lien avec la terre. Les autres mots oui.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0376",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « accepter ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "refuser"
+   ],
+   "explanation": "Le contraire d'accepter est refuser.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0377",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Celui qui chante est un ___ (mot de la famille de « chanter »).",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "chanteur",
+    "chanteuse"
+   ],
+   "explanation": "Le suffixe « -eur » (ou -euse) désigne celui qui fait l'action.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0378",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « ennemi ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "ami"
+   ],
+   "explanation": "Le contraire d'ennemi est ami.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0379",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Un habitant de la montagne est un ___ (mot de la famille de « montagne »).",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "montagnard",
+    "montagnarde"
+   ],
+   "explanation": "Montagnard vient de montagne.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0380",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Le médecin qui soigne les dents est un ___ (mot de la famille de « dent »).",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "dentiste"
+   ],
+   "explanation": "Dentiste vient de dent.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0381",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « lisible ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "illisible"
+   ],
+   "explanation": "Le préfixe « il- » (comme in-) donne le contraire : illisible.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0382",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « agréable ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "désagréable"
+   ],
+   "explanation": "Le préfixe « dés- » donne le contraire : désagréable.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0383",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Demain, il va ___ sur la montagne (verbe de la famille de « neige »).",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "neiger"
+   ],
+   "explanation": "Neiger vient de neige.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0384",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Écris le contraire de « visible ».",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "invisible"
+   ],
+   "explanation": "Le préfixe « in- » donne le contraire : invisible.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-fr-0385",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Un arbre qui donne des cerises est un ___.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "cerisier"
+   ],
+   "explanation": "Le suffixe « -ier » désigne souvent un arbre : cerisier.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  }
+ ],
+ "passages": [
+  {
+   "id": "pa-fr-001",
+   "title": "Le chat de Lina",
+   "text": "Lina a un petit chat gris. Il s'appelle Pilou. Chaque matin, Pilou saute sur le lit de Lina et miaule très fort. Il veut manger ! Lina se lève, ouvre le placard et prend une boîte de croquettes. Elle remplit la gamelle bleue. Pilou mange vite, puis il boit un peu d'eau. Ensuite, il se couche près de la fenêtre. Le soleil chauffe son poil. Lina part à l'école. Quand elle revient le soir, Pilou l'attend derrière la porte. Il ronronne de joie.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 1
+  },
+  {
+   "id": "pa-fr-002",
+   "title": "Une journée à la plage",
+   "text": "Samedi, Tom et sa grande sœur Inès vont à la plage avec leurs parents. Papa porte le parasol et maman porte le panier du pique-nique. Tom court vers la mer, mais l'eau est très froide. Il décide donc de construire un château de sable. Inès l'aide à creuser un grand fossé autour. À midi, toute la famille mange des sandwichs et des fraises. Après le repas, un coup de vent emporte le chapeau de Tom. Inès court très vite et le rattrape juste avant la mer. Le soir, tout le monde rentre fatigué mais content.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 2
+  },
+  {
+   "id": "pa-fr-003",
+   "title": "Le marché du village",
+   "text": "Tous les jeudis, un marché s'installe sur la place du village. Dès sept heures, les marchands dressent leurs étals sous de grandes bâches blanches. Madame Roux vend des légumes frais : carottes, poireaux et courgettes. À côté, le fromager coupe de gros morceaux de gruyère. Le boulanger, lui, sort de son camion des baguettes encore chaudes. Mamie Odile vient toujours très tôt, car elle veut les meilleurs fruits. Elle remplit son grand cabas, bavarde avec chacun et goûte une pomme. Vers midi, les marchands rangent leurs caisses. Il ne reste alors sur la place que quelques feuilles de salade et des papiers.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 3
+  },
+  {
+   "id": "pa-fr-004",
+   "title": "La grotte mystérieuse",
+   "text": "Pendant les vacances, Hugo et son cousin Malik explorent la forêt derrière la ferme de leur grand-père. Soudain, Malik découvre une ouverture entre deux gros rochers. « Regarde, on dirait une grotte ! » s'écrie-t-il. Hugo allume sa lampe de poche et ils entrent doucement. Sur les murs, l'eau brille comme de petits diamants. Plus loin, des chauves-souris dorment, la tête en bas. Les garçons parlent tout bas pour ne pas les réveiller. Tout à coup, la lampe de Hugo clignote, puis s'éteint. Les deux cousins ont un peu peur, mais Malik garde son calme. Il retrouve la sortie en suivant la lumière du jour. Dehors, Hugo promet de revenir avec des piles neuves.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4
+  },
+  {
+   "id": "pa-fr-005",
+   "title": "Le potager de Mamie",
+   "text": "Chaque printemps, Mamie Rose prépare son potager. Elle bêche la terre, enlève les cailloux et trace de longues lignes droites. Ensuite, elle plante des graines de radis, de salade et de haricots. Zoé vient l'aider le mercredi. Elle arrose les semis avec un petit arrosoir rouge, sans trop verser d'eau. « Si on met trop d'eau, les graines pourrissent », explique Mamie. Au bout de dix jours, de minuscules feuilles vertes sortent de terre. Zoé est très fière. En été, les tomates deviennent rouges et sucrées. Mamie et Zoé les cueillent ensemble et les mangent avec un peu de sel. « Ce que l'on fait pousser soi-même a meilleur goût ! » dit Zoé en souriant.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 4
+  },
+  {
+   "id": "pa-fr-006",
+   "title": "Le vélo de Yanis",
+   "text": "Yanis rêve d'un vélo depuis longtemps. Pour son anniversaire, ses parents lui offrent enfin un vélo rouge, avec une sonnette argentée. Le garçon est fou de joie. Dès l'après-midi, il l'essaie dans l'allée du jardin, mais il perd l'équilibre et tombe dans les rosiers. Il se griffe le bras et grimace. Son père lui dit : « Ne t'inquiète pas, tout le monde tombe au début. Recommence doucement. » Yanis respire, remonte sur la selle et pédale, cette fois en regardant droit devant lui. Il avance tout seul jusqu'au bout de l'allée ! Papa applaudit, maman prend une photo. Le soir, Yanis ne veut pas quitter son vélo : il demande même la permission de dormir à côté de lui, dans le garage. Maman éclate de rire et refuse gentiment.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5
+  },
+  {
+   "id": "pa-fr-007",
+   "title": "La fête des voisins",
+   "text": "Chaque année, en juin, les habitants de la rue des Lilas organisent une fête. Dès le matin, Monsieur Lambert installe de longues tables au milieu de la rue, pendant que les enfants collent des guirlandes aux arbres. Chacun apporte un plat à partager : une tarte, une salade de riz, des brochettes ou des gâteaux faits maison. Madame Diallo, qui vient d'emménager au numéro 8, a préparé un grand plat de couscous. Les voisins la remercient et lui demandent la recette. Après le repas, un jeu de piste est proposé aux enfants : ils doivent retrouver dix objets cachés dans la rue. L'équipe de Lola gagne la partie en seulement vingt minutes. Le soir, la musique s'arrête, mais personne ne veut vraiment rentrer chez soi. On se promet déjà de recommencer l'année suivante.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5
+  },
+  {
+   "id": "pa-fr-008",
+   "title": "L'orage",
+   "text": "Ce samedi-là, il faisait très chaud. Depuis le matin, le ciel était lourd et plus un souffle de vent ne remuait les feuilles. Camille jouait dans le jardin avec son frère Noé lorsque de gros nuages noirs ont envahi le ciel. Soudain, un éclair a déchiré l'obscurité et, quelques secondes plus tard, un grand coup de tonnerre a fait trembler les vitres. Noé s'est jeté dans les bras de sa sœur. « N'aie pas peur, lui a dit Camille. Le tonnerre fait seulement du bruit. » Elle l'a emmené dans la maison, puis elle a fermé les volets. Dehors, la pluie tombait à torrents. Les deux enfants se sont blottis sous une couverture et ils ont compté les secondes entre l'éclair et le tonnerre : plus le temps était court, plus l'orage était proche. Au bout d'une heure, la pluie s'est calmée et le soleil est réapparu. Un bel arc-en-ciel s'étendait au-dessus des toits.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6
+  },
+  {
+   "id": "pa-fr-009",
+   "title": "À la bibliothèque",
+   "text": "Nadia aime beaucoup la bibliothèque de son quartier. Elle y va tous les mercredis après-midi. La bibliothécaire, madame Perrin, la connaît bien et lui conseille souvent de nouveaux livres. Aujourd'hui, Nadia cherche un album sur les dauphins, car elle doit présenter un exposé devant sa classe. Elle consulte l'ordinateur, note le numéro du rayon, puis se dirige vers la bonne étagère. Là, elle trouve deux livres : un grand album plein de photos et un petit documentaire plus difficile à lire. Elle choisit le premier, plus agréable à regarder, et elle emprunte aussi un roman d'aventures. Madame Perrin tamponne les cartes et lui rappelle qu'elle doit rapporter les livres dans trois semaines. « Si tu es en retard, il faudra attendre avant de pouvoir emprunter d'autres livres », précise-t-elle. Nadia promet d'être à l'heure et sort, ravie, avec son sac rempli.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6
+  },
+  {
+   "id": "pa-fr-010",
+   "title": "La vie des abeilles",
+   "text": "Les abeilles vivent en groupe dans une ruche. Dans chaque ruche, on trouve une seule reine, des mâles appelés faux-bourdons et des milliers d'ouvrières. La reine pond les œufs. Les ouvrières, elles, font presque tout le reste : elles nettoient la ruche, nourrissent les petites larves, fabriquent la cire et partent chercher le nectar des fleurs. Pour trouver les fleurs, une abeille éclaireuse volette dans la campagne. À son retour, elle danse devant ses sœurs : cette danse leur indique dans quelle direction et à quelle distance se trouvent les fleurs. Avec le nectar, les abeilles fabriquent le miel, qu'elles stockent dans de petites cases en cire. En butinant, elles transportent aussi le pollen d'une fleur à l'autre, ce qui permet à de nombreuses plantes de fabriquer des fruits. Sans les abeilles, il y aurait donc beaucoup moins de fruits.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7
+  },
+  {
+   "id": "pa-fr-011",
+   "title": "Seule dans le train",
+   "text": "Aujourd'hui, Soraya prend le train toute seule pour la première fois. Sa tante l'attend à la gare de Namur, mais le trajet dure presque deux heures. Maman l'a accompagnée jusqu'au quai, a glissé un goûter dans son sac et lui a fait promettre de ne parler à aucun inconnu. Soraya s'installe près de la fenêtre et regarde défiler les champs, les villages et les vaches immobiles. Une dame âgée s'assoit en face d'elle et lui sourit. Soraya détourne les yeux, un peu gênée, et prend son livre. Mais quand le contrôleur arrive, elle n'arrive plus à retrouver son billet ! Son cœur bat très fort. Elle fouille son sac, ses poches, son livre... et le billet tombe de la page où elle l'avait glissé comme marque-page. Le contrôleur le poinçonne en souriant. Soraya soupire de soulagement. Une heure plus tard, le train ralentit : Namur apparaît enfin, et sur le quai, tante Salima agite la main.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 7
+  },
+  {
+   "id": "pa-fr-012",
+   "title": "Le voyage de l'eau",
+   "text": "Quand tu ouvres le robinet, l'eau coule en quelques secondes. Pourtant, elle vient parfois de très loin. Elle est d'abord pompée dans une rivière, dans un lac ou dans une nappe souterraine, c'est-à-dire une réserve d'eau cachée sous le sol. Elle est ensuite envoyée dans une station de traitement. Là, elle traverse plusieurs filtres qui retiennent la terre, les feuilles et les saletés. On y ajoute aussi une toute petite quantité de produit pour tuer les microbes. Une fois propre, l'eau est stockée dans un château d'eau, un grand réservoir situé en hauteur. Grâce à la hauteur, l'eau descend dans les tuyaux et arrive jusqu'aux maisons sans avoir besoin d'être poussée à chaque instant. Après son utilisation, l'eau sale part dans les égouts. Elle est alors nettoyée dans une station d'épuration avant de retourner dans la rivière. Il est donc important de ne pas gaspiller l'eau propre et de ne pas jeter n'importe quoi dans les toilettes.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8
+  },
+  {
+   "id": "pa-fr-013",
+   "title": "La finale",
+   "text": "Dimanche, l'équipe de football de Karim joue la finale du tournoi de l'école. À la mi-temps, les Rouges perdent un à zéro. Dans le vestiaire, l'entraîneur ne crie pas. Il dit calmement : « Vous courez tous derrière le ballon. Restez à votre place et passez-vous la balle. » Karim, qui joue en défense, regarde ses coéquipiers : certains ont la tête baissée. « On peut encore gagner, dit-il. Il reste vingt minutes ! » Les joueurs relèvent la tête. À la reprise, ils suivent le conseil du coach. Léo, l'attaquant, reçoit une belle passe et marque : un partout ! Dans les dernières secondes, Karim récupère le ballon devant son but, le donne à Inès, et celle-ci tire. Le ballon touche le poteau, rebondit... et entre dans le but ! Les Rouges gagnent deux à un. Karim ne marque pourtant aucun but, mais il a le sentiment d'avoir gagné grâce à toute l'équipe.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 8
+  },
+  {
+   "id": "pa-fr-014",
+   "title": "Les volcans",
+   "text": "Un volcan est une montagne par laquelle des roches très chaudes et fondues peuvent sortir de la Terre. Sous la croûte terrestre, ces roches fondues forment le magma. Quand le magma monte par la cheminée du volcan et jaillit à l'air libre, on parle d'éruption. Il s'appelle alors la lave. La lave est extrêmement chaude, mais en refroidissant, elle devient dure comme de la pierre. Pendant une éruption, le volcan rejette aussi des cendres et des gaz. Les cendres, très fines, peuvent monter haut dans le ciel et retomber très loin. Un volcan qui entre régulièrement en éruption est dit « actif » ; celui qui n'a plus craché depuis très longtemps est dit « éteint ». Entre deux éruptions, un volcan peut rester calme pendant très longtemps. Après les éruptions, les sols deviennent très riches, car les cendres contiennent des minéraux. C'est pourquoi des agriculteurs cultivent parfois leurs champs au pied des volcans, malgré le danger.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 9
+  },
+  {
+   "id": "pa-fr-015",
+   "title": "Une lettre pour Inès",
+   "text": "Bruxelles, le 12 mars. Chère Inès, comment vas-tu ? Chez nous, tout va bien, même si la maison est beaucoup plus calme depuis que tu es partie vivre à Liège. Hier, j'ai retrouvé ton vieux cahier de dessins au fond du grenier. Il y a des pages entières de chevaux et de dragons ! Tu te souviens de la fois où tu as voulu que Papa construise une écurie dans le jardin ? Il avait ri pendant dix minutes avant de te répondre qu'un cheval ne tiendrait jamais sous l'escalier. Maman prétend qu'elle a gardé tous tes bulletins dans une boîte à chaussures. Moi, je préfère garder tes dessins : ils me font penser à toi chaque fois que je les ouvre. Je t'envoie une photo du chat : il dort toujours dans ta chambre, sur ton oreiller, comme s'il t'attendait. Reviens vite pour les vacances de Pâques ! Je t'embrasse très fort. Ton frère, Samir.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 10
+  },
+  {
+   "id": "pa-fr-016",
+   "title": "Les annonces de l'école",
+   "text": "Attention, les enfants ! Voici les informations du jour. Ce matin, la classe de Madame Colin va à la piscine. Les élèves doivent apporter leur maillot, une serviette et un bonnet de bain. Le car part à neuf heures devant la grande porte. Cet après-midi, il n'y aura pas de récréation dans la cour, car il pleut beaucoup. Les enfants resteront dans leur classe et pourront jouer aux jeux de société. N'oubliez pas : demain, c'est la fête de l'école ! Merci de votre attention et bonne journée à tous.",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 1
+  },
+  {
+   "id": "pa-fr-017",
+   "title": "Un coup de téléphone",
+   "text": "— Allô, Mamie ? C'est Théo. — Bonjour, mon petit Théo ! Comment vas-tu ? — Très bien. Je t'appelle pour savoir si tu viens samedi à mon anniversaire. — Bien sûr ! Quel âge as-tu cette année ? — J'ai huit ans, Mamie ! Papa prépare un gâteau au chocolat et maman a invité six copains. — Quelle bonne idée ! Veux-tu un cadeau particulier ? — Oui, j'aimerais bien un jeu de construction, mais pas trop grand. — D'accord. Je passerai au magasin demain matin. Je serai chez toi samedi à deux heures. — Super ! À samedi, Mamie, je t'embrasse ! — Moi aussi, mon grand. À samedi.",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 3
+  },
+  {
+   "id": "pa-fr-018",
+   "title": "Visite du château",
+   "text": "Mesdames, messieurs, chers visiteurs, bienvenue au château de Beauval. La visite commence dans quelques minutes. Je vous demande de rester groupés et de ne pas toucher aux objets exposés. Nous allons d'abord découvrir la grande salle, où se tenaient autrefois les repas de fête. Puis nous monterons dans la tour, d'où l'on voit toute la campagne. Attention, l'escalier compte beaucoup de marches et il est étroit : prenez votre temps. Ensuite, nous descendrons dans les cachots, au sous-sol, où l'on enfermait les prisonniers. Il y fait très frais, même en été, alors je vous conseille de garder vos vestes. La visite se terminera dans la cour, devant le puits. Les photos sont autorisées, sauf avec le flash. Si vous avez des questions, n'hésitez pas à lever la main. Nous partons dans deux minutes !",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 5
+  },
+  {
+   "id": "pa-fr-019",
+   "title": "Les p'tits curieux",
+   "text": "Bonjour à tous et bienvenue dans « Les p'tits curieux », votre émission du mercredi ! Aujourd'hui, nous parlons des hérissons. Avez-vous déjà croisé un hérisson dans votre jardin ? Cet animal sort surtout le soir, car il chasse la nuit. Il mange des escargots, des vers de terre et des insectes. Contrairement à ce qu'on croit, il n'aime pas le lait : cela le rend malade. En automne, le hérisson se prépare pour l'hiver : il mange beaucoup pour faire des réserves de graisse, puis il s'installe dans un tas de feuilles mortes. Il y dort jusqu'au printemps. On dit alors qu'il hiberne. Si vous voulez l'aider, laissez un coin de votre jardin un peu sauvage et ne ramassez pas toutes les feuilles. Voilà pour aujourd'hui. Et la semaine prochaine, nous parlerons des chauves-souris. À mercredi prochain, les curieux !",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 6
+  },
+  {
+   "id": "pa-fr-020",
+   "title": "Une sortie à organiser",
+   "text": "— Salut Ilyas ! Tu as réfléchi à la sortie de samedi ? — Oui, Sara. Je voudrais aller à la patinoire, mais papa dit qu'elle est fermée pour travaux jusqu'à la fin du mois. — Zut ! Alors on pourrait aller au parc d'attractions. — C'est trop loin, et il faut prendre le train. Et puis, ma mère travaille samedi : elle ne pourra pas m'accompagner à la gare. — Dans ce cas, pourquoi pas le cinéma de la ville ? Il y a un nouveau film d'animation, à quatorze heures. — Bonne idée ! Mais il faut réserver, parce que la salle est petite. — Je m'en occupe ce soir, avec ma sœur. Elle a une carte de réduction. — Parfait. Je préviendrai Mehdi et Camille. Rendez-vous à treize heures trente devant l'entrée, d'accord ? — D'accord. Et n'oublie pas ton argent de poche pour le pop-corn !",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 8
+  },
+  {
+   "id": "pa-fr-021",
+   "title": "Planète propre",
+   "text": "Bonjour chers auditeurs. Dans notre rubrique « Planète propre », nous allons voir ce que devient une feuille de papier après sa vie dans votre cartable. Quand vous jetez vos vieux cahiers dans le conteneur à papier, un camion vient les chercher et les emmène dans un centre de tri. Là, des machines et des employés séparent le papier propre des déchets qui n'ont rien à y faire, comme les emballages en plastique. Ensuite, le papier est envoyé à l'usine. On le plonge dans une grande cuve remplie d'eau, où il se transforme en une sorte de bouillie. Cette pâte est nettoyée, puis étalée en fines couches et séchée. On obtient alors de grandes feuilles de papier recyclé, prêtes à être découpées. Recycler le papier permet de sauver des arbres. Pourtant, on ne peut pas recycler le papier à l'infini : à chaque fois, les fibres raccourcissent et deviennent plus fragiles. Alors, pensez aussi à écrire des deux côtés de la feuille et à n'imprimer que ce qui est utile !",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 10
+  }
+ ],
+ "openTasks": [
+  {
+   "id": "ao-001",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 1,
+   "prompt": "Écris 3 phrases pour présenter ton animal préféré (ou celui que tu aimerais avoir). Dis comment il s'appelle, comment il est et ce qu'il aime faire.",
+   "rubric": [
+    "Écrit au moins 3 phrases complètes",
+    "Chaque phrase commence par une majuscule et finit par un point",
+    "Les phrases parlent bien de l'animal choisi",
+    "Les mots sont écrits de façon lisible"
+   ]
+  },
+  {
+   "id": "ao-002",
+   "subject": "francais",
+   "domain": "creatif",
+   "level": 2,
+   "prompt": "Invente une petite devinette sur un objet de la classe (par exemple : le cartable, la règle, le tableau). Écris 3 indices, puis donne la réponse.",
+   "rubric": [
+    "Écrit 3 indices clairs",
+    "Les indices permettent vraiment de deviner l'objet",
+    "La réponse est donnée à la fin",
+    "Les phrases sont complètes, avec majuscule et point"
+   ]
+  },
+  {
+   "id": "ao-003",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 3,
+   "prompt": "Décris ta chambre ou ton coin préféré de la maison en 4 à 5 phrases. Utilise au moins 3 adjectifs (par exemple : grand, coloré, douillet).",
+   "rubric": [
+    "Écrit 4 à 5 phrases complètes",
+    "Utilise au moins 3 adjectifs bien choisis",
+    "Les phrases sont en lien avec le lieu décrit",
+    "Respecte la majuscule et la ponctuation",
+    "Orthographe des mots courants correcte"
+   ]
+  },
+  {
+   "id": "ao-004",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 4,
+   "prompt": "Raconte ta dernière sortie ou ta dernière journée de vacances en 5 à 6 phrases au passé composé. Dis où tu étais, avec qui et ce que vous avez fait.",
+   "rubric": [
+    "Écrit 5 à 6 phrases",
+    "Utilise le passé composé (par exemple : j'ai mangé, nous sommes allés)",
+    "Précise le lieu et les personnes",
+    "Les phrases suivent un ordre logique (d'abord, ensuite, enfin)",
+    "Majuscules et points respectés"
+   ]
+  },
+  {
+   "id": "ao-005",
+   "subject": "francais",
+   "domain": "creatif",
+   "level": 5,
+   "prompt": "Écris le début d'une histoire qui commence par : « Ce matin-là, en ouvrant la porte, j'ai découvert une surprise... ». Écris 5 à 7 phrases.",
+   "rubric": [
+    "Reprend le début donné et le continue",
+    "Présente un personnage et un lieu",
+    "Décrit la surprise avec des détails",
+    "Les temps des verbes sont cohérents (passé composé et imparfait)",
+    "Ponctuation et orthographe soignées"
+   ]
+  },
+  {
+   "id": "ao-006",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 6,
+   "prompt": "Écris une lettre à un ami ou à un membre de ta famille pour l'inviter à ton anniversaire. Dis quand et où aura lieu la fête, ce que vous ferez et ce qu'il doit apporter.",
+   "rubric": [
+    "Contient une formule de début (Cher ... / Chère ...) et une formule de fin",
+    "Donne la date, l'heure et le lieu",
+    "Explique les activités prévues",
+    "Utilise le futur pour parler de la fête",
+    "Phrases complètes, bien ponctuées"
+   ]
+  },
+  {
+   "id": "ao-007",
+   "subject": "francais",
+   "domain": "creatif",
+   "level": 7,
+   "prompt": "Imagine un dialogue entre deux enfants qui découvrent un coffre au fond du jardin. Écris au moins 6 répliques en utilisant les tirets de dialogue.",
+   "rubric": [
+    "Écrit au moins 6 répliques",
+    "Utilise le tiret ou les guillemets pour marquer la parole",
+    "On comprend qui parle",
+    "Le dialogue est vivant et reste en lien avec la découverte du coffre",
+    "Orthographe et ponctuation correctes"
+   ]
+  },
+  {
+   "id": "ao-008",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 8,
+   "prompt": "Explique ce que tu fais pour protéger l'environnement (ou ce que tu pourrais faire) en un petit texte de 6 à 8 phrases. Donne au moins deux idées et dis pourquoi elles sont utiles.",
+   "rubric": [
+    "Écrit 6 à 8 phrases en un seul texte organisé",
+    "Donne au moins deux idées différentes",
+    "Explique pourquoi chaque idée est utile (grâce à « parce que », « car »)",
+    "Utilise le présent de façon correcte",
+    "Orthographe et accords soignés"
+   ]
+  },
+  {
+   "id": "ao-009",
+   "subject": "francais",
+   "domain": "creatif",
+   "level": 8,
+   "prompt": "Écris une courte histoire (8 à 10 phrases) dont le héros est un animal qui a perdu quelque chose d'important. Raconte comment il le retrouve.",
+   "rubric": [
+    "L'histoire a un début, un milieu et une fin",
+    "Le problème et la solution sont clairs",
+    "Utilise des mots de liaison (puis, soudain, enfin)",
+    "Les temps du passé sont employés correctement",
+    "Soin de l'orthographe, de la ponctuation et de la présentation"
+   ]
+  },
+  {
+   "id": "ao-010",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 9,
+   "prompt": "Donne ton avis : est-il important de lire tous les jours ? Écris un petit texte de 8 à 10 phrases avec ton opinion, au moins deux arguments et une conclusion.",
+   "rubric": [
+    "Donne clairement son opinion dès le début",
+    "Présente au moins deux arguments différents",
+    "Utilise des mots comme « d'abord », « ensuite », « enfin »",
+    "Termine par une conclusion",
+    "Phrases variées, orthographe et ponctuation soignées"
+   ]
+  },
+  {
+   "id": "ao-011",
+   "subject": "francais",
+   "domain": "creatif",
+   "level": 9,
+   "prompt": "Écris un petit poème de 4 à 6 lignes sur une saison de ton choix. Utilise au moins deux comparaisons (par exemple : « blanc comme la neige »).",
+   "rubric": [
+    "Écrit 4 à 6 lignes sur la saison choisie",
+    "Contient au moins deux comparaisons",
+    "Choisit des mots qui parlent aux sens (couleurs, sons, odeurs)",
+    "Le texte est cohérent et agréable à lire",
+    "Orthographe correcte"
+   ]
+  },
+  {
+   "id": "ao-012",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 10,
+   "prompt": "Écris un article court pour le journal de l'école sur un événement (une sortie, une fête, un spectacle) : donne un titre, raconte ce qui s'est passé (qui, quoi, où, quand) et ajoute une phrase pour dire ce que tu en as pensé.",
+   "rubric": [
+    "Écrit un titre adapté",
+    "Répond aux questions qui, quoi, où, quand",
+    "Les faits sont racontés dans l'ordre, avec des temps du passé cohérents",
+    "Donne son avis dans une phrase de conclusion",
+    "Texte structuré, orthographe et accords soignés"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "soumaya-academy",
+  "version": "1.0.0",
+  "description": "Soumaya Academy — jeu d’aventure éducatif 2.5D (P4)",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "content": "node tools/gen-math.mjs && node tools/merge-content.mjs",
+    "build": "node tools/merge-content.mjs && node tools/build.mjs",
+    "start": "node server.js",
+    "test:content": "node tests/content.test.mjs",
+    "test:e2e": "node tests/e2e.mjs all",
+    "test": "npm run build && npm run test:content && npm run test:e2e",
+    "test:single": "node tests/single.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "private": true,
+  "dependencies": {
+    "three": "^0.169.0"
+  }
+}

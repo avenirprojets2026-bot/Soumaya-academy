@@ -1,0 +1,234 @@
+{
+ "dropped": [
+  {
+   "id": "h0049",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0354",
+   "f": "harvest.json",
+   "why": "signalée à vérifier"
+  },
+  {
+   "id": "h0424",
+   "f": "harvest.json",
+   "why": "signalée à vérifier"
+  },
+  {
+   "id": "h0483",
+   "f": "harvest.json",
+   "why": "signalée à vérifier"
+  },
+  {
+   "id": "h0484",
+   "f": "harvest.json",
+   "why": "signalée à vérifier"
+  },
+  {
+   "id": "h0487",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0488",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0511",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0512",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0513",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0514",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0551",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0566",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0597",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0632",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0637",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0642",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "h0732",
+   "f": "harvest.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0072",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0091",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0095",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0118",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0126",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0141",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0142",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0149",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0150",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0176",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0182",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0192",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0193",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  },
+  {
+   "id": "a-fr-0194",
+   "f": "authored/authored-francais.json",
+   "why": "choix"
+  }
+ ],
+ "used": {
+  "harvest.json": {
+   "questions": 760,
+   "passages": 39
+  },
+  "generated-maths.json": {
+   "questions": 454,
+   "passages": 0
+  },
+  "authored/authored-francais.json": {
+   "questions": 385,
+   "passages": 21
+  },
+  "authored/authored-eveil.json": {
+   "questions": 220,
+   "passages": 0
+  },
+  "i2025/doc01.json": {
+   "questions": 21,
+   "passages": 1
+  },
+  "i2025/doc02.json": {
+   "questions": 19,
+   "passages": 1
+  },
+  "i2025/doc03.json": {
+   "questions": 19,
+   "passages": 3
+  },
+  "i2025/doc04.json": {
+   "questions": 17,
+   "passages": 1
+  },
+  "i2025/doc05.json": {
+   "questions": 19,
+   "passages": 0
+  },
+  "i2025/doc06.json": {
+   "questions": 18,
+   "passages": 1
+  },
+  "i2025/doc07.json": {
+   "questions": 35,
+   "passages": 1
+  },
+  "i2025/doc08.json": {
+   "questions": 41,
+   "passages": 2
+  },
+  "i2025/doc09.json": {
+   "questions": 25,
+   "passages": 5
+  },
+  "i2025/doc10.json": {
+   "questions": 34,
+   "passages": 0
+  },
+  "i2025/doc11.json": {
+   "questions": 34,
+   "passages": 0
+  },
+  "i2025/fmttn.json": {
+   "questions": 22,
+   "passages": 0
+  },
+  "i2025/religion.json": {
+   "questions": 18,
+   "passages": 1
+  }
+ }
+}

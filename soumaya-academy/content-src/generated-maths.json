@@ -1,0 +1,8984 @@
+{
+ "questions": [
+  {
+   "id": "g-ma-0001",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans le nombre 82, quelle est la valeur du chiffre 2 ?",
+   "explanation": "Le chiffre 2 est au rang des unités : il vaut 2.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*1",
+   "choices": [
+    "200",
+    "2",
+    "20",
+    "3"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0002",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans le nombre 43, quelle est la valeur du chiffre 4 ?",
+   "explanation": "Le chiffre 4 est au rang des dizaines : il vaut 40.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*10",
+   "choices": [
+    "40",
+    "4 000",
+    "4",
+    "400"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0003",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans le nombre 92, quelle est la valeur du chiffre 2 ?",
+   "explanation": "Le chiffre 2 est au rang des unités : il vaut 2.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*1",
+   "choices": [
+    "20",
+    "2",
+    "200",
+    "3"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0004",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans le nombre 14, quelle est la valeur du chiffre 4 ?",
+   "explanation": "Le chiffre 4 est au rang des unités : il vaut 4.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*1",
+   "choices": [
+    "5",
+    "400",
+    "40",
+    "4"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0005",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans le nombre 28, quelle est la valeur du chiffre 2 ?",
+   "explanation": "Le chiffre 2 est au rang des dizaines : il vaut 20.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*10",
+   "choices": [
+    "2",
+    "20",
+    "200",
+    "2 000"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0006",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans le nombre 94, quelle est la valeur du chiffre 4 ?",
+   "explanation": "Le chiffre 4 est au rang des unités : il vaut 4.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*1",
+   "choices": [
+    "4",
+    "40",
+    "400",
+    "5"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0007",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 40 ?",
+   "explanation": "On ajoute 1 : 40 + 1 = 41.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "40+1",
+   "choices": [
+    "41",
+    "50",
+    "42",
+    "39"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0008",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 60 ?",
+   "explanation": "On ajoute 1 : 60 + 1 = 61.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "60+1",
+   "choices": [
+    "61",
+    "59",
+    "70",
+    "62"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0009",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Dans le nombre 946, quelle est la valeur du chiffre 4 ?",
+   "explanation": "Le chiffre 4 est au rang des dizaines : il vaut 40.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*10",
+   "choices": [
+    "4 000",
+    "4",
+    "400",
+    "40"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0010",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Dans le nombre 261, quelle est la valeur du chiffre 2 ?",
+   "explanation": "Le chiffre 2 est au rang des centaines : il vaut 200.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*100",
+   "choices": [
+    "2 000",
+    "200",
+    "20",
+    "2"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0011",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Dans le nombre 520, quelle est la valeur du chiffre 5 ?",
+   "explanation": "Le chiffre 5 est au rang des centaines : il vaut 500.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*100",
+   "choices": [
+    "5",
+    "500",
+    "50",
+    "5 000"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0012",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Dans le nombre 330, quelle est la valeur du chiffre 3 ?",
+   "explanation": "Le chiffre 3 est au rang des dizaines : il vaut 30.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3*10",
+   "choices": [
+    "300",
+    "3",
+    "30",
+    "3 000"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0013",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Dans le nombre 469, quelle est la valeur du chiffre 9 ?",
+   "explanation": "Le chiffre 9 est au rang des unités : il vaut 9.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "9*1",
+   "choices": [
+    "90",
+    "9",
+    "10",
+    "900"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0014",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Dans le nombre 986, quelle est la valeur du chiffre 9 ?",
+   "explanation": "Le chiffre 9 est au rang des centaines : il vaut 900.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "9*100",
+   "choices": [
+    "9 000",
+    "900",
+    "9",
+    "90"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0015",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 160 ?",
+   "explanation": "On ajoute 1 : 160 + 1 = 161.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "160+1",
+   "choices": [
+    "159",
+    "170",
+    "161",
+    "162"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0016",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 879 ?",
+   "explanation": "On ajoute 1 : 879 + 1 = 880.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "879+1",
+   "choices": [
+    "878",
+    "880",
+    "889",
+    "881"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0017",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans le nombre 471, quelle est la valeur du chiffre 7 ?",
+   "explanation": "Le chiffre 7 est au rang des dizaines : il vaut 70.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7*10",
+   "choices": [
+    "7 000",
+    "700",
+    "70",
+    "7"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0018",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans le nombre 712, quelle est la valeur du chiffre 2 ?",
+   "explanation": "Le chiffre 2 est au rang des unités : il vaut 2.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*1",
+   "choices": [
+    "3",
+    "200",
+    "20",
+    "2"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0019",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans le nombre 999, quelle est la valeur du chiffre 9 ?",
+   "explanation": "Le chiffre 9 est au rang des unités : il vaut 9.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "9*1",
+   "choices": [
+    "900",
+    "9",
+    "90",
+    "10"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0020",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans le nombre 656, quelle est la valeur du chiffre 5 ?",
+   "explanation": "Le chiffre 5 est au rang des dizaines : il vaut 50.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*10",
+   "choices": [
+    "500",
+    "50",
+    "5 000",
+    "5"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0021",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Dans le nombre 122, quelle est la valeur du chiffre 2 ?",
+   "explanation": "Le chiffre 2 est au rang des unités : il vaut 2.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*1",
+   "choices": [
+    "2",
+    "20",
+    "3",
+    "200"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0022",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 664 ?",
+   "explanation": "On ajoute 1 : 664 + 1 = 665.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "664+1",
+   "choices": [
+    "665",
+    "663",
+    "666",
+    "674"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0023",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 698 ?",
+   "explanation": "On ajoute 1 : 698 + 1 = 699.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "698+1",
+   "choices": [
+    "708",
+    "699",
+    "700",
+    "697"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0024",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 7 milliers + 7 centaines + 3 dizaines + 9 unités ?",
+   "explanation": "7 000 + 700 + 30 + 9 = 7 739.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7000+700+30+9",
+   "choices": [
+    "77 390",
+    "7 729",
+    "7 739",
+    "7 839"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0025",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 4 milliers + 2 centaines + 5 dizaines + 2 unités ?",
+   "explanation": "4 000 + 200 + 50 + 2 = 4 252.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4000+200+50+2",
+   "choices": [
+    "4 252",
+    "4 352",
+    "2 126",
+    "4 262"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0026",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans le nombre 6 480, quelle est la valeur du chiffre 4 ?",
+   "explanation": "Le chiffre 4 est au rang des centaines : il vaut 400.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*100",
+   "choices": [
+    "40",
+    "400",
+    "4",
+    "4 000"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0027",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans le nombre 1 104, quelle est la valeur du chiffre 4 ?",
+   "explanation": "Le chiffre 4 est au rang des unités : il vaut 4.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*1",
+   "choices": [
+    "40",
+    "5",
+    "400",
+    "4"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0028",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans le nombre 4 583, quelle est la valeur du chiffre 4 ?",
+   "explanation": "Le chiffre 4 est au rang des unités de mille : il vaut 4 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*1000",
+   "choices": [
+    "400",
+    "40 000",
+    "4 000",
+    "4"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0029",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans le nombre 2 628, quelle est la valeur du chiffre 6 ?",
+   "explanation": "Le chiffre 6 est au rang des centaines : il vaut 600.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6*100",
+   "choices": [
+    "600",
+    "60",
+    "6 000",
+    "6"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0030",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans le nombre 4 707, quelle est la valeur du chiffre 7 ?",
+   "explanation": "Le chiffre 7 est au rang des unités : il vaut 7.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7*1",
+   "choices": [
+    "7",
+    "8",
+    "70",
+    "700"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0031",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 4 800 ?",
+   "explanation": "On ajoute 1 : 4 800 + 1 = 4 801.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4800+1",
+   "choices": [
+    "4 801",
+    "4 799",
+    "4 802",
+    "4 810"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0032",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 4 561 ?",
+   "explanation": "On ajoute 1 : 4 561 + 1 = 4 562.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4561+1",
+   "choices": [
+    "4 571",
+    "4 560",
+    "4 563",
+    "4 562"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0033",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 4 milliers + 8 centaines + 3 dizaines + 9 unités ?",
+   "explanation": "4 000 + 800 + 30 + 9 = 4 839.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4000+800+30+9",
+   "choices": [
+    "4 939",
+    "4 838",
+    "4 829",
+    "4 839"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0034",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 7 milliers + 9 centaines + 1 dizaines + 0 unités ?",
+   "explanation": "7 000 + 900 + 10 + 0 = 7 910.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7000+900+10+0",
+   "choices": [
+    "7 900",
+    "7 810",
+    "7 910",
+    "7 911"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0035",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans le nombre 51 680, quelle est la valeur du chiffre 5 ?",
+   "explanation": "Le chiffre 5 est au rang des dizaines de mille : il vaut 50 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*10000",
+   "choices": [
+    "500 000",
+    "5",
+    "5 000",
+    "50 000"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0036",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans le nombre 52 657, quelle est la valeur du chiffre 5 ?",
+   "explanation": "Le chiffre 5 est au rang des dizaines : il vaut 50.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*10",
+   "choices": [
+    "5",
+    "50",
+    "500",
+    "5 000"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0037",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans le nombre 48 676, quelle est la valeur du chiffre 6 ?",
+   "explanation": "Le chiffre 6 est au rang des centaines : il vaut 600.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6*100",
+   "choices": [
+    "6",
+    "6 000",
+    "600",
+    "60"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0038",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans le nombre 35 556, quelle est la valeur du chiffre 5 ?",
+   "explanation": "Le chiffre 5 est au rang des dizaines : il vaut 50.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*10",
+   "choices": [
+    "50",
+    "5",
+    "5 000",
+    "500"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0039",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Dans le nombre 31 587, quelle est la valeur du chiffre 5 ?",
+   "explanation": "Le chiffre 5 est au rang des centaines : il vaut 500.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*100",
+   "accepted": [
+    "500",
+    "500",
+    "500",
+    "500"
+   ]
+  },
+  {
+   "id": "g-ma-0040",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 64 889 ?",
+   "explanation": "On ajoute 1 : 64 889 + 1 = 64 890.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "64889+1",
+   "choices": [
+    "64 899",
+    "64 890",
+    "64 888",
+    "64 891"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0041",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 48 844 ?",
+   "explanation": "On ajoute 1 : 48 844 + 1 = 48 845.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "48844+1",
+   "choices": [
+    "48 843",
+    "48 854",
+    "48 845",
+    "48 846"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0042",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 7 milliers + 7 centaines + 3 dizaines + 5 unités ?",
+   "explanation": "7 000 + 700 + 30 + 5 = 7 735.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7000+700+30+5",
+   "choices": [
+    "7 835",
+    "7 735",
+    "7 635",
+    "7 734"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0043",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 6 milliers + 7 centaines + 6 dizaines + 8 unités ?",
+   "explanation": "6 000 + 700 + 60 + 8 = 6 768.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6000+700+60+8",
+   "choices": [
+    "3 384",
+    "6 768",
+    "6 668",
+    "67 680"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0044",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans le nombre 54 131, quelle est la valeur du chiffre 5 ?",
+   "explanation": "Le chiffre 5 est au rang des dizaines de mille : il vaut 50 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*10000",
+   "choices": [
+    "5 000",
+    "5",
+    "500 000",
+    "50 000"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0045",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans le nombre 63 736, quelle est la valeur du chiffre 6 ?",
+   "explanation": "Le chiffre 6 est au rang des dizaines de mille : il vaut 60 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6*10000",
+   "choices": [
+    "600 000",
+    "60 000",
+    "6 000",
+    "6"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0046",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Dans le nombre 96 132, quelle est la valeur du chiffre 1 ?",
+   "explanation": "Le chiffre 1 est au rang des centaines : il vaut 100.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1*100",
+   "accepted": [
+    "100",
+    "100",
+    "100",
+    "100"
+   ]
+  },
+  {
+   "id": "g-ma-0047",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans le nombre 52 211, quelle est la valeur du chiffre 2 ?",
+   "explanation": "Le chiffre 2 est au rang des unités de mille : il vaut 2 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*1000",
+   "choices": [
+    "200",
+    "2",
+    "2 000",
+    "20 000"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0048",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Dans le nombre 52 467, quelle est la valeur du chiffre 6 ?",
+   "explanation": "Le chiffre 6 est au rang des dizaines : il vaut 60.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6*10",
+   "accepted": [
+    "60",
+    "60",
+    "60",
+    "60"
+   ]
+  },
+  {
+   "id": "g-ma-0049",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Quel est le nombre qui vient juste après 63 545 ?",
+   "explanation": "On ajoute 1 : 63 545 + 1 = 63 546.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "63545+1",
+   "accepted": [
+    "63 546",
+    "63 546",
+    "63546",
+    "63546"
+   ]
+  },
+  {
+   "id": "g-ma-0050",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 98 041 ?",
+   "explanation": "On ajoute 1 : 98 041 + 1 = 98 042.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "98041+1",
+   "choices": [
+    "98 043",
+    "98 040",
+    "98 051",
+    "98 042"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0051",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 9 milliers + 4 centaines + 9 dizaines + 3 unités ?",
+   "explanation": "9 000 + 400 + 90 + 3 = 9 493.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "9000+400+90+3",
+   "choices": [
+    "9 393",
+    "9 483",
+    "9 493",
+    "9 494"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0052",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 6 milliers + 8 centaines + 2 dizaines + 2 unités ?",
+   "explanation": "6 000 + 800 + 20 + 2 = 6 822.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6000+800+20+2",
+   "choices": [
+    "68 220",
+    "6 822",
+    "6 722",
+    "6 821"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0053",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Dans le nombre 236 104, quelle est la valeur du chiffre 2 ?",
+   "explanation": "Le chiffre 2 est au rang des centaines de mille : il vaut 200 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*100000",
+   "choices": [
+    "200 000",
+    "2 000 000",
+    "20 000",
+    "2"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0054",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Dans le nombre 679 802, quelle est la valeur du chiffre 6 ?",
+   "explanation": "Le chiffre 6 est au rang des centaines de mille : il vaut 600 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6*100000",
+   "choices": [
+    "6 000 000",
+    "600 000",
+    "6",
+    "60 000"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0055",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Dans le nombre 469 219, quelle est la valeur du chiffre 2 ?",
+   "explanation": "Le chiffre 2 est au rang des centaines : il vaut 200.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*100",
+   "accepted": [
+    "200",
+    "200",
+    "200",
+    "200"
+   ]
+  },
+  {
+   "id": "g-ma-0056",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Dans le nombre 150 741, quelle est la valeur du chiffre 4 ?",
+   "explanation": "Le chiffre 4 est au rang des dizaines : il vaut 40.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*10",
+   "choices": [
+    "40",
+    "400",
+    "4",
+    "4 000"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0057",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Dans le nombre 260 517, quelle est la valeur du chiffre 2 ?",
+   "explanation": "Le chiffre 2 est au rang des centaines de mille : il vaut 200 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*100000",
+   "choices": [
+    "20 000",
+    "2",
+    "2 000 000",
+    "200 000"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0058",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 105 999 ?",
+   "explanation": "On ajoute 1 : 105 999 + 1 = 106 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "105999+1",
+   "choices": [
+    "106 009",
+    "106 001",
+    "105 998",
+    "106 000"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0059",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Quel est le nombre qui vient juste après 355 463 ?",
+   "explanation": "On ajoute 1 : 355 463 + 1 = 355 464.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "355463+1",
+   "accepted": [
+    "355 464",
+    "355 464",
+    "355464",
+    "355464"
+   ]
+  },
+  {
+   "id": "g-ma-0060",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Quel nombre vaut 6 milliers + 7 centaines + 3 dizaines + 2 unités ?",
+   "explanation": "6 000 + 700 + 30 + 2 = 6 732.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6000+700+30+2",
+   "accepted": [
+    "6 732",
+    "6 732",
+    "6732",
+    "6732"
+   ]
+  },
+  {
+   "id": "g-ma-0061",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 5 milliers + 3 centaines + 3 dizaines + 5 unités ?",
+   "explanation": "5 000 + 300 + 30 + 5 = 5 335.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5000+300+30+5",
+   "choices": [
+    "5 435",
+    "2 668",
+    "5 235",
+    "5 335"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0062",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Dans le nombre 880 984, quelle est la valeur du chiffre 4 ?",
+   "explanation": "Le chiffre 4 est au rang des unités : il vaut 4.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*1",
+   "choices": [
+    "40",
+    "4",
+    "400",
+    "5"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0063",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Dans le nombre 281 228, quelle est la valeur du chiffre 1 ?",
+   "explanation": "Le chiffre 1 est au rang des unités de mille : il vaut 1 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1*1000",
+   "choices": [
+    "1 000",
+    "10 000",
+    "1",
+    "100"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0064",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Dans le nombre 669 601, quelle est la valeur du chiffre 9 ?",
+   "explanation": "Le chiffre 9 est au rang des unités de mille : il vaut 9 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "9*1000",
+   "choices": [
+    "9 000",
+    "900",
+    "90 000",
+    "9"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0065",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Dans le nombre 878 583, quelle est la valeur du chiffre 5 ?",
+   "explanation": "Le chiffre 5 est au rang des centaines : il vaut 500.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*100",
+   "accepted": [
+    "500",
+    "500",
+    "500",
+    "500"
+   ]
+  },
+  {
+   "id": "g-ma-0066",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Dans le nombre 576 648, quelle est la valeur du chiffre 5 ?",
+   "explanation": "Le chiffre 5 est au rang des centaines de mille : il vaut 500 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*100000",
+   "accepted": [
+    "500 000",
+    "500 000",
+    "500000",
+    "500000"
+   ]
+  },
+  {
+   "id": "g-ma-0067",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 330 143 ?",
+   "explanation": "On ajoute 1 : 330 143 + 1 = 330 144.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "330143+1",
+   "choices": [
+    "330 144",
+    "330 145",
+    "330 153",
+    "330 142"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0068",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 524 152 ?",
+   "explanation": "On ajoute 1 : 524 152 + 1 = 524 153.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "524152+1",
+   "choices": [
+    "524 151",
+    "524 154",
+    "524 153",
+    "524 162"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0069",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 1 milliers + 9 centaines + 1 dizaines + 9 unités ?",
+   "explanation": "1 000 + 900 + 10 + 9 = 1 919.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1000+900+10+9",
+   "choices": [
+    "1 819",
+    "2 019",
+    "19 190",
+    "1 919"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0070",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Quel nombre vaut 6 milliers + 4 centaines + 0 dizaines + 7 unités ?",
+   "explanation": "6 000 + 400 + 0 + 7 = 6 407.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6000+400+0+7",
+   "accepted": [
+    "6 407",
+    "6 407",
+    "6407",
+    "6407"
+   ]
+  },
+  {
+   "id": "g-ma-0071",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Dans le nombre 860 467, quelle est la valeur du chiffre 4 ?",
+   "explanation": "Le chiffre 4 est au rang des centaines : il vaut 400.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*100",
+   "choices": [
+    "40",
+    "400",
+    "4",
+    "4 000"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0072",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Dans le nombre 200 767, quelle est la valeur du chiffre 7 ?",
+   "explanation": "Le chiffre 7 est au rang des centaines : il vaut 700.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7*100",
+   "choices": [
+    "7",
+    "7 000",
+    "70",
+    "700"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0073",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Dans le nombre 148 444, quelle est la valeur du chiffre 1 ?",
+   "explanation": "Le chiffre 1 est au rang des centaines de mille : il vaut 100 000.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1*100000",
+   "accepted": [
+    "100 000",
+    "100 000",
+    "100000",
+    "100000"
+   ]
+  },
+  {
+   "id": "g-ma-0074",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Dans le nombre 506 770, quelle est la valeur du chiffre 7 ?",
+   "explanation": "Le chiffre 7 est au rang des centaines : il vaut 700.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7*100",
+   "accepted": [
+    "700",
+    "700",
+    "700",
+    "700"
+   ]
+  },
+  {
+   "id": "g-ma-0075",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Dans le nombre 396 877, quelle est la valeur du chiffre 7 ?",
+   "explanation": "Le chiffre 7 est au rang des unités : il vaut 7.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7*1",
+   "choices": [
+    "8",
+    "7",
+    "70",
+    "700"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0076",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 632 740 ?",
+   "explanation": "On ajoute 1 : 632 740 + 1 = 632 741.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "632740+1",
+   "choices": [
+    "632 750",
+    "632 739",
+    "632 742",
+    "632 741"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0077",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Quel est le nombre qui vient juste après 624 592 ?",
+   "explanation": "On ajoute 1 : 624 592 + 1 = 624 593.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "624592+1",
+   "accepted": [
+    "624 593",
+    "624 593",
+    "624593",
+    "624593"
+   ]
+  },
+  {
+   "id": "g-ma-0078",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 8 milliers + 2 centaines + 4 dizaines + 9 unités ?",
+   "explanation": "8 000 + 200 + 40 + 9 = 8 249.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "8000+200+40+9",
+   "choices": [
+    "8 248",
+    "8 149",
+    "8 259",
+    "8 249"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0079",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Quel nombre vaut 7 milliers + 9 centaines + 7 dizaines + 7 unités ?",
+   "explanation": "7 000 + 900 + 70 + 7 = 7 977.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7000+900+70+7",
+   "accepted": [
+    "7 977",
+    "7 977",
+    "7977",
+    "7977"
+   ]
+  },
+  {
+   "id": "g-ma-0080",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Dans le nombre 2 032 173, quelle est la valeur du chiffre 7 ?",
+   "explanation": "Le chiffre 7 est au rang des dizaines : il vaut 70.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7*10",
+   "choices": [
+    "70",
+    "7 000",
+    "700",
+    "7"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0081",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Dans le nombre 4 515 134, quelle est la valeur du chiffre 1 ?",
+   "explanation": "Le chiffre 1 est au rang des centaines : il vaut 100.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1*100",
+   "accepted": [
+    "100",
+    "100",
+    "100",
+    "100"
+   ]
+  },
+  {
+   "id": "g-ma-0082",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Dans le nombre 3 320 983, quelle est la valeur du chiffre 9 ?",
+   "explanation": "Le chiffre 9 est au rang des centaines : il vaut 900.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "9*100",
+   "choices": [
+    "9",
+    "900",
+    "90",
+    "9 000"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0083",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Dans le nombre 5 271 388, quelle est la valeur du chiffre 8 ?",
+   "explanation": "Le chiffre 8 est au rang des dizaines : il vaut 80.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "8*10",
+   "accepted": [
+    "80",
+    "80",
+    "80",
+    "80"
+   ]
+  },
+  {
+   "id": "g-ma-0084",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Dans le nombre 8 355 560, quelle est la valeur du chiffre 5 ?",
+   "explanation": "Le chiffre 5 est au rang des centaines : il vaut 500.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*100",
+   "choices": [
+    "5 000",
+    "500",
+    "5",
+    "50"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0085",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Quel est le nombre qui vient juste après 1 300 559 ?",
+   "explanation": "On ajoute 1 : 1 300 559 + 1 = 1 300 560.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1300559+1",
+   "accepted": [
+    "1 300 560",
+    "1 300 560",
+    "1300560",
+    "1300560"
+   ]
+  },
+  {
+   "id": "g-ma-0086",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel est le nombre qui vient juste après 8 484 830 ?",
+   "explanation": "On ajoute 1 : 8 484 830 + 1 = 8 484 831.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "8484830+1",
+   "choices": [
+    "8 484 829",
+    "8 484 832",
+    "8 484 840",
+    "8 484 831"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0087",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Quel nombre vaut 8 milliers + 7 centaines + 4 dizaines + 5 unités ?",
+   "explanation": "8 000 + 700 + 40 + 5 = 8 745.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "8000+700+40+5",
+   "accepted": [
+    "8 745",
+    "8 745",
+    "8745",
+    "8745"
+   ]
+  },
+  {
+   "id": "g-ma-0088",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel nombre vaut 8 milliers + 6 centaines + 2 dizaines + 7 unités ?",
+   "explanation": "8 000 + 600 + 20 + 7 = 8 627.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "8000+600+20+7",
+   "choices": [
+    "8 627",
+    "8 637",
+    "8 527",
+    "8 626"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0089",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 55 + 28 ?",
+   "explanation": "55 + 28 = 83.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "55+28",
+   "choices": [
+    "82",
+    "83",
+    "830",
+    "73"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0090",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 45 + 50 ?",
+   "explanation": "45 + 50 = 95.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "45+50",
+   "choices": [
+    "105",
+    "95",
+    "48",
+    "96"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0091",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 38 + 59 ?",
+   "explanation": "38 + 59 = 97.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "38+59",
+   "choices": [
+    "96",
+    "98",
+    "97",
+    "197"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0092",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 22 + 30 ?",
+   "explanation": "22 + 30 = 52.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "22+30",
+   "choices": [
+    "152",
+    "52",
+    "62",
+    "53"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0093",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 105 − 52 ?",
+   "explanation": "105 − 52 = 53.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "105-52",
+   "choices": [
+    "53",
+    "52",
+    "530",
+    "54"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0094",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 92 − 36 ?",
+   "explanation": "92 − 36 = 56.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "92-36",
+   "choices": [
+    "46",
+    "156",
+    "56",
+    "560"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0095",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 27 − 26 ?",
+   "explanation": "27 − 26 = 1.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "27-26",
+   "choices": [
+    "1",
+    "10",
+    "101",
+    "11"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0096",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 2 × 8 ?",
+   "explanation": "2 × 8 = 16.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*8",
+   "choices": [
+    "6",
+    "8",
+    "16",
+    "17"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0097",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 4 × 7 ?",
+   "explanation": "4 × 7 = 28.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*7",
+   "choices": [
+    "28",
+    "29",
+    "14",
+    "27"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0098",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 3 × 6 ?",
+   "explanation": "3 × 6 = 18.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3*6",
+   "choices": [
+    "19",
+    "17",
+    "180",
+    "18"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0099",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 9 ÷ 3 ?",
+   "explanation": "3 × 3 = 9, donc 9 ÷ 3 = 3.",
+   "hint": "Cherche le nombre qui, multiplié par 3, donne 9.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "9/3",
+   "choices": [
+    "3",
+    "2",
+    "4",
+    "13"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0100",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 20 ÷ 4 ?",
+   "explanation": "4 × 5 = 20, donc 20 ÷ 4 = 5.",
+   "hint": "Cherche le nombre qui, multiplié par 4, donne 20.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "20/4",
+   "choices": [
+    "50",
+    "3",
+    "5",
+    "4"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0101",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien font 10 ÷ 5 ?",
+   "explanation": "5 × 2 = 10, donc 10 ÷ 5 = 2.",
+   "hint": "Cherche le nombre qui, multiplié par 5, donne 10.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "10/5",
+   "choices": [
+    "3",
+    "1",
+    "12",
+    "2"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0102",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 105 + 194 ?",
+   "explanation": "105 + 194 = 299.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "105+194",
+   "choices": [
+    "309",
+    "298",
+    "299",
+    "289"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0103",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 321 + 398 ?",
+   "explanation": "321 + 398 = 719.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "321+398",
+   "choices": [
+    "719",
+    "619",
+    "709",
+    "360"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0104",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 169 + 57 ?",
+   "explanation": "169 + 57 = 226.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "169+57",
+   "choices": [
+    "236",
+    "226",
+    "326",
+    "216"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0105",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 188 + 399 ?",
+   "explanation": "188 + 399 = 587.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "188+399",
+   "choices": [
+    "587",
+    "487",
+    "294",
+    "687"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0106",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 245 − 148 ?",
+   "explanation": "245 − 148 = 97.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "245-148",
+   "choices": [
+    "96",
+    "49",
+    "107",
+    "97"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0107",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 620 − 32 ?",
+   "explanation": "620 − 32 = 588.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "620-32",
+   "choices": [
+    "588",
+    "5 880",
+    "294",
+    "598"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0108",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 503 − 137 ?",
+   "explanation": "503 − 137 = 366.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "503-137",
+   "choices": [
+    "366",
+    "367",
+    "266",
+    "3 660"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0109",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 2 × 7 ?",
+   "explanation": "2 × 7 = 14.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*7",
+   "choices": [
+    "14",
+    "13",
+    "15",
+    "140"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0110",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 3 × 8 ?",
+   "explanation": "3 × 8 = 24.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3*8",
+   "choices": [
+    "14",
+    "24",
+    "124",
+    "25"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0111",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 2 × 4 ?",
+   "explanation": "2 × 4 = 8.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*4",
+   "choices": [
+    "8",
+    "108",
+    "7",
+    "4"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0112",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 4 ÷ 2 ?",
+   "explanation": "2 × 2 = 4, donc 4 ÷ 2 = 2.",
+   "hint": "Cherche le nombre qui, multiplié par 2, donne 4.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4/2",
+   "choices": [
+    "102",
+    "20",
+    "2",
+    "3"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0113",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 30 ÷ 6 ?",
+   "explanation": "6 × 5 = 30, donc 30 ÷ 6 = 5.",
+   "hint": "Cherche le nombre qui, multiplié par 6, donne 30.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "30/6",
+   "choices": [
+    "105",
+    "6",
+    "15",
+    "5"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0114",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien font 24 ÷ 6 ?",
+   "explanation": "6 × 4 = 24, donc 24 ÷ 6 = 4.",
+   "hint": "Cherche le nombre qui, multiplié par 6, donne 24.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "24/6",
+   "choices": [
+    "4",
+    "104",
+    "40",
+    "14"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0115",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Complète : 2 × … = 12",
+   "explanation": "2 × 6 = 12.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "12/2",
+   "choices": [
+    "3",
+    "6",
+    "7",
+    "5"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0116",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 362 + 128 ?",
+   "explanation": "362 + 128 = 490.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "362+128",
+   "choices": [
+    "490",
+    "480",
+    "4 900",
+    "500"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0117",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 493 + 204 ?",
+   "explanation": "493 + 204 = 697.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "493+204",
+   "choices": [
+    "697",
+    "707",
+    "797",
+    "687"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0118",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 519 + 631 ?",
+   "explanation": "519 + 631 = 1 150.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "519+631",
+   "choices": [
+    "1 150",
+    "11 500",
+    "1 250",
+    "1 050"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0119",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 465 − 252 ?",
+   "explanation": "465 − 252 = 213.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "465-252",
+   "choices": [
+    "107",
+    "213",
+    "203",
+    "313"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0120",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 1 251 − 169 ?",
+   "explanation": "1 251 − 169 = 1 082.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1251-169",
+   "choices": [
+    "1 082",
+    "1 182",
+    "1 083",
+    "1 072"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0121",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 1 534 − 698 ?",
+   "explanation": "1 534 − 698 = 836.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1534-698",
+   "choices": [
+    "836",
+    "8 360",
+    "826",
+    "736"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0122",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 4 × 10 ?",
+   "explanation": "4 × 10 = 40.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*10",
+   "choices": [
+    "20",
+    "30",
+    "40",
+    "41"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0123",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 4 × 2 ?",
+   "explanation": "4 × 2 = 8.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*2",
+   "choices": [
+    "80",
+    "7",
+    "108",
+    "8"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0124",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 4 × 3 ?",
+   "explanation": "4 × 3 = 12.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*3",
+   "choices": [
+    "12",
+    "112",
+    "13",
+    "11"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0125",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 20 ÷ 2 ?",
+   "explanation": "2 × 10 = 20, donc 20 ÷ 2 = 10.",
+   "hint": "Cherche le nombre qui, multiplié par 2, donne 20.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "20/2",
+   "choices": [
+    "10",
+    "5",
+    "110",
+    "9"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0126",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 16 ÷ 4 ?",
+   "explanation": "4 × 4 = 16, donc 16 ÷ 4 = 4.",
+   "hint": "Cherche le nombre qui, multiplié par 4, donne 16.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "16/4",
+   "choices": [
+    "14",
+    "4",
+    "104",
+    "3"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0127",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien font 64 ÷ 8 ?",
+   "explanation": "8 × 8 = 64, donc 64 ÷ 8 = 8.",
+   "hint": "Cherche le nombre qui, multiplié par 8, donne 64.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "64/8",
+   "choices": [
+    "4",
+    "8",
+    "7",
+    "9"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0128",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Complète : 2 × … = 10",
+   "explanation": "2 × 5 = 10.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "10/2",
+   "choices": [
+    "3",
+    "6",
+    "5",
+    "105"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0129",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 675 + 317 ?",
+   "explanation": "675 + 317 = 992.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "675+317",
+   "choices": [
+    "1 002",
+    "993",
+    "982",
+    "992"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0130",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 1 135 + 659 ?",
+   "explanation": "1 135 + 659 = 1 794.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1135+659",
+   "choices": [
+    "1 784",
+    "897",
+    "1 794",
+    "1 694"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0131",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 1 867 + 1 611 ?",
+   "explanation": "1 867 + 1 611 = 3 478.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1867+1611",
+   "choices": [
+    "3 578",
+    "3 477",
+    "3 478",
+    "3 479"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0132",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 610 − 310 ?",
+   "explanation": "610 − 310 = 300.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "610-310",
+   "choices": [
+    "290",
+    "400",
+    "300",
+    "310"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0133",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 1 375 − 672 ?",
+   "explanation": "1 375 − 672 = 703.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1375-672",
+   "choices": [
+    "713",
+    "703",
+    "704",
+    "693"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0134",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 1 160 − 651 ?",
+   "explanation": "1 160 − 651 = 509.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1160-651",
+   "choices": [
+    "510",
+    "609",
+    "519",
+    "509"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0135",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 4 × 22 ?",
+   "explanation": "4 × 22 = 88.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*22",
+   "choices": [
+    "44",
+    "880",
+    "88",
+    "98"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0136",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 6 × 19 ?",
+   "explanation": "6 × 19 = 114.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6*19",
+   "choices": [
+    "14",
+    "114",
+    "1 140",
+    "124"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0137",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 5 × 25 ?",
+   "explanation": "5 × 25 = 125.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*25",
+   "choices": [
+    "225",
+    "125",
+    "135",
+    "115"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0138",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 56 ÷ 8 ?",
+   "explanation": "8 × 7 = 56, donc 56 ÷ 8 = 7.",
+   "hint": "Cherche le nombre qui, multiplié par 8, donne 56.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "56/8",
+   "choices": [
+    "107",
+    "17",
+    "70",
+    "7"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0139",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 80 ÷ 8 ?",
+   "explanation": "8 × 10 = 80, donc 80 ÷ 8 = 10.",
+   "hint": "Cherche le nombre qui, multiplié par 8, donne 80.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "80/8",
+   "choices": [
+    "9",
+    "11",
+    "10",
+    "100"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0140",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien font 54 ÷ 3 ?",
+   "explanation": "3 × 18 = 54, donc 54 ÷ 3 = 18.",
+   "hint": "Cherche le nombre qui, multiplié par 3, donne 54.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "54/3",
+   "choices": [
+    "17",
+    "180",
+    "19",
+    "18"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0141",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Complète : 4 × … = 36",
+   "explanation": "4 × 9 = 36.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "36/4",
+   "choices": [
+    "5",
+    "10",
+    "9",
+    "8"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0142",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel est le double de 444 ?",
+   "explanation": "444 + 444 = 888.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "444*2",
+   "choices": [
+    "878",
+    "888",
+    "788",
+    "887"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0143",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel est le double de 1 176 ?",
+   "explanation": "1 176 + 1 176 = 2 352.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1176*2",
+   "choices": [
+    "2 342",
+    "2 351",
+    "2 352",
+    "2 252"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0144",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quelle est la moitié de 576 ?",
+   "explanation": "576 ÷ 2 = 288.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "576/2",
+   "choices": [
+    "188",
+    "298",
+    "288",
+    "278"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0145",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quelle est la moitié de 3 892 ?",
+   "explanation": "3 892 ÷ 2 = 1 946.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3892/2",
+   "choices": [
+    "1 946",
+    "2 046",
+    "1 846",
+    "973"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0146",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien font 7 762 + 5 291 ?",
+   "explanation": "7 762 + 5 291 = 13 053.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7762+5291",
+   "choices": [
+    "13 053",
+    "13 153",
+    "12 953",
+    "13 063"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0147",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Combien font 7 663 + 8 815 ?",
+   "explanation": "7 663 + 8 815 = 16 478.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7663+8815",
+   "accepted": [
+    "16 478",
+    "16 478",
+    "16478",
+    "16478"
+   ]
+  },
+  {
+   "id": "g-ma-0148",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Combien font 1 224 + 8 602 ?",
+   "explanation": "1 224 + 8 602 = 9 826.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1224+8602",
+   "accepted": [
+    "9 826",
+    "9 826",
+    "9826",
+    "9826"
+   ]
+  },
+  {
+   "id": "g-ma-0149",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Combien font 7 842 − 2 639 ?",
+   "explanation": "7 842 − 2 639 = 5 203.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7842-2639",
+   "accepted": [
+    "5 203",
+    "5 203",
+    "5203",
+    "5203"
+   ]
+  },
+  {
+   "id": "g-ma-0150",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien font 14 607 − 8 936 ?",
+   "explanation": "14 607 − 8 936 = 5 671.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "14607-8936",
+   "choices": [
+    "5 771",
+    "5 671",
+    "5 571",
+    "5 661"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0151",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Combien font 14 193 − 7 931 ?",
+   "explanation": "14 193 − 7 931 = 6 262.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "14193-7931",
+   "accepted": [
+    "6 262",
+    "6 262",
+    "6262",
+    "6262"
+   ]
+  },
+  {
+   "id": "g-ma-0152",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien font 5 × 93 ?",
+   "explanation": "5 × 93 = 465.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*93",
+   "choices": [
+    "475",
+    "365",
+    "465",
+    "455"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0153",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Combien font 5 × 60 ?",
+   "explanation": "5 × 60 = 300.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*60",
+   "accepted": [
+    "300",
+    "300",
+    "300",
+    "300"
+   ]
+  },
+  {
+   "id": "g-ma-0154",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien font 5 × 18 ?",
+   "explanation": "5 × 18 = 90.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*18",
+   "choices": [
+    "91",
+    "90",
+    "190",
+    "45"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0155",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien font 159 ÷ 3 ?",
+   "explanation": "3 × 53 = 159, donc 159 ÷ 3 = 53.",
+   "hint": "Cherche le nombre qui, multiplié par 3, donne 159.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "159/3",
+   "choices": [
+    "530",
+    "53",
+    "153",
+    "27"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0156",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Combien font 520 ÷ 8 ?",
+   "explanation": "8 × 65 = 520, donc 520 ÷ 8 = 65.",
+   "hint": "Cherche le nombre qui, multiplié par 8, donne 520.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "520/8",
+   "accepted": [
+    "65",
+    "65",
+    "65",
+    "65"
+   ]
+  },
+  {
+   "id": "g-ma-0157",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien font 168 ÷ 7 ?",
+   "explanation": "7 × 24 = 168, donc 168 ÷ 7 = 24.",
+   "hint": "Cherche le nombre qui, multiplié par 7, donne 168.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "168/7",
+   "choices": [
+    "24",
+    "23",
+    "14",
+    "12"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0158",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Complète : 4 × … = 28",
+   "explanation": "4 × 7 = 28.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "28/4",
+   "choices": [
+    "8",
+    "107",
+    "4",
+    "7"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0159",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le double de 3 128 ?",
+   "explanation": "3 128 + 3 128 = 6 256.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3128*2",
+   "choices": [
+    "62 560",
+    "6 256",
+    "6 356",
+    "6 156"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0160",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Quel est le double de 7 938 ?",
+   "explanation": "7 938 + 7 938 = 15 876.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7938*2",
+   "accepted": [
+    "15 876",
+    "15 876",
+    "15876",
+    "15876"
+   ]
+  },
+  {
+   "id": "g-ma-0161",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle est la moitié de 4 960 ?",
+   "explanation": "4 960 ÷ 2 = 2 480.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4960/2",
+   "choices": [
+    "1 240",
+    "2 580",
+    "2 480",
+    "2 490"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0162",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Quelle est la moitié de 6 512 ?",
+   "explanation": "6 512 ÷ 2 = 3 256.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6512/2",
+   "accepted": [
+    "3 256",
+    "3 256",
+    "3256",
+    "3256"
+   ]
+  },
+  {
+   "id": "g-ma-0163",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 4 939 + 8 521 ?",
+   "explanation": "4 939 + 8 521 = 13 460.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4939+8521",
+   "choices": [
+    "13 460",
+    "13 560",
+    "13 360",
+    "134 600"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0164",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 15 432 + 24 363 ?",
+   "explanation": "15 432 + 24 363 = 39 795.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "15432+24363",
+   "choices": [
+    "39 695",
+    "39 785",
+    "39 895",
+    "39 795"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0165",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 5 071 + 11 290 ?",
+   "explanation": "5 071 + 11 290 = 16 361.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5071+11290",
+   "choices": [
+    "16 361",
+    "16 261",
+    "8 181",
+    "16 461"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0166",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 29 887 − 3 859 ?",
+   "explanation": "29 887 − 3 859 = 26 028.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "29887-3859",
+   "choices": [
+    "26 028",
+    "26 128",
+    "26 018",
+    "26 038"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0167",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 37 627 − 11 243 ?",
+   "explanation": "37 627 − 11 243 = 26 384.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "37627-11243",
+   "choices": [
+    "263 840",
+    "26 384",
+    "26 284",
+    "26 383"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0168",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 11 124 − 2 444 ?",
+   "explanation": "11 124 − 2 444 = 8 680.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "11124-2444",
+   "choices": [
+    "8 680",
+    "86 800",
+    "8 690",
+    "4 340"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0169",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 6 × 116 ?",
+   "explanation": "6 × 116 = 696.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6*116",
+   "choices": [
+    "696",
+    "706",
+    "686",
+    "695"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0170",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 4 × 28 ?",
+   "explanation": "4 × 28 = 112.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*28",
+   "choices": [
+    "113",
+    "112",
+    "12",
+    "122"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0171",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 4 × 108 ?",
+   "explanation": "4 × 108 = 432.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*108",
+   "choices": [
+    "332",
+    "442",
+    "432",
+    "422"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0172",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 504 ÷ 6 ?",
+   "explanation": "6 × 84 = 504, donc 504 ÷ 6 = 84.",
+   "hint": "Cherche le nombre qui, multiplié par 6, donne 504.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "504/6",
+   "choices": [
+    "184",
+    "85",
+    "84",
+    "83"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0173",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 960 ÷ 12 ?",
+   "explanation": "12 × 80 = 960, donc 960 ÷ 12 = 80.",
+   "hint": "Cherche le nombre qui, multiplié par 12, donne 960.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "960/12",
+   "choices": [
+    "70",
+    "800",
+    "80",
+    "81"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0174",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 792 ÷ 8 ?",
+   "explanation": "8 × 99 = 792, donc 792 ÷ 8 = 99.",
+   "hint": "Cherche le nombre qui, multiplié par 8, donne 792.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "792/8",
+   "choices": [
+    "199",
+    "99",
+    "100",
+    "98"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0175",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Complète : 4 × … = 24",
+   "explanation": "4 × 6 = 24.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "24/4",
+   "choices": [
+    "6",
+    "7",
+    "3",
+    "5"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0176",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Quel est le double de 17 526 ?",
+   "explanation": "17 526 + 17 526 = 35 052.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "17526*2",
+   "accepted": [
+    "35 052",
+    "35 052",
+    "35052",
+    "35052"
+   ]
+  },
+  {
+   "id": "g-ma-0177",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel est le double de 5 987 ?",
+   "explanation": "5 987 + 5 987 = 11 974.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5987*2",
+   "choices": [
+    "11 964",
+    "119 740",
+    "12 074",
+    "11 974"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0178",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle est la moitié de 38 588 ?",
+   "explanation": "38 588 ÷ 2 = 19 294.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "38588/2",
+   "choices": [
+    "19 294",
+    "19 304",
+    "19 293",
+    "19 194"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0179",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Quelle est la moitié de 12 666 ?",
+   "explanation": "12 666 ÷ 2 = 6 333.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "12666/2",
+   "accepted": [
+    "6 333",
+    "6 333",
+    "6333",
+    "6333"
+   ]
+  },
+  {
+   "id": "g-ma-0180",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien font 82 318 + 27 926 ?",
+   "explanation": "82 318 + 27 926 = 110 244.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "82318+27926",
+   "choices": [
+    "55 122",
+    "110 254",
+    "110 344",
+    "110 244"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0181",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Combien font 54 065 + 5 555 ?",
+   "explanation": "54 065 + 5 555 = 59 620.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "54065+5555",
+   "accepted": [
+    "59 620",
+    "59 620",
+    "59620",
+    "59620"
+   ]
+  },
+  {
+   "id": "g-ma-0182",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Combien font 35 730 + 59 611 ?",
+   "explanation": "35 730 + 59 611 = 95 341.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "35730+59611",
+   "accepted": [
+    "95 341",
+    "95 341",
+    "95341",
+    "95341"
+   ]
+  },
+  {
+   "id": "g-ma-0183",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Combien font 170 804 − 47 943 ?",
+   "explanation": "170 804 − 47 943 = 122 861.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "170804-47943",
+   "accepted": [
+    "122 861",
+    "122 861",
+    "122861",
+    "122861"
+   ]
+  },
+  {
+   "id": "g-ma-0184",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Combien font 92 120 − 65 862 ?",
+   "explanation": "92 120 − 65 862 = 26 258.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "92120-65862",
+   "accepted": [
+    "26 258",
+    "26 258",
+    "26258",
+    "26258"
+   ]
+  },
+  {
+   "id": "g-ma-0185",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Combien font 41 614 − 16 970 ?",
+   "explanation": "41 614 − 16 970 = 24 644.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "41614-16970",
+   "accepted": [
+    "24 644",
+    "24 644",
+    "24644",
+    "24644"
+   ]
+  },
+  {
+   "id": "g-ma-0186",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien font 11 × 12 ?",
+   "explanation": "11 × 12 = 132.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "11*12",
+   "choices": [
+    "132",
+    "131",
+    "142",
+    "1 320"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0187",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien font 22 × 28 ?",
+   "explanation": "22 × 28 = 616.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "22*28",
+   "choices": [
+    "308",
+    "616",
+    "6 160",
+    "626"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0188",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Combien font 19 × 40 ?",
+   "explanation": "19 × 40 = 760.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "19*40",
+   "accepted": [
+    "760",
+    "760",
+    "760",
+    "760"
+   ]
+  },
+  {
+   "id": "g-ma-0189",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien font 180 ÷ 9 ?",
+   "explanation": "9 × 20 = 180, donc 180 ÷ 9 = 20.",
+   "hint": "Cherche le nombre qui, multiplié par 9, donne 180.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "180/9",
+   "choices": [
+    "30",
+    "120",
+    "10",
+    "20"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0190",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien font 242 ÷ 11 ?",
+   "explanation": "11 × 22 = 242, donc 242 ÷ 11 = 22.",
+   "hint": "Cherche le nombre qui, multiplié par 11, donne 242.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "242/11",
+   "choices": [
+    "122",
+    "220",
+    "22",
+    "11"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0191",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Combien font 340 ÷ 10 ?",
+   "explanation": "10 × 34 = 340, donc 340 ÷ 10 = 34.",
+   "hint": "Cherche le nombre qui, multiplié par 10, donne 340.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "340/10",
+   "accepted": [
+    "34",
+    "34",
+    "34",
+    "34"
+   ]
+  },
+  {
+   "id": "g-ma-0192",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Complète : 8 × … = 40",
+   "explanation": "8 × 5 = 40.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "40/8",
+   "accepted": [
+    "5",
+    "5",
+    "5",
+    "5"
+   ]
+  },
+  {
+   "id": "g-ma-0193",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel est le double de 60 138 ?",
+   "explanation": "60 138 + 60 138 = 120 276.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "60138*2",
+   "choices": [
+    "120 176",
+    "60 138",
+    "120 266",
+    "120 276"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0194",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel est le double de 27 339 ?",
+   "explanation": "27 339 + 27 339 = 54 678.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "27339*2",
+   "choices": [
+    "54 578",
+    "54 688",
+    "54 678",
+    "54 677"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0195",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quelle est la moitié de 121 312 ?",
+   "explanation": "121 312 ÷ 2 = 60 656.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "121312/2",
+   "choices": [
+    "60 756",
+    "30 328",
+    "60 666",
+    "60 656"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0196",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quelle est la moitié de 159 870 ?",
+   "explanation": "159 870 ÷ 2 = 79 935.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "159870/2",
+   "choices": [
+    "79 835",
+    "79 945",
+    "80 035",
+    "79 935"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0197",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Combien font 61 822 + 351 477 ?",
+   "explanation": "61 822 + 351 477 = 413 299.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "61822+351477",
+   "accepted": [
+    "413 299",
+    "413 299",
+    "413299",
+    "413299"
+   ]
+  },
+  {
+   "id": "g-ma-0198",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien font 253 118 + 31 118 ?",
+   "explanation": "253 118 + 31 118 = 284 236.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "253118+31118",
+   "choices": [
+    "284 246",
+    "284 235",
+    "142 118",
+    "284 236"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0199",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Combien font 191 314 + 157 097 ?",
+   "explanation": "191 314 + 157 097 = 348 411.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "191314+157097",
+   "accepted": [
+    "348 411",
+    "348 411",
+    "348411",
+    "348411"
+   ]
+  },
+  {
+   "id": "g-ma-0200",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien font 626 229 − 294 424 ?",
+   "explanation": "626 229 − 294 424 = 331 805.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "626229-294424",
+   "choices": [
+    "331 805",
+    "331 815",
+    "331 705",
+    "165 903"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0201",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Combien font 356 862 − 147 945 ?",
+   "explanation": "356 862 − 147 945 = 208 917.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "356862-147945",
+   "accepted": [
+    "208 917",
+    "208 917",
+    "208917",
+    "208917"
+   ]
+  },
+  {
+   "id": "g-ma-0202",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien font 356 439 − 202 946 ?",
+   "explanation": "356 439 − 202 946 = 153 493.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "356439-202946",
+   "choices": [
+    "153 493",
+    "153 593",
+    "153 393",
+    "1 534 930"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0203",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Combien font 38 × 84 ?",
+   "explanation": "38 × 84 = 3 192.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "38*84",
+   "accepted": [
+    "3 192",
+    "3 192",
+    "3192",
+    "3192"
+   ]
+  },
+  {
+   "id": "g-ma-0204",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien font 30 × 35 ?",
+   "explanation": "30 × 35 = 1 050.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "30*35",
+   "choices": [
+    "1 050",
+    "950",
+    "10 500",
+    "1 049"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0205",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Combien font 12 × 32 ?",
+   "explanation": "12 × 32 = 384.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "12*32",
+   "accepted": [
+    "384",
+    "384",
+    "384",
+    "384"
+   ]
+  },
+  {
+   "id": "g-ma-0206",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien font 1 530 ÷ 10 ?",
+   "explanation": "10 × 153 = 1 530, donc 1 530 ÷ 10 = 153.",
+   "hint": "Cherche le nombre qui, multiplié par 10, donne 1 530.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1530/10",
+   "choices": [
+    "1 530",
+    "153",
+    "152",
+    "143"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0207",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien font 792 ÷ 12 ?",
+   "explanation": "12 × 66 = 792, donc 792 ÷ 12 = 66.",
+   "hint": "Cherche le nombre qui, multiplié par 12, donne 792.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "792/12",
+   "choices": [
+    "166",
+    "67",
+    "65",
+    "66"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0208",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien font 1 860 ÷ 12 ?",
+   "explanation": "12 × 155 = 1 860, donc 1 860 ÷ 12 = 155.",
+   "hint": "Cherche le nombre qui, multiplié par 12, donne 1 860.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1860/12",
+   "choices": [
+    "55",
+    "165",
+    "78",
+    "155"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0209",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Complète : 3 × … = 9",
+   "explanation": "3 × 3 = 9.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "9/3",
+   "choices": [
+    "3",
+    "2",
+    "4",
+    "103"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0210",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel est le double de 202 300 ?",
+   "explanation": "202 300 + 202 300 = 404 600.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "202300*2",
+   "choices": [
+    "404 600",
+    "404 500",
+    "404 700",
+    "202 300"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0211",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel est le double de 117 752 ?",
+   "explanation": "117 752 + 117 752 = 235 504.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "117752*2",
+   "choices": [
+    "117 752",
+    "2 355 040",
+    "235 604",
+    "235 504"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0212",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quelle est la moitié de 621 630 ?",
+   "explanation": "621 630 ÷ 2 = 310 815.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "621630/2",
+   "choices": [
+    "3 108 150",
+    "310 815",
+    "310 805",
+    "155 408"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0213",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quelle est la moitié de 96 756 ?",
+   "explanation": "96 756 ÷ 2 = 48 378.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "96756/2",
+   "choices": [
+    "48 278",
+    "48 378",
+    "24 189",
+    "48 377"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0214",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Combien font 898 687 + 576 087 ?",
+   "explanation": "898 687 + 576 087 = 1 474 774.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "898687+576087",
+   "accepted": [
+    "1 474 774",
+    "1 474 774",
+    "1474774",
+    "1474774"
+   ]
+  },
+  {
+   "id": "g-ma-0215",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien font 61 351 + 662 412 ?",
+   "explanation": "61 351 + 662 412 = 723 763.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "61351+662412",
+   "choices": [
+    "723 762",
+    "723 863",
+    "723 763",
+    "723 663"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0216",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien font 124 123 + 163 408 ?",
+   "explanation": "124 123 + 163 408 = 287 531.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "124123+163408",
+   "choices": [
+    "287 531",
+    "287 431",
+    "287 631",
+    "287 530"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0217",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Combien font 575 030 − 222 838 ?",
+   "explanation": "575 030 − 222 838 = 352 192.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "575030-222838",
+   "accepted": [
+    "352 192",
+    "352 192",
+    "352192",
+    "352192"
+   ]
+  },
+  {
+   "id": "g-ma-0218",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien font 501 891 − 368 660 ?",
+   "explanation": "501 891 − 368 660 = 133 231.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "501891-368660",
+   "choices": [
+    "133 230",
+    "133 331",
+    "1 332 310",
+    "133 231"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0219",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien font 965 593 − 286 101 ?",
+   "explanation": "965 593 − 286 101 = 679 492.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "965593-286101",
+   "choices": [
+    "339 746",
+    "6 794 920",
+    "679 592",
+    "679 492"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0220",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien font 305 × 12 ?",
+   "explanation": "305 × 12 = 3 660.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "305*12",
+   "choices": [
+    "3 659",
+    "3 660",
+    "3 670",
+    "3 760"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0221",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Combien font 329 × 8 ?",
+   "explanation": "329 × 8 = 2 632.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "329*8",
+   "accepted": [
+    "2 632",
+    "2 632",
+    "2632",
+    "2632"
+   ]
+  },
+  {
+   "id": "g-ma-0222",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien font 101 × 8 ?",
+   "explanation": "101 × 8 = 808.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "101*8",
+   "choices": [
+    "808",
+    "404",
+    "8 080",
+    "798"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0223",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien font 3 047 ÷ 11 ?",
+   "explanation": "11 × 277 = 3 047, donc 3 047 ÷ 11 = 277.",
+   "hint": "Cherche le nombre qui, multiplié par 11, donne 3 047.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3047/11",
+   "choices": [
+    "277",
+    "267",
+    "278",
+    "287"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0224",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien font 3 129 ÷ 21 ?",
+   "explanation": "21 × 149 = 3 129, donc 3 129 ÷ 21 = 149.",
+   "hint": "Cherche le nombre qui, multiplié par 21, donne 3 129.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3129/21",
+   "choices": [
+    "75",
+    "49",
+    "249",
+    "149"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0225",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien font 1 653 ÷ 19 ?",
+   "explanation": "19 × 87 = 1 653, donc 1 653 ÷ 19 = 87.",
+   "hint": "Cherche le nombre qui, multiplié par 19, donne 1 653.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1653/19",
+   "choices": [
+    "44",
+    "88",
+    "87",
+    "86"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0226",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Complète : 3 × … = 12",
+   "explanation": "3 × 4 = 12.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "12/3",
+   "choices": [
+    "5",
+    "4",
+    "3",
+    "2"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0227",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Quel est le double de 639 756 ?",
+   "explanation": "639 756 + 639 756 = 1 279 512.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "639756*2",
+   "accepted": [
+    "1 279 512",
+    "1 279 512",
+    "1279512",
+    "1279512"
+   ]
+  },
+  {
+   "id": "g-ma-0228",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel est le double de 29 469 ?",
+   "explanation": "29 469 + 29 469 = 58 938.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "29469*2",
+   "choices": [
+    "58 838",
+    "58 938",
+    "59 038",
+    "589 380"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0229",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Quelle est la moitié de 337 794 ?",
+   "explanation": "337 794 ÷ 2 = 168 897.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "337794/2",
+   "accepted": [
+    "168 897",
+    "168 897",
+    "168897",
+    "168897"
+   ]
+  },
+  {
+   "id": "g-ma-0230",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quelle est la moitié de 621 162 ?",
+   "explanation": "621 162 ÷ 2 = 310 581.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "621162/2",
+   "choices": [
+    "310 481",
+    "310 581",
+    "155 291",
+    "310 681"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0231",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Combien font 709 910 + 485 867 ?",
+   "explanation": "709 910 + 485 867 = 1 195 777.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "709910+485867",
+   "accepted": [
+    "1 195 777",
+    "1 195 777",
+    "1195777",
+    "1195777"
+   ]
+  },
+  {
+   "id": "g-ma-0232",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien font 776 642 + 676 975 ?",
+   "explanation": "776 642 + 676 975 = 1 453 617.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "776642+676975",
+   "choices": [
+    "1 453 618",
+    "1 453 617",
+    "1 453 517",
+    "1 453 616"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0233",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Combien font 222 173 + 322 495 ?",
+   "explanation": "222 173 + 322 495 = 544 668.",
+   "hint": "Additionne les unités, puis les dizaines, puis les centaines.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "222173+322495",
+   "accepted": [
+    "544 668",
+    "544 668",
+    "544668",
+    "544668"
+   ]
+  },
+  {
+   "id": "g-ma-0234",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien font 141 373 − 98 790 ?",
+   "explanation": "141 373 − 98 790 = 42 583.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "141373-98790",
+   "choices": [
+    "42 683",
+    "42 483",
+    "42 593",
+    "42 583"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0235",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Combien font 907 279 − 102 076 ?",
+   "explanation": "907 279 − 102 076 = 805 203.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "907279-102076",
+   "accepted": [
+    "805 203",
+    "805 203",
+    "805203",
+    "805203"
+   ]
+  },
+  {
+   "id": "g-ma-0236",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien font 134 067 − 115 741 ?",
+   "explanation": "134 067 − 115 741 = 18 326.",
+   "hint": "Pense à vérifier avec une addition.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "134067-115741",
+   "choices": [
+    "18 316",
+    "18 326",
+    "9 163",
+    "18 336"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0237",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien font 272 × 23 ?",
+   "explanation": "272 × 23 = 6 256.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "272*23",
+   "choices": [
+    "6 356",
+    "6 257",
+    "3 128",
+    "6 256"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0238",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien font 261 × 27 ?",
+   "explanation": "261 × 27 = 7 047.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "261*27",
+   "choices": [
+    "70 470",
+    "3 524",
+    "7 047",
+    "7 046"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0239",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Combien font 222 × 25 ?",
+   "explanation": "222 × 25 = 5 550.",
+   "hint": "Décompose : par exemple 24 × 6 = 20 × 6 + 4 × 6.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "222*25",
+   "accepted": [
+    "5 550",
+    "5 550",
+    "5550",
+    "5550"
+   ]
+  },
+  {
+   "id": "g-ma-0240",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien font 10 404 ÷ 34 ?",
+   "explanation": "34 × 306 = 10 404, donc 10 404 ÷ 34 = 306.",
+   "hint": "Cherche le nombre qui, multiplié par 34, donne 10 404.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "10404/34",
+   "choices": [
+    "316",
+    "296",
+    "206",
+    "306"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0241",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien font 7 285 ÷ 31 ?",
+   "explanation": "31 × 235 = 7 285, donc 7 285 ÷ 31 = 235.",
+   "hint": "Cherche le nombre qui, multiplié par 31, donne 7 285.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7285/31",
+   "choices": [
+    "245",
+    "118",
+    "235",
+    "234"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0242",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien font 10 255 ÷ 35 ?",
+   "explanation": "35 × 293 = 10 255, donc 10 255 ÷ 35 = 293.",
+   "hint": "Cherche le nombre qui, multiplié par 35, donne 10 255.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "10255/35",
+   "choices": [
+    "292",
+    "393",
+    "293",
+    "294"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0243",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Complète : 9 × … = 45",
+   "explanation": "9 × 5 = 45.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "45/9",
+   "choices": [
+    "5",
+    "4",
+    "15",
+    "3"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0244",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Quel est le double de 371 805 ?",
+   "explanation": "371 805 + 371 805 = 743 610.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "371805*2",
+   "accepted": [
+    "743 610",
+    "743 610",
+    "743610",
+    "743610"
+   ]
+  },
+  {
+   "id": "g-ma-0245",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Quel est le double de 606 735 ?",
+   "explanation": "606 735 + 606 735 = 1 213 470.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "606735*2",
+   "accepted": [
+    "1 213 470",
+    "1 213 470",
+    "1213470",
+    "1213470"
+   ]
+  },
+  {
+   "id": "g-ma-0246",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Quelle est la moitié de 738 158 ?",
+   "explanation": "738 158 ÷ 2 = 369 079.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "738158/2",
+   "accepted": [
+    "369 079",
+    "369 079",
+    "369079",
+    "369079"
+   ]
+  },
+  {
+   "id": "g-ma-0247",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Quelle est la moitié de 871 662 ?",
+   "explanation": "871 662 ÷ 2 = 435 831.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "871662/2",
+   "accepted": [
+    "435 831",
+    "435 831",
+    "435831",
+    "435831"
+   ]
+  },
+  {
+   "id": "g-ma-0248",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel est le quart de 16 ?",
+   "explanation": "On divise par 4 : 16 ÷ 4 = 4.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "16/4",
+   "choices": [
+    "104",
+    "4",
+    "2",
+    "3"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0249",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel est le quart de 48 ?",
+   "explanation": "On divise par 4 : 48 ÷ 4 = 12.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "48/4",
+   "choices": [
+    "12",
+    "13",
+    "120",
+    "6"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0250",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel est le quart de 40 ?",
+   "explanation": "On divise par 4 : 40 ÷ 4 = 10.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "40/4",
+   "choices": [
+    "100",
+    "5",
+    "9",
+    "10"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0251",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel est la moitié de 8 ?",
+   "explanation": "On divise par 2 : 8 ÷ 2 = 4.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "8/2",
+   "choices": [
+    "14",
+    "4",
+    "40",
+    "104"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0252",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Un gâteau est partagé en 10 parts égales. Soumaya en mange 8. Quelle fraction du gâteau a-t-elle mangée ?",
+   "explanation": "8 parts sur 10 parts égales : 8/10.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "8/10",
+    "2/8",
+    "10/8",
+    "8/11"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0253",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le quart de 24 ?",
+   "explanation": "On divise par 4 : 24 ÷ 4 = 6.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "24/4",
+   "choices": [
+    "6",
+    "16",
+    "7",
+    "106"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0254",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le cinquième de 35 ?",
+   "explanation": "On divise par 5 : 35 ÷ 5 = 7.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "35/5",
+   "choices": [
+    "107",
+    "8",
+    "6",
+    "7"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0255",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un gâteau est partagé en 6 parts égales. Soumaya en mange 2. Quelle fraction du gâteau a-t-elle mangée ?",
+   "explanation": "2 parts sur 6 parts égales : 2/6.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "2/7",
+    "2/6",
+    "6/2",
+    "4/2"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0256",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Quel est le cinquième de 140 ?",
+   "explanation": "On divise par 5 : 140 ÷ 5 = 28.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "140/5",
+   "accepted": [
+    "28",
+    "28",
+    "28",
+    "28"
+   ]
+  },
+  {
+   "id": "g-ma-0257",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Calcule 3/5 de 55.",
+   "explanation": "1/5 de 55 = 11, donc 3/5 = 11 × 3 = 33.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "55/5*3",
+   "choices": [
+    "133",
+    "34",
+    "43",
+    "33"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0258",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Un gâteau est partagé en 6 parts égales. Soumaya en mange 4. Quelle fraction du gâteau a-t-elle mangée ?",
+   "explanation": "4 parts sur 6 parts égales : 4/6.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "4/6",
+    "6/4",
+    "2/4",
+    "4/7"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0259",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Combien font 98,4 + 49,7 ?",
+   "explanation": "On aligne les virgules : 98,4 + 49,7 = 148,1.",
+   "hint": "Aligne bien les virgules avant de calculer.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "98.4+49.7",
+   "accepted": [
+    "148,1",
+    "148,1",
+    "148,1",
+    "148.1"
+   ]
+  },
+  {
+   "id": "g-ma-0260",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien font 47,7 + 95,4 ?",
+   "explanation": "On aligne les virgules : 47,7 + 95,4 = 143,1.",
+   "hint": "Aligne bien les virgules avant de calculer.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "47.7+95.4",
+   "choices": [
+    "143,2",
+    "143,1",
+    "1 431",
+    "143"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0261",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel nombre est le plus grand : 7,63 ou 4,64 ?",
+   "explanation": "On compare d’abord les unités, puis les dixièmes, puis les centièmes : 7,63 est le plus grand.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "7,63",
+    "4,64"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0262",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Calcule 3/10 de 210.",
+   "explanation": "1/10 de 210 = 21, donc 3/10 = 21 × 3 = 63.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "210/10*3",
+   "choices": [
+    "62",
+    "53",
+    "163",
+    "63"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0263",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Calcule 2/5 de 120.",
+   "explanation": "1/5 de 120 = 24, donc 2/5 = 24 × 2 = 48.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "120/5*2",
+   "choices": [
+    "48",
+    "47",
+    "480",
+    "148"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0264",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Un gâteau est partagé en 10 parts égales. Soumaya en mange 5. Quelle fraction du gâteau a-t-elle mangée ?",
+   "explanation": "5 parts sur 10 parts égales : 5/10.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "5/11",
+    "10/5",
+    "5/10",
+    "5/5"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0265",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien font 3,2 + 68 ?",
+   "explanation": "On aligne les virgules : 3,2 + 68 = 71,2.",
+   "hint": "Aligne bien les virgules avant de calculer.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3.2+68",
+   "choices": [
+    "712",
+    "71,3",
+    "71,2",
+    "71,1"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0266",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien font 96,6 + 59,3 ?",
+   "explanation": "On aligne les virgules : 96,6 + 59,3 = 155,9.",
+   "hint": "Aligne bien les virgules avant de calculer.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "96.6+59.3",
+   "choices": [
+    "1 559",
+    "155,9",
+    "156",
+    "155,8"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0267",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel nombre est le plus grand : 6,52 ou 3,27 ?",
+   "explanation": "On compare d’abord les unités, puis les dixièmes, puis les centièmes : 6,52 est le plus grand.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "3,27",
+    "6,52"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0268",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Écris 8/10 sous forme décimale.",
+   "explanation": "8 dixièmes s’écrivent 0,8.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "8/10",
+   "choices": [
+    "8,1",
+    "80",
+    "0,8",
+    "0,08"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0269",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Calcule 2/5 de 125.",
+   "explanation": "1/5 de 125 = 25, donc 2/5 = 25 × 2 = 50.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "125/5*2",
+   "accepted": [
+    "50",
+    "50",
+    "50",
+    "50"
+   ]
+  },
+  {
+   "id": "g-ma-0270",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Calcule 2/6 de 12.",
+   "explanation": "1/6 de 12 = 2, donc 2/6 = 2 × 2 = 4.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "12/6*2",
+   "choices": [
+    "104",
+    "4",
+    "5",
+    "3"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0271",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Un gâteau est partagé en 4 parts égales. Soumaya en mange 1. Quelle fraction du gâteau a-t-elle mangée ?",
+   "explanation": "1 parts sur 4 parts égales : 1/4.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "4/1",
+    "3/1",
+    "1/4",
+    "1/5"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0272",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien font 86,1 + 14,4 ?",
+   "explanation": "On aligne les virgules : 86,1 + 14,4 = 100,5.",
+   "hint": "Aligne bien les virgules avant de calculer.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "86.1+14.4",
+   "choices": [
+    "100,5",
+    "100,4",
+    "1 005",
+    "100,6"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0273",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien font 26,1 + 1,4 ?",
+   "explanation": "On aligne les virgules : 26,1 + 1,4 = 27,5.",
+   "hint": "Aligne bien les virgules avant de calculer.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "26.1+1.4",
+   "choices": [
+    "275",
+    "27,4",
+    "27,5",
+    "27,6"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0274",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel nombre est le plus grand : 7,46 ou 3,65 ?",
+   "explanation": "On compare d’abord les unités, puis les dixièmes, puis les centièmes : 7,46 est le plus grand.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "3,65",
+    "7,46"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0275",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Écris 4/10 sous forme décimale.",
+   "explanation": "4 dixièmes s’écrivent 0,4.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4/10",
+   "choices": [
+    "0,04",
+    "40",
+    "0,4",
+    "4,1"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0276",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Calcule 3/4 de 112.",
+   "explanation": "1/4 de 112 = 28, donc 3/4 = 28 × 3 = 84.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "112/4*3",
+   "choices": [
+    "42",
+    "84",
+    "184",
+    "83"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0277",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel est le quart de 52 ?",
+   "explanation": "On divise par 4 : 52 ÷ 4 = 13.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "52/4",
+   "choices": [
+    "23",
+    "130",
+    "12",
+    "13"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0278",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Un gâteau est partagé en 5 parts égales. Soumaya en mange 1. Quelle fraction du gâteau a-t-elle mangée ?",
+   "explanation": "1 parts sur 5 parts égales : 1/5.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "1/5",
+    "5/1",
+    "4/1",
+    "1/6"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0279",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Combien font 53,8 + 47,1 ?",
+   "explanation": "On aligne les virgules : 53,8 + 47,1 = 100,9.",
+   "hint": "Aligne bien les virgules avant de calculer.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "53.8+47.1",
+   "accepted": [
+    "100,9",
+    "100,9",
+    "100,9",
+    "100.9"
+   ]
+  },
+  {
+   "id": "g-ma-0280",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien font 50,9 + 45,1 ?",
+   "explanation": "On aligne les virgules : 50,9 + 45,1 = 96.",
+   "hint": "Aligne bien les virgules avant de calculer.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "50.9+45.1",
+   "choices": [
+    "97",
+    "95",
+    "48",
+    "96"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0281",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel nombre est le plus grand : 3,9 ou 9,41 ?",
+   "explanation": "On compare d’abord les unités, puis les dixièmes, puis les centièmes : 9,41 est le plus grand.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "3,9",
+    "9,41"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0282",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Écris 1/10 sous forme décimale.",
+   "explanation": "1 dixièmes s’écrivent 0,1.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1/10",
+   "choices": [
+    "0,1",
+    "1,1",
+    "0,01",
+    "10"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0283",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Quel est le quart de 28 ?",
+   "explanation": "On divise par 4 : 28 ÷ 4 = 7.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "28/4",
+   "accepted": [
+    "7",
+    "7",
+    "7",
+    "7"
+   ]
+  },
+  {
+   "id": "g-ma-0284",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel est le tiers de 36 ?",
+   "explanation": "On divise par 3 : 36 ÷ 3 = 12.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "36/3",
+   "choices": [
+    "2",
+    "11",
+    "112",
+    "12"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0285",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Un gâteau est partagé en 10 parts égales. Soumaya en mange 6. Quelle fraction du gâteau a-t-elle mangée ?",
+   "explanation": "6 parts sur 10 parts égales : 6/10.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "10/6",
+    "6/11",
+    "6/10",
+    "4/6"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0286",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Combien font 86,7 + 48,1 ?",
+   "explanation": "On aligne les virgules : 86,7 + 48,1 = 134,8.",
+   "hint": "Aligne bien les virgules avant de calculer.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "86.7+48.1",
+   "accepted": [
+    "134,8",
+    "134,8",
+    "134,8",
+    "134.8"
+   ]
+  },
+  {
+   "id": "g-ma-0287",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien font 83 + 23,5 ?",
+   "explanation": "On aligne les virgules : 83 + 23,5 = 106,5.",
+   "hint": "Aligne bien les virgules avant de calculer.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "83+23.5",
+   "choices": [
+    "106,6",
+    "106,4",
+    "1 065",
+    "106,5"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0288",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel nombre est le plus grand : 7,24 ou 9,1 ?",
+   "explanation": "On compare d’abord les unités, puis les dixièmes, puis les centièmes : 9,1 est le plus grand.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "7,24",
+    "9,1"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0289",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Écris 3/10 sous forme décimale.",
+   "explanation": "3 dixièmes s’écrivent 0,3.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3/10",
+   "choices": [
+    "0,03",
+    "3,1",
+    "0,3",
+    "30"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0290",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien de g y a-t-il dans 5 kg ?",
+   "explanation": "1 kg = 1 000 g, donc 5 kg = 5 × 1 000 = 5 000 g.",
+   "hint": "Rappelle-toi : 1 kg = 1 000 g.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*1000",
+   "choices": [
+    "5 100 g",
+    "5 000 g",
+    "4 900 g",
+    "5 001 g"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0291",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien de m y a-t-il dans 3 km ?",
+   "explanation": "1 km = 1 000 m, donc 3 km = 3 × 1 000 = 3 000 m.",
+   "hint": "Rappelle-toi : 1 km = 1 000 m.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3*1000",
+   "choices": [
+    "30 000 m",
+    "3 000 m",
+    "3 100 m",
+    "2 990 m"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0292",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien de g y a-t-il dans 3 kg ?",
+   "explanation": "1 kg = 1 000 g, donc 3 kg = 3 × 1 000 = 3 000 g.",
+   "hint": "Rappelle-toi : 1 kg = 1 000 g.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3*1000",
+   "choices": [
+    "30 000 g",
+    "1 500 g",
+    "3 000 g",
+    "3 100 g"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0293",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 5 cm de longueur et 3 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (5 + 3) = 2 × 8 = 16 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(5+3)",
+   "choices": [
+    "8 cm",
+    "15 cm",
+    "16 cm",
+    "116 cm"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0294",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 7 cm de longueur et 6 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (7 + 6) = 2 × 13 = 26 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(7+6)",
+   "choices": [
+    "26 cm",
+    "27 cm",
+    "36 cm",
+    "126 cm"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0295",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien de cm y a-t-il dans 4 m ?",
+   "explanation": "1 m = 100 cm, donc 4 m = 4 × 100 = 400 cm.",
+   "hint": "Rappelle-toi : 1 m = 100 cm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*100",
+   "choices": [
+    "4 000 cm",
+    "401 cm",
+    "200 cm",
+    "400 cm"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0296",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien de mL y a-t-il dans 4 L ?",
+   "explanation": "1 L = 1 000 mL, donc 4 L = 4 × 1 000 = 4 000 mL.",
+   "hint": "Rappelle-toi : 1 L = 1 000 mL.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*1000",
+   "choices": [
+    "40 000 mL",
+    "4 000 mL",
+    "3 990 mL",
+    "4 100 mL"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0297",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien de mL y a-t-il dans 2 L ?",
+   "explanation": "1 L = 1 000 mL, donc 2 L = 2 × 1 000 = 2 000 mL.",
+   "hint": "Rappelle-toi : 1 L = 1 000 mL.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*1000",
+   "choices": [
+    "2 000 mL",
+    "20 000 mL",
+    "1 990 mL",
+    "1 900 mL"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0298",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quel est le périmètre d’un carré de 6 cm de côté ?",
+   "explanation": "Un carré a 4 côtés égaux : 4 × 6 = 24 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*6",
+   "choices": [
+    "25 cm",
+    "24 cm",
+    "34 cm",
+    "124 cm"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0299",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 12 cm de longueur et 6 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (12 + 6) = 2 × 18 = 36 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(12+6)",
+   "choices": [
+    "136 cm",
+    "35 cm",
+    "36 cm",
+    "46 cm"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0300",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien de dm y a-t-il dans 5 m ?",
+   "explanation": "1 m = 10 dm, donc 5 m = 5 × 10 = 50 dm.",
+   "hint": "Rappelle-toi : 1 m = 10 dm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*10",
+   "choices": [
+    "51 dm",
+    "49 dm",
+    "40 dm",
+    "50 dm"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0301",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien de mL y a-t-il dans 5 L ?",
+   "explanation": "1 L = 1 000 mL, donc 5 L = 5 × 1 000 = 5 000 mL.",
+   "hint": "Rappelle-toi : 1 L = 1 000 mL.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*1000",
+   "choices": [
+    "2 500 mL",
+    "4 900 mL",
+    "5 100 mL",
+    "5 000 mL"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0302",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien de mm y a-t-il dans 3 cm ?",
+   "explanation": "1 cm = 10 mm, donc 3 cm = 3 × 10 = 30 mm.",
+   "hint": "Rappelle-toi : 1 cm = 10 mm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3*10",
+   "choices": [
+    "31 mm",
+    "29 mm",
+    "30 mm",
+    "300 mm"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0303",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Un film commence à 8 h 30 et dure 1 h 25 min. À quelle heure se termine-t-il ?",
+   "explanation": "8 h 30 + 1 h 25 min = 9 h 55.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "9 h 45",
+    "9 h 05",
+    "9 h 55",
+    "10 h 55"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0304",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Un film commence à 10 h 45 et dure 25 min. À quelle heure se termine-t-il ?",
+   "explanation": "10 h 45 + 25 min = 11 h 10.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "12 h 10",
+    "11 h 00",
+    "11 h 20",
+    "11 h 10"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0305",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 3 cm de longueur et 8 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (3 + 8) = 2 × 11 = 22 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(3+8)",
+   "choices": [
+    "21 cm",
+    "220 cm",
+    "22 cm",
+    "122 cm"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0306",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel est le périmètre d’un carré de 13 cm de côté ?",
+   "explanation": "Un carré a 4 côtés égaux : 4 × 13 = 52 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*13",
+   "choices": [
+    "53 cm",
+    "51 cm",
+    "62 cm",
+    "52 cm"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0307",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien de m y a-t-il dans 10 km ?",
+   "explanation": "1 km = 1 000 m, donc 10 km = 10 × 1 000 = 10 000 m.",
+   "hint": "Rappelle-toi : 1 km = 1 000 m.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "10*1000",
+   "choices": [
+    "10 000 m",
+    "9 900 m",
+    "100 000 m",
+    "9 999 m"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0308",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien de dm y a-t-il dans 10 m ?",
+   "explanation": "1 m = 10 dm, donc 10 m = 10 × 10 = 100 dm.",
+   "hint": "Rappelle-toi : 1 m = 10 dm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "10*10",
+   "choices": [
+    "100 dm",
+    "110 dm",
+    "90 dm",
+    "101 dm"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0309",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien de mm y a-t-il dans 9 cm ?",
+   "explanation": "1 cm = 10 mm, donc 9 cm = 9 × 10 = 90 mm.",
+   "hint": "Rappelle-toi : 1 cm = 10 mm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "9*10",
+   "choices": [
+    "90 mm",
+    "900 mm",
+    "45 mm",
+    "100 mm"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0310",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Un film commence à 9 h 45 et dure 1 h 25 min. À quelle heure se termine-t-il ?",
+   "explanation": "9 h 45 + 1 h 25 min = 11 h 10.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "11 h 20",
+    "12 h 10",
+    "11 h 00",
+    "11 h 10"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0311",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Un film commence à 9 h 40 et dure 45 min. À quelle heure se termine-t-il ?",
+   "explanation": "9 h 40 + 45 min = 10 h 25.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "10 h 25",
+    "10 h 35",
+    "11 h 25",
+    "10 h 15"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0312",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel est le périmètre d’un carré de 11 cm de côté ?",
+   "explanation": "Un carré a 4 côtés égaux : 4 × 11 = 44 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*11",
+   "choices": [
+    "43 cm",
+    "44 cm",
+    "440 cm",
+    "45 cm"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0313",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 8 cm de longueur et 7 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (8 + 7) = 2 × 15 = 30 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(8+7)",
+   "choices": [
+    "29 cm",
+    "30 cm",
+    "31 cm",
+    "20 cm"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0314",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien de grammes y a-t-il dans 2 kg 350 g ?",
+   "explanation": "2 kg = 2 000 g ; 2 000 + 350 = 2 350 g.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*1000+350",
+   "choices": [
+    "2 450 g",
+    "2 360 g",
+    "2 350 g",
+    "23 500 g"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0315",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien de g y a-t-il dans 10 kg ?",
+   "explanation": "1 kg = 1 000 g, donc 10 kg = 10 × 1 000 = 10 000 g.",
+   "hint": "Rappelle-toi : 1 kg = 1 000 g.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "10*1000",
+   "choices": [
+    "10 100 g",
+    "10 001 g",
+    "10 000 g",
+    "10 010 g"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0316",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien de mm y a-t-il dans 8 cm ?",
+   "explanation": "1 cm = 10 mm, donc 8 cm = 8 × 10 = 80 mm.",
+   "hint": "Rappelle-toi : 1 cm = 10 mm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "8*10",
+   "choices": [
+    "79 mm",
+    "70 mm",
+    "80 mm",
+    "180 mm"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0317",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien de cm y a-t-il dans 10 m ?",
+   "explanation": "1 m = 100 cm, donc 10 m = 10 × 100 = 1 000 cm.",
+   "hint": "Rappelle-toi : 1 m = 100 cm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "10*100",
+   "choices": [
+    "1 001 cm",
+    "1 000 cm",
+    "990 cm",
+    "900 cm"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0318",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un film commence à 15 h 35 et dure 10 min. À quelle heure se termine-t-il ?",
+   "explanation": "15 h 35 + 10 min = 15 h 45.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "15 h 35",
+    "15 h 45",
+    "15 h 55",
+    "16 h 45"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0319",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un film commence à 8 h 20 et dure 1 h 10 min. À quelle heure se termine-t-il ?",
+   "explanation": "8 h 20 + 1 h 10 min = 9 h 30.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "9 h 20",
+    "9 h 40",
+    "9 h 30",
+    "10 h 30"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0320",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le périmètre d’un carré de 21 cm de côté ?",
+   "explanation": "Un carré a 4 côtés égaux : 4 × 21 = 84 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*21",
+   "choices": [
+    "83 cm",
+    "74 cm",
+    "42 cm",
+    "84 cm"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0321",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 20 cm de longueur et 18 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (20 + 18) = 2 × 38 = 76 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(20+18)",
+   "choices": [
+    "86 cm",
+    "76 cm",
+    "77 cm",
+    "38 cm"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0322",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Combien de grammes y a-t-il dans 4 kg 450 g ? (réponse en g)",
+   "explanation": "4 kg = 4 000 g ; 4 000 + 450 = 4 450 g.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*1000+450",
+   "accepted": [
+    "4 450",
+    "4 450 g",
+    "4450",
+    "4450"
+   ]
+  },
+  {
+   "id": "g-ma-0323",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien de mL y a-t-il dans 3 L ?",
+   "explanation": "1 L = 1 000 mL, donc 3 L = 3 × 1 000 = 3 000 mL.",
+   "hint": "Rappelle-toi : 1 L = 1 000 mL.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3*1000",
+   "choices": [
+    "2 990 mL",
+    "3 010 mL",
+    "3 000 mL",
+    "2 900 mL"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0324",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien de min y a-t-il dans 9 h ?",
+   "explanation": "1 h = 60 min, donc 9 h = 9 × 60 = 540 min.",
+   "hint": "Rappelle-toi : 1 h = 60 min.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "9*60",
+   "choices": [
+    "5 400 min",
+    "540 min",
+    "530 min",
+    "541 min"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0325",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien de cL y a-t-il dans 6 L ?",
+   "explanation": "1 L = 100 cL, donc 6 L = 6 × 100 = 600 cL.",
+   "hint": "Rappelle-toi : 1 L = 100 cL.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6*100",
+   "choices": [
+    "300 cL",
+    "599 cL",
+    "610 cL",
+    "600 cL"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0326",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Un film commence à 13 h 30 et dure 2 h 40 min. À quelle heure se termine-t-il ?",
+   "explanation": "13 h 30 + 2 h 40 min = 16 h 10.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "16 h 20",
+    "16 h 00",
+    "17 h 10",
+    "16 h 10"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0327",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Un film commence à 8 h 50 et dure 1 h 15 min. À quelle heure se termine-t-il ?",
+   "explanation": "8 h 50 + 1 h 15 min = 10 h 05.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "9 h 05",
+    "11 h 05",
+    "10 h 15",
+    "10 h 05"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0328",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Quel est le périmètre d’un carré de 2 cm de côté ? (réponse en cm)",
+   "explanation": "Un carré a 4 côtés égaux : 4 × 2 = 8 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*2",
+   "accepted": [
+    "8",
+    "8 cm",
+    "8",
+    "8"
+   ]
+  },
+  {
+   "id": "g-ma-0329",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 22 cm de longueur et 7 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (22 + 7) = 2 × 29 = 58 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(22+7)",
+   "choices": [
+    "59 cm",
+    "580 cm",
+    "29 cm",
+    "58 cm"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0330",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien de grammes y a-t-il dans 1 kg 400 g ?",
+   "explanation": "1 kg = 1 000 g ; 1 000 + 400 = 1 400 g.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1*1000+400",
+   "choices": [
+    "14 000 g",
+    "1 300 g",
+    "1 500 g",
+    "1 400 g"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0331",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Un rectangle mesure 6 cm sur 4 cm. Quelle est son aire ? (réponse en cm²)",
+   "explanation": "Aire = longueur × largeur = 6 × 4 = 24 cm².",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6*4",
+   "accepted": [
+    "24",
+    "24 cm²",
+    "24",
+    "24"
+   ]
+  },
+  {
+   "id": "g-ma-0332",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien de cm y a-t-il dans 32 m ?",
+   "explanation": "1 m = 100 cm, donc 32 m = 32 × 100 = 3 200 cm.",
+   "hint": "Rappelle-toi : 1 m = 100 cm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "32*100",
+   "choices": [
+    "1 600 cm",
+    "3 200 cm",
+    "3 199 cm",
+    "3 201 cm"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0333",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien de min y a-t-il dans 3 h ?",
+   "explanation": "1 h = 60 min, donc 3 h = 3 × 60 = 180 min.",
+   "hint": "Rappelle-toi : 1 h = 60 min.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3*60",
+   "choices": [
+    "180 min",
+    "181 min",
+    "80 min",
+    "170 min"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0334",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien de dm y a-t-il dans 19 m ?",
+   "explanation": "1 m = 10 dm, donc 19 m = 19 × 10 = 190 dm.",
+   "hint": "Rappelle-toi : 1 m = 10 dm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "19*10",
+   "choices": [
+    "190 dm",
+    "95 dm",
+    "290 dm",
+    "1 900 dm"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0335",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Un film commence à 11 h 40 et dure 2 h 25 min. À quelle heure se termine-t-il ?",
+   "explanation": "11 h 40 + 2 h 25 min = 14 h 05.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "14 h 05",
+    "15 h 05",
+    "13 h 05",
+    "14 h 15"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0336",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Un film commence à 9 h 20 et dure 2 h 20 min. À quelle heure se termine-t-il ?",
+   "explanation": "9 h 20 + 2 h 20 min = 11 h 40.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "11 h 40",
+    "11 h 50",
+    "12 h 40",
+    "11 h 30"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0337",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Quel est le périmètre d’un carré de 9 cm de côté ? (réponse en cm)",
+   "explanation": "Un carré a 4 côtés égaux : 4 × 9 = 36 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*9",
+   "accepted": [
+    "36",
+    "36 cm",
+    "36",
+    "36"
+   ]
+  },
+  {
+   "id": "g-ma-0338",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 22 cm de longueur et 13 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (22 + 13) = 2 × 35 = 70 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(22+13)",
+   "choices": [
+    "71 cm",
+    "80 cm",
+    "60 cm",
+    "70 cm"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0339",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien de grammes y a-t-il dans 2 kg 150 g ?",
+   "explanation": "2 kg = 2 000 g ; 2 000 + 150 = 2 150 g.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*1000+150",
+   "choices": [
+    "2 150 g",
+    "2 250 g",
+    "2 050 g",
+    "2 151 g"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0340",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Un rectangle mesure 5 cm sur 5 cm. Quelle est son aire ? (réponse en cm²)",
+   "explanation": "Aire = longueur × largeur = 5 × 5 = 25 cm².",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*5",
+   "accepted": [
+    "25",
+    "25 cm²",
+    "25",
+    "25"
+   ]
+  },
+  {
+   "id": "g-ma-0341",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Combien de cm y a-t-il dans 25 m ? (réponse en cm)",
+   "explanation": "1 m = 100 cm, donc 25 m = 25 × 100 = 2 500 cm.",
+   "hint": "Rappelle-toi : 1 m = 100 cm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "25*100",
+   "accepted": [
+    "2 500",
+    "2 500 cm",
+    "2500",
+    "2500"
+   ]
+  },
+  {
+   "id": "g-ma-0342",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien de mL y a-t-il dans 40 L ?",
+   "explanation": "1 L = 1 000 mL, donc 40 L = 40 × 1 000 = 40 000 mL.",
+   "hint": "Rappelle-toi : 1 L = 1 000 mL.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "40*1000",
+   "choices": [
+    "39 990 mL",
+    "20 000 mL",
+    "39 900 mL",
+    "40 000 mL"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0343",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien de g y a-t-il dans 22 kg ?",
+   "explanation": "1 kg = 1 000 g, donc 22 kg = 22 × 1 000 = 22 000 g.",
+   "hint": "Rappelle-toi : 1 kg = 1 000 g.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "22*1000",
+   "choices": [
+    "11 000 g",
+    "22 000 g",
+    "21 990 g",
+    "22 100 g"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0344",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Un film commence à 7 h 10 et dure 45 min. À quelle heure se termine-t-il ?",
+   "explanation": "7 h 10 + 45 min = 7 h 55.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "7 h 05",
+    "7 h 55",
+    "7 h 45",
+    "8 h 55"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0345",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Un film commence à 6 h 30 et dure 45 min. À quelle heure se termine-t-il ?",
+   "explanation": "6 h 30 + 45 min = 7 h 15.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "8 h 15",
+    "7 h 25",
+    "7 h 05",
+    "7 h 15"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0346",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Quel est le périmètre d’un carré de 24 cm de côté ? (réponse en cm)",
+   "explanation": "Un carré a 4 côtés égaux : 4 × 24 = 96 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*24",
+   "accepted": [
+    "96",
+    "96 cm",
+    "96",
+    "96"
+   ]
+  },
+  {
+   "id": "g-ma-0347",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 25 cm de longueur et 4 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (25 + 4) = 2 × 29 = 58 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(25+4)",
+   "choices": [
+    "59 cm",
+    "57 cm",
+    "58 cm",
+    "48 cm"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0348",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Combien de grammes y a-t-il dans 4 kg 50 g ? (réponse en g)",
+   "explanation": "4 kg = 4 000 g ; 4 000 + 50 = 4 050 g.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*1000+50",
+   "accepted": [
+    "4 050",
+    "4 050 g",
+    "4050",
+    "4050"
+   ]
+  },
+  {
+   "id": "g-ma-0349",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Un rectangle mesure 4 cm sur 9 cm. Quelle est son aire ? (réponse en cm²)",
+   "explanation": "Aire = longueur × largeur = 4 × 9 = 36 cm².",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*9",
+   "accepted": [
+    "36",
+    "36 cm²",
+    "36",
+    "36"
+   ]
+  },
+  {
+   "id": "g-ma-0350",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Combien de cL y a-t-il dans 20 L ?",
+   "explanation": "1 L = 100 cL, donc 20 L = 20 × 100 = 2 000 cL.",
+   "hint": "Rappelle-toi : 1 L = 100 cL.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "20*100",
+   "choices": [
+    "2 001 cL",
+    "2 010 cL",
+    "20 000 cL",
+    "2 000 cL"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0351",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Combien de g y a-t-il dans 30 kg ? (réponse en g)",
+   "explanation": "1 kg = 1 000 g, donc 30 kg = 30 × 1 000 = 30 000 g.",
+   "hint": "Rappelle-toi : 1 kg = 1 000 g.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "30*1000",
+   "accepted": [
+    "30 000",
+    "30 000 g",
+    "30000",
+    "30000"
+   ]
+  },
+  {
+   "id": "g-ma-0352",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Combien de min y a-t-il dans 39 h ? (réponse en min)",
+   "explanation": "1 h = 60 min, donc 39 h = 39 × 60 = 2 340 min.",
+   "hint": "Rappelle-toi : 1 h = 60 min.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "39*60",
+   "accepted": [
+    "2 340",
+    "2 340 min",
+    "2340",
+    "2340"
+   ]
+  },
+  {
+   "id": "g-ma-0353",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Un film commence à 11 h 40 et dure 45 min. À quelle heure se termine-t-il ?",
+   "explanation": "11 h 40 + 45 min = 12 h 25.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "12 h 15",
+    "12 h 35",
+    "13 h 25",
+    "12 h 25"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0354",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Un film commence à 10 h 50 et dure 3 h 20 min. À quelle heure se termine-t-il ?",
+   "explanation": "10 h 50 + 3 h 20 min = 14 h 10.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "14 h 00",
+    "15 h 10",
+    "14 h 10",
+    "14 h 20"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0355",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Quel est le périmètre d’un carré de 29 cm de côté ? (réponse en cm)",
+   "explanation": "Un carré a 4 côtés égaux : 4 × 29 = 116 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*29",
+   "accepted": [
+    "116",
+    "116 cm",
+    "116",
+    "116"
+   ]
+  },
+  {
+   "id": "g-ma-0356",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 2 cm de longueur et 6 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (2 + 6) = 2 × 8 = 16 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(2+6)",
+   "choices": [
+    "16 cm",
+    "8 cm",
+    "6 cm",
+    "15 cm"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0357",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Combien de grammes y a-t-il dans 1 kg 200 g ? (réponse en g)",
+   "explanation": "1 kg = 1 000 g ; 1 000 + 200 = 1 200 g.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "1*1000+200",
+   "accepted": [
+    "1 200",
+    "1 200 g",
+    "1200",
+    "1200"
+   ]
+  },
+  {
+   "id": "g-ma-0358",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Un rectangle mesure 7 cm sur 4 cm. Quelle est son aire ? (réponse en cm²)",
+   "explanation": "Aire = longueur × largeur = 7 × 4 = 28 cm².",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7*4",
+   "accepted": [
+    "28",
+    "28 cm²",
+    "28",
+    "28"
+   ]
+  },
+  {
+   "id": "g-ma-0359",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien de cm y a-t-il dans 3 m ?",
+   "explanation": "1 m = 100 cm, donc 3 m = 3 × 100 = 300 cm.",
+   "hint": "Rappelle-toi : 1 m = 100 cm.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "3*100",
+   "choices": [
+    "290 cm",
+    "300 cm",
+    "200 cm",
+    "310 cm"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0360",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Combien de m y a-t-il dans 15 km ?",
+   "explanation": "1 km = 1 000 m, donc 15 km = 15 × 1 000 = 15 000 m.",
+   "hint": "Rappelle-toi : 1 km = 1 000 m.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "15*1000",
+   "choices": [
+    "15 100 m",
+    "15 001 m",
+    "15 000 m",
+    "14 900 m"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0361",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Combien de min y a-t-il dans 24 h ? (réponse en min)",
+   "explanation": "1 h = 60 min, donc 24 h = 24 × 60 = 1 440 min.",
+   "hint": "Rappelle-toi : 1 h = 60 min.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "24*60",
+   "accepted": [
+    "1 440",
+    "1 440 min",
+    "1440",
+    "1440"
+   ]
+  },
+  {
+   "id": "g-ma-0362",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Un film commence à 10 h 10 et dure 10 min. À quelle heure se termine-t-il ?",
+   "explanation": "10 h 10 + 10 min = 10 h 20.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "10 h 20",
+    "10 h 30",
+    "11 h 20",
+    "10 h 10"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0363",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Un film commence à 14 h 20 et dure 3 h 20 min. À quelle heure se termine-t-il ?",
+   "explanation": "14 h 20 + 3 h 20 min = 17 h 40.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": null,
+   "choices": [
+    "18 h 40",
+    "17 h 50",
+    "17 h 30",
+    "17 h 40"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0364",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel est le périmètre d’un carré de 23 cm de côté ?",
+   "explanation": "Un carré a 4 côtés égaux : 4 × 23 = 92 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*23",
+   "choices": [
+    "192 cm",
+    "93 cm",
+    "102 cm",
+    "92 cm"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0365",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 29 cm de longueur et 18 cm de largeur. Quel est son périmètre ?",
+   "explanation": "2 × (29 + 18) = 2 × 47 = 94 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*(29+18)",
+   "choices": [
+    "94 cm",
+    "940 cm",
+    "95 cm",
+    "93 cm"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0366",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Combien de grammes y a-t-il dans 5 kg 250 g ? (réponse en g)",
+   "explanation": "5 kg = 5 000 g ; 5 000 + 250 = 5 250 g.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*1000+250",
+   "accepted": [
+    "5 250",
+    "5 250 g",
+    "5250",
+    "5250"
+   ]
+  },
+  {
+   "id": "g-ma-0367",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Un rectangle mesure 7 cm sur 3 cm. Quelle est son aire ?",
+   "explanation": "Aire = longueur × largeur = 7 × 3 = 21 cm².",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "7*3",
+   "choices": [
+    "21 cm²",
+    "22 cm²",
+    "20 cm²",
+    "210 cm²"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0368",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Soumaya possède 66 autocollants et en donne 8. Combien lui en reste-t-il ?",
+   "explanation": "66 − 8 = 58.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "66-8",
+   "choices": [
+    "158",
+    "59",
+    "57",
+    "58"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0369",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Zoé répartit 8 fleurs dans 4 bouquets identiques. Combien de fleurs met-elle dans chaque bouquet ?",
+   "explanation": "8 ÷ 4 = 2.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "8/4",
+   "choices": [
+    "1",
+    "102",
+    "2",
+    "3"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0370",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Une pochette contient 9 autocollants. Lina achète 2 pochettes. Combien de autocollants cela fait-il ?",
+   "explanation": "2 × 9 = 18.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*9",
+   "choices": [
+    "28",
+    "17",
+    "18",
+    "8"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0371",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Mimi a 34 biscuits. Elle en reçoit 18 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "34 + 18 = 52.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "34+18",
+   "choices": [
+    "42",
+    "51",
+    "52",
+    "62"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0372",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Zoé répartit 36 fleurs dans 4 bouquets identiques. Combien de fleurs met-elle dans chaque bouquet ?",
+   "explanation": "36 ÷ 4 = 9.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "36/4",
+   "choices": [
+    "10",
+    "19",
+    "9",
+    "90"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0373",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Lina répartit 24 crayons dans 4 boîtes identiques. Combien de crayons met-elle dans chaque boîte ?",
+   "explanation": "24 ÷ 4 = 6.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "24/4",
+   "choices": [
+    "6",
+    "7",
+    "60",
+    "5"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0374",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Zakaria a 42 crayons. Elle en reçoit 21 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "42 + 21 = 63.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "42+21",
+   "choices": [
+    "73",
+    "63",
+    "163",
+    "53"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0375",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Yanis a 32 fleurs. Elle en reçoit 12 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "32 + 12 = 44.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "32+12",
+   "choices": [
+    "43",
+    "45",
+    "44",
+    "440"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0376",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Zakaria a 37 billes. Elle en reçoit 27 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "37 + 27 = 64.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "37+27",
+   "choices": [
+    "65",
+    "63",
+    "64",
+    "54"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0377",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Zakaria achète 5 livres à 5 € et 4 cahiers à 3 €. Combien paie-t-elle en tout ?",
+   "explanation": "5 × 5 + 4 × 3 = 25 + 12 = 37 €.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*5+4*3",
+   "choices": [
+    "37 €",
+    "47 €",
+    "19 €",
+    "38 €"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0378",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Zakaria achète 2 livres à 6 € et 4 cahiers à 2 €. Combien paie-t-elle en tout ?",
+   "explanation": "2 × 6 + 4 × 2 = 12 + 8 = 20 €.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*6+4*2",
+   "choices": [
+    "20 €",
+    "120 €",
+    "19 €",
+    "21 €"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0379",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Hajar possède 123 autocollants et en donne 81. Combien lui en reste-t-il ?",
+   "explanation": "123 − 81 = 42.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "123-81",
+   "choices": [
+    "43",
+    "42",
+    "21",
+    "41"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0380",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Lina répartit 72 billes dans 6 sachets identiques. Combien de billes met-elle dans chaque sachet ?",
+   "explanation": "72 ÷ 6 = 12.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "72/6",
+   "choices": [
+    "12",
+    "112",
+    "13",
+    "11"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0381",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Yanis répartit 15 fleurs dans 3 bouquets identiques. Combien de fleurs met-elle dans chaque bouquet ?",
+   "explanation": "15 ÷ 3 = 5.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "15/3",
+   "choices": [
+    "5",
+    "50",
+    "4",
+    "105"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0382",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Zoé achète 2 livres à 4 € et 2 cahiers à 3 €. Combien paie-t-elle en tout ?",
+   "explanation": "2 × 4 + 2 × 3 = 8 + 6 = 14 €.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "2*4+2*3",
+   "choices": [
+    "4 €",
+    "7 €",
+    "14 €",
+    "15 €"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0383",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Yanis achète 5 livres à 4 € et 2 cahiers à 2 €. Combien paie-t-elle en tout ?",
+   "explanation": "5 × 4 + 2 × 2 = 20 + 4 = 24 €.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "5*4+2*2",
+   "choices": [
+    "25 €",
+    "34 €",
+    "23 €",
+    "24 €"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0384",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Zakaria possède 132 fleurs et en donne 12. Combien lui en reste-t-il ?",
+   "explanation": "132 − 12 = 120.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "132-12",
+   "choices": [
+    "110",
+    "119",
+    "130",
+    "120"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0385",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Une paquet contient 14 cartes. Hajar achète 4 paquets. Combien de cartes cela fait-il ?",
+   "explanation": "4 × 14 = 56.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "4*14",
+   "choices": [
+    "56",
+    "66",
+    "156",
+    "57"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0386",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Yanis possède 125 fleurs et en donne 104. Combien lui en reste-t-il ?",
+   "explanation": "125 − 104 = 21.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "125-104",
+   "accepted": [
+    "21",
+    "21",
+    "21",
+    "21"
+   ]
+  },
+  {
+   "id": "g-ma-0387",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Soumaya achète 4 livres à 3 € et 4 cahiers à 3 €. Elle paie avec un billet de 30 €. Combien la caissière lui rend-elle ?",
+   "explanation": "Total : 12 + 12 = 24 €. Monnaie : 30 − 24 = 6 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "30-(4*3+4*3)",
+   "choices": [
+    "7 €",
+    "6 €",
+    "5 €",
+    "106 €"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0388",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Noé achète 3 livres à 2 € et 2 cahiers à 6 €. Elle paie avec un billet de 20 €. Combien la caissière lui rend-elle ?",
+   "explanation": "Total : 6 + 12 = 18 €. Monnaie : 20 − 18 = 2 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "20-(3*2+2*6)",
+   "choices": [
+    "20 €",
+    "3 €",
+    "2 €",
+    "1 €"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0389",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Un car peut transporter 4 élèves par voyage. Combien de voyages faut-il pour transporter 43 élèves ?",
+   "explanation": "43 ÷ 4 = 10 reste 3. Il faut un voyage de plus pour les 3 élèves restants : 11 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(43/4)",
+   "accepted": [
+    "11",
+    "11",
+    "11",
+    "11"
+   ]
+  },
+  {
+   "id": "g-ma-0390",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un car peut transporter 7 élèves par voyage. Combien de voyages faut-il pour transporter 37 élèves ?",
+   "explanation": "37 ÷ 7 = 5 reste 2. Il faut un voyage de plus pour les 2 élèves restants : 6 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(37/7)",
+   "choices": [
+    "5",
+    "7",
+    "6",
+    "16"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0391",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Une sachet contient 12 billes. Inès achète 8 sachets. Combien de billes cela fait-il ?",
+   "explanation": "8 × 12 = 96.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "8*12",
+   "accepted": [
+    "96",
+    "96",
+    "96",
+    "96"
+   ]
+  },
+  {
+   "id": "g-ma-0392",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Lina possède 237 autocollants et en donne 48. Combien lui en reste-t-il ?",
+   "explanation": "237 − 48 = 189.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "237-48",
+   "choices": [
+    "95",
+    "189",
+    "199",
+    "188"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0393",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Inès a 68 fleurs. Elle en reçoit 31 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "68 + 31 = 99.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "68+31",
+   "accepted": [
+    "99",
+    "99",
+    "99",
+    "99"
+   ]
+  },
+  {
+   "id": "g-ma-0394",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Yanis achète 2 livres à 5 € et 4 cahiers à 2 €. Elle paie avec un billet de 20 €. Combien la caissière lui rend-elle ?",
+   "explanation": "Total : 10 + 8 = 18 €. Monnaie : 20 − 18 = 2 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "20-(2*5+4*2)",
+   "choices": [
+    "1 €",
+    "20 €",
+    "2 €",
+    "3 €"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0395",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Mimi achète 2 livres à 7 € et 3 cahiers à 9 €. Elle paie avec un billet de 50 €. Combien la caissière lui rend-elle ?",
+   "explanation": "Total : 14 + 27 = 41 €. Monnaie : 50 − 41 = 9 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "50-(2*7+3*9)",
+   "choices": [
+    "8 €",
+    "90 €",
+    "10 €",
+    "9 €"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0396",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Un car peut transporter 7 élèves par voyage. Combien de voyages faut-il pour transporter 30 élèves ?",
+   "explanation": "30 ÷ 7 = 4 reste 2. Il faut un voyage de plus pour les 2 élèves restants : 5 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(30/7)",
+   "choices": [
+    "6",
+    "15",
+    "5",
+    "105"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0397",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Un car peut transporter 5 élèves par voyage. Combien de voyages faut-il pour transporter 52 élèves ?",
+   "explanation": "52 ÷ 5 = 10 reste 2. Il faut un voyage de plus pour les 2 élèves restants : 11 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(52/5)",
+   "accepted": [
+    "11",
+    "11",
+    "11",
+    "11"
+   ]
+  },
+  {
+   "id": "g-ma-0398",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Soumaya possède 179 autocollants et en donne 17. Combien lui en reste-t-il ?",
+   "explanation": "179 − 17 = 162.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "179-17",
+   "choices": [
+    "162",
+    "62",
+    "161",
+    "262"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0399",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Inès a 47 autocollants. Elle en reçoit 41 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "47 + 41 = 88.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "47+41",
+   "choices": [
+    "44",
+    "188",
+    "89",
+    "88"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0400",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Yanis a 35 biscuits. Elle en reçoit 55 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "35 + 55 = 90.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "35+55",
+   "choices": [
+    "90",
+    "91",
+    "190",
+    "100"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0401",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Nora achète 5 livres à 4 € et 4 cahiers à 6 €. Elle paie avec un billet de 60 €. Combien la caissière lui rend-elle ?",
+   "explanation": "Total : 20 + 24 = 44 €. Monnaie : 60 − 44 = 16 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "60-(5*4+4*6)",
+   "choices": [
+    "15 €",
+    "160 €",
+    "16 €",
+    "17 €"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0402",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Yanis achète 3 livres à 7 € et 2 cahiers à 10 €. Elle paie avec un billet de 60 €. Combien la caissière lui rend-elle ?",
+   "explanation": "Total : 21 + 20 = 41 €. Monnaie : 60 − 41 = 19 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "60-(3*7+2*10)",
+   "choices": [
+    "20 €",
+    "19 €",
+    "9 €",
+    "29 €"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0403",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Un car peut transporter 4 élèves par voyage. Combien de voyages faut-il pour transporter 34 élèves ?",
+   "explanation": "34 ÷ 4 = 8 reste 2. Il faut un voyage de plus pour les 2 élèves restants : 9 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(34/4)",
+   "choices": [
+    "9",
+    "8",
+    "10",
+    "109"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0404",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Un car peut transporter 5 élèves par voyage. Combien de voyages faut-il pour transporter 37 élèves ?",
+   "explanation": "37 ÷ 5 = 7 reste 2. Il faut un voyage de plus pour les 2 élèves restants : 8 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(37/5)",
+   "choices": [
+    "8",
+    "9",
+    "4",
+    "108"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0405",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Noé répartit 39 billes dans 3 sachets identiques. Combien de billes met-elle dans chaque sachet ?",
+   "explanation": "39 ÷ 3 = 13.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "39/3",
+   "accepted": [
+    "13",
+    "13",
+    "13",
+    "13"
+   ]
+  },
+  {
+   "id": "g-ma-0406",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Noé possède 166 crayons et en donne 16. Combien lui en reste-t-il ?",
+   "explanation": "166 − 16 = 150.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "166-16",
+   "accepted": [
+    "150",
+    "150",
+    "150",
+    "150"
+   ]
+  },
+  {
+   "id": "g-ma-0407",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Nora a 69 billes. Elle en reçoit 27 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "69 + 27 = 96.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "69+27",
+   "choices": [
+    "96",
+    "196",
+    "95",
+    "86"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0408",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Yanis achète 2 livres à 9 € et 3 cahiers à 6 €. Elle paie avec un billet de 50 €. Combien la caissière lui rend-elle ? (réponse en €)",
+   "explanation": "Total : 18 + 18 = 36 €. Monnaie : 50 − 36 = 14 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "50-(2*9+3*6)",
+   "accepted": [
+    "14",
+    "14 €",
+    "14",
+    "14"
+   ]
+  },
+  {
+   "id": "g-ma-0409",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Zoé achète 5 livres à 5 € et 2 cahiers à 3 €. Elle paie avec un billet de 50 €. Combien la caissière lui rend-elle ? (réponse en €)",
+   "explanation": "Total : 25 + 6 = 31 €. Monnaie : 50 − 31 = 19 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "50-(5*5+2*3)",
+   "accepted": [
+    "19",
+    "19 €",
+    "19",
+    "19"
+   ]
+  },
+  {
+   "id": "g-ma-0410",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Un car peut transporter 6 élèves par voyage. Combien de voyages faut-il pour transporter 49 élèves ?",
+   "explanation": "49 ÷ 6 = 8 reste 1. Il faut un voyage de plus pour les 1 élèves restants : 9 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(49/6)",
+   "choices": [
+    "9",
+    "8",
+    "109",
+    "10"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0411",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Un car peut transporter 7 élèves par voyage. Combien de voyages faut-il pour transporter 24 élèves ?",
+   "explanation": "24 ÷ 7 = 3 reste 3. Il faut un voyage de plus pour les 3 élèves restants : 4 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(24/7)",
+   "accepted": [
+    "4",
+    "4",
+    "4",
+    "4"
+   ]
+  },
+  {
+   "id": "g-ma-0412",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Zakaria possède 231 crayons et en donne 89. Combien lui en reste-t-il ?",
+   "explanation": "231 − 89 = 142.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "231-89",
+   "choices": [
+    "42",
+    "152",
+    "143",
+    "142"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0413",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Mimi a 70 fleurs. Elle en reçoit 57 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "70 + 57 = 127.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "70+57",
+   "choices": [
+    "127",
+    "117",
+    "1 270",
+    "137"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0414",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Une boîte contient 9 crayons. Nora achète 6 boîtes. Combien de crayons cela fait-il ?",
+   "explanation": "6 × 9 = 54.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "6*9",
+   "choices": [
+    "540",
+    "55",
+    "27",
+    "54"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0415",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Adam achète 5 livres à 9 € et 4 cahiers à 12 €. Elle paie avec un billet de 110 €. Combien la caissière lui rend-elle ? (réponse en €)",
+   "explanation": "Total : 45 + 48 = 93 €. Monnaie : 110 − 93 = 17 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "110-(5*9+4*12)",
+   "accepted": [
+    "17",
+    "17 €",
+    "17",
+    "17"
+   ]
+  },
+  {
+   "id": "g-ma-0416",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Adam achète 3 livres à 4 € et 3 cahiers à 4 €. Elle paie avec un billet de 40 €. Combien la caissière lui rend-elle ?",
+   "explanation": "Total : 12 + 12 = 24 €. Monnaie : 40 − 24 = 16 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "40-(3*4+3*4)",
+   "choices": [
+    "116 €",
+    "16 €",
+    "15 €",
+    "8 €"
+   ],
+   "answer": 1
+  },
+  {
+   "id": "g-ma-0417",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Un car peut transporter 8 élèves par voyage. Combien de voyages faut-il pour transporter 55 élèves ?",
+   "explanation": "55 ÷ 8 = 6 reste 7. Il faut un voyage de plus pour les 7 élèves restants : 7 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(55/8)",
+   "accepted": [
+    "7",
+    "7",
+    "7",
+    "7"
+   ]
+  },
+  {
+   "id": "g-ma-0418",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Un car peut transporter 7 élèves par voyage. Combien de voyages faut-il pour transporter 32 élèves ?",
+   "explanation": "32 ÷ 7 = 4 reste 4. Il faut un voyage de plus pour les 4 élèves restants : 5 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(32/7)",
+   "accepted": [
+    "5",
+    "5",
+    "5",
+    "5"
+   ]
+  },
+  {
+   "id": "g-ma-0419",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Soumaya a 118 biscuits. Elle en reçoit 90 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "118 + 90 = 208.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "118+90",
+   "choices": [
+    "208",
+    "108",
+    "104",
+    "218"
+   ],
+   "answer": 0
+  },
+  {
+   "id": "g-ma-0420",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Nora possède 408 fleurs et en donne 67. Combien lui en reste-t-il ?",
+   "explanation": "408 − 67 = 341.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "408-67",
+   "choices": [
+    "171",
+    "331",
+    "341",
+    "3 410"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0421",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Noé a 129 crayons. Elle en reçoit 54 de plus. Combien en a-t-elle maintenant ?",
+   "explanation": "129 + 54 = 183.",
+   "hint": "",
+   "passage": null,
+   "source": "generateur",
+   "calc": "129+54",
+   "choices": [
+    "184",
+    "83",
+    "193",
+    "183"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0422",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Hajar achète 3 livres à 10 € et 3 cahiers à 8 €. Elle paie avec un billet de 70 €. Combien la caissière lui rend-elle ?",
+   "explanation": "Total : 30 + 24 = 54 €. Monnaie : 70 − 54 = 16 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "70-(3*10+3*8)",
+   "choices": [
+    "160 €",
+    "17 €",
+    "16 €",
+    "26 €"
+   ],
+   "answer": 2
+  },
+  {
+   "id": "g-ma-0423",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Zoé achète 4 livres à 11 € et 2 cahiers à 12 €. Elle paie avec un billet de 80 €. Combien la caissière lui rend-elle ?",
+   "explanation": "Total : 44 + 24 = 68 €. Monnaie : 80 − 68 = 12 €.",
+   "hint": "Calcule d’abord le total des achats.",
+   "passage": null,
+   "source": "generateur",
+   "calc": "80-(4*11+2*12)",
+   "choices": [
+    "2 €",
+    "22 €",
+    "6 €",
+    "12 €"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0424",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Un car peut transporter 7 élèves par voyage. Combien de voyages faut-il pour transporter 34 élèves ?",
+   "explanation": "34 ÷ 7 = 4 reste 6. Il faut un voyage de plus pour les 6 élèves restants : 5 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(34/7)",
+   "choices": [
+    "50",
+    "4",
+    "6",
+    "5"
+   ],
+   "answer": 3
+  },
+  {
+   "id": "g-ma-0425",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Un car peut transporter 4 élèves par voyage. Combien de voyages faut-il pour transporter 71 élèves ?",
+   "explanation": "71 ÷ 4 = 17 reste 3. Il faut un voyage de plus pour les 3 élèves restants : 18 voyages.",
+   "hint": "Que fais-tu des élèves qui restent ?",
+   "passage": null,
+   "source": "generateur",
+   "calc": "Math.ceil(71/4)",
+   "accepted": [
+    "18",
+    "18",
+    "18",
+    "18"
+   ]
+  },
+  {
+   "id": "g-ma-0426",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quelle figure a 3 côtés ?",
+   "choices": [
+    "Le triangle",
+    "Le carré",
+    "Le cercle",
+    "Le rectangle"
+   ],
+   "answer": 0,
+   "explanation": "Un triangle a trois côtés et trois sommets.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0427",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien de côtés a un carré ?",
+   "choices": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "Un carré a quatre côtés égaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0428",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quelle figure a 4 côtés égaux et 4 angles droits ?",
+   "choices": [
+    "Le carré",
+    "Le triangle",
+    "Le cercle",
+    "Le losange quelconque"
+   ],
+   "answer": 0,
+   "explanation": "Seul le carré a ces deux propriétés à la fois.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0429",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Un rectangle possède toujours…",
+   "choices": [
+    "quatre angles droits",
+    "quatre côtés égaux",
+    "trois sommets",
+    "aucun angle droit"
+   ],
+   "answer": 0,
+   "explanation": "Les quatre angles d’un rectangle sont droits.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0430",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien de côtés a un hexagone ?",
+   "choices": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "answer": 1,
+   "explanation": "Hexa signifie six : un hexagone a six côtés.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0431",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien de côtés a un pentagone ?",
+   "choices": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "answer": 1,
+   "explanation": "Penta signifie cinq.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0432",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quelle figure a quatre côtés égaux sans forcément avoir d’angles droits ?",
+   "choices": [
+    "Le losange",
+    "Le rectangle",
+    "Le triangle",
+    "Le cercle"
+   ],
+   "answer": 0,
+   "explanation": "Le losange a quatre côtés de même longueur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0433",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien d’axes de symétrie a un carré ?",
+   "choices": [
+    "1",
+    "2",
+    "4",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "Un carré a 4 axes de symétrie : 2 médianes et 2 diagonales.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0434",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Un angle droit mesure…",
+   "choices": [
+    "45°",
+    "90°",
+    "120°",
+    "180°"
+   ],
+   "answer": 1,
+   "explanation": "Un angle droit mesure 90°.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0435",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on un triangle qui a trois côtés égaux ?",
+   "choices": [
+    "équilatéral",
+    "isocèle",
+    "rectangle",
+    "scalène"
+   ],
+   "answer": 0,
+   "explanation": "Un triangle équilatéral a trois côtés de même longueur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0436",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un triangle qui a deux côtés égaux s’appelle un triangle…",
+   "choices": [
+    "isocèle",
+    "équilatéral",
+    "rectangle",
+    "carré"
+   ],
+   "answer": 0,
+   "explanation": "Isocèle : deux côtés de même longueur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0437",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien de sommets a un cube ?",
+   "choices": [
+    "6",
+    "8",
+    "10",
+    "12"
+   ],
+   "answer": 1,
+   "explanation": "Un cube a 8 sommets, 12 arêtes et 6 faces.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0438",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien de faces a un cube ?",
+   "choices": [
+    "4",
+    "6",
+    "8",
+    "12"
+   ],
+   "answer": 1,
+   "explanation": "Les 6 faces d’un cube sont des carrés.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0439",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Combien d’arêtes a un cube ?",
+   "choices": [
+    "6",
+    "8",
+    "12",
+    "16"
+   ],
+   "answer": 2,
+   "explanation": "Un cube a 12 arêtes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0440",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Deux droites qui ne se croisent jamais, même prolongées, sont…",
+   "choices": [
+    "parallèles",
+    "perpendiculaires",
+    "sécantes",
+    "obliques"
+   ],
+   "answer": 0,
+   "explanation": "Des droites parallèles gardent toujours le même écart.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0441",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Deux droites qui se coupent en formant un angle droit sont…",
+   "choices": [
+    "perpendiculaires",
+    "parallèles",
+    "confondues",
+    "obliques"
+   ],
+   "answer": 0,
+   "explanation": "Perpendiculaires : elles forment un angle droit.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0442",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Combien de côtés a un octogone ?",
+   "choices": [
+    "6",
+    "7",
+    "8",
+    "10"
+   ],
+   "answer": 2,
+   "explanation": "Octo signifie huit.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0443",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Le segment qui relie deux sommets non consécutifs d’un polygone s’appelle…",
+   "choices": [
+    "une diagonale",
+    "un rayon",
+    "un axe",
+    "une médiane"
+   ],
+   "answer": 0,
+   "explanation": "C’est une diagonale.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0444",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien de faces rectangulaires a un pavé droit ?",
+   "choices": [
+    "4",
+    "6",
+    "8",
+    "12"
+   ],
+   "answer": 1,
+   "explanation": "Un pavé droit a 6 faces rectangulaires (opposées deux à deux égales).",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0445",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "La somme des angles d’un triangle vaut…",
+   "choices": [
+    "90°",
+    "180°",
+    "270°",
+    "360°"
+   ],
+   "answer": 1,
+   "explanation": "Dans tout triangle, la somme des angles vaut 180°.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0446",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Un rayon d’un cercle mesure 5 cm. Quel est son diamètre ?",
+   "choices": [
+    "2,5 cm",
+    "5 cm",
+    "10 cm",
+    "25 cm"
+   ],
+   "answer": 2,
+   "explanation": "Le diamètre vaut deux rayons : 2 × 5 = 10 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0447",
+   "subject": "maths",
+   "domain": "logique",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel nombre continue la suite : 2, 4, 6, 8, … ?",
+   "choices": [
+    "9",
+    "10",
+    "12",
+    "14"
+   ],
+   "answer": 1,
+   "explanation": "On ajoute 2 à chaque fois : 8 + 2 = 10.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0448",
+   "subject": "maths",
+   "domain": "logique",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel nombre continue la suite : 5, 10, 15, 20, … ?",
+   "choices": [
+    "22",
+    "25",
+    "30",
+    "35"
+   ],
+   "answer": 1,
+   "explanation": "On ajoute 5 à chaque fois.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0449",
+   "subject": "maths",
+   "domain": "logique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel nombre continue la suite : 3, 6, 12, 24, … ?",
+   "choices": [
+    "30",
+    "36",
+    "48",
+    "54"
+   ],
+   "answer": 2,
+   "explanation": "On double chaque nombre : 24 × 2 = 48.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0450",
+   "subject": "maths",
+   "domain": "logique",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel nombre continue la suite : 100, 90, 80, 70, … ?",
+   "choices": [
+    "50",
+    "60",
+    "65",
+    "75"
+   ],
+   "answer": 1,
+   "explanation": "On enlève 10 à chaque fois.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0451",
+   "subject": "maths",
+   "domain": "logique",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel nombre continue la suite : 1, 4, 9, 16, … ?",
+   "choices": [
+    "20",
+    "24",
+    "25",
+    "36"
+   ],
+   "answer": 2,
+   "explanation": "Ce sont les carrés : 1×1, 2×2, 3×3, 4×4, donc 5×5 = 25.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0452",
+   "subject": "maths",
+   "domain": "logique",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel nombre continue la suite : 2, 3, 5, 8, 12, … ?",
+   "choices": [
+    "15",
+    "16",
+    "17",
+    "18"
+   ],
+   "answer": 2,
+   "explanation": "On ajoute 1, puis 2, puis 3, puis 4, puis 5 : 12 + 5 = 17.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0453",
+   "subject": "maths",
+   "domain": "logique",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Lina a 3 jupes et 4 hauts différents. Combien de tenues différentes peut-elle composer ?",
+   "choices": [
+    "7",
+    "12",
+    "14",
+    "1"
+   ],
+   "answer": 1,
+   "explanation": "3 × 4 = 12 combinaisons possibles.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  },
+  {
+   "id": "g-ma-0454",
+   "subject": "maths",
+   "domain": "logique",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Dans une classe, 3 élèves sur 5 sont des filles. Il y a 25 élèves. Combien y a-t-il de filles ?",
+   "choices": [
+    "10",
+    "12",
+    "15",
+    "20"
+   ],
+   "answer": 2,
+   "explanation": "25 ÷ 5 = 5 ; 3 × 5 = 15 filles.",
+   "hint": "",
+   "passage": null,
+   "source": "redige",
+   "calc": null
+  }
+ ]
+}

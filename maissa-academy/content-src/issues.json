@@ -1,0 +1,58 @@
+[
+ {
+  "id": "h0718",
+  "problème": "Explication d’origine erronée : elle disait « on ne compte pas les livres », or aucun livre n’apparaît dans l’énoncé.",
+  "correctionProposée": "Explication remplacée par « 7 + 4 = 11 jouets. »",
+  "corrigé": true
+ },
+ {
+  "id": "h0222",
+  "problème": "Fait d’actualité daté (Artemis II) : à relire/mettre à jour avant publication ; la question suppose le texte d’actualité (source 024/L12).",
+  "correctionProposée": "Vérifier les faits à la date d’utilisation ou retirer."
+ },
+ {
+  "id": "h0228",
+  "problème": "Fait d’actualité daté (Artemis II, mission autour de la Lune sans alunissage) : à revérifier.",
+  "correctionProposée": "Vérifier à la date d’utilisation."
+ },
+ {
+  "id": "h0223",
+  "problème": "Question ambiguë hors contexte : « Non » n’est vrai que pour la mission du texte (Artemis II) ; des astronautes ont marché sur la Lune (Apollo).",
+  "correctionProposée": "Reformuler : « Pendant la mission Artemis II, les astronautes ont-ils marché sur la Lune ? »."
+ },
+ {
+  "id": "h0354",
+  "problème": "Convention : 5, 6 ou 7 continents selon les modèles ; la réponse n’est valable que dans le modèle annoncé.",
+  "correctionProposée": "Conserver l’énoncé qui cite le modèle ; ne pas poser la question sans le modèle."
+ },
+ {
+  "id": "h0592",
+  "problème": "« Événement » inexact : l’Antiquité est une période.",
+  "correctionProposée": "Reformuler : « Quelle période a lieu avant le Moyen Âge ? »."
+ },
+ {
+  "id": "h0374",
+  "problème": "Continuité du personnage Mimi : chat dans certaines sources, chouette dans d’autres ; l’énoncé lui-même est correct (chrysalide).",
+  "correctionProposée": "Harmoniser l’identité de Mimi dans la bible narrative."
+ },
+ {
+  "id": "h0227",
+  "problème": "Question dépendante d’un récit/actualité non fourni avec l’item (contexte Artemis/Lune).",
+  "correctionProposée": "Rattacher un passage ou rendre autonome."
+ },
+ {
+  "id": "h0424",
+  "problème": "ordre de référence reconstitué d’après 029 (« la panne déclenche les autres événements ») ; le texte intégral du récit n’est pas dans les scripts ; distracteurs ajoutés",
+  "correctionProposée": "relecture humaine"
+ },
+ {
+  "id": "h0483",
+  "problème": "passage de référence absent des scripts (« Le jardin de l'école ») : question non autonome",
+  "correctionProposée": "relecture humaine"
+ },
+ {
+  "id": "h0484",
+  "problème": "passage de référence absent des scripts (« Le mystère du musée ») : question non autonome",
+  "correctionProposée": "relecture humaine"
+ }
+]

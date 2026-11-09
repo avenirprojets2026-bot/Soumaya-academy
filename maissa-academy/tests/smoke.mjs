@@ -1,0 +1,16 @@
+import { serve, chromium, VIEWPORTS } from './lib.mjs';
+import path from 'node:path';
+const { server, url } = await serve(path.resolve(import.meta.dirname, '../dist'));
+const b = await chromium.launch();
+const ctx = await b.newContext(VIEWPORTS[process.argv[2] || 'phoneLandscape']);
+const p = await ctx.newPage();
+const errs = []; p.on('pageerror', (e) => errs.push(e.message)); p.on('console', (m) => { if (m.type() === 'error') errs.push(m.text()); });
+await p.goto(url); await p.waitForTimeout(800);
+await p.screenshot({ path: '/tmp/s1.png' });
+await p.click('[data-testid=play]'); await p.waitForTimeout(300);
+await p.screenshot({ path: '/tmp/s2.png' });
+await p.click('[data-testid=story-next]'); await p.click('[data-testid=story-next]'); await p.click('[data-testid=story-next]');
+await p.waitForTimeout(1200);
+await p.screenshot({ path: '/tmp/s3.png' });
+console.log('errors', errs);
+await b.close(); server.close();

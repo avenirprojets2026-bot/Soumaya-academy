@@ -1,0 +1,641 @@
+{
+  "questions": [
+    {
+      "id": "i25-doc10-01",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "Compte par 125 : 125 – 250 – 375 – … – … – … Quel est le 6e nombre de la série ?",
+      "accepted": [
+        "750"
+      ],
+      "explanation": "On ajoute 125 à chaque fois : 375 + 125 = 500 ; 500 + 125 = 625 ; 625 + 125 = 750.",
+      "hint": "Ajoute 125 trois fois.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-02",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Yanis range ses billes dans 9 sachets. Chaque sachet contient 150 billes. Pour trouver le nombre total de billes, il peut compter par…",
+      "choices": [
+        "9",
+        "150",
+        "10",
+        "100"
+      ],
+      "answer": 1,
+      "explanation": "Chaque sachet contient 150 billes : on compte par 150 (150, 300, 450…) autant de fois qu'il y a de sachets, donc 9 fois.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-03",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 6,
+      "type": "saisie",
+      "prompt": "Yanis a 9 sachets de 150 billes. Combien de billes a-t-il en tout ?",
+      "accepted": [
+        "1 350",
+        "1 350 billes",
+        "1 350billes",
+        "1350",
+        "1350 billes",
+        "1350billes"
+      ],
+      "explanation": "9 × 150 = 9 × 100 + 9 × 50 = 900 + 450 = 1 350 billes.",
+      "hint": "Décompose 150 en 100 + 50.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-04",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 4,
+      "type": "qcm",
+      "prompt": "Observe la suite : 7 – 11 – 15 – 19 – … Quelle est la règle ?",
+      "choices": [
+        "+ 3",
+        "× 2",
+        "+ 4",
+        "+ 5"
+      ],
+      "answer": 2,
+      "explanation": "11 − 7 = 4 ; 15 − 11 = 4 ; 19 − 15 = 4 : on ajoute 4 à chaque fois.",
+      "hint": "Calcule l'écart entre deux nombres.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-05",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "Continue la suite 7 – 11 – 15 – 19 – 23 – … Quel nombre vient juste après 23 ?",
+      "accepted": [
+        "27"
+      ],
+      "explanation": "La règle est « + 4 » : 23 + 4 = 27.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-06",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "Un nombre est représenté avec 3 gros cubes de mille, 5 plaques de cent, aucune barre de dix et 8 petits cubes. Écris-le en chiffres.",
+      "accepted": [
+        "3 508",
+        "3508"
+      ],
+      "explanation": "3 milliers, 5 centaines, 0 dizaine, 8 unités : 3 508. Le 0 garde la place des dizaines.",
+      "hint": "N'oublie pas le 0 des dizaines.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-07",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "4 unités, 3 dixièmes et 5 millièmes s'écrit…",
+      "choices": [
+        "4,35",
+        "4,053",
+        "43,05",
+        "4,305"
+      ],
+      "answer": 3,
+      "explanation": "Après la virgule : dixièmes, centièmes, millièmes. 3 dixièmes, 0 centième, 5 millièmes → 4,305.",
+      "hint": "Il n'y a pas de centièmes : mets un 0.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-08",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Dans un abaque (UM, C, D, U, d, c), tu places « septante-huit unités et quarante-deux centièmes ». Quel nombre obtiens-tu ?",
+      "choices": [
+        "78,42",
+        "78,042",
+        "7 842",
+        "780,42"
+      ],
+      "answer": 0,
+      "explanation": "Septante-huit unités : 7 en D et 8 en U. Quarante-deux centièmes = 4 dixièmes et 2 centièmes : 4 en d et 2 en c → 78,42.",
+      "hint": "Septante = 70.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-09",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 6,
+      "type": "saisie",
+      "prompt": "Écris en chiffres : « deux-mille-trente-six unités et cinq dixièmes ».",
+      "accepted": [
+        "2 036,5",
+        "2036,5",
+        "2036.5"
+      ],
+      "explanation": "2 000 + 36 = 2 036, puis 5 dixièmes après la virgule : 2 036,5.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-10",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Quelle décomposition de 2 375 est correcte ?",
+      "choices": [
+        "2 UM + 3 C + 75 D",
+        "2 000 + 300 + 70 + 5",
+        "2 UM + 37 C + 5 U",
+        "2 300 + 57"
+      ],
+      "answer": 1,
+      "explanation": "2 000 + 300 + 70 + 5 = 2 375. Les autres : 2 000 + 300 + 750 = 3 050 ; 2 000 + 3 700 + 5 = 5 705 ; 2 300 + 57 = 2 357.",
+      "hint": "Calcule chaque décomposition.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-11",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "Et celle-ci ? Quelle écriture vaut aussi 2 375 ?",
+      "choices": [
+        "23 C + 7 D + 5 U",
+        "2 UM + 3 C + 5 D + 7 U",
+        "200 + 30 + 75",
+        "2 UM + 7 C + 3 D + 5 U"
+      ],
+      "answer": 0,
+      "explanation": "23 centaines = 2 300 ; 2 300 + 70 + 5 = 2 375. Les autres donnent 2 357, 305 et 2 735.",
+      "hint": "23 C = 2 300.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-12",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "Complète : 1, c'est 0,6 et …",
+      "accepted": [
+        "0,4",
+        "0.4"
+      ],
+      "explanation": "0,6 + 0,4 = 1 (6 dixièmes + 4 dixièmes = 10 dixièmes = 1).",
+      "hint": "Combien de dixièmes manque-t-il pour 10 dixièmes ?",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-13",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 7,
+      "type": "saisie",
+      "prompt": "Complète : 1, c'est 100 fois …",
+      "accepted": [
+        "0,01",
+        "0.01"
+      ],
+      "explanation": "100 × 0,01 = 1 : il y a 100 centièmes dans une unité.",
+      "hint": "Pense aux centièmes.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-14",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 7,
+      "type": "saisie",
+      "prompt": "Dans un tableau de nombres, chaque case vers la droite ajoute 0,1 et chaque case vers le bas ajoute 1. La case en haut à gauche contient 20. Quel nombre se trouve sur la 3e ligne, dans la 4e colonne ?",
+      "accepted": [
+        "22,3",
+        "22.3"
+      ],
+      "explanation": "Descendre de 2 lignes : 20 + 2 = 22. Aller de 3 colonnes vers la droite : 22 + 0,3 = 22,3.",
+      "hint": "Compte les déplacements depuis la case de départ.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-15",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Quelle comparaison est correcte ?",
+      "choices": [
+        "6,9 > 7",
+        "8,5 = 8,50",
+        "31,2 < 31,02",
+        "4 > 4,1"
+      ],
+      "answer": 1,
+      "explanation": "8,5 et 8,50 ont 5 dixièmes et 0 centième : ils sont égaux. 6,9 < 7 ; 31,2 > 31,02 (2 dixièmes > 0 dixième) ; 4 < 4,1.",
+      "hint": "Compare d'abord les unités, puis les dixièmes.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-16",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Quel nombre peut compléter : 17,4 < … ?",
+      "choices": [
+        "17,04",
+        "17,39",
+        "17,5",
+        "16,9"
+      ],
+      "answer": 2,
+      "explanation": "17,5 a 5 dixièmes, plus que 4 dixièmes : 17,5 > 17,4. 17,04 et 17,39 sont plus petits que 17,4 ; 16,9 aussi.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-17",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "Complète : le résultat d'une multiplication s'appelle un …",
+      "accepted": [
+        "produit",
+        "un produit",
+        "le produit"
+      ],
+      "explanation": "Addition → somme ; soustraction → différence ; multiplication → produit ; division → quotient.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-18",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Inès partage 24 bonbons entre 4 amis, en parts égales. Quelle opération permet de trouver la part de chacun ?",
+      "choices": [
+        "Addition",
+        "Multiplication",
+        "Soustraction",
+        "Division"
+      ],
+      "answer": 3,
+      "explanation": "Partager en parts égales, c'est diviser : 24 : 4 = 6 bonbons chacun.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-19",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Un fermier range ses œufs dans 7 boites de 6. Quel symbole utilises-tu pour trouver le nombre d'œufs ?",
+      "choices": [
+        "+ (plus)",
+        "− (moins)",
+        "× (fois)",
+        ": (divisé par)"
+      ],
+      "answer": 2,
+      "explanation": "7 boites de 6, c'est 7 fois 6 : on multiplie. 7 × 6 = 42 œufs.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-20",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 4,
+      "type": "saisie",
+      "prompt": "Complète l'égalité : 72 = 8 × …",
+      "accepted": [
+        "9",
+        "neuf"
+      ],
+      "explanation": "8 × 9 = 72 (table de 8).",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-21",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 4,
+      "type": "saisie",
+      "prompt": "Complète l'égalité : 6 × 7 = …",
+      "accepted": [
+        "42"
+      ],
+      "explanation": "6 × 7 = 42.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-22",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Un de ces calculs contient une erreur. Lequel ?",
+      "choices": [
+        "4 × 9 = 36",
+        "6 × 8 = 46",
+        "8 × 7 = 56",
+        "3 × 6 = 18"
+      ],
+      "answer": 1,
+      "explanation": "6 × 8 = 48, pas 46. Les autres sont corrects.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-23",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 6,
+      "type": "saisie",
+      "prompt": "Calcule (pose le calcul en colonnes) : 473 + 86,5 = …",
+      "accepted": [
+        "559,5",
+        "559.5"
+      ],
+      "explanation": "Aligne les virgules : 473,0 + 86,5. 0 + 5 = 5 dixièmes ; 3 + 6 = 9 ; 7 + 8 = 15 (j'écris 5, je retiens 1) ; 4 + 1 = 5 → 559,5.",
+      "hint": "Écris 473 sous la forme 473,0.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-24",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 7,
+      "type": "saisie",
+      "prompt": "Calcule (pose le calcul en colonnes) : 7 152 − 3 486 = …",
+      "accepted": [
+        "3 666",
+        "3666"
+      ],
+      "explanation": "U : 12 − 6 = 6 ; D : 14 − 8 = 6 (après emprunts) ; C : 10 − 4 = 6 ; UM : 6 − 3 = 3 → 3 666. Vérification : 3 666 + 3 486 = 7 152.",
+      "hint": "Vérifie avec une addition.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-25",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Utilise la commutativité pour calculer plus facilement : 1 300 + 4 529 + 700. Quel calcul choisis-tu ?",
+      "choices": [
+        "1 300 + 700 + 4 529",
+        "1 300 + 4 529 − 700",
+        "13 + 45 + 7",
+        "4 529 − 1 300 + 700"
+      ],
+      "answer": 0,
+      "explanation": "On change l'ordre des termes d'une addition sans changer le résultat : 1 300 + 700 = 2 000, puis 2 000 + 4 529 = 6 529.",
+      "hint": "Cherche deux nombres qui font un nombre rond.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-26",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Utilise l'associativité : 37 × 5 × 2 = …",
+      "choices": [
+        "(37 × 5) + 2 = 187",
+        "37 × (5 × 2) = 370",
+        "37 + (5 × 2) = 47",
+        "(37 × 2) + 5 = 79"
+      ],
+      "answer": 1,
+      "explanation": "On regroupe 5 × 2 = 10, puis 37 × 10 = 370. Le résultat ne change pas, mais le calcul est plus simple.",
+      "hint": "5 × 2 = 10.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-27",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "Quelle stratégie permet de calculer 19 × 9 ?",
+      "choices": [
+        "19 × 10 − 9",
+        "10 × 9 + 9",
+        "19 × 10 − 19",
+        "19 + 9 + 10"
+      ],
+      "answer": 2,
+      "explanation": "19 × 9, c'est 19 × 10 moins une fois 19 : 190 − 19 = 171.",
+      "hint": "9 = 10 − 1.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-28",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 7,
+      "type": "saisie",
+      "prompt": "Calcule 14 × 11 (astuce : 14 × 10 + 14).",
+      "accepted": [
+        "154"
+      ],
+      "explanation": "14 × 11 = 14 × 10 + 14 × 1 = 140 + 14 = 154.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-29",
+      "subject": "maths",
+      "domain": "operations",
+      "level": 8,
+      "type": "saisie",
+      "prompt": "Calcule 67 : 5 (astuce : diviser par 5, c'est multiplier par 2 puis diviser par 10).",
+      "accepted": [
+        "13,4",
+        "13.4"
+      ],
+      "explanation": "67 × 2 = 134 ; 134 : 10 = 13,4. Donc 67 : 5 = 13,4.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-30",
+      "subject": "maths",
+      "domain": "numeration",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Quand je multiplie un nombre entier par 10, le chiffre des unités devient le chiffre des…",
+      "choices": [
+        "dixièmes",
+        "centaines",
+        "unités, il ne bouge pas",
+        "dizaines"
+      ],
+      "answer": 3,
+      "explanation": "Multiplier par 10 fait glisser chaque chiffre d'un rang vers la gauche : les unités deviennent des dizaines. Exemple : 34 × 10 = 340.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-31",
+      "subject": "maths",
+      "domain": "problemes",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Pour le marché de Noël de l'école, la directrice veut vendre 150 bougies. La classe de Madame Lise en a fabriqué 72. La classe de Monsieur Hugo en a fabriqué 93, mais 4 élèves ont chacun cassé 3 bougies qu'on ne vendra pas. Le marché aura lieu un samedi.\nQuelle information n'est PAS utile pour savoir s'il y a assez de bougies ?",
+      "choices": [
+        "La directrice veut 150 bougies.",
+        "Une classe a fabriqué 72 bougies.",
+        "Le marché aura lieu un samedi.",
+        "4 élèves ont cassé 3 bougies chacun."
+      ],
+      "answer": 2,
+      "explanation": "Le jour du marché ne change rien au nombre de bougies. Il faut le but (150), les deux quantités fabriquées (72 et 93) et les bougies cassées (4 × 3).",
+      "hint": "Qu'est-ce qui change le nombre de bougies ?",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-32",
+      "subject": "maths",
+      "domain": "problemes",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "Pour le marché de Noël de l'école, la directrice veut vendre 150 bougies. La classe de Madame Lise en a fabriqué 72. La classe de Monsieur Hugo en a fabriqué 93, mais 4 élèves ont chacun cassé 3 bougies qu'on ne vendra pas. Le marché aura lieu un samedi.\nQuel calcul donne le nombre de bougies qu'on pourra vendre ?",
+      "choices": [
+        "72 + 93 − 4",
+        "93 − 72 − 12",
+        "150 − 72 − 93",
+        "72 + 93 − 4 × 3"
+      ],
+      "answer": 3,
+      "explanation": "On additionne les bougies des deux classes (72 + 93), puis on retire les bougies cassées : 4 élèves × 3 bougies = 12.",
+      "hint": "4 élèves ont cassé 3 bougies CHACUN.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-33",
+      "subject": "maths",
+      "domain": "problemes",
+      "level": 7,
+      "type": "saisie",
+      "prompt": "Pour le marché de Noël de l'école, la directrice veut vendre 150 bougies. La classe de Madame Lise en a fabriqué 72. La classe de Monsieur Hugo en a fabriqué 93, mais 4 élèves ont chacun cassé 3 bougies qu'on ne vendra pas. Le marché aura lieu un samedi.\nCombien de bougies pourra-t-on vendre ?",
+      "accepted": [
+        "153",
+        "153 bougies",
+        "153bougies"
+      ],
+      "explanation": "72 + 93 = 165 ; 4 × 3 = 12 ; 165 − 12 = 153 bougies.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    },
+    {
+      "id": "i25-doc10-34",
+      "subject": "maths",
+      "domain": "problemes",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Pour le marché de Noël de l'école, la directrice veut vendre 150 bougies. La classe de Madame Lise en a fabriqué 72. La classe de Monsieur Hugo en a fabriqué 93, mais 4 élèves ont chacun cassé 3 bougies qu'on ne vendra pas. Le marché aura lieu un samedi.\nY a-t-il assez de bougies ?",
+      "choices": [
+        "Non, il en manque 3.",
+        "Oui, il y en a 3 de plus que nécessaire.",
+        "Non, il en manque 12.",
+        "Oui, il y en a 15 de plus que nécessaire."
+      ],
+      "answer": 1,
+      "explanation": "153 > 150 : il y a assez de bougies. 153 − 150 = 3 bougies en plus.",
+      "hint": "Compare 153 et 150.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc10"
+    }
+  ],
+  "passages": [],
+  "openTasks": []
+}

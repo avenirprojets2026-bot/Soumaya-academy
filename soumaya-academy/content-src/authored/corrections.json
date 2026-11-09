@@ -1,0 +1,8 @@
+[
+  {
+    "id": "a-ev-0125",
+    "action": "patch",
+    "patch": {"prompt": "Qu'est-ce qui apparaît pendant la révolution industrielle, au XIXe siècle ?"},
+    "reason": "Énoncé agrammatical en français (« Qu'apparaît pendant... ») ; la réponse (usines avec machines) reste exacte et unique."
+  }
+]

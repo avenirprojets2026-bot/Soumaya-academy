@@ -1,0 +1,728 @@
+{
+  "questions": [
+    {
+      "id": "i25-doc11-01",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "En musique, qu'est-ce qu'un ostinato ?",
+      "choices": [
+        "Une musique très lente",
+        "Un petit motif musical répété sans arrêt",
+        "Un instrument à cordes",
+        "Un silence entre deux notes"
+      ],
+      "answer": 1,
+      "explanation": "Un ostinato est un court motif (rythme ou mélodie) qui se répète obstinément, encore et encore, pendant un long moment.",
+      "hint": "Ostinato ressemble à « obstiné ».",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-02",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Dans quel exemple entends-tu un ostinato ?",
+      "choices": [
+        "Une chanteuse chante une mélodie qui ne revient jamais.",
+        "Le piano joue une seule note, puis s'arrête.",
+        "Pendant toute la chanson, le tambour répète « boum-boum-tchac ».",
+        "L'orchestre se tait pendant une minute."
+      ],
+      "answer": 2,
+      "explanation": "Le tambour répète le même petit rythme du début à la fin : c'est un ostinato.",
+      "hint": "Cherche ce qui se répète.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-03",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "À quelle famille d'instruments appartient la guitare ?",
+      "choices": [
+        "Aérophone",
+        "Idiophone",
+        "Membranophone",
+        "Cordophone"
+      ],
+      "answer": 3,
+      "explanation": "Le son de la guitare vient de cordes qui vibrent : c'est un cordophone.",
+      "hint": "Le son vient de quoi ?",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-04",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Le djembé est un tambour : on frappe une peau tendue. À quelle famille appartient-il ?",
+      "choices": [
+        "Membranophone",
+        "Cordophone",
+        "Aérophone",
+        "Idiophone"
+      ],
+      "answer": 0,
+      "explanation": "Une peau tendue (une membrane) qui vibre : c'est un membranophone.",
+      "hint": "Membrane = peau.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-05",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Sur un xylophone, ce sont les lames de bois elles-mêmes qui vibrent quand on les frappe. C'est donc un…",
+      "choices": [
+        "Aérophone",
+        "Idiophone",
+        "Cordophone",
+        "Membranophone"
+      ],
+      "answer": 1,
+      "explanation": "Quand c'est le corps de l'instrument qui vibre (lames, triangle, maracas), c'est un idiophone.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-06",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Lequel de ces instruments est un aérophone (le son vient de l'air soufflé) ?",
+      "choices": [
+        "Le violon",
+        "Le triangle",
+        "La timbale",
+        "La flûte à bec"
+      ],
+      "answer": 3,
+      "explanation": "Dans la flûte à bec, on souffle de l'air qui vibre dans le tube : c'est un aérophone, comme la trompette ou le saxophone.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-07",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Deux danseurs avancent lentement l'un vers l'autre et s'arrêtent face à face au centre de la scène. Quelle interaction corporelle est-ce ?",
+      "choices": [
+        "La séparation",
+        "Le croisement",
+        "La rencontre",
+        "Le conflit"
+      ],
+      "answer": 2,
+      "explanation": "Ils se rapprochent et se retrouvent : c'est la rencontre.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-08",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Deux danseurs se tournent le dos et s'éloignent chacun de leur côté. Quelle interaction corporelle est-ce ?",
+      "choices": [
+        "La séparation",
+        "La rencontre",
+        "Le croisement",
+        "L'imitation"
+      ],
+      "answer": 0,
+      "explanation": "Ils partent dans des directions opposées : c'est la séparation.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-09",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Deux danseurs marchent l'un vers l'autre, passent l'un à côté de l'autre sans s'arrêter et continuent leur chemin. Quelle interaction corporelle est-ce ?",
+      "choices": [
+        "La rencontre",
+        "Le croisement",
+        "La séparation",
+        "Le conflit"
+      ],
+      "answer": 1,
+      "explanation": "Ils se dépassent sans s'arrêter : leurs chemins se croisent. C'est le croisement.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-10",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Au théâtre, vu depuis les sièges du public, comment s'appelle le côté DROIT de la scène ?",
+      "choices": [
+        "Le côté jardin",
+        "La coulisse",
+        "L'arrière-scène",
+        "Le côté cour"
+      ],
+      "answer": 3,
+      "explanation": "Vu de la salle : jardin à gauche, cour à droite. Astuce : les initiales J et C de « Jésus-Christ », lues de gauche à droite.",
+      "hint": "J à gauche, C à droite.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-11",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 6,
+      "type": "saisie",
+      "prompt": "Au théâtre, comment s'appelle la partie de la scène la plus proche du public, juste devant le rideau ?",
+      "accepted": [
+        "avant-scène",
+        "avant-scene",
+        "avant scene",
+        "l'avant-scène",
+        "l'avant-scene",
+        "une avant-scene"
+      ],
+      "explanation": "L'avant-scène est le devant de la scène, tout près des spectateurs. Le fond de la scène s'appelle l'arrière-scène.",
+      "hint": "Le contraire d'arrière-scène.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-12",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Au théâtre, où les comédiens attendent-ils, cachés du public, avant d'entrer en scène ?",
+      "choices": [
+        "À l'avant-scène",
+        "Dans la coulisse",
+        "Côté cour",
+        "Dans la salle"
+      ],
+      "answer": 1,
+      "explanation": "Les coulisses sont les espaces cachés sur les côtés et derrière la scène.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-13",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Tu plies une feuille en deux, tu découpes une forme le long du pli, puis tu déplies. La forme obtenue est…",
+      "choices": [
+        "asymétrique",
+        "symétrique",
+        "toujours un carré",
+        "toujours un cercle"
+      ],
+      "answer": 1,
+      "explanation": "Le pli devient un axe de symétrie : les deux moitiés sont identiques et se superposent. La forme est symétrique.",
+      "hint": "Les deux moitiés sont-elles pareilles ?",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-14",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Sur une affiche, des étoiles sont collées un peu partout, sans ordre : il y en a 4 à gauche et 1 seule à droite. Cette disposition est…",
+      "choices": [
+        "symétrique",
+        "parallèle",
+        "asymétrique",
+        "perpendiculaire"
+      ],
+      "answer": 2,
+      "explanation": "La partie gauche et la partie droite ne sont pas identiques : la disposition est asymétrique (pas de symétrie).",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-15",
+      "subject": "maths",
+      "domain": "grandeurs",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "La classe de Madame Julie veut peindre le sol de la salle de jeux, un rectangle de 8 m sur 3 m. Il y a trois coins, chacun d'une couleur différente : le coin jeux (rectangle de 5 m sur 2 m), le coin lecture (rectangle de 5 m sur 1 m) et le coin bricolage (carré de 3 m de côté). Il y a trois pots : un pot bleu pour peindre 12 m², un pot orange pour 6 m² et un pot violet pour 9 m².\nCalcule l'aire du coin jeux (en m²).",
+      "accepted": [
+        "10",
+        "10 m²",
+        "10m²",
+        "10 m2",
+        "10m2",
+        "10 metres carres",
+        "10metres carres",
+        "10 mètres carrés",
+        "10mètres carrés"
+      ],
+      "explanation": "Aire d'un rectangle = longueur × largeur : 5 m × 2 m = 10 m².",
+      "hint": "Longueur × largeur.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-16",
+      "subject": "maths",
+      "domain": "grandeurs",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "La classe de Madame Julie veut peindre le sol de la salle de jeux, un rectangle de 8 m sur 3 m. Il y a trois coins, chacun d'une couleur différente : le coin jeux (rectangle de 5 m sur 2 m), le coin lecture (rectangle de 5 m sur 1 m) et le coin bricolage (carré de 3 m de côté). Il y a trois pots : un pot bleu pour peindre 12 m², un pot orange pour 6 m² et un pot violet pour 9 m².\nCalcule l'aire du coin lecture (en m²).",
+      "accepted": [
+        "5",
+        "5 m²",
+        "5m²",
+        "5 m2",
+        "5m2",
+        "5 metres carres",
+        "5metres carres",
+        "5 mètres carrés",
+        "5mètres carrés"
+      ],
+      "explanation": "5 m × 1 m = 5 m².",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-17",
+      "subject": "maths",
+      "domain": "grandeurs",
+      "level": 5,
+      "type": "saisie",
+      "prompt": "La classe de Madame Julie veut peindre le sol de la salle de jeux, un rectangle de 8 m sur 3 m. Il y a trois coins, chacun d'une couleur différente : le coin jeux (rectangle de 5 m sur 2 m), le coin lecture (rectangle de 5 m sur 1 m) et le coin bricolage (carré de 3 m de côté). Il y a trois pots : un pot bleu pour peindre 12 m², un pot orange pour 6 m² et un pot violet pour 9 m².\nCalcule l'aire du coin bricolage (en m²).",
+      "accepted": [
+        "9",
+        "9 m²",
+        "9m²",
+        "9 m2",
+        "9m2",
+        "9 metres carres",
+        "9metres carres",
+        "9 mètres carrés",
+        "9mètres carrés"
+      ],
+      "explanation": "Aire d'un carré = côté × côté : 3 m × 3 m = 9 m².",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-18",
+      "subject": "maths",
+      "domain": "grandeurs",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "La classe de Madame Julie veut peindre le sol de la salle de jeux, un rectangle de 8 m sur 3 m. Il y a trois coins, chacun d'une couleur différente : le coin jeux (rectangle de 5 m sur 2 m), le coin lecture (rectangle de 5 m sur 1 m) et le coin bricolage (carré de 3 m de côté). Il y a trois pots : un pot bleu pour peindre 12 m², un pot orange pour 6 m² et un pot violet pour 9 m².\nVérifie : l'aire totale des trois coins est-elle bien celle de la salle ?",
+      "choices": [
+        "Oui : 10 + 5 + 9 = 24 m² et 8 × 3 = 24 m².",
+        "Non : les coins font 22 m².",
+        "Non : la salle fait 11 m².",
+        "Oui : les deux font 27 m²."
+      ],
+      "answer": 0,
+      "explanation": "10 + 5 + 9 = 24 m². La salle : 8 m × 3 m = 24 m². Les trois coins couvrent toute la salle.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-19",
+      "subject": "maths",
+      "domain": "grandeurs",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "La classe de Madame Julie veut peindre le sol de la salle de jeux, un rectangle de 8 m sur 3 m. Il y a trois coins, chacun d'une couleur différente : le coin jeux (rectangle de 5 m sur 2 m), le coin lecture (rectangle de 5 m sur 1 m) et le coin bricolage (carré de 3 m de côté). Il y a trois pots : un pot bleu pour peindre 12 m², un pot orange pour 6 m² et un pot violet pour 9 m².\nQuel pot est le SEUL à pouvoir peindre le coin jeux ?",
+      "choices": [
+        "Le pot orange",
+        "Le pot violet",
+        "Le pot bleu",
+        "Aucun pot"
+      ],
+      "answer": 2,
+      "explanation": "Le coin jeux fait 10 m². Seul le pot bleu (12 m²) suffit, car 12 ≥ 10. Le violet (9 m²) et l'orange (6 m²) sont trop petits.",
+      "hint": "Compare chaque pot à 10 m².",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-20",
+      "subject": "maths",
+      "domain": "grandeurs",
+      "level": 8,
+      "type": "qcm",
+      "prompt": "La classe de Madame Julie veut peindre le sol de la salle de jeux, un rectangle de 8 m sur 3 m. Il y a trois coins, chacun d'une couleur différente : le coin jeux (rectangle de 5 m sur 2 m), le coin lecture (rectangle de 5 m sur 1 m) et le coin bricolage (carré de 3 m de côté). Il y a trois pots : un pot bleu pour peindre 12 m², un pot orange pour 6 m² et un pot violet pour 9 m².\nChaque coin doit avoir une couleur différente. Quelle répartition fonctionne ?",
+      "choices": [
+        "Jeux : violet – lecture : orange – bricolage : bleu",
+        "Jeux : bleu – lecture : violet – bricolage : orange",
+        "Jeux : orange – lecture : bleu – bricolage : violet",
+        "Jeux : bleu – lecture : orange – bricolage : violet"
+      ],
+      "answer": 3,
+      "explanation": "Jeux (10 m²) → seul le bleu (12 m²) suffit. Il reste orange (6 m²) et violet (9 m²) : le bricolage (9 m²) a besoin du violet, donc la lecture (5 m²) reçoit l'orange.",
+      "hint": "Commence par le coin le plus grand.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-21",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 4,
+      "type": "qcm",
+      "prompt": "Sur une carte, le nord est en haut. Quel point cardinal se trouve à DROITE ?",
+      "choices": [
+        "L'ouest",
+        "Le sud",
+        "L'est",
+        "Le nord"
+      ],
+      "answer": 2,
+      "explanation": "Rose des vents : N en haut, S en bas, E à droite, O à gauche.",
+      "hint": "Ouest à gauche, est à droite.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-22",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Sur la carte de la Belgique, Arlon est en bas et à droite de Bruxelles. Dans quelle direction se trouve Arlon par rapport à Bruxelles ?",
+      "choices": [
+        "Au nord-ouest",
+        "Au sud-est",
+        "Au nord-est",
+        "Au sud-ouest"
+      ],
+      "answer": 1,
+      "explanation": "En bas = sud, à droite = est : Arlon est au sud-est de Bruxelles.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-23",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Ostende est au bord de la mer du Nord, à une altitude très basse. Dans quelle partie de la Belgique se situe-t-elle ?",
+      "choices": [
+        "La Basse Belgique",
+        "La Moyenne Belgique",
+        "La Haute Belgique",
+        "L'Ardenne"
+      ],
+      "answer": 0,
+      "explanation": "La Basse Belgique regroupe les régions de moins de 100 m d'altitude, comme la côte et les polders.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-24",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Bastogne, en Ardenne, est à plus de 500 m d'altitude. Dans quelle partie de la Belgique se situe-t-elle ?",
+      "choices": [
+        "La Basse Belgique",
+        "La Moyenne Belgique",
+        "Le littoral",
+        "La Haute Belgique"
+      ],
+      "answer": 3,
+      "explanation": "La Haute Belgique regroupe les régions de plus de 200 m d'altitude, comme l'Ardenne.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-25",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Quelle caractéristique correspond à un paysage de l'Ardenne ?",
+      "choices": [
+        "Des dunes de sable et une plage",
+        "De grandes forêts, des collines et des vallées profondes",
+        "De grands champs plats de blé et de betteraves",
+        "Des usines et des villes le long d'un grand fleuve"
+      ],
+      "answer": 1,
+      "explanation": "L'Ardenne est la région la plus haute de Belgique : forêts, relief élevé, vallées encaissées, villages peu nombreux.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-26",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Un paysage montre une plage de sable, des dunes, une digue avec de grands immeubles et la mer. Quel est cet ensemble de Belgique ?",
+      "choices": [
+        "Le Sillon Sambre-et-Meuse",
+        "Les plateaux limoneux",
+        "L'Ardenne",
+        "Le littoral belge"
+      ],
+      "answer": 3,
+      "explanation": "Plage, dunes, digue et mer du Nord : c'est le littoral belge (la côte).",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-27",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Un paysage montre de très grands champs presque plats, un sol fertile, des fermes isolées et peu d'arbres. Quel est cet ensemble ?",
+      "choices": [
+        "Les plateaux limoneux",
+        "Le littoral belge",
+        "L'Ardenne",
+        "Le Sillon Sambre-et-Meuse"
+      ],
+      "answer": 0,
+      "explanation": "Les plateaux limoneux ont un sol très fertile (le limon) : on y voit de grandes cultures (céréales, betteraves).",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-28",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "Un paysage montre une large vallée avec une rivière, beaucoup de maisons, des usines et d'anciens terrils. Quel est cet ensemble ?",
+      "choices": [
+        "L'Ardenne",
+        "Le Sillon Sambre-et-Meuse",
+        "Le littoral belge",
+        "Les plateaux limoneux"
+      ],
+      "answer": 1,
+      "explanation": "Le Sillon Sambre-et-Meuse suit la vallée de la Sambre et de la Meuse (Charleroi, Namur, Liège) : villes, industries, anciens charbonnages.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-29",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Le long d'une rivière, qu'appelle-t-on l'amont ?",
+      "choices": [
+        "Le côté vers lequel l'eau s'en va",
+        "Le côté d'où vient l'eau, vers la source",
+        "Le pont au-dessus de l'eau",
+        "Le fond de la rivière"
+      ],
+      "answer": 1,
+      "explanation": "L'amont est du côté de la source, d'où vient le courant. L'aval est du côté où l'eau s'en va.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-30",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "Tu te places dos à la source et tu regardes dans le sens du courant. Où se trouve la rive droite ?",
+      "choices": [
+        "À ta gauche",
+        "Devant toi",
+        "À ta droite",
+        "Derrière toi"
+      ],
+      "answer": 2,
+      "explanation": "On nomme les rives en regardant vers l'aval (dans le sens du courant) : la rive droite est à droite.",
+      "hint": "Regarde là où va l'eau.",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-31",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 5,
+      "type": "qcm",
+      "prompt": "Qu'est-ce que le lit d'une rivière ?",
+      "choices": [
+        "L'endroit creusé où coule l'eau",
+        "Le pont qui traverse la rivière",
+        "La source de la rivière",
+        "La forêt au bord de l'eau"
+      ],
+      "answer": 0,
+      "explanation": "Le lit est le creux du terrain dans lequel l'eau s'écoule.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-32",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Dans une vallée, comment s'appellent les pentes qui descendent de chaque côté vers la rivière ?",
+      "choices": [
+        "Les sommets",
+        "Les plaines",
+        "Les rives",
+        "Les versants"
+      ],
+      "answer": 3,
+      "explanation": "Les versants sont les pentes de la vallée, entre le sommet et le fond de la vallée.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-33",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 6,
+      "type": "qcm",
+      "prompt": "Sur un croquis cartographique, à quoi sert la légende ?",
+      "choices": [
+        "À donner le titre du livre",
+        "À expliquer ce que représentent les couleurs et les symboles",
+        "À montrer la date de la photo",
+        "À décorer le dessin"
+      ],
+      "answer": 1,
+      "explanation": "La légende associe chaque couleur ou symbole à un élément (cours d'eau, pont, habitations…). Sans elle, on ne peut pas lire le croquis.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-doc11-34",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 7,
+      "type": "qcm",
+      "prompt": "À Namur, la Sambre se jette dans un fleuve. Lequel ?",
+      "choices": [
+        "L'Escaut",
+        "L'Ourthe",
+        "La Meuse",
+        "La Lesse"
+      ],
+      "answer": 2,
+      "explanation": "Namur est construite au confluent de la Sambre et de la Meuse.",
+      "hint": "",
+      "passage": null,
+      "source": "inspire_2025",
+      "exam2025": "doc11"
+    }
+  ],
+  "passages": [],
+  "openTasks": [
+    {
+      "id": "i25-o-doc11-1",
+      "subject": "eveil",
+      "domain": "artistique",
+      "level": 6,
+      "prompt": "Réalise une œuvre sur le thème de la nuit : plie une feuille en deux et découpe-la pour obtenir une forme symétrique. Colle ensuite cinq éléments (lunes, étoiles…) de façon asymétrique, puis trace deux lignes de façon symétrique.",
+      "rubric": [
+        "La forme découpée est symétrique (le pli sert d'axe)",
+        "Cinq éléments collés, disposés sans symétrie",
+        "Deux lignes tracées de façon symétrique par rapport au pli",
+        "Le thème de la nuit est respecté"
+      ],
+      "exam2025": "doc11"
+    },
+    {
+      "id": "i25-o-doc11-2",
+      "subject": "eveil",
+      "domain": "geographie",
+      "level": 6,
+      "prompt": "Regarde par ta fenêtre (ou une photo de ta rue). Dessine un croquis simple de ce paysage avec une légende de trois éléments (par exemple : la route, les maisons, les arbres). Colorie chaque élément de la couleur choisie dans la légende.",
+      "rubric": [
+        "Le croquis est simple (contours, pas de détails inutiles)",
+        "Une légende avec trois éléments et une couleur différente pour chacun",
+        "Les couleurs du croquis correspondent à la légende",
+        "Un titre indique le lieu représenté"
+      ],
+      "exam2025": "doc11"
+    }
+  ]
+}

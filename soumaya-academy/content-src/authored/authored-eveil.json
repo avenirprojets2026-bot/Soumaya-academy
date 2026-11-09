@@ -1,0 +1,4164 @@
+{
+ "questions": [
+  {
+   "id": "a-ev-0001",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quels sont les quatre points cardinaux ?",
+   "choices": [
+    "le haut, le bas, la gauche et la droite",
+    "le nord, le sud, l'est et l'ouest",
+    "le devant, le derrière, le dessus et le dessous",
+    "le matin, le midi, le soir et la nuit"
+   ],
+   "answer": 1,
+   "explanation": "Les quatre points cardinaux sont le nord, le sud, l'est et l'ouest.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0002",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans quelle direction le soleil se lève-t-il ?",
+   "choices": [
+    "à l'ouest",
+    "au nord",
+    "à l'est",
+    "au sud"
+   ],
+   "answer": 2,
+   "explanation": "Le soleil se lève à l'est (l'orient).",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0003",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Dans quelle direction le soleil se couche-t-il ?",
+   "choices": [
+    "à l'est",
+    "au nord",
+    "au sud",
+    "à l'ouest"
+   ],
+   "answer": 3,
+   "explanation": "Le soleil se couche à l'ouest (l'occident).",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0004",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Que montre une carte ?",
+   "choices": [
+    "un lieu vu de haut, dessiné en plus petit",
+    "une personne en gros plan",
+    "un objet de la classe",
+    "une histoire en images"
+   ],
+   "answer": 0,
+   "explanation": "Une carte représente un lieu vu d'en haut et en plus petit que la réalité.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0005",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quelle mer borde la Belgique ?",
+   "choices": [
+    "la mer Méditerranée",
+    "la mer du Nord",
+    "la mer Rouge",
+    "l'océan Pacifique"
+   ],
+   "answer": 1,
+   "explanation": "La Belgique a une côte sur la mer du Nord.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0006",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Un fleuve est un grand cours d'eau qui se jette dans...",
+   "choices": [
+    "une montagne",
+    "une forêt",
+    "la mer",
+    "un champ"
+   ],
+   "answer": 2,
+   "explanation": "Un fleuve coule jusqu'à la mer, où il se termine.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0007",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Sur la plupart des cartes, quel point cardinal est en haut ?",
+   "choices": [
+    "le sud",
+    "l'est",
+    "l'ouest",
+    "le nord"
+   ],
+   "answer": 3,
+   "explanation": "En général, le nord est placé en haut de la carte.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0008",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Que trouve-t-on dans la légende d'une carte ?",
+   "choices": [
+    "l'explication des signes et des couleurs",
+    "le nom de l'auteur du livre",
+    "la météo du jour",
+    "des photographies"
+   ],
+   "answer": 0,
+   "explanation": "La légende explique ce que veulent dire les signes et les couleurs.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0009",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quelle couleur représente l'eau sur une carte ?",
+   "choices": [
+    "le rouge",
+    "le bleu",
+    "le jaune",
+    "le noir"
+   ],
+   "answer": 1,
+   "explanation": "Les mers, les lacs et les rivières sont dessinés en bleu.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0010",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Lequel de ces pays est voisin de la Belgique ?",
+   "choices": [
+    "l'Espagne",
+    "l'Italie",
+    "la France",
+    "le Portugal"
+   ],
+   "answer": 2,
+   "explanation": "La France est au sud et à l'ouest de la Belgique.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0011",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Combien y a-t-il de régions en Belgique ?",
+   "choices": [
+    "2",
+    "4",
+    "9",
+    "3"
+   ],
+   "answer": 3,
+   "explanation": "Il y a trois régions : la Flandre, la Wallonie et Bruxelles-Capitale.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0012",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Un paysage de plaine est plutôt...",
+   "choices": [
+    "plat",
+    "très haut",
+    "couvert de glace",
+    "sous la mer"
+   ],
+   "answer": 0,
+   "explanation": "Une plaine est un grand terrain presque plat.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0013",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quelle est la capitale de la France ?",
+   "choices": [
+    "Lyon",
+    "Paris",
+    "Marseille",
+    "Bordeaux"
+   ],
+   "answer": 1,
+   "explanation": "La capitale de la France est Paris.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0014",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Où se trouve la mer du Nord par rapport à la Belgique ?",
+   "choices": [
+    "au sud",
+    "à l'est",
+    "au nord-ouest",
+    "au sud-est"
+   ],
+   "answer": 2,
+   "explanation": "La côte belge est au nord-ouest du pays.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0015",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Sur quel fleuve se trouvent les villes de Namur et de Liège ?",
+   "choices": [
+    "l'Escaut",
+    "la Seine",
+    "le Rhin",
+    "la Meuse"
+   ],
+   "answer": 3,
+   "explanation": "La Meuse traverse Namur et Liège.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0016",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "À quoi sert l'échelle d'un plan ?",
+   "choices": [
+    "à connaître les distances réelles",
+    "à savoir quelle heure il est",
+    "à choisir les couleurs",
+    "à compter les habitants"
+   ],
+   "answer": 0,
+   "explanation": "L'échelle indique combien de fois le plan est plus petit que la réalité.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0017",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien la Belgique a-t-elle de pays voisins ?",
+   "choices": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "answer": 1,
+   "explanation": "La France, le Luxembourg, l'Allemagne et les Pays-Bas.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0018",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quelles sont les trois régions de la Belgique ?",
+   "choices": [
+    "la Flandre, la Wallonie et le Luxembourg",
+    "les Ardennes, la Flandre et Bruxelles",
+    "la Flandre, la Wallonie et Bruxelles-Capitale",
+    "la Wallonie, la Campine et la Hesbaye"
+   ],
+   "answer": 2,
+   "explanation": "Les trois régions sont la Flandre, la Wallonie et Bruxelles-Capitale.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0019",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans quelle région se trouve la ville de Namur ?",
+   "choices": [
+    "en Flandre",
+    "à Bruxelles-Capitale",
+    "au Luxembourg",
+    "en Wallonie"
+   ],
+   "answer": 3,
+   "explanation": "Namur est en Wallonie et en est la capitale.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0020",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Comment s'appelle la grande région de forêts et de collines au sud-est de la Belgique ?",
+   "choices": [
+    "les Ardennes",
+    "la Campine",
+    "le littoral",
+    "la Hesbaye"
+   ],
+   "answer": 0,
+   "explanation": "Les Ardennes sont couvertes de forêts et de collines.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0021",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quelle province wallonne a Mons pour chef-lieu ?",
+   "choices": [
+    "Liège",
+    "le Hainaut",
+    "Namur",
+    "le Luxembourg"
+   ],
+   "answer": 1,
+   "explanation": "Mons est le chef-lieu de la province de Hainaut.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0022",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien de provinces compte la Wallonie ?",
+   "choices": [
+    "3",
+    "7",
+    "5",
+    "10"
+   ],
+   "answer": 2,
+   "explanation": "Brabant wallon, Hainaut, Liège, Luxembourg et Namur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0023",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "À quoi sert une rose des vents ?",
+   "choices": [
+    "à mesurer la température",
+    "à compter les arbres",
+    "à montrer l'heure",
+    "à indiquer les directions"
+   ],
+   "answer": 3,
+   "explanation": "La rose des vents montre le nord, le sud, l'est et l'ouest.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0024",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle ville est la capitale de la Wallonie ?",
+   "choices": [
+    "Namur",
+    "Liège",
+    "Charleroi",
+    "Mons"
+   ],
+   "answer": 0,
+   "explanation": "Namur est la capitale de la Wallonie.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0025",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Sur quel fleuve se trouve le port d'Anvers ?",
+   "choices": [
+    "la Meuse",
+    "l'Escaut",
+    "la Seine",
+    "le Rhône"
+   ],
+   "answer": 1,
+   "explanation": "Le port d'Anvers est installé sur l'Escaut.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0026",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle province wallonne est la plus au sud ?",
+   "choices": [
+    "le Hainaut",
+    "le Brabant wallon",
+    "le Luxembourg",
+    "Namur"
+   ],
+   "answer": 2,
+   "explanation": "La province de Luxembourg est tout au sud de la Belgique.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0027",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on la région plate et sablonneuse du nord-est de la Belgique, avec beaucoup de pins ?",
+   "choices": [
+    "les Ardennes",
+    "le Condroz",
+    "la Hesbaye",
+    "la Campine"
+   ],
+   "answer": 3,
+   "explanation": "La Campine est une région de sable et de bruyères.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0028",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Sur un plan, 1 cm représente 100 m. Que représentent 3 cm ?",
+   "choices": [
+    "300 m",
+    "30 m",
+    "103 m",
+    "3 km"
+   ],
+   "answer": 0,
+   "explanation": "3 × 100 m = 300 m.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0029",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Sur quel continent se trouve la Belgique ?",
+   "choices": [
+    "l'Asie",
+    "l'Europe",
+    "l'Afrique",
+    "l'Amérique"
+   ],
+   "answer": 1,
+   "explanation": "La Belgique est un pays d'Europe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0030",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 1,
+   "type": "saisie",
+   "prompt": "Écris le nom de la capitale de la Belgique.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "Bruxelles",
+    "bruxelles"
+   ],
+   "explanation": "La capitale de la Belgique est Bruxelles.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0031",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 2,
+   "type": "saisie",
+   "prompt": "Écris le point cardinal opposé au nord.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "sud",
+    "le sud"
+   ],
+   "explanation": "Le contraire du nord est le sud.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0032",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "Écris le point cardinal opposé à l'est.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "ouest",
+    "l'ouest"
+   ],
+   "explanation": "Le contraire de l'est est l'ouest.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0033",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "Écris le nom de la capitale de l'Allemagne.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "Berlin",
+    "berlin"
+   ],
+   "explanation": "La capitale de l'Allemagne est Berlin.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0034",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Écris le nom de la capitale de l'Italie.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "Rome",
+    "rome"
+   ],
+   "explanation": "La capitale de l'Italie est Rome.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0035",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Combien y a-t-il de communautés en Belgique (française, flamande, germanophone) ? Écris le nombre.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "3",
+    "trois"
+   ],
+   "explanation": "Il y a trois communautés : française, flamande et germanophone.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0036",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle est la capitale du Royaume-Uni ?",
+   "choices": [
+    "Londres",
+    "Manchester",
+    "Édimbourg",
+    "Liverpool"
+   ],
+   "answer": 0,
+   "explanation": "La capitale du Royaume-Uni est Londres.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0037",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel pays voisin se trouve à l'est de la Belgique ?",
+   "choices": [
+    "la France",
+    "l'Allemagne",
+    "l'Espagne",
+    "l'Italie"
+   ],
+   "answer": 1,
+   "explanation": "L'Allemagne touche la Belgique à l'est.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0038",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle région naturelle de Belgique a un sol très fertile et de grandes cultures de blé et de betteraves ?",
+   "choices": [
+    "la Campine",
+    "les Ardennes",
+    "la Hesbaye",
+    "le littoral"
+   ],
+   "answer": 2,
+   "explanation": "La Hesbaye est un plateau au sol limoneux très fertile.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0039",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Comment s'appelle la haute chaîne de montagnes qui traverse la Suisse, l'Autriche et l'Italie ?",
+   "choices": [
+    "les Pyrénées",
+    "les Ardennes",
+    "l'Himalaya",
+    "les Alpes"
+   ],
+   "answer": 3,
+   "explanation": "Les Alpes sont la grande chaîne de montagnes du centre de l'Europe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0040",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel est le plus long fleuve de France ?",
+   "choices": [
+    "la Loire",
+    "la Seine",
+    "la Meuse",
+    "le Rhône"
+   ],
+   "answer": 0,
+   "explanation": "La Loire est le plus long fleuve de France.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0041",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel océan sépare l'Europe de l'Amérique ?",
+   "choices": [
+    "l'océan Pacifique",
+    "l'océan Atlantique",
+    "l'océan Indien",
+    "l'océan Arctique"
+   ],
+   "answer": 1,
+   "explanation": "C'est l'océan Atlantique.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0042",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel est le plus grand océan du monde ?",
+   "choices": [
+    "l'océan Atlantique",
+    "l'océan Indien",
+    "l'océan Pacifique",
+    "l'océan Arctique"
+   ],
+   "answer": 2,
+   "explanation": "L'océan Pacifique est le plus vaste.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0043",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quelle est la capitale du Portugal ?",
+   "choices": [
+    "Porto",
+    "Madrid",
+    "Séville",
+    "Lisbonne"
+   ],
+   "answer": 3,
+   "explanation": "La capitale du Portugal est Lisbonne.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0044",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel est le chef-lieu de la province du Brabant wallon ?",
+   "choices": [
+    "Wavre",
+    "Nivelles",
+    "Namur",
+    "Mons"
+   ],
+   "answer": 0,
+   "explanation": "Wavre est le chef-lieu du Brabant wallon.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0045",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel fleuve traverse la ville de Londres ?",
+   "choices": [
+    "la Seine",
+    "la Tamise",
+    "le Rhin",
+    "la Loire"
+   ],
+   "answer": 1,
+   "explanation": "La Tamise traverse Londres.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0046",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel est le plus grand désert chaud du monde ?",
+   "choices": [
+    "le Gobi",
+    "le Kalahari",
+    "le Sahara",
+    "l'Arabie"
+   ],
+   "answer": 2,
+   "explanation": "Le Sahara, en Afrique, est le plus grand désert chaud.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0047",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+   "choices": [
+    "les Alpes",
+    "les Ardennes",
+    "les Vosges",
+    "les Pyrénées"
+   ],
+   "answer": 3,
+   "explanation": "Les Pyrénées forment la frontière entre la France et l'Espagne.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0048",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel pays a la forme d'une botte ?",
+   "choices": [
+    "l'Italie",
+    "l'Espagne",
+    "la Grèce",
+    "le Portugal"
+   ],
+   "answer": 0,
+   "explanation": "La carte de l'Italie ressemble à une botte.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0049",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Dans quel pays la Meuse prend-elle sa source ?",
+   "choices": [
+    "la Belgique",
+    "la France",
+    "l'Allemagne",
+    "la Suisse"
+   ],
+   "answer": 1,
+   "explanation": "La Meuse naît en France avant de traverser la Belgique et les Pays-Bas.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0050",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Sur quel continent se trouve l'Égypte ?",
+   "choices": [
+    "l'Asie",
+    "l'Europe",
+    "l'Afrique",
+    "l'Amérique du Sud"
+   ],
+   "answer": 2,
+   "explanation": "L'Égypte est en Afrique, sur les bords du Nil.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0051",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel continent est entièrement couvert de glace et très froid ?",
+   "choices": [
+    "l'Afrique",
+    "l'Australie",
+    "l'Amérique du Sud",
+    "l'Antarctique"
+   ],
+   "answer": 3,
+   "explanation": "L'Antarctique est un continent couvert de glace.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0052",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quelle mer sépare l'Europe de l'Afrique ?",
+   "choices": [
+    "la Méditerranée",
+    "la mer du Nord",
+    "la mer Baltique",
+    "la mer Rouge"
+   ],
+   "answer": 0,
+   "explanation": "La Méditerranée est entre l'Europe et l'Afrique.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0053",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel est le plus long fleuve d'Afrique ?",
+   "choices": [
+    "le Rhin",
+    "le Nil",
+    "la Seine",
+    "le Danube"
+   ],
+   "answer": 1,
+   "explanation": "Le Nil est le grand fleuve de l'Afrique.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0054",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel est le plus haut sommet du monde ?",
+   "choices": [
+    "le mont Blanc",
+    "le Kilimandjaro",
+    "le mont Everest",
+    "le Cervin"
+   ],
+   "answer": 2,
+   "explanation": "L'Everest, dans l'Himalaya, est le plus haut sommet.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0055",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Sur quel continent se trouve le Brésil ?",
+   "choices": [
+    "l'Afrique",
+    "l'Europe",
+    "l'Asie",
+    "l'Amérique du Sud"
+   ],
+   "answer": 3,
+   "explanation": "Le Brésil est le plus grand pays d'Amérique du Sud.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0056",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quelle est la capitale du Danemark ?",
+   "choices": [
+    "Copenhague",
+    "Stockholm",
+    "Oslo",
+    "Helsinki"
+   ],
+   "answer": 0,
+   "explanation": "La capitale du Danemark est Copenhague.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0057",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "L'équateur est une ligne imaginaire qui partage la Terre en deux parties. Lesquelles ?",
+   "choices": [
+    "l'est et l'ouest",
+    "l'hémisphère nord et l'hémisphère sud",
+    "l'Europe et l'Asie",
+    "la terre et la mer"
+   ],
+   "answer": 1,
+   "explanation": "L'équateur sépare l'hémisphère nord de l'hémisphère sud.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0058",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Dans quelle région belge se trouve la ville de Gand ?",
+   "choices": [
+    "en Wallonie",
+    "à Bruxelles-Capitale",
+    "en Flandre",
+    "dans la Communauté germanophone"
+   ],
+   "answer": 2,
+   "explanation": "Gand est une grande ville de Flandre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0059",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quelle province wallonne est la plus à l'ouest ?",
+   "choices": [
+    "Liège",
+    "le Luxembourg",
+    "Namur",
+    "le Hainaut"
+   ],
+   "answer": 3,
+   "explanation": "Le Hainaut est à l'ouest de la Wallonie.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0060",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "À Namur, quelle rivière rejoint la Meuse ?",
+   "choices": [
+    "la Sambre",
+    "l'Escaut",
+    "la Semois",
+    "la Lesse"
+   ],
+   "answer": 0,
+   "explanation": "La Sambre se jette dans la Meuse à Namur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0061",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quel grand port belge est sur l'Escaut ?",
+   "choices": [
+    "Liège",
+    "Anvers",
+    "Namur",
+    "Mons"
+   ],
+   "answer": 1,
+   "explanation": "Anvers est un grand port sur l'Escaut.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0062",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Comment s'appelle la région naturelle belge située le long de la mer du Nord ?",
+   "choices": [
+    "les Ardennes",
+    "la Campine",
+    "le littoral",
+    "le Condroz"
+   ],
+   "answer": 2,
+   "explanation": "Le littoral est la bande de plages et de dunes à côté de la mer.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0063",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Écris le nom de la capitale de l'Espagne.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "Madrid",
+    "madrid"
+   ],
+   "explanation": "La capitale de l'Espagne est Madrid.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0064",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Quel fleuve traverse Paris ? Écris son nom.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "la Seine",
+    "Seine",
+    "seine"
+   ],
+   "explanation": "La Seine traverse Paris.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0065",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Écris le nom de la capitale de l'Autriche.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "Vienne",
+    "vienne"
+   ],
+   "explanation": "La capitale de l'Autriche est Vienne.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0066",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Écris le nom de la capitale de la Suisse.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "Berne",
+    "berne"
+   ],
+   "explanation": "La capitale de la Suisse est Berne.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0067",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Écris le nom de la capitale de la Grèce.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "Athènes",
+    "Athenes",
+    "athènes",
+    "athenes"
+   ],
+   "explanation": "La capitale de la Grèce est Athènes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0068",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Écris le nom de la capitale de l'Irlande.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "Dublin",
+    "dublin"
+   ],
+   "explanation": "La capitale de l'Irlande est Dublin.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0069",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Écris le nom de la capitale de la Pologne.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "Varsovie",
+    "varsovie"
+   ],
+   "explanation": "La capitale de la Pologne est Varsovie.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0070",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Écris le nom de la capitale de la Suède.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "Stockholm",
+    "stockholm"
+   ],
+   "explanation": "La capitale de la Suède est Stockholm.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0071",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on le temps qui s'est écoulé avant aujourd'hui ?",
+   "choices": [
+    "le présent",
+    "le futur",
+    "le matin",
+    "le passé"
+   ],
+   "answer": 3,
+   "explanation": "Le passé, c'est tout ce qui est déjà arrivé avant aujourd'hui.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0072",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "À quoi sert une frise du temps ?",
+   "choices": [
+    "À placer des événements dans l'ordre où ils se sont passés.",
+    "À mesurer la taille d'une pièce.",
+    "À dessiner un paysage.",
+    "À compter des personnes."
+   ],
+   "answer": 0,
+   "explanation": "Une frise du temps est une ligne où l'on range les événements du plus ancien au plus récent.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0073",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel mot désigne le jour qui vient juste avant aujourd'hui ?",
+   "choices": [
+    "demain",
+    "hier",
+    "bientôt",
+    "maintenant"
+   ],
+   "answer": 1,
+   "explanation": "Hier, c'est le jour d'avant. Demain, c'est le jour d'après.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0074",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel objet est le plus ancien ?",
+   "choices": [
+    "un téléphone portable",
+    "un ordinateur",
+    "un silex taillé",
+    "une télévision"
+   ],
+   "answer": 2,
+   "explanation": "Les hommes de la Préhistoire taillaient des pierres, il y a très très longtemps.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0075",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Combien d'années dure un siècle ?",
+   "choices": [
+    "10 ans",
+    "50 ans",
+    "1000 ans",
+    "100 ans"
+   ],
+   "answer": 3,
+   "explanation": "Un siècle, c'est cent ans.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0076",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on les personnes qui vivaient avant l'invention de l'écriture ?",
+   "choices": [
+    "les hommes préhistoriques",
+    "les chevaliers",
+    "les Romains",
+    "les astronautes"
+   ],
+   "answer": 0,
+   "explanation": "Avant l'écriture, c'est la Préhistoire. Ces hommes sont les hommes préhistoriques.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0077",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Comment s'appelle la personne qui fouille la terre pour retrouver des objets très anciens ?",
+   "choices": [
+    "un boulanger",
+    "un archéologue",
+    "un pilote",
+    "un facteur"
+   ],
+   "answer": 1,
+   "explanation": "L'archéologue cherche et étudie des traces du passé enfouies dans le sol.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0078",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Laquelle de ces choses est une trace du passé ?",
+   "choices": [
+    "un dessin qu'on fera demain",
+    "une invention du futur",
+    "une photo ancienne",
+    "un rêve de la nuit"
+   ],
+   "answer": 2,
+   "explanation": "Une photo ancienne montre ce qui s'est passé : c'est une trace du passé.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0079",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Avec quoi les hommes préhistoriques se protégeaient-ils du froid ?",
+   "choices": [
+    "avec des vestes en nylon",
+    "avec des jeans",
+    "avec des anoraks",
+    "avec des peaux d'animaux"
+   ],
+   "answer": 3,
+   "explanation": "Ils utilisaient les peaux des animaux qu'ils chassaient.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0080",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quelle est la période la plus ancienne ?",
+   "choices": [
+    "la Préhistoire",
+    "l'Antiquité",
+    "le Moyen Âge",
+    "l'époque contemporaine"
+   ],
+   "answer": 0,
+   "explanation": "La Préhistoire est la toute première période, avant l'écriture.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0081",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Que veut dire « chronologique » ?",
+   "choices": [
+    "dans l'ordre alphabétique",
+    "dans l'ordre du temps",
+    "du plus grand au plus petit",
+    "au hasard"
+   ],
+   "answer": 1,
+   "explanation": "Une frise chronologique range les événements dans l'ordre où ils se sont passés.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0082",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Comment les hommes préhistoriques faisaient-ils du feu ?",
+   "choices": [
+    "avec des allumettes",
+    "avec un briquet à gaz",
+    "en frottant du bois ou en frappant des pierres",
+    "avec un interrupteur"
+   ],
+   "answer": 2,
+   "explanation": "Ils savaient faire des étincelles en frottant du bois ou en frappant des silex.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0083",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Que mangeaient surtout les hommes préhistoriques ?",
+   "choices": [
+    "des pizzas",
+    "des pâtes et du riz",
+    "du chocolat et des glaces",
+    "de la viande, du poisson, des fruits et des racines"
+   ],
+   "answer": 3,
+   "explanation": "Ils chassaient, pêchaient et cueillaient ce que la nature offrait.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0084",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Un événement « récent » s'est passé...",
+   "choices": [
+    "il y a peu de temps",
+    "il y a très longtemps",
+    "dans le futur",
+    "jamais"
+   ],
+   "answer": 0,
+   "explanation": "Récent veut dire : qui vient d'arriver, qui date de peu de temps.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0085",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "La Préhistoire se termine avec l'invention de...",
+   "choices": [
+    "l'imprimerie",
+    "l'écriture",
+    "l'électricité",
+    "la télévision"
+   ],
+   "answer": 1,
+   "explanation": "Quand les hommes inventent l'écriture, la Préhistoire est terminée.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0086",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Pourquoi les Romains construisaient-ils beaucoup de routes ?",
+   "choices": [
+    "pour faire du vélo",
+    "pour les voitures",
+    "pour déplacer facilement leurs armées et leurs marchandises",
+    "pour décorer leurs villes"
+   ],
+   "answer": 2,
+   "explanation": "Les routes romaines aidaient les soldats et les marchands à voyager rapidement.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0087",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quelle période vient juste après la Préhistoire ?",
+   "choices": [
+    "le Moyen Âge",
+    "les Temps modernes",
+    "l'époque contemporaine",
+    "l'Antiquité"
+   ],
+   "answer": 3,
+   "explanation": "Ordre : Préhistoire, Antiquité, Moyen Âge, Temps modernes, époque contemporaine.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0088",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "À quoi servait un château fort ?",
+   "choices": [
+    "à protéger le seigneur et les habitants",
+    "à vendre des poissons",
+    "à ranger des voitures",
+    "à enseigner la lecture"
+   ],
+   "answer": 0,
+   "explanation": "Un château fort avait de hauts murs pour se défendre contre les attaques.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0089",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Combien d'années y a-t-il dans deux siècles ?",
+   "choices": [
+    "20",
+    "200",
+    "100",
+    "2000"
+   ],
+   "answer": 1,
+   "explanation": "Un siècle, c'est 100 ans. Deux siècles font 200 ans.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0090",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Au Moyen Âge, qui commandait dans le château fort ?",
+   "choices": [
+    "le moine",
+    "le paysan",
+    "le seigneur",
+    "le marchand"
+   ],
+   "answer": 2,
+   "explanation": "Le seigneur était le chef du château et des terres autour.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0091",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quelle source est une source écrite ?",
+   "choices": [
+    "un vieux meuble",
+    "une statue",
+    "une pièce de monnaie",
+    "une lettre ancienne"
+   ],
+   "answer": 3,
+   "explanation": "Une lettre contient des mots écrits : c'est une source écrite.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0092",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quelle langue parlaient les Romains ?",
+   "choices": [
+    "le latin",
+    "le néerlandais",
+    "l'anglais",
+    "l'allemand"
+   ],
+   "answer": 0,
+   "explanation": "Les Romains parlaient latin. Beaucoup de mots français viennent du latin.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0093",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel nombre est écrit en chiffres romains « XII » ?",
+   "choices": [
+    "7",
+    "12",
+    "21",
+    "11"
+   ],
+   "answer": 1,
+   "explanation": "X vaut 10 et II vaut 2 : XII = 12.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0094",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "À quoi servait un aqueduc ?",
+   "choices": [
+    "à transporter des soldats",
+    "à cultiver la terre",
+    "à amener l'eau jusqu'à la ville",
+    "à traverser la mer"
+   ],
+   "answer": 2,
+   "explanation": "Un aqueduc est un long pont qui transporte l'eau vers les villes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0095",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quelle période vient juste après l'Antiquité ?",
+   "choices": [
+    "la Préhistoire",
+    "les Temps modernes",
+    "l'époque contemporaine",
+    "le Moyen Âge"
+   ],
+   "answer": 3,
+   "explanation": "Après l'Antiquité vient le Moyen Âge, celle des châteaux forts.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0096",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Au Moyen Âge, qui protégeait les paysans en échange de leur travail ?",
+   "choices": [
+    "le seigneur",
+    "le facteur",
+    "le pompier",
+    "le maître d'école"
+   ],
+   "answer": 0,
+   "explanation": "Les paysans travaillaient la terre et le seigneur les protégeait.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0097",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Comment s'appelaient les soldats de l'armée romaine ?",
+   "choices": [
+    "les gladiateurs",
+    "les légionnaires",
+    "les chevaliers",
+    "les pharaons"
+   ],
+   "answer": 1,
+   "explanation": "Les soldats de Rome étaient les légionnaires, regroupés en légions.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0098",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "En 1850, dans quel siècle sommes-nous ?",
+   "choices": [
+    "au XVIIIe siècle",
+    "au XXe siècle",
+    "au XIXe siècle",
+    "au XVIIe siècle"
+   ],
+   "answer": 2,
+   "explanation": "Le XIXe siècle va de 1801 à 1900. 1850 est dedans.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0099",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "À quelle période appartient Charlemagne ?",
+   "choices": [
+    "à la Préhistoire",
+    "à l'époque contemporaine",
+    "aux Temps modernes",
+    "au Moyen Âge"
+   ],
+   "answer": 3,
+   "explanation": "Charlemagne était roi, puis empereur, il y a plus de mille ans, pendant le Moyen Âge.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0100",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "À quoi servait le pont-levis d'un château fort ?",
+   "choices": [
+    "à ouvrir ou fermer l'entrée du château",
+    "à traverser la mer",
+    "à pêcher dans le fossé",
+    "à décorer la porte"
+   ],
+   "answer": 0,
+   "explanation": "On relevait le pont-levis pour empêcher les ennemis d'entrer.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0101",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle invention a permis de fabriquer beaucoup de livres plus vite ?",
+   "choices": [
+    "la machine à vapeur",
+    "l'imprimerie",
+    "la télévision",
+    "le téléphone"
+   ],
+   "answer": 1,
+   "explanation": "Avec l'imprimerie, on n'a plus besoin de copier les livres à la main.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0102",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "En 1492, Christophe Colomb a traversé l'océan Atlantique. Où est-il arrivé ?",
+   "choices": [
+    "en Australie",
+    "en Antarctique",
+    "en Amérique",
+    "en Asie"
+   ],
+   "answer": 2,
+   "explanation": "Christophe Colomb est arrivé en Amérique, un continent encore inconnu des Européens.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0103",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on la période dans laquelle nous vivons aujourd'hui ?",
+   "choices": [
+    "la Préhistoire",
+    "l'Antiquité",
+    "le Moyen Âge",
+    "l'époque contemporaine"
+   ],
+   "answer": 3,
+   "explanation": "Nous vivons dans l'époque contemporaine.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0104",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Écris en chiffres romains le nombre 3.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "III",
+    "iii"
+   ],
+   "explanation": "Trois traits I : I + I + I = III.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0105",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Combien d'années y a-t-il dans 3 siècles ? Écris le nombre en chiffres.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "300"
+   ],
+   "explanation": "Un siècle = 100 ans. 3 × 100 = 300.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0106",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Que sont les thermes dans une ville romaine ?",
+   "choices": [
+    "des marchés",
+    "des théâtres",
+    "des bains publics",
+    "des temples"
+   ],
+   "answer": 2,
+   "explanation": "Les Romains aimaient se laver et se détendre dans les thermes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0107",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qu'une source historique ?",
+   "choices": [
+    "un ruisseau",
+    "une chanson récente",
+    "un avis personnel",
+    "une trace qui permet de connaître le passé"
+   ],
+   "answer": 3,
+   "explanation": "Un objet, un texte ou un bâtiment ancien nous renseigne sur le passé.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0108",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Au Moyen Âge, qui copiait les livres à la main dans les monastères ?",
+   "choices": [
+    "des moines",
+    "des soldats",
+    "des paysans",
+    "des marchands"
+   ],
+   "answer": 0,
+   "explanation": "Les moines copiaient les livres avec soin avant l'imprimerie.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0109",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Vers 1450, Gutenberg a mis au point l'imprimerie. Dans quel siècle sommes-nous ?",
+   "choices": [
+    "au XIVe siècle",
+    "au XVe siècle",
+    "au XVIe siècle",
+    "au XIIIe siècle"
+   ],
+   "answer": 1,
+   "explanation": "Le XVe siècle va de 1401 à 1500.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0110",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qui faisait avancer les premiers trains au XIXe siècle ?",
+   "choices": [
+    "le moteur à essence",
+    "l'énergie solaire",
+    "la machine à vapeur",
+    "les chevaux"
+   ],
+   "answer": 2,
+   "explanation": "Les premières locomotives fonctionnaient avec de la vapeur d'eau.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0111",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle chose existait déjà au Moyen Âge ?",
+   "choices": [
+    "le téléphone",
+    "l'électricité",
+    "la télévision",
+    "le moulin à eau"
+   ],
+   "answer": 3,
+   "explanation": "Au Moyen Âge, on utilisait des moulins à eau pour moudre le grain.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0112",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel général romain a conquis la Gaule ?",
+   "choices": [
+    "Jules César",
+    "Charlemagne",
+    "Napoléon",
+    "Louis XIV"
+   ],
+   "answer": 0,
+   "explanation": "Jules César a conquis la Gaule, un territoire qui comprenait la Belgique actuelle.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0113",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel métier existait déjà au Moyen Âge ?",
+   "choices": [
+    "astronaute",
+    "forgeron",
+    "informaticien",
+    "pilote d'avion"
+   ],
+   "answer": 1,
+   "explanation": "Le forgeron travaillait le fer pour faire des outils et des armes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0114",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Napoléon était empereur au début du XIXe siècle. À quelle période appartient ce siècle ?",
+   "choices": [
+    "au Moyen Âge",
+    "à l'Antiquité",
+    "à l'époque contemporaine",
+    "à la Préhistoire"
+   ],
+   "answer": 2,
+   "explanation": "Le XIXe siècle fait partie de l'époque contemporaine.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0115",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qu'un vestige ?",
+   "choices": [
+    "un jeu de société",
+    "un bateau",
+    "un vêtement neuf",
+    "un reste d'un temps ancien"
+   ],
+   "answer": 3,
+   "explanation": "Un vestige est ce qui reste d'un bâtiment ou d'un objet très ancien.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0116",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Sur une frise du temps, où place-t-on l'année 1789 par rapport à 1492 ?",
+   "choices": [
+    "après",
+    "avant",
+    "au même endroit",
+    "on ne peut pas savoir"
+   ],
+   "answer": 0,
+   "explanation": "1789 est plus récent que 1492 : on le place à droite, après.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0117",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quelle période a vu construire les grandes cathédrales gothiques ?",
+   "choices": [
+    "la Préhistoire",
+    "le Moyen Âge",
+    "l'époque contemporaine",
+    "l'Antiquité"
+   ],
+   "answer": 1,
+   "explanation": "Les grandes cathédrales ont été bâties pendant le Moyen Âge.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0118",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Comment appelait-on le grand édifice romain où avaient lieu les combats de gladiateurs ?",
+   "choices": [
+    "une cathédrale",
+    "un château fort",
+    "un amphithéâtre",
+    "une pyramide"
+   ],
+   "answer": 2,
+   "explanation": "Les combats avaient lieu dans de grands amphithéâtres, comme le Colisée à Rome.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0119",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Pour qui les pyramides d'Égypte étaient-elles construites ?",
+   "choices": [
+    "pour les chevaliers",
+    "pour les rois de France",
+    "pour les Romains",
+    "pour les pharaons"
+   ],
+   "answer": 3,
+   "explanation": "Les pyramides sont des tombeaux de pharaons, les rois de l'Égypte ancienne.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0120",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Comment sait-on comment vivaient les hommes avant l'écriture ?",
+   "choices": [
+    "grâce aux traces trouvées dans le sol, comme les outils et les os",
+    "grâce aux livres qu'ils ont écrits",
+    "grâce à des journaux",
+    "grâce à la télévision"
+   ],
+   "answer": 0,
+   "explanation": "Les archéologues étudient les outils, les os et les dessins laissés par ces hommes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0121",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "À quelle période datent les peintures de la grotte de Lascaux ?",
+   "choices": [
+    "à l'Antiquité",
+    "à la Préhistoire",
+    "au Moyen Âge",
+    "à l'époque contemporaine"
+   ],
+   "answer": 1,
+   "explanation": "Ces peintures ont été faites par des hommes préhistoriques.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0122",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Quel siècle vient juste après le XIXe siècle ?",
+   "choices": [
+    "le XVIIIe siècle",
+    "le XXIe siècle",
+    "le XXe siècle",
+    "le XVIIe siècle"
+   ],
+   "answer": 2,
+   "explanation": "Les siècles se suivent : XIXe, puis XXe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0123",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Pourquoi entourait-on les villes du Moyen Âge de remparts ?",
+   "choices": [
+    "pour les décorer",
+    "pour les rendre plus petites",
+    "pour retenir l'eau",
+    "pour les protéger des attaques"
+   ],
+   "answer": 3,
+   "explanation": "Les remparts sont de hauts murs qui défendent la ville.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0124",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quelle est la période la plus longue de l'histoire de l'humanité ?",
+   "choices": [
+    "la Préhistoire",
+    "l'Antiquité",
+    "le Moyen Âge",
+    "l'époque contemporaine"
+   ],
+   "answer": 0,
+   "explanation": "La Préhistoire a duré des centaines de milliers d'années.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0125",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qui apparaît pendant la révolution industrielle, au XIXe siècle ?",
+   "choices": [
+    "des châteaux forts",
+    "des usines avec des machines",
+    "des pyramides",
+    "l'écriture"
+   ],
+   "answer": 1,
+   "explanation": "Les machines et les usines ont changé le travail des gens.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0126",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qui commence en France en 1789 ?",
+   "choices": [
+    "la conquête romaine",
+    "la guerre de Cent Ans",
+    "la Révolution française",
+    "la construction des cathédrales"
+   ],
+   "answer": 2,
+   "explanation": "La Révolution française débute en 1789 et marque le début de l'époque contemporaine.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0127",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "En quelle année la Belgique est-elle devenue un pays indépendant ?",
+   "choices": [
+    "1789",
+    "1914",
+    "1950",
+    "1830"
+   ],
+   "answer": 3,
+   "explanation": "La Belgique est indépendante depuis 1830.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0128",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Qui a été le premier roi des Belges ?",
+   "choices": [
+    "Léopold Ier",
+    "Léopold II",
+    "Albert Ier",
+    "Baudouin"
+   ],
+   "answer": 0,
+   "explanation": "Léopold Ier est devenu roi des Belges en 1831.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0129",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Dans quelle période de l'histoire se situent les deux guerres mondiales ?",
+   "choices": [
+    "le Moyen Âge",
+    "l'époque contemporaine",
+    "l'Antiquité",
+    "les Temps modernes"
+   ],
+   "answer": 1,
+   "explanation": "Elles ont eu lieu au XXe siècle, dans l'époque contemporaine.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0130",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quelle période se situe entre 476 et 1492 environ ?",
+   "choices": [
+    "l'Antiquité",
+    "les Temps modernes",
+    "le Moyen Âge",
+    "la Préhistoire"
+   ],
+   "answer": 2,
+   "explanation": "Le Moyen Âge commence vers 476 et se termine vers 1492.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0131",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quelle période se situe entre 1492 et 1789 ?",
+   "choices": [
+    "le Moyen Âge",
+    "l'Antiquité",
+    "la Préhistoire",
+    "les Temps modernes"
+   ],
+   "answer": 3,
+   "explanation": "Les Temps modernes vont de 1492 (découverte de l'Amérique) à 1789.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0132",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "L'Antiquité commence avec l'invention de...",
+   "choices": [
+    "l'écriture",
+    "l'imprimerie",
+    "l'électricité",
+    "le téléphone"
+   ],
+   "answer": 0,
+   "explanation": "L'écriture marque la fin de la Préhistoire et le début de l'Antiquité.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0133",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Que veut dire « 500 av. J.-C. » ?",
+   "choices": [
+    "500 ans après le début de notre calendrier",
+    "500 ans avant le début de notre calendrier",
+    "l'année 500 de notre calendrier",
+    "500 ans dans le futur"
+   ],
+   "answer": 1,
+   "explanation": "« Av. J.-C. » veut dire avant Jésus-Christ, donc avant l'an 1 de notre calendrier.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0134",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "En 1215, dans quel siècle sommes-nous ?",
+   "choices": [
+    "au XIIe siècle",
+    "au XIVe siècle",
+    "au XIIIe siècle",
+    "au XVe siècle"
+   ],
+   "answer": 2,
+   "explanation": "Le XIIIe siècle va de 1201 à 1300.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0135",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "À quelle période appartient l'année 1750 ?",
+   "choices": [
+    "au Moyen Âge",
+    "à l'Antiquité",
+    "à l'époque contemporaine",
+    "aux Temps modernes"
+   ],
+   "answer": 3,
+   "explanation": "1750 est entre 1492 et 1789 : ce sont les Temps modernes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0136",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Écris en chiffres romains le nombre 10.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "X",
+    "x"
+   ],
+   "explanation": "X vaut dix.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0137",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Écris en chiffres romains le nombre 5.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "V",
+    "v"
+   ],
+   "explanation": "V vaut cinq.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0138",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Écris en chiffres romains le nombre 9.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "IX",
+    "ix"
+   ],
+   "explanation": "IX = 10 - 1 = 9 (I devant X se retire).",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0139",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Combien d'années y a-t-il entre 1830 et 1930 ? Écris le nombre en chiffres.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "100",
+    "cent"
+   ],
+   "explanation": "1930 - 1830 = 100.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0140",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Écris en chiffres romains le nombre 14.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "XIV",
+    "xiv"
+   ],
+   "explanation": "X (10) + IV (4) = XIV.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0141",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quels sont les cinq sens ?",
+   "choices": [
+    "la faim, la soif, le sommeil et la fatigue",
+    "la vue, l'ouïe, l'odorat, le goût et le toucher",
+    "la marche, la course, le saut et la nage",
+    "le rouge, le bleu, le jaune et le vert"
+   ],
+   "answer": 1,
+   "explanation": "Nos cinq sens sont la vue, l'ouïe, l'odorat, le goût et le toucher.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0142",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Avec quel organe sent-on les odeurs ?",
+   "choices": [
+    "les yeux",
+    "les oreilles",
+    "le nez",
+    "la langue"
+   ],
+   "answer": 2,
+   "explanation": "Le nez nous permet de sentir les odeurs : c'est l'odorat.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0143",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quel état de l'eau est solide ?",
+   "choices": [
+    "la vapeur",
+    "la pluie",
+    "le brouillard",
+    "la glace"
+   ],
+   "answer": 3,
+   "explanation": "La glace est de l'eau à l'état solide.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0144",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "De quoi une plante a-t-elle besoin pour vivre ?",
+   "choices": [
+    "d'eau et de lumière",
+    "de lait et de sel",
+    "de pétrole et de sucre",
+    "de sable et de glace"
+   ],
+   "answer": 0,
+   "explanation": "Les plantes ont besoin d'eau, de lumière et d'air pour vivre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0145",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Lequel de ces animaux est un oiseau ?",
+   "choices": [
+    "le chat",
+    "le moineau",
+    "le poisson rouge",
+    "le lézard"
+   ],
+   "answer": 1,
+   "explanation": "Le moineau a des plumes et des ailes : c'est un oiseau.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0146",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Que devient de l'eau mise au congélateur ?",
+   "choices": [
+    "de la vapeur",
+    "du sable",
+    "de la glace",
+    "de l'huile"
+   ],
+   "answer": 2,
+   "explanation": "Au froid, l'eau devient solide : elle se transforme en glace.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0147",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 1,
+   "type": "qcm",
+   "prompt": "Quelle partie de la plante se trouve dans le sol ?",
+   "choices": [
+    "les feuilles",
+    "les fleurs",
+    "les fruits",
+    "les racines"
+   ],
+   "answer": 3,
+   "explanation": "Les racines tiennent la plante et puisent l'eau dans la terre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0148",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "L'ouïe est le sens qui permet de...",
+   "choices": [
+    "entendre",
+    "voir",
+    "goûter",
+    "sentir"
+   ],
+   "answer": 0,
+   "explanation": "On entend avec les oreilles : c'est l'ouïe.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0149",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quand l'eau bout, elle se transforme en...",
+   "choices": [
+    "glace",
+    "vapeur",
+    "sable",
+    "huile"
+   ],
+   "answer": 1,
+   "explanation": "En chauffant beaucoup, l'eau devient de la vapeur d'eau, un gaz.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0150",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Le Soleil est...",
+   "choices": [
+    "une planète",
+    "un satellite",
+    "une étoile",
+    "une comète"
+   ],
+   "answer": 2,
+   "explanation": "Le Soleil est une étoile qui produit de la lumière et de la chaleur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0151",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Lequel de ces animaux pond des œufs ?",
+   "choices": [
+    "la vache",
+    "le chat",
+    "le chien",
+    "la poule"
+   ],
+   "answer": 3,
+   "explanation": "La poule pond des œufs. Les mammifères comme la vache, le chat et le chien n'en pondent pas.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0152",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Quelle saison vient juste après l'hiver ?",
+   "choices": [
+    "le printemps",
+    "l'été",
+    "l'automne",
+    "encore l'hiver"
+   ],
+   "answer": 0,
+   "explanation": "Les saisons se suivent : hiver, printemps, été, automne.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0153",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on les animaux qui mangent de la viande ?",
+   "choices": [
+    "des herbivores",
+    "des carnivores",
+    "des végétariens",
+    "des insectes"
+   ],
+   "answer": 1,
+   "explanation": "Les carnivores mangent d'autres animaux, comme le lion.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0154",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 2,
+   "type": "qcm",
+   "prompt": "Lequel de ces objets flotte sur l'eau ?",
+   "choices": [
+    "un clou en fer",
+    "une pièce de monnaie",
+    "un bouchon de liège",
+    "une pierre"
+   ],
+   "answer": 2,
+   "explanation": "Le liège est léger : il flotte. Le fer et la pierre coulent.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0155",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "À quoi servent les poumons ?",
+   "choices": [
+    "à digérer",
+    "à penser",
+    "à marcher",
+    "à respirer"
+   ],
+   "answer": 3,
+   "explanation": "Les poumons font entrer l'air dans le corps : ils servent à respirer.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0156",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "De quoi se nourrissent les herbivores ?",
+   "choices": [
+    "de plantes",
+    "de viande",
+    "de poissons",
+    "d'insectes uniquement"
+   ],
+   "answer": 0,
+   "explanation": "Les herbivores mangent des herbes et des plantes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0157",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "De quoi une graine a-t-elle besoin pour germer ?",
+   "choices": [
+    "de sel et de sucre",
+    "d'eau, d'air et de chaleur",
+    "de vent et de neige",
+    "de lait et de pain"
+   ],
+   "answer": 1,
+   "explanation": "Pour germer, une graine a besoin d'eau, d'air et d'une température douce.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0158",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel matériau conduit l'électricité ?",
+   "choices": [
+    "le plastique",
+    "le bois sec",
+    "le cuivre",
+    "le caoutchouc"
+   ],
+   "answer": 2,
+   "explanation": "Les métaux, comme le cuivre, conduisent l'électricité : ce sont des conducteurs.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0159",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Quel matériau est un isolant électrique ?",
+   "choices": [
+    "le fer",
+    "le cuivre",
+    "l'aluminium",
+    "le plastique"
+   ],
+   "answer": 3,
+   "explanation": "Le plastique ne laisse pas passer l'électricité : c'est un isolant.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0160",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on le passage de l'eau liquide à la glace ?",
+   "choices": [
+    "la solidification",
+    "la fusion",
+    "l'évaporation",
+    "la condensation"
+   ],
+   "answer": 0,
+   "explanation": "Quand un liquide devient solide, c'est la solidification.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0161",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 3,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qui produit une ombre ?",
+   "choices": [
+    "un objet transparent",
+    "un objet qui arrête la lumière",
+    "le bruit",
+    "le vent"
+   ],
+   "answer": 1,
+   "explanation": "Un objet opaque bloque la lumière et crée une ombre derrière lui.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0162",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on le passage de l'eau liquide à la vapeur ?",
+   "choices": [
+    "la fusion",
+    "la solidification",
+    "l'évaporation",
+    "la condensation"
+   ],
+   "answer": 2,
+   "explanation": "Quand l'eau chauffe, elle s'évapore : c'est l'évaporation.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0163",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Que devient le sel mélangé à de l'eau ?",
+   "choices": [
+    "Il flotte comme du bois.",
+    "Il se transforme en glace.",
+    "Il reste en gros morceaux.",
+    "Il se dissout."
+   ],
+   "answer": 3,
+   "explanation": "Le sel se dissout : on ne le voit plus, mais il est toujours dans l'eau.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0164",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Comment sépare-t-on de l'eau et du sable mélangés ?",
+   "choices": [
+    "en les filtrant",
+    "en ajoutant du sel",
+    "en les congelant",
+    "en les secouant très fort"
+   ],
+   "answer": 0,
+   "explanation": "Le filtre laisse passer l'eau et retient le sable.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0165",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel organe permet de penser ?",
+   "choices": [
+    "le cœur",
+    "le cerveau",
+    "l'estomac",
+    "le poumon"
+   ],
+   "answer": 1,
+   "explanation": "Le cerveau commande le corps et nous permet de penser.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0166",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Combien de pattes un insecte a-t-il ?",
+   "choices": [
+    "4",
+    "8",
+    "6",
+    "10"
+   ],
+   "answer": 2,
+   "explanation": "Un insecte a six pattes.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0167",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on un animal qui a une colonne vertébrale ?",
+   "choices": [
+    "un invertébré",
+    "un insecte",
+    "un végétal",
+    "un vertébré"
+   ],
+   "answer": 3,
+   "explanation": "Les vertébrés ont un squelette avec une colonne vertébrale.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0168",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qui produit le son ?",
+   "choices": [
+    "une vibration",
+    "une lumière",
+    "une chaleur",
+    "un aimant"
+   ],
+   "answer": 0,
+   "explanation": "Le son naît quand un objet vibre : la corde d'une guitare, par exemple.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0169",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 1,
+   "type": "saisie",
+   "prompt": "Écris dans quel état se trouve l'eau quand elle est dure comme la glace : solide, liquide ou gazeux ?",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "solide",
+    "l'état solide"
+   ],
+   "explanation": "La glace est de l'eau à l'état solide.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0170",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 2,
+   "type": "saisie",
+   "prompt": "Écris le nom de l'organe qui pompe le sang dans le corps.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "cœur",
+    "le cœur",
+    "coeur",
+    "le coeur"
+   ],
+   "explanation": "Le cœur pompe le sang dans tout le corps.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0171",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 3,
+   "type": "saisie",
+   "prompt": "Écris le nom du changement d'état de la glace qui devient de l'eau liquide.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "fusion",
+    "la fusion"
+   ],
+   "explanation": "Quand un solide devient liquide, c'est la fusion.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0172",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Combien de pattes une araignée a-t-elle ? Écris le nombre.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "8",
+    "huit"
+   ],
+   "explanation": "Une araignée a huit pattes. Ce n'est pas un insecte.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0173",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Pour qu'une ampoule s'allume avec une pile, le circuit doit être...",
+   "choices": [
+    "ouvert",
+    "fermé",
+    "coupé",
+    "vide"
+   ],
+   "answer": 1,
+   "explanation": "Le courant circule seulement si le circuit est fermé, sans coupure.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0174",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Laquelle de ces énergies est renouvelable ?",
+   "choices": [
+    "le charbon",
+    "le pétrole",
+    "l'énergie du vent",
+    "le gaz naturel"
+   ],
+   "answer": 2,
+   "explanation": "Le vent revient toujours : c'est une énergie renouvelable.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0175",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "De quoi les feuilles vertes ont-elles besoin pour fabriquer leur nourriture ?",
+   "choices": [
+    "de nuit",
+    "de sel",
+    "de vent fort",
+    "de lumière"
+   ],
+   "answer": 3,
+   "explanation": "Les feuilles utilisent la lumière du soleil pour fabriquer leur nourriture.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0176",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Lequel de ces animaux est un mammifère ?",
+   "choices": [
+    "la baleine",
+    "le requin",
+    "le pingouin",
+    "le crocodile"
+   ],
+   "answer": 0,
+   "explanation": "La baleine allaite ses petits : c'est un mammifère, même si elle vit dans l'eau.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0177",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Que protège le crâne ?",
+   "choices": [
+    "le cœur",
+    "le cerveau",
+    "l'estomac",
+    "les poumons"
+   ],
+   "answer": 1,
+   "explanation": "Le crâne est l'os de la tête : il protège le cerveau.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0178",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Qu'est-ce que le recyclage ?",
+   "choices": [
+    "jeter les déchets dans la nature",
+    "brûler tous les déchets",
+    "réutiliser la matière des déchets pour fabriquer de nouveaux objets",
+    "enterrer les déchets dans le jardin"
+   ],
+   "answer": 2,
+   "explanation": "Recycler, c'est transformer de vieux objets en matière pour en fabriquer de nouveaux.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0179",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien de temps la Terre met-elle pour faire le tour du Soleil ?",
+   "choices": [
+    "un jour",
+    "un mois",
+    "une semaine",
+    "un an"
+   ],
+   "answer": 3,
+   "explanation": "Un tour de la Terre autour du Soleil dure un an.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0180",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle partie de la plante fabrique sa nourriture grâce à la lumière ?",
+   "choices": [
+    "les feuilles",
+    "les racines",
+    "les graines",
+    "les épines"
+   ],
+   "answer": 0,
+   "explanation": "Les feuilles captent la lumière et fabriquent la nourriture de la plante.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0181",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Par quel tuyau l'air passe-t-il pour aller dans les poumons ?",
+   "choices": [
+    "l'œsophage",
+    "la trachée",
+    "l'intestin",
+    "l'artère"
+   ],
+   "answer": 1,
+   "explanation": "La trachée est le tuyau de l'air qui descend vers les poumons.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0182",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Comment s'appellent les tuyaux dans lesquels circule le sang ?",
+   "choices": [
+    "les intestins",
+    "les nerfs",
+    "les vaisseaux sanguins",
+    "les muscles"
+   ],
+   "answer": 2,
+   "explanation": "Le sang circule dans des vaisseaux sanguins : les artères et les veines.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0183",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans la chaîne alimentaire « herbe → lapin → renard », qui est le prédateur ?",
+   "choices": [
+    "le lapin",
+    "l'herbe",
+    "personne",
+    "le renard"
+   ],
+   "answer": 3,
+   "explanation": "Le renard chasse et mange le lapin : c'est le prédateur.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0184",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle énergie vient du Soleil ?",
+   "choices": [
+    "l'énergie solaire",
+    "l'énergie du charbon",
+    "l'énergie du pétrole",
+    "l'énergie du gaz"
+   ],
+   "answer": 0,
+   "explanation": "Les panneaux solaires transforment la lumière du Soleil en électricité.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0185",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quels aliments aident à construire les muscles ?",
+   "choices": [
+    "les bonbons",
+    "la viande, le poisson et les œufs",
+    "les boissons sucrées",
+    "les chips"
+   ],
+   "answer": 1,
+   "explanation": "Ces aliments contiennent des protéines qui aident le corps à construire ses muscles.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0186",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Comment se déplace la lumière ?",
+   "choices": [
+    "en zigzag",
+    "en cercle",
+    "en ligne droite",
+    "en spirale"
+   ],
+   "answer": 2,
+   "explanation": "La lumière se déplace toujours en ligne droite : c'est pour cela qu'on a des ombres.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0187",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Que fait le Soleil dans le cycle de l'eau ?",
+   "choices": [
+    "Il gèle l'eau des mers.",
+    "Il fait tomber la pluie.",
+    "Il rend l'eau salée.",
+    "Il chauffe l'eau, qui s'évapore."
+   ],
+   "answer": 3,
+   "explanation": "La chaleur du Soleil transforme l'eau en vapeur : c'est le début du cycle.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0188",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Que forme la vapeur d'eau qui monte et qui refroidit ?",
+   "choices": [
+    "des nuages",
+    "des rochers",
+    "des montagnes",
+    "du sable"
+   ],
+   "answer": 0,
+   "explanation": "En refroidissant, la vapeur forme de petites gouttes : ce sont les nuages.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0189",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "De quoi sont faits les nuages ?",
+   "choices": [
+    "de fumée",
+    "de minuscules gouttes d'eau ou de glace",
+    "de coton",
+    "de sable"
+   ],
+   "answer": 1,
+   "explanation": "Un nuage contient une multitude de gouttelettes d'eau ou de cristaux de glace.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0190",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Où commence la digestion ?",
+   "choices": [
+    "dans l'estomac",
+    "dans l'intestin",
+    "dans la bouche",
+    "dans le nez"
+   ],
+   "answer": 2,
+   "explanation": "On mâche dans la bouche : la digestion commence déjà là.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0191",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Quel gaz les plantes absorbent-elles pour fabriquer leur nourriture ?",
+   "choices": [
+    "l'oxygène",
+    "l'azote",
+    "l'hydrogène",
+    "le gaz carbonique"
+   ],
+   "answer": 3,
+   "explanation": "Les plantes utilisent le gaz carbonique de l'air et rejettent de l'oxygène.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0192",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Lequel de ces animaux est un invertébré ?",
+   "choices": [
+    "l'escargot",
+    "le lézard",
+    "la souris",
+    "la truite"
+   ],
+   "answer": 0,
+   "explanation": "L'escargot n'a pas de colonne vertébrale : c'est un invertébré.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0193",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 7,
+   "type": "qcm",
+   "prompt": "Lequel de ces objets est un isolant électrique ?",
+   "choices": [
+    "un clou en fer",
+    "un bâton en plastique",
+    "une pièce en cuivre",
+    "du papier d'aluminium"
+   ],
+   "answer": 1,
+   "explanation": "Le plastique ne laisse pas passer l'électricité.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0194",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "La Terre tourne sur elle-même en environ combien d'heures ? Écris le nombre.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "24",
+    "24 heures",
+    "vingt-quatre"
+   ],
+   "explanation": "La Terre fait un tour sur elle-même en environ 24 heures : c'est un jour.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0195",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Écris le nom du changement d'état de la vapeur d'eau qui redevient de l'eau liquide.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "condensation",
+    "la condensation"
+   ],
+   "explanation": "Quand la vapeur refroidit et devient liquide, c'est la condensation.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0196",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 7,
+   "type": "saisie",
+   "prompt": "Écris le nom du gaz de l'air que nous respirons pour vivre.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "oxygène",
+    "l'oxygène",
+    "oxygene",
+    "dioxygène"
+   ],
+   "explanation": "Notre corps a besoin d'oxygène pour vivre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0197",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Que contient la terre du jardin ?",
+   "choices": [
+    "uniquement du sable",
+    "des petits morceaux de roche et des restes de plantes et d'animaux",
+    "uniquement de l'eau",
+    "de petits morceaux de plastique"
+   ],
+   "answer": 1,
+   "explanation": "Le sol est un mélange de roches très fines, de restes de plantes et d'animaux (humus), d'eau et d'air.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0198",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "À quoi servent les vers de terre dans le sol ?",
+   "choices": [
+    "Ils mangent les racines des arbres.",
+    "Ils font fondre la terre.",
+    "Ils aèrent la terre et l'enrichissent.",
+    "Ils font de la lumière."
+   ],
+   "answer": 2,
+   "explanation": "En creusant des galeries, les vers de terre aèrent le sol et le rendent plus riche.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0199",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "À quoi servent les fleurs d'une plante ?",
+   "choices": [
+    "à fabriquer du sel",
+    "à retenir l'eau",
+    "à faire de l'ombre",
+    "à fabriquer des graines et des fruits"
+   ],
+   "answer": 3,
+   "explanation": "Les fleurs permettent à la plante de se reproduire en donnant des fruits et des graines.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0200",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Combien de temps la Lune met-elle pour faire le tour de la Terre ?",
+   "choices": [
+    "environ un mois",
+    "un jour",
+    "une semaine",
+    "un an"
+   ],
+   "answer": 0,
+   "explanation": "La Lune tourne autour de la Terre en environ un mois.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0201",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qui provoque le jour et la nuit ?",
+   "choices": [
+    "la Lune qui cache le Soleil",
+    "la Terre qui tourne sur elle-même",
+    "les nuages",
+    "le Soleil qui tourne autour de la Terre"
+   ],
+   "answer": 1,
+   "explanation": "En tournant sur elle-même, la Terre présente tour à tour chaque face au Soleil.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0202",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qui provoque les saisons ?",
+   "choices": [
+    "la Terre qui se rapproche et s'éloigne beaucoup du Soleil",
+    "la Lune qui change de forme",
+    "la Terre qui tourne autour du Soleil avec son axe incliné",
+    "les nuages"
+   ],
+   "answer": 2,
+   "explanation": "C'est l'inclinaison de la Terre pendant son tour autour du Soleil qui crée les saisons.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0203",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 8,
+   "type": "qcm",
+   "prompt": "Qu'est-ce que le tri sélectif ?",
+   "choices": [
+    "jeter tous les déchets ensemble",
+    "brûler les déchets",
+    "enterrer les déchets",
+    "séparer les déchets selon leur matière"
+   ],
+   "answer": 3,
+   "explanation": "On trie le papier, le verre, les plastiques... pour pouvoir les recycler.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0204",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel est le trajet des aliments dans le corps ?",
+   "choices": [
+    "bouche, œsophage, estomac, intestin",
+    "estomac, bouche, intestin, œsophage",
+    "bouche, estomac, œsophage, intestin",
+    "intestin, estomac, œsophage, bouche"
+   ],
+   "answer": 0,
+   "explanation": "Les aliments entrent par la bouche, descendent par l'œsophage, passent dans l'estomac puis dans l'intestin.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0205",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Où le sang se charge-t-il en oxygène ?",
+   "choices": [
+    "dans l'estomac",
+    "dans les poumons",
+    "dans les reins",
+    "dans le cerveau"
+   ],
+   "answer": 1,
+   "explanation": "L'air arrive dans les poumons, où le sang prend l'oxygène.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0206",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "À quoi sert le squelette ?",
+   "choices": [
+    "à digérer les aliments",
+    "à fabriquer du sang",
+    "à soutenir le corps et à protéger certains organes",
+    "à voir dans le noir"
+   ],
+   "answer": 2,
+   "explanation": "Les os tiennent le corps debout et protègent le cœur, le cerveau...",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0207",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Par quoi commence toujours une chaîne alimentaire ?",
+   "choices": [
+    "un carnivore",
+    "un champignon",
+    "un humain",
+    "un végétal"
+   ],
+   "answer": 3,
+   "explanation": "Les plantes fabriquent leur nourriture : elles sont le début des chaînes alimentaires.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0208",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel est le rôle du Soleil pour la Terre ?",
+   "choices": [
+    "Il donne de la lumière et de la chaleur.",
+    "Il donne de l'eau.",
+    "Il fabrique les nuages seuls.",
+    "Il fait tourner la Lune."
+   ],
+   "answer": 0,
+   "explanation": "Sans le Soleil, il ferait sombre et très froid sur la Terre.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0209",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Quel mélange est homogène (on ne voit pas ses différents ingrédients) ?",
+   "choices": [
+    "de l'eau et de l'huile",
+    "de l'eau salée",
+    "de l'eau et du sable",
+    "une salade composée"
+   ],
+   "answer": 1,
+   "explanation": "Le sel se dissout dans l'eau : on ne le voit plus, c'est un mélange homogène.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0210",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 9,
+   "type": "qcm",
+   "prompt": "Pourquoi un grand bateau en métal flotte-t-il ?",
+   "choices": [
+    "car le métal est plus léger que l'eau",
+    "car l'eau le tire vers le haut grâce au vent",
+    "car il est creux et contient beaucoup d'air",
+    "car il avance toujours très vite"
+   ],
+   "answer": 2,
+   "explanation": "Le bateau, avec son air à l'intérieur, est globalement plus léger que l'eau qu'il pousse.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0211",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on l'énergie produite par l'eau qui tombe dans un barrage ?",
+   "choices": [
+    "l'énergie solaire",
+    "l'énergie du vent",
+    "l'énergie du gaz",
+    "l'énergie hydraulique"
+   ],
+   "answer": 3,
+   "explanation": "L'eau qui tombe fait tourner des turbines et produit de l'électricité.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0212",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qu'une énergie non renouvelable ?",
+   "choices": [
+    "une énergie qui existe en quantité limitée, comme le pétrole",
+    "une énergie qui revient toujours, comme le vent",
+    "une énergie qui vient du Soleil",
+    "une énergie sans danger"
+   ],
+   "answer": 0,
+   "explanation": "Le pétrole met des millions d'années à se former : il finira par manquer.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0213",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Pourquoi l'ours polaire a-t-il une épaisse fourrure et de la graisse ?",
+   "choices": [
+    "pour se cacher dans la neige",
+    "pour se protéger du froid",
+    "pour mieux courir",
+    "pour nager plus vite"
+   ],
+   "answer": 1,
+   "explanation": "Cette fourrure et cette graisse l'isolent du froid de l'Arctique.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0214",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Qu'est-ce qu'un prédateur ?",
+   "choices": [
+    "un animal qui mange uniquement des plantes",
+    "un animal qui dort tout l'hiver",
+    "un animal qui chasse d'autres animaux pour se nourrir",
+    "un animal qui vit dans l'eau"
+   ],
+   "answer": 2,
+   "explanation": "Le prédateur chasse ses proies, comme le renard chasse le lapin.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0215",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Comment appelle-t-on le changement d'une chenille en papillon ?",
+   "choices": [
+    "la fusion",
+    "la digestion",
+    "la germination",
+    "la métamorphose"
+   ],
+   "answer": 3,
+   "explanation": "La chenille devient chrysalide puis papillon : c'est une métamorphose.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0216",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Quelle partie de l'œil laisse entrer la lumière ?",
+   "choices": [
+    "la pupille",
+    "l'oreille",
+    "la paupière",
+    "la narine"
+   ],
+   "answer": 0,
+   "explanation": "La pupille est le petit trou noir au centre de l'œil, par où passe la lumière.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0217",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 10,
+   "type": "qcm",
+   "prompt": "Pourquoi voit-on la Lune briller ?",
+   "choices": [
+    "Elle produit sa propre lumière.",
+    "Elle renvoie la lumière du Soleil.",
+    "Elle brille grâce aux étoiles.",
+    "Elle est chauffée par la Terre."
+   ],
+   "answer": 1,
+   "explanation": "La Lune ne produit pas de lumière : elle réfléchit celle du Soleil.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0218",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 8,
+   "type": "saisie",
+   "prompt": "Écris le nom de l'étape où une graine commence à pousser.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "germination",
+    "la germination"
+   ],
+   "explanation": "Quand la graine se réveille et sort sa première racine, c'est la germination.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0219",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 9,
+   "type": "saisie",
+   "prompt": "Écris dans quel état se trouve l'air : solide, liquide ou gazeux ?",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "gazeux",
+    "gaz",
+    "l'état gazeux",
+    "état gazeux"
+   ],
+   "explanation": "L'air est un mélange de gaz.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  },
+  {
+   "id": "a-ev-0220",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 10,
+   "type": "saisie",
+   "prompt": "Écris le nom de la transformation des déchets de cuisine et de jardin en terreau.",
+   "choices": [],
+   "answer": 0,
+   "accepted": [
+    "compostage",
+    "le compostage"
+   ],
+   "explanation": "Dans un composteur, les déchets se transforment en terreau : c'est le compostage.",
+   "hint": "",
+   "passage": null,
+   "source": "redige"
+  }
+ ],
+ "passages": [],
+ "openTasks": []
+}
