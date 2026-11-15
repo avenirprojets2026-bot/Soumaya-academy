@@ -35,7 +35,8 @@ import * as XB from './examblanc.js';
 import * as LBOS from './leesbos.js';
 import * as TH from './theatre.js';
 import * as NU from './numerique.js';
-import * as VI from './vivant.js';
+import * as VI from './vivant.js'
+import * as LV from './livre.js';
 import * as DA from './donnees.js';
 import * as Papa from './papa.js';
 import * as CO from './corps.js';
@@ -273,6 +274,7 @@ function openPanel(p) {
   else if (p === 'probleme') DC.open('probleme');
   else if (p.startsWith('theatre-')) TH.open(p.slice(8));
   else if (p.startsWith('num-')) NU.open(p.slice(4));
+  else if (p === 'livre') LV.open();
   else if (p.startsWith('vivant-')) VI.open(p.slice(7));
   else if (p.startsWith('donnees-')) DA.open(p.slice(8));
   else if (p.startsWith('corps-')) CO.open(p.slice(6));

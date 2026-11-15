@@ -35,6 +35,7 @@ export const BADGES = [
   { id: 'bouclier', icon: '🛡️', name: 'Gardienne du numérique', desc: 'Réussis les 4 missions du Bouclier numérique.', test: () => !!(S.get().bouclier && S.get().bouclier.badge) },
   { id: 'poetesse', icon: '🪶', name: 'Petite poétesse', desc: 'Réussis les 4 ateliers du Kiosque à poèmes.', test: () => !!(S.get().poemes && S.get().poemes.badge) },
   { id: 'ia', icon: '🤖', name: 'Petite exploratrice de l’IA', desc: 'Termine « La Machine des Idées ».', test: () => !!(S.get().ia && S.get().ia.done) },
+  { id: 'livre-monde', icon: '📖', name: 'Lectrice du Livre-Monde', desc: 'Trouve les 3 pages du Livre-Monde : l’eau vue du ciel, l’information vérifiée, les mangroves.', test: () => !!(S.get().livre && S.get().livre.badge) },
   { id: 'all', icon: '🏆', name: 'Légende de l’Académie', desc: 'Réussis le niveau 10 dans les trois matières.', test: () => ['francais', 'maths', 'eveil'].every((k) => (S.get().subjects[k].stars[10] || 0) > 0) },
 ];
 
