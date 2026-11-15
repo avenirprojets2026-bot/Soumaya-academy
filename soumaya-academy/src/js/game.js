@@ -239,6 +239,7 @@ function openPanel(p) {
   else if (p === 'exams') examHub();
   else if (p === 'explorations') explorations();
   else if (p === 'doc2025') doc2025();
+  else if (p === 'doc2026') doc2026();
   else if (p === 'belgique') BE.open();
   else if (p === 'solaire') SOL.open();
   else if (p === 'boulier') ABQ.open();
@@ -513,7 +514,8 @@ function openWorld(e) {
       h('div', { class: 'actions wrap' }, h('button', { class: 'btn small', type: 'button', onclick: () => exploChallenge(e, st) }, 'Jouer')))))), { label: e.title });
 }
 
-function practice2025(key, title, ps) {
+function practice2025(key, title, ps, yr = '2025') {
+  const F = 'exam' + yr, reopen = yr === '2026' ? doc2026 : doc2025;
   let mission;
   if (ps) {
     const seen = S.get().seen; const groups = ps.map((p) => ({ p, qs: C.db().questions.filter((q) => q.passage === p.id) })).filter((g) => g.qs.length);
@@ -521,7 +523,7 @@ function practice2025(key, title, ps) {
     const g = C.shuffle(groups).sort((a, b) => a.qs.filter((q) => seen[q.id]).length - b.qs.filter((q) => seen[q.id]).length)[0];
     mission = { kind: 'quiz', subject: g.p.subject, level: g.p.level, passage: g.p, questions: g.qs.map(C.prepare) };
   } else {
-    const qs = C.shuffle(C.db().questions.filter((q) => q.exam2025 === key && !q.passage)).slice(0, 10);
+    const qs = C.shuffle(C.db().questions.filter((q) => q[F] === key && !q.passage)).slice(0, 10);
     mission = { kind: 'quiz', subject: qs[0].subject, level: qs[0].level, questions: qs.map(C.prepare) };
   }
   UI.closeDialog();
@@ -529,21 +531,21 @@ function practice2025(key, title, ps) {
     title: '📄 ' + title,
     onQuit: () => {},
     onDone: ({ correct, total }) => {
-      const b = S.get().i25 || (S.get().i25 = {}); const sc = `${correct}/${total}`;
+      const bk = yr === '2026' ? 'i26' : 'i25'; const b = S.get()[bk] || (S.get()[bk] = {}); const sc = `${correct}/${total}`;
       if (!b[key] || correct / total >= +b[key].split('/')[0] / +b[key].split('/')[1]) b[key] = sc;
       S.get().coins += correct * 2; S.save(); decorate();
       if (correct / Math.max(1, total) >= 0.6) { Sfx.win(); Voice.say('bravo', { delay: 500 }); } else Voice.say('courage', { delay: 500 });
-      UI.toast(`${sc} · +${correct * 2} 🪙`); setTimeout(doc2025, 400);
+      UI.toast(`${sc} · +${correct * 2} 🪙`); setTimeout(reopen, 400);
     },
   });
 }
-function openTask2025(tasks) {
+function openTask2025(tasks, yr = '2025') {
   const t = tasks[Math.floor(Math.random() * tasks.length)];
   const ta = h('textarea', { class: 'field area', rows: 6, maxlength: 3000, placeholder: 'Écris ici…', 'aria-label': 'Ta production', 'data-autofocus': true });
-  UI.openDialog(h('div', { class: 'panel' }, UI.closeButton(), h('h2', null, '🪶 Atelier · examens 2025'), h('p', { class: 'prompt' }, t.prompt), ta,
+  UI.openDialog(h('div', { class: 'panel' }, UI.closeButton(), h('h2', null, '🪶 Atelier · examens ' + yr), h('p', { class: 'prompt' }, t.prompt), ta,
     h('h3', null, 'Ma grille de relecture'), ...(t.rubric || []).map((r) => h('label', { class: 'check' }, h('input', { type: 'checkbox' }), r)),
     h('p', { class: 'muted' }, 'Ces productions ne sont pas corrigées par l’ordinateur : relis-les avec un adulte.'),
-    h('div', { class: 'actions' }, h('button', { class: 'btn primary', type: 'button', onclick: () => { UI.closeDialog(); UI.toast('Atelier terminé !'); setTimeout(doc2025, 300); } }, 'J’ai terminé'))), { label: 'Atelier' });
+    h('div', { class: 'actions' }, h('button', { class: 'btn primary', type: 'button', onclick: () => { UI.closeDialog(); UI.toast('Atelier terminé !'); setTimeout(yr === '2026' ? doc2026 : doc2025, 300); } }, 'J’ai terminé'))), { label: 'Atelier' });
 }
 const DOCS2025 = [
   ['doc01_formation_historique', 'Document 1 · Formation historique'],
@@ -560,6 +562,44 @@ const DOCS2025 = [
   ['fmttn', 'Formation manuelle, technique, technologique et numérique'],
   ['religion', 'Religion'],
 ];
+
+const DOCS2026 = [
+  ['doc01', 'lire_dechets', 'Document 1 · Lire'], ['doc02', 'arithmetique_algebre', 'Document 2 · De l’arithmétique à l’algèbre'],
+  ['doc03', 'fmtt', 'Document 3 · Formation manuelle et technique'], ['doc04', 'ecouter', 'Document 4 · Écouter'],
+  ['doc05', 'geometrie', 'Document 5 · Des objets de l’espace à la géométrie'], ['doc06', 'formation_historique', 'Document 6 · Formation historique'],
+  ['doc07', 'ecrire', 'Document 7 · Écrire'], ['doc08', 'formation_geographique', 'Document 8 · Formation géographique'],
+  ['doc09', 'parler', 'Document 9 · Parler'], ['doc10', 'statistique', 'Document 10 · De l’organisation des données à la statistique'],
+  ['doc11', 'sciences', 'Document 11 · Sciences'], ['doc12', 'grandeurs', 'Document 12 · Des grandeurs à la relation entre variables'],
+  ['doc13', 'sciences_dis', 'Document 13 · Sciences (démarche d’investigation)'], ['doc14', 'fes', 'Document 14 · Formation économique et sociale'],
+  ['doc15', 'epc', 'Document 15 · Éducation à la philosophie et à la citoyenneté'], ['doc16', 'eca', 'Document 16 · Éducation culturelle et artistique'],
+  ['doc17', 'religion', 'Document 17 · Religion'],
+];
+// Juin 2026 : les épreuves les plus récentes, proposées en premier
+function doc2026() {
+  const single = typeof window !== 'undefined' && window.__ASSETS;
+  const online = 'https://avenirprojets2026-bot.github.io/Soumaya-academy/sa-4fw5xaxekogy/';
+  const url = (id, k) => (single ? online : '') + `assets/docs/p4_2026_${id}_${k}.pdf`;
+  const link = (id, k, t) => h('a', { class: 'doc-link', href: url(id, k), target: '_blank', rel: 'noopener' }, h('span', { 'aria-hidden': 'true' }, '📄'), h('span', null, t));
+  const best = S.get().i26 || {};
+  const row = ([id, k, t]) => {
+    const qs = C.db().questions.filter((q) => q.exam2026 === id && !q.passage);
+    const ps = C.db().passages.filter((p) => p.exam2026 === id);
+    const tasks = C.db().openTasks.filter((o) => o.exam2026 === id);
+    return h('div', { class: 'doc-row' }, h('div', { class: 'sname' }, t.replace(/^Document \d+ · /, '')),
+      h('div', { class: 'actions wrap' },
+        qs.length ? h('button', { class: 'btn small', type: 'button', 'data-testid': 'i26-' + id, onclick: () => practice2025(id, t.replace(/^Document \d+ · /, ''), null, '2026') }, `🏆 Je relève le défi (${qs.length})${best[id] ? ' · ✓ ' + best[id] : ''}`) : null,
+        ps.length ? h('button', { class: 'btn small', type: 'button', onclick: () => practice2025(id, t, ps, '2026') }, ps[0].domain === 'ecoute' ? '🎧 Écouter un texte' : '📖 Lire un texte') : null,
+        tasks.length ? h('button', { class: 'btn small', type: 'button', onclick: () => { UI.closeDialog(); openTask2025(tasks, '2026'); } }, '🪶 Écrire / dire') : null));
+  };
+  UI.openDialog(h('div', { class: 'panel gb-panel' }, UI.closeButton(), h('h2', null, '📘 Les Défis des Grands Explorateurs · Juin 2026'),
+    h('p', { class: 'gb-intro' }, 'Les épreuves les plus récentes, sur le thème des déchets, de l’eau et de la lecture. Pas de chronomètre, pas de note : relève les défis à ton rythme !'),
+    h('div', { class: 'doc-list' }, ...DOCS2026.map(row)),
+    h('div', { class: 'actions' }, h('button', { class: 'btn', type: 'button', 'data-testid': 'gb-2025', onclick: () => { UI.closeDialog(); setTimeout(doc2025, 80); } }, '📅 Juin 2025'), h('button', { class: 'btn', type: 'button', onclick: () => { UI.closeDialog(); setTimeout(() => IDIO.open(), 80); } }, '📅 2022 et 2024')),
+    h('details', { class: 'ac-src gb-papa' }, h('summary', null, '📚 Pour Papa : les documents officiels'),
+      h('p', { class: 'muted' }, 'Évaluations interdiocésaines P4 · juin 2026 — les 17 documents officiels, joints tels quels (à ouvrir ou imprimer). Les exercices du jeu sont des questions originales sur les mêmes compétences.'),
+      h('div', { class: 'doc-list' }, ...DOCS2026.map(([id, k, t]) => link(id, k, t))),
+      single ? h('p', { class: 'muted' }, 'Dans le fichier unique, les PDF s’ouvrent depuis la version en ligne (connexion Internet nécessaire).') : null)), { label: 'Les Défis des Grands Explorateurs · Juin 2026' });
+}
 function doc2025() {
   const single = typeof window !== 'undefined' && window.__ASSETS;
   const online = 'https://avenirprojets2026-bot.github.io/Soumaya-academy/sa-4fw5xaxekogy/';
@@ -596,7 +636,7 @@ function doc2025() {
   UI.openDialog(h('div', { class: 'panel gb-panel' }, UI.closeButton(), h('h2', null, '📘 Les Défis des Grands Explorateurs'),
     h('p', { class: 'gb-intro' }, 'Une collection secrète d’anciens défis, cachée dans les Archives du Temps. Choisis un chapitre et relève les défis à ton rythme : pas de chronomètre, pas de note !'),
     pageEl, nav,
-    h('div', { class: 'actions' }, h('button', { class: 'btn', type: 'button', 'data-testid': 'gb-autres', onclick: () => { UI.closeDialog(); setTimeout(() => IDIO.open(), 80); } }, '📅 Autres années : 2022 et 2024')),
+    h('div', { class: 'actions' }, h('button', { class: 'btn primary', type: 'button', 'data-testid': 'gb-2026', onclick: () => { UI.closeDialog(); setTimeout(doc2026, 80); } }, '🆕 Juin 2026 (les plus récents)'), h('button', { class: 'btn', type: 'button', 'data-testid': 'gb-autres', onclick: () => { UI.closeDialog(); setTimeout(() => IDIO.open(), 80); } }, '📅 Autres années : 2022 et 2024')),
     h('details', { class: 'ac-src gb-papa' }, h('summary', null, '📚 Pour Papa : les documents officiels'),
       h('p', { class: 'muted' }, 'Évaluations interdiocésaines P4 · juin 2025 — les 13 documents officiels, joints tels quels (à ouvrir ou imprimer).'),
       h('div', { class: 'doc-list' }, ...DOCS2025.map(([k, t]) => link(k, t))),

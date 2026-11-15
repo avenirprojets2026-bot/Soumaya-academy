@@ -14,6 +14,7 @@ const fixMimi = (t) => (typeof t === 'string' ? MIMI.reduce((a, [r, b]) => a.rep
 const srcs = [['harvest.json', 'v162'], ['generated-maths.json', 'gen'], ['authored/authored-francais.json', 'auth'], ['authored/authored-eveil.json', 'auth']];
 // exercices inspirés des évaluations interdiocésaines de juin 2025
 for (const f of (fs.existsSync(path.join(C, 'i2025')) ? fs.readdirSync(path.join(C, 'i2025')) : []).filter((x) => x.endsWith('.json')).sort()) srcs.push(['i2025/' + f, 'i25']);
+for (const f of (fs.existsSync(path.join(C, 'i2026')) ? fs.readdirSync(path.join(C, 'i2026')) : []).filter((x) => x.endsWith('.json')).sort()) srcs.push(['i2026/' + f, 'i26']);
 const norm = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 const out = { questions: [], passages: [], openTasks: [], explorations: [], stories: [], exams: [] };
 const seen = new Set(); const report = { dropped: [], used: {} };

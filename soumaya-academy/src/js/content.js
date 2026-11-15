@@ -58,7 +58,7 @@ export function buildMission(subject, level, opts = {}) {
   const { domains, size = MISSION_SIZE } = opts;
   const filter = domains ? (q) => domains.includes(q.domain) : null;
   const st = S.get().seen;
-  const score = (q) => (st[q.id] ? st[q.id].ok * 2 - st[q.id].ko : -1) + rnd() * 0.9; // nouvelles & ratées d'abord
+  const score = (q) => (st[q.id] ? st[q.id].ok * 2 - st[q.id].ko : -1) + rnd() * 0.9 - (q.exam2026 ? 2.5 : 0); // nouvelles & ratées d'abord
   let cands = [];
   for (const d of [0, -1, 1, -2, 2, -3, 3]) {
     const l = level + d;
@@ -91,14 +91,14 @@ export function buildPassageMission(level, opts = {}) {
   const { domain, subject = 'francais' } = opts;
   const groups = new Map();
   for (const q of DB.questions) {
-    if (!q.passage || q.flag || q.exam2025) continue;
+    if (!q.passage || q.flag || q.exam2025) continue; // (les textes 2026 restent proposés, en priorité)
     const p = passageById.get(q.passage);
     if (!p || (domain && p.domain !== domain) || (subject && p.subject && p.subject !== subject)) continue;
     if (!groups.has(p.id)) groups.set(p.id, { p, qs: [] });
     groups.get(p.id).qs.push(q);
   }
   const list = [...groups.values()].filter((g) => g.qs.length >= 2)
-    .sort((a, b) => Math.abs(a.p.level - level) - Math.abs(b.p.level - level) + (rnd() - 0.5));
+    .sort((a, b) => Math.abs(a.p.level - level) - (a.p.exam2026 ? 3 : 0) - Math.abs(b.p.level - level) + (b.p.exam2026 ? 3 : 0) + (rnd() - 0.5));
   if (!list.length) return null;
   const st = S.get().seen;
   const fresh = list.filter((g) => !g.qs.every((q) => st[q.id]));

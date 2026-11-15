@@ -1,0 +1,3664 @@
+{
+ "questions": [
+  {
+   "id": "i26-doc01-01",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Selon le texte, que devient un pot de confiture vide qu’on réutilise ?",
+   "choices": [
+    "Un chiffon",
+    "Une boîte à crayons",
+    "Du terreau",
+    "Un déchet résiduel"
+   ],
+   "answer": 1,
+   "explanation": "Le texte dit qu’un pot de confiture vide devient une boîte à crayons.",
+   "hint": "Relis la deuxième règle.",
+   "passage": "i26-p-doc01-a",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-02",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Que deviennent les déchets résiduels ?",
+   "choices": [
+    "Ils sont recyclés en jouets",
+    "Ils sont brûlés dans une usine",
+    "Ils servent de terreau",
+    "Ils sont envoyés dans la mer"
+   ],
+   "answer": 1,
+   "explanation": "La troisième règle précise que les déchets résiduels sont brûlés dans une usine spéciale.",
+   "hint": "Cherche le mot « résiduels » dans le texte.",
+   "passage": "i26-p-doc01-a",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-03",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Combien de règles le texte présente-t-il ?",
+   "choices": [
+    "Trois",
+    "Quatre",
+    "Cinq",
+    "Six"
+   ],
+   "answer": 2,
+   "explanation": "Le texte annonce cinq règles : refuser, réutiliser, trier, composter et réparer.",
+   "hint": "Compte les « règle ».",
+   "passage": "i26-p-doc01-a",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-04",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle est l’intention dominante de ce texte ?",
+   "choices": [
+    "Informer et donner des conseils",
+    "Raconter une histoire drôle",
+    "Faire rire le lecteur",
+    "Décrire un paysage"
+   ],
+   "answer": 0,
+   "explanation": "Le texte donne des informations et des conseils pour produire moins de déchets : il informe et il conseille.",
+   "hint": "Que veut faire l’auteur : raconter, décrire ou conseiller ?",
+   "passage": "i26-p-doc01-a",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-05",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel titre conviendrait le mieux à ce texte ?",
+   "choices": [
+    "Le voyage d’une bouteille",
+    "La recette du gâteau au chocolat",
+    "Cinq règles pour réduire ses déchets",
+    "Les animaux de la forêt"
+   ],
+   "answer": 2,
+   "explanation": "Le texte explique comment produire moins de déchets avec cinq règles.",
+   "hint": "Un bon titre résume tout le texte.",
+   "passage": "i26-p-doc01-a",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-06",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans quelle poubelle jette-t-on les épluchures de légumes ?",
+   "choices": [
+    "Avec les PMC",
+    "Avec le carton",
+    "Au compost",
+    "Avec le verre"
+   ],
+   "answer": 2,
+   "explanation": "Les épluchures sont des déchets organiques : elles vont au compost.",
+   "hint": "Quelle règle parle des épluchures ?",
+   "passage": "i26-p-doc01-a",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-07",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Qui est le narrateur du texte « Le chêne de Papi » ?",
+   "choices": [
+    "Zélie",
+    "Papi",
+    "Un voisin",
+    "Le petit-fils de Papi"
+   ],
+   "answer": 3,
+   "explanation": "Le narrateur dit « je » et il explique que le chêne est son arbre, planté par Papi le jour de sa naissance : c’est le petit-fils.",
+   "hint": "Qui dit « je » dans l’histoire ?",
+   "passage": "i26-p-doc01-b",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-08",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans « Tu sais que le chêne va être coupé ? Ça m’a bouleversée. », que remplace le mot « Ça » ?",
+   "choices": [
+    "Le grand-père",
+    "La grille de l’école",
+    "Le fait que le chêne va être coupé",
+    "Zélie"
+   ],
+   "answer": 2,
+   "explanation": "« Ça » est un substitut : il reprend l’information « le chêne va être coupé ».",
+   "hint": "Remplace « Ça » par ce qu’il reprend.",
+   "passage": "i26-p-doc01-b",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-09",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Que signifie « le cœur battant » dans le texte ?",
+   "choices": [
+    "Il est malade",
+    "Il fait du sport",
+    "Il a très faim",
+    "Il est très ému et inquiet"
+   ],
+   "answer": 3,
+   "explanation": "Quand le cœur bat fort, c’est qu’on ressent une forte émotion, ici de l’inquiétude.",
+   "hint": "Pense à ce que ressent le narrateur.",
+   "passage": "i26-p-doc01-b",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-10",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Mets les actions dans l’ordre : 1) les voisins décident de sauver le chêne, 2) Zélie annonce la nouvelle, 3) les enfants écrivent une pétition.",
+   "choices": [
+    "2, 3, 1",
+    "1, 2, 3",
+    "3, 2, 1",
+    "2, 1, 3"
+   ],
+   "answer": 0,
+   "explanation": "D’abord Zélie annonce la nouvelle, puis les enfants écrivent une pétition, enfin les voisins décident de sauver l’arbre.",
+   "hint": "Cherche ce qui arrive en premier dans le texte.",
+   "passage": "i26-p-doc01-b",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-11",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Pourquoi le narrateur court-il jusqu’à la maison ?",
+   "choices": [
+    "Il a peur du chien",
+    "Il est en retard pour la classe",
+    "Il veut voir son chêne tout de suite",
+    "Il veut jouer au ballon"
+   ],
+   "answer": 2,
+   "explanation": "Il apprend que son arbre va être coupé et il court vers lui, bouleversé.",
+   "hint": "Que vient-il d’apprendre ?",
+   "passage": "i26-p-doc01-b",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-12",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle hypothèse explique le mieux pourquoi Zélie veut aider le narrateur ?",
+   "choices": [
+    "Elle veut devenir bûcheronne",
+    "Elle est son amie et elle aime les arbres",
+    "Elle déteste le chêne",
+    "Elle veut qu’on la remarque"
+   ],
+   "answer": 1,
+   "explanation": "Une hypothèse d’interprétation est une explication possible : Zélie le suit, lui offre son aide et lui fait un clin d’œil, ce qui montre son amitié.",
+   "hint": "Que fait Zélie pour lui ?",
+   "passage": "i26-p-doc01-b",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-13",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Une hypothèse de lecture, c’est…",
+   "choices": [
+    "Un résumé de l’histoire",
+    "Une explication possible sur un événement de l’histoire",
+    "Mon avis sur l’histoire",
+    "Le titre de l’histoire"
+   ],
+   "answer": 1,
+   "explanation": "Formuler une hypothèse, c’est donner une explication possible, que le texte ne dit pas toujours en toutes lettres.",
+   "hint": "Hypothèse = « peut-être que… ».",
+   "passage": "i26-p-doc01-b",
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-14",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle est la classe du mot « noire » dans « l’huile noire » ?",
+   "choices": [
+    "Adjectif",
+    "Nom",
+    "Verbe",
+    "Déterminant"
+   ],
+   "answer": 0,
+   "explanation": "« noire » donne une information sur le nom « huile » : c’est un adjectif.",
+   "hint": "Quel nom précise-t-il ?",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-15",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle est la classe du mot « l’ » dans « l’huile » ?",
+   "choices": [
+    "Déterminant",
+    "Adjectif",
+    "Verbe",
+    "Pronom"
+   ],
+   "answer": 0,
+   "explanation": "« l’ » est mis devant le nom « huile » : c’est un déterminant (l’ = la).",
+   "hint": "Il remplace « la ».",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc01-16",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Comment s’appelle le fait de partager une voiture pour aller au même endroit ?",
+   "choices": [
+    "Le covoiturage",
+    "Le compostage",
+    "Le recyclage",
+    "La location"
+   ],
+   "answer": 0,
+   "explanation": "Le covoiturage, c’est partager une voiture avec d’autres personnes qui vont au même endroit.",
+   "hint": "« co- » veut dire « avec ».",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-doc02-01",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Complète : 6 est un nombre ___ . C’est un ___ de 18.",
+   "choices": [
+    "impair, diviseur",
+    "pair, multiple",
+    "pair, diviseur",
+    "impair, multiple"
+   ],
+   "answer": 2,
+   "explanation": "6 se termine par 6 : il est pair. Comme 18 = 6 × 3, 6 est un diviseur de 18 (18 est un multiple de 6).",
+   "hint": "Divise 18 par 6.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-02",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "5 unités 3 dixièmes 4 millièmes s’écrit…",
+   "choices": [
+    "5,34",
+    "5,304",
+    "53,04",
+    "5,034"
+   ],
+   "answer": 1,
+   "explanation": "5 unités, 3 dixièmes (0,3) et 4 millièmes (0,004) donnent 5,304. Il n’y a pas de centièmes : on écrit un 0.",
+   "hint": "Place les chiffres dans le tableau de numération.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-03",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le zéro inutile dans l’écriture 304,50 ?",
+   "choices": [
+    "Le 0 des dizaines",
+    "Le 0 après la virgule devant le 5",
+    "Aucun",
+    "Le dernier 0, celui après le 5"
+   ],
+   "answer": 3,
+   "explanation": "À la fin d’un nombre décimal, un zéro après le dernier chiffre ne change pas la valeur : 304,50 = 304,5.",
+   "hint": "Quel zéro peut disparaître sans changer le nombre ?",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-04",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "4 + ? > 12. Quel est le plus petit nombre entier possible à la place du point d’interrogation ?",
+   "accepted": [
+    "9"
+   ],
+   "explanation": "4 + 8 = 12 n’est pas plus grand que 12. Il faut 4 + 9 = 13, donc 9.",
+   "hint": "Essaie 8 puis 9.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-05",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "72 = 9 × ?",
+   "accepted": [
+    "8"
+   ],
+   "explanation": "9 × 8 = 72 : c’est la table de 9.",
+   "hint": "Table de 9.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-06",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel calcul est correct ?",
+   "choices": [
+    "7 × 6 = 48",
+    "8 × 7 = 54",
+    "9 × 4 = 38",
+    "7 × 6 = 42"
+   ],
+   "answer": 3,
+   "explanation": "7 × 6 = 42. Les autres sont faux : 8 × 7 = 56 et 9 × 4 = 36.",
+   "hint": "Revois tes tables.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-07",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelles sont les deux décompositions correctes de 5 408 ?",
+   "choices": [
+    "5 000 + 400 + 8 et 5 UM + 4 C + 8 U",
+    "5 000 + 40 + 8 et 5 UM + 4 D + 8 U",
+    "5 400 + 80 et 54 C + 8 D",
+    "500 + 408 et 5 C + 4 D + 8 U"
+   ],
+   "answer": 0,
+   "explanation": "5 408 = 5 UM + 4 C + 0 D + 8 U : 5 000 + 400 + 8.",
+   "hint": "Il y a 0 dizaine.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-08",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "1 est 10 fois…  (écris le nombre décimal, par exemple 0,5)",
+   "accepted": [
+    "0,1",
+    "0.1",
+    "1/10",
+    "un dixieme"
+   ],
+   "explanation": "1 = 10 × 0,1 : une unité vaut 10 dixièmes.",
+   "hint": "Divise 1 par 10.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-09",
+   "subject": "maths",
+   "domain": "logique",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Suite : 4 – 11 – 18 – 25 – … Quel est le nombre suivant ?",
+   "accepted": [
+    "32"
+   ],
+   "explanation": "On ajoute 7 à chaque fois : 25 + 7 = 32.",
+   "hint": "Cherche l’écart entre deux nombres.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-10",
+   "subject": "maths",
+   "domain": "logique",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Complète la suite : 45 – 39 – 33 – 27 – ? – ? – 9. Quel est le 5ᵉ nombre ?",
+   "accepted": [
+    "21"
+   ],
+   "explanation": "On retire 6 à chaque fois : 27 – 6 = 21, puis 15, puis 9.",
+   "hint": "Écart de 6.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-11",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle écriture est correcte pour « 10 fois 4, puis plus 6 » ?",
+   "choices": [
+    "10 × 4 + 6 = 40 + 6 = 46 = 46",
+    "10 × 4 = 40 + 6 = 46",
+    "10 × 4 + 6 = 46",
+    "10 × 4 + 6 = 64"
+   ],
+   "answer": 2,
+   "explanation": "Il faut écrire chaque égalité de façon vraie : 10 × 4 + 6 = 46.",
+   "hint": "Une égalité doit être vraie des deux côtés.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-12",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Le résultat d’une multiplication s’appelle…",
+   "choices": [
+    "une somme",
+    "une différence",
+    "un quotient",
+    "un produit"
+   ],
+   "answer": 3,
+   "explanation": "Somme = addition, différence = soustraction, produit = multiplication, quotient = division.",
+   "hint": "Pense aux quatre opérations.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-13",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Léo a ramassé 34 bouchons et en jette 6 abîmés. Quelle opération donne ce qu’il lui reste ?",
+   "choices": [
+    "Une addition",
+    "Une multiplication",
+    "Une division",
+    "Une soustraction"
+   ],
+   "answer": 3,
+   "explanation": "On enlève 6 à 34 : 34 – 6 = 28. C’est une soustraction.",
+   "hint": "« Jette » = enlever.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-14",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Je sais que 345 + 412 = 757. Combien font 412 + 345 ?",
+   "accepted": [
+    "757"
+   ],
+   "explanation": "L’addition est commutative : l’ordre ne change pas le résultat.",
+   "hint": "On peut échanger les nombres.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-15",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Je sais que 9 × 30 = 270. Combien font 9 × 32 ?",
+   "accepted": [
+    "288"
+   ],
+   "explanation": "9 × 32 = 9 × 30 + 9 × 2 = 270 + 18 = 288.",
+   "hint": "Ajoute 9 × 2.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-16",
+   "subject": "maths",
+   "domain": "numeration",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quand je divise un nombre par 100, le chiffre des unités devient le chiffre des…",
+   "choices": [
+    "dixièmes",
+    "centaines",
+    "unités (il ne change pas)",
+    "centièmes"
+   ],
+   "answer": 3,
+   "explanation": "Diviser par 100, c’est reculer de deux rangs : les unités deviennent des centièmes (ex. 7 : 100 = 0,07).",
+   "hint": "Essaie avec 7 : 100.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-17",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Calcule 372 + 98,7.",
+   "accepted": [
+    "470,7",
+    "470.7"
+   ],
+   "explanation": "372 + 98,7 = 470,7 (on aligne les virgules : 372,0 + 98,7).",
+   "hint": "Écris 372,0.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-18",
+   "subject": "maths",
+   "domain": "operations",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Calcule 68 × 4.",
+   "accepted": [
+    "272"
+   ],
+   "explanation": "68 × 4 = 60 × 4 + 8 × 4 = 240 + 32 = 272.",
+   "hint": "Décompose 68 = 60 + 8.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-19",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Une classe de 20 élèves mange à la cantine : 2 kg de bœuf (15 000 L d’eau par kg), 3 kg de pommes de terre (300 L par kg) et 1 kg de salade (240 L par kg). Combien de litres d’eau au total ? (chiffres arrondis)",
+   "accepted": [
+    "31 140",
+    "31140"
+   ],
+   "explanation": "Bœuf : 2 × 15 000 = 30 000. Pommes de terre : 3 × 300 = 900. Salade : 1 × 240 = 240. Total : 30 000 + 900 + 240 = 31 140 litres.",
+   "hint": "Calcule chaque aliment puis additionne.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc02-20",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Une autre classe de 10 élèves a besoin de moitié moins de nourriture. Quel total d’eau pour le même menu ?",
+   "choices": [
+    "62 280 litres",
+    "31 140 litres",
+    "7 785 litres",
+    "15 570 litres"
+   ],
+   "answer": 3,
+   "explanation": "La moitié de 31 140 est 15 570 litres.",
+   "hint": "Divise par 2.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc02"
+  },
+  {
+   "id": "i26-doc03-01",
+   "subject": "eveil",
+   "domain": "numerique",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Pour sortir un plat chaud du four, de quoi as-tu besoin ?",
+   "choices": [
+    "D’un tablier de peinture",
+    "D’un chapeau",
+    "De gants de ski",
+    "Des maniques"
+   ],
+   "answer": 3,
+   "explanation": "Les maniques protègent les mains de la chaleur.",
+   "hint": "Un équipement qui protège de la chaleur.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc03"
+  },
+  {
+   "id": "i26-doc03-02",
+   "subject": "eveil",
+   "domain": "numerique",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Dans la recette du bodding (pudding de pain rassis), quel ingrédient appartient à la famille des produits laitiers ?",
+   "choices": [
+    "Le sucre",
+    "Les œufs",
+    "Le lait",
+    "Le pain"
+   ],
+   "answer": 2,
+   "explanation": "Le lait est un produit laitier. Les œufs forment une autre famille (viandes, poissons, œufs).",
+   "hint": "Quel aliment vient du lait ?",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc03"
+  },
+  {
+   "id": "i26-doc03-03",
+   "subject": "eveil",
+   "domain": "numerique",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Pourquoi une recette au pain rassis évite-t-elle le gaspillage ?",
+   "choices": [
+    "Elle utilise des ingrédients très chers",
+    "Elle sert à décorer la table",
+    "Elle réutilise du pain qui allait être jeté",
+    "Elle ne demande aucun ingrédient"
+   ],
+   "answer": 2,
+   "explanation": "Le pain rassis est du pain devenu dur : on l’utilise au lieu de le jeter.",
+   "hint": "Que fait-on du pain dur ?",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc03"
+  },
+  {
+   "id": "i26-doc03-04",
+   "subject": "eveil",
+   "domain": "numerique",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel instrument faut-il pour mesurer la bonne quantité de lait ?",
+   "choices": [
+    "Une balance",
+    "Une règle",
+    "Un thermomètre",
+    "Un verre doseur"
+   ],
+   "answer": 3,
+   "explanation": "Un verre doseur mesure les liquides (la capacité).",
+   "hint": "Le lait est un liquide.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc03"
+  },
+  {
+   "id": "i26-doc03-05",
+   "subject": "eveil",
+   "domain": "numerique",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel instrument faut-il pour mesurer la bonne quantité de pain rassis ?",
+   "choices": [
+    "Un verre doseur",
+    "Une balance",
+    "Une horloge",
+    "Un mètre"
+   ],
+   "answer": 1,
+   "explanation": "Une balance mesure la masse d’un aliment solide.",
+   "hint": "Le pain est solide.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc03"
+  },
+  {
+   "id": "i26-doc03-06",
+   "subject": "eveil",
+   "domain": "numerique",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quel ingrédient doit être conservé au réfrigérateur ?",
+   "choices": [
+    "Le sucre",
+    "Le lait",
+    "Le sel",
+    "La farine"
+   ],
+   "answer": 1,
+   "explanation": "Le lait est périssable : on le garde au frais. Le sucre, le sel et la farine se rangent dans un placard.",
+   "hint": "Que ne laisse-t-on pas sur la table ?",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc03"
+  },
+  {
+   "id": "i26-doc03-07",
+   "subject": "eveil",
+   "domain": "numerique",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Que veut dire « malaxer avec les mains » ?",
+   "choices": [
+    "Peser",
+    "Fouetter avec un batteur",
+    "Découper",
+    "Mélanger"
+   ],
+   "answer": 3,
+   "explanation": "Malaxer, c’est pétrir et mélanger la pâte en la travaillant avec les mains.",
+   "hint": "On obtient une belle pâte.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc03"
+  },
+  {
+   "id": "i26-doc03-08",
+   "subject": "eveil",
+   "domain": "numerique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Sur l’étiquette « À conserver à max. 7 °C. Après ouverture, 4 jours au réfrigérateur », quelle information concerne la conservation ?",
+   "choices": [
+    "Crème entière contenant 35 % de matières grasses",
+    "Fouettez la crème à basse température",
+    "Après ouverture, se conserve 4 jours au réfrigérateur",
+    "Ingrédients : crème entière"
+   ],
+   "answer": 2,
+   "explanation": "La conservation indique comment et combien de temps on garde le produit.",
+   "hint": "Cherche le mot « conserver ».",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc03"
+  },
+  {
+   "id": "i26-doc03-09",
+   "subject": "eveil",
+   "domain": "numerique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Deux tomates identiques : l’une vient de Belgique, l’autre de loin. Laquelle est la plus écoresponsable ?",
+   "choices": [
+    "Celle de loin, car elle a voyagé",
+    "Celle de Belgique, car le transport est plus court",
+    "Aucune différence",
+    "Celle qui est la plus chère"
+   ],
+   "answer": 1,
+   "explanation": "Un produit local parcourt moins de kilomètres : il pollue moins pour être transporté.",
+   "hint": "Moins de kilomètres = moins de pollution.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc03"
+  },
+  {
+   "id": "i26-doc04-01",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le thème de cette interview ?",
+   "choices": [
+    "Les vacances",
+    "La lecture",
+    "Le sport",
+    "Les repas à l’école"
+   ],
+   "answer": 1,
+   "explanation": "Les trois élèves parlent de la façon dont elles lisent.",
+   "hint": "",
+   "passage": "i26-p-doc04-a",
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc04-02",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle est l’intention des élèves dans cette interview ?",
+   "choices": [
+    "Informer sur leurs habitudes de lecture",
+    "Raconter une histoire inventée",
+    "Vendre un livre",
+    "Faire peur aux auditeurs"
+   ],
+   "answer": 0,
+   "explanation": "Elles répondent à des questions pour faire connaître leurs pratiques de lecture.",
+   "hint": "",
+   "passage": "i26-p-doc04-a",
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc04-03",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Lina dit : « Je me mets à sa place ». Que veut-elle dire ?",
+   "choices": [
+    "Elle imagine ce que ressent le personnage",
+    "Elle s’assoit à côté du personnage",
+    "Elle prend le livre de quelqu’un",
+    "Elle écrit à l’auteur"
+   ],
+   "answer": 0,
+   "explanation": "S’identifier à un personnage, c’est se mettre à sa place pour comprendre ses émotions.",
+   "hint": "",
+   "passage": "i26-p-doc04-a",
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc04-04",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Pourquoi Maé préfère-t-elle les livres avec des images ?",
+   "choices": [
+    "Les images l’aident à comprendre l’histoire",
+    "Elle ne sait pas lire",
+    "Elle n’aime pas les mots",
+    "Elle les trouve moins chers"
+   ],
+   "answer": 0,
+   "explanation": "Elle le dit : les images lui permettent de mieux comprendre.",
+   "hint": "",
+   "passage": "i26-p-doc04-a",
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc04-05",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelles sont les deux stratégies d’Ilana pour comprendre un mot inconnu ?",
+   "choices": [
+    "Demander à ses parents et lire le résumé",
+    "Regarder les images et chercher dans le dictionnaire",
+    "Sauter le mot et recopier la phrase",
+    "Appeler la bibliothécaire"
+   ],
+   "answer": 1,
+   "explanation": "Ilana regarde les images, relit la phrase puis cherche dans le dictionnaire.",
+   "hint": "",
+   "passage": "i26-p-doc04-a",
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc04-06",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Lina dit : « C’est comme si j’entrais dans un autre monde ». Son point de vue est…",
+   "choices": [
+    "objectif",
+    "subjectif",
+    "les deux",
+    "impossible à dire"
+   ],
+   "answer": 1,
+   "explanation": "Elle exprime ce qu’elle ressent : c’est son opinion, donc un point de vue subjectif.",
+   "hint": "Un fait vérifiable est objectif.",
+   "passage": "i26-p-doc04-a",
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc04-07",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Les mots « livre », « chapitre » et « illustration » appartiennent…",
+   "choices": [
+    "à la même famille de mots",
+    "au même champ lexical",
+    "aux homophones",
+    "aux contraires"
+   ],
+   "answer": 1,
+   "explanation": "Ils parlent du même thème, le livre : c’est un champ lexical.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc04-08",
+   "subject": "francais",
+   "domain": "vocabulaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Les mots « livre », « librairie » et « libraire » appartiennent…",
+   "choices": [
+    "à la même famille de mots",
+    "au même champ lexical seulement",
+    "aux homophones",
+    "aux contraires"
+   ],
+   "answer": 0,
+   "explanation": "Ils partagent le même radical « libr- » : c’est une famille de mots.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc04-09",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle phrase est au passé composé ?",
+   "choices": [
+    "Je lirai un livre demain.",
+    "Je lis un livre.",
+    "Lis ce livre !",
+    "J’ai lu un livre hier."
+   ],
+   "answer": 3,
+   "explanation": "Le passé composé se forme avec avoir ou être + participe passé : j’ai lu.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc04-10",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle phrase est au futur simple ?",
+   "choices": [
+    "Hier, nous avons lu ce roman.",
+    "Nous lisons ce roman.",
+    "Demain, nous lirons ce roman.",
+    "Lisez ce roman !"
+   ],
+   "answer": 2,
+   "explanation": "Le futur simple se reconnaît à la terminaison « -ons » dans « lirons » et à « demain ».",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc04-11",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans « Ouvre ce livre ! », quel est le mode du verbe ?",
+   "choices": [
+    "Indicatif",
+    "Infinitif",
+    "Impératif",
+    "Conditionnel"
+   ],
+   "answer": 2,
+   "explanation": "Un ordre ou un conseil se conjugue à l’impératif.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  },
+  {
+   "id": "i26-doc05-01",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Combien de faces possède un cube ?",
+   "accepted": [
+    "6",
+    "six"
+   ],
+   "explanation": "Un cube a 6 faces, toutes carrées.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc05-02",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quelle est la forme des faces d’un cube ?",
+   "choices": [
+    "Des rectangles non carrés",
+    "Des carrés",
+    "Des triangles",
+    "Des cercles"
+   ],
+   "answer": 1,
+   "explanation": "Un cube a 6 faces carrées identiques.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc05-03",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "J’ai des propriétés communes avec le rectangle et le losange : mes 4 côtés sont égaux et j’ai 4 angles droits. Je suis…",
+   "choices": [
+    "un trapèze",
+    "un parallélogramme quelconque",
+    "un carré",
+    "un triangle"
+   ],
+   "answer": 2,
+   "explanation": "Seul le carré réunit les propriétés du rectangle (4 angles droits) et du losange (4 côtés égaux).",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc05-04",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle est une propriété des diagonales d’un carré ?",
+   "choices": [
+    "Elles ont la même longueur et se coupent à angle droit en leur milieu",
+    "Elles sont parallèles",
+    "Elles sont toujours différentes",
+    "Elles ne se croisent pas"
+   ],
+   "answer": 0,
+   "explanation": "Dans un carré, les deux diagonales sont égales, perpendiculaires et se coupent en leur milieu.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc05-05",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un losange non carré a…",
+   "choices": [
+    "4 angles droits",
+    "2 côtés seulement égaux",
+    "3 côtés",
+    "4 côtés égaux mais pas d’angle droit"
+   ],
+   "answer": 3,
+   "explanation": "Si un losange avait 4 angles droits, ce serait un carré.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc05-06",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle est la propriété du parallélépipède rectangle qui aide à reconnaître son développement ?",
+   "choices": [
+    "Il a 4 faces triangulaires",
+    "Il a 6 faces rectangulaires, égales deux à deux",
+    "Il a 5 faces carrées",
+    "Il n’a aucune face plate"
+   ],
+   "answer": 1,
+   "explanation": "Les faces opposées sont identiques : on retrouve 3 paires de rectangles dans son patron.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc05-07",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Deux droites perpendiculaires forment…",
+   "choices": [
+    "un angle aigu",
+    "un angle plat",
+    "aucun angle",
+    "un angle droit"
+   ],
+   "answer": 3,
+   "explanation": "Perpendiculaires : elles se coupent en formant un angle droit (90°).",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc05-08",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Deux droites parallèles…",
+   "choices": [
+    "ne se croisent jamais",
+    "se croisent en un point",
+    "sont toujours perpendiculaires",
+    "sont toujours égales"
+   ],
+   "answer": 0,
+   "explanation": "Parallèles : toujours à la même distance l’une de l’autre, elles ne se coupent jamais.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc05-09",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "On trace l’image d’un rectangle par rapport à un axe de symétrie. Que doit-on respecter ?",
+   "choices": [
+    "L’image est plus grande",
+    "Chaque point et son image sont à la même distance de l’axe",
+    "L’image est identique et au même endroit",
+    "L’axe doit passer par le coin"
+   ],
+   "answer": 1,
+   "explanation": "La symétrie axiale conserve les distances : un point et son image sont à égale distance de l’axe.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc05-10",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Pour une frise, un glissement consiste à…",
+   "choices": [
+    "faire glisser la figure sans la retourner",
+    "retourner la figure comme dans un miroir",
+    "tourner la figure sur elle-même",
+    "agrandir la figure"
+   ],
+   "answer": 0,
+   "explanation": "Glissement : on déplace la figure sans la tourner ni la retourner. Retournement : on la retourne comme dans un miroir.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc05-11",
+   "subject": "maths",
+   "domain": "geometrie",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Un triangle rectangle possède…",
+   "choices": [
+    "trois angles droits",
+    "aucun angle droit",
+    "quatre côtés",
+    "un angle droit"
+   ],
+   "answer": 3,
+   "explanation": "Triangle rectangle = un angle droit (90°).",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc05"
+  },
+  {
+   "id": "i26-doc06-01",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "L’Époque contemporaine se situe juste après…",
+   "choices": [
+    "les Temps modernes",
+    "le Moyen Âge",
+    "l’Antiquité",
+    "la Préhistoire"
+   ],
+   "answer": 0,
+   "explanation": "Ordre : Préhistoire, Antiquité, Moyen Âge, Temps modernes, Époque contemporaine.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-02",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "La Préhistoire se situe juste avant…",
+   "choices": [
+    "l’Antiquité",
+    "le Moyen Âge",
+    "les Temps modernes",
+    "l’Époque contemporaine"
+   ],
+   "answer": 0,
+   "explanation": "La Préhistoire est la toute première période, suivie par l’Antiquité.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-03",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quelle période se situe entre l’Antiquité et les Temps modernes ?",
+   "choices": [
+    "La Préhistoire",
+    "L’Époque contemporaine",
+    "Les Temps modernes",
+    "Le Moyen Âge"
+   ],
+   "answer": 3,
+   "explanation": "Moyen Âge : du Ve siècle (fin de l’Empire romain d’Occident, 476) au XVe siècle (1492).",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-04",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel changement observe-t-on entre le temps des seigneuries et le développement scientifique ?",
+   "choices": [
+    "Plus personne n’apprend",
+    "Les livres disparaissent",
+    "Le savoir devient accessible à plus de personnes",
+    "L’école est interdite"
+   ],
+   "answer": 2,
+   "explanation": "Avec l’imprimerie, les livres se multiplient et le savoir circule davantage.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-05",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle image correspond au temps des seigneuries et des villes dans nos régions ?",
+   "choices": [
+    "Jules César",
+    "Un ordinateur",
+    "Un dinosaure",
+    "Un château fort"
+   ],
+   "answer": 3,
+   "explanation": "Le château fort est typique du Moyen Âge, au temps des seigneurs.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-06",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "En quelle année la Belgique a-t-elle décidé que l’école primaire serait gratuite et obligatoire jusqu’à 14 ans ? (réponds par l’année)",
+   "accepted": [
+    "1914"
+   ],
+   "explanation": "La loi de 1914 a rendu l’école obligatoire jusqu’à 14 ans en Belgique.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-07",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "À quelle période appartient la révolution belge de 1830 ?",
+   "choices": [
+    "L’Antiquité",
+    "Le Moyen Âge",
+    "L’Époque contemporaine",
+    "La Préhistoire"
+   ],
+   "answer": 2,
+   "explanation": "Depuis la Révolution française (1789), nous vivons à l’Époque contemporaine.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-08",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Gutenberg est mort en 1468. Dans quel siècle (écris le nombre en chiffres arabes, ex. 14) ?",
+   "accepted": [
+    "15",
+    "15e",
+    "15eme",
+    "quinzieme",
+    "xve"
+   ],
+   "explanation": "1468 : les années 1401 à 1500 forment le XVe siècle.",
+   "hint": "Les années 1400 appartiennent au 15e siècle.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-09",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Léopold Ier a prêté serment le 21 juillet 1831. Dans quel millénaire (1er, 2e, 3e ? réponds par le chiffre) ?",
+   "accepted": [
+    "2",
+    "2e",
+    "deuxieme",
+    "second"
+   ],
+   "explanation": "1831 est entre 1001 et 2000 : c’est le 2e millénaire.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-10",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un livre écrit par un historien en 2020 sur l’Antiquité est…",
+   "choices": [
+    "une trace du passé",
+    "un objet de la Préhistoire",
+    "un manuscrit de l’époque",
+    "un travail postérieur"
+   ],
+   "answer": 3,
+   "explanation": "Une trace du passé date de l’époque étudiée ; un livre écrit plus tard est un travail postérieur.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-11",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Une pièce de monnaie romaine retrouvée dans un champ est…",
+   "choices": [
+    "un travail postérieur",
+    "une trace du passé",
+    "un film moderne",
+    "une invention de 2026"
+   ],
+   "answer": 1,
+   "explanation": "Elle date de l’époque romaine : c’est une trace du passé.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-12",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Isabelle Gatti de Gamond a vécu au 19e siècle et a créé une école laïque pour filles. À quelle période appartient sa vie ?",
+   "choices": [
+    "Le Moyen Âge",
+    "La Préhistoire",
+    "L’Antiquité",
+    "L’Époque contemporaine"
+   ],
+   "answer": 3,
+   "explanation": "Le 19e siècle est dans l’Époque contemporaine (à partir de 1789).",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc06-13",
+   "subject": "eveil",
+   "domain": "histoire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Isabelle Gatti de Gamond a lutté pour que…",
+   "choices": [
+    "les élèves aient plus de congés",
+    "les filles puissent aller à l’école",
+    "les garçons n’aillent plus à l’école",
+    "l’école soit payante"
+   ],
+   "answer": 1,
+   "explanation": "À son époque, les filles allaient presque pas à l’école : elle a créé une école pour elles.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc06"
+  },
+  {
+   "id": "i26-doc07-01",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Pourquoi « belle » est-il un adjectif dans « une belle forêt » ?",
+   "choices": [
+    "Il remplace un verbe",
+    "Il remplace un nom",
+    "Il se place toujours après le nom",
+    "Il donne une information sur le nom « forêt »"
+   ],
+   "answer": 3,
+   "explanation": "Un adjectif précise ou décrit un nom, et s’accorde avec lui.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-doc07-02",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Écris « (mauvais) » à la bonne forme : J’ai reçu de ___ notes.",
+   "accepted": [
+    "mauvaises"
+   ],
+   "explanation": "Le nom « notes » est féminin pluriel : « mauvaises ».",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-doc07-03",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Écris « (résiduel) » à la bonne forme : Les déchets ___ sont brûlés.",
+   "accepted": [
+    "residuels"
+   ],
+   "explanation": "Le nom « déchets » est masculin pluriel : « résiduels ».",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-doc07-04",
+   "subject": "francais",
+   "domain": "orthographe",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Écris le déterminant « (notre) » à la bonne forme : Nous changeons ___ habitudes.",
+   "accepted": [
+    "nos"
+   ],
+   "explanation": "Le nom « habitudes » est pluriel : « nos ».",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-doc07-05",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Le verbe s’accorde en… avec le sujet.",
+   "choices": [
+    "genre et en couleur",
+    "temps et en mode",
+    "personne et en nombre",
+    "longueur et en lettre"
+   ],
+   "answer": 2,
+   "explanation": "Le verbe s’accorde avec son sujet en personne (je, tu, il…) et en nombre (singulier/pluriel).",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-doc07-06",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Conjugue au futur simple : Demain, ils (ramasser) ___ les papiers.",
+   "accepted": [
+    "ramasseront"
+   ],
+   "explanation": "Futur simple, 3e personne du pluriel : ramasseront.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-doc07-07",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Conjugue au passé composé : Elles (finir) ___ le tri.",
+   "accepted": [
+    "ont fini"
+   ],
+   "explanation": "Passé composé : auxiliaire avoir + participe passé « fini » : elles ont fini.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-doc07-08",
+   "subject": "francais",
+   "domain": "conjugaison",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Conjugue à l’imparfait : Le chien (aboyer) ___ chaque fois qu’il entendait un bruit.",
+   "accepted": [
+    "aboyait"
+   ],
+   "explanation": "Imparfait, 3e personne du singulier : il aboyait.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-doc07-09",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel est le groupe prédicat dans « Ce matin, Zélie a levé le doigt » ?",
+   "choices": [
+    "Ce matin",
+    "a levé le doigt",
+    "Zélie",
+    "Zélie a levé"
+   ],
+   "answer": 1,
+   "explanation": "Le groupe prédicat est ce qu’on dit du sujet : « a levé le doigt ».",
+   "hint": "Enlève le sujet et le complément de phrase.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-doc07-10",
+   "subject": "francais",
+   "domain": "grammaire",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel est le groupe prédicat dans « Les élèves arrivent en classe » ?",
+   "choices": [
+    "arrivent en classe",
+    "Les élèves",
+    "en classe",
+    "Les élèves arrivent"
+   ],
+   "answer": 0,
+   "explanation": "Sujet : Les élèves. Prédicat : arrivent en classe.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-doc08-01",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle mer borde la côte belge ?",
+   "choices": [
+    "La mer Méditerranée",
+    "L’océan Pacifique",
+    "La mer Baltique",
+    "La mer du Nord"
+   ],
+   "answer": 3,
+   "explanation": "La Belgique a un littoral d’environ 67 km sur la mer du Nord.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-02",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel fleuve traverse Namur et Liège ?",
+   "choices": [
+    "L’Escaut",
+    "La Meuse",
+    "L’Yser",
+    "La Seine"
+   ],
+   "answer": 1,
+   "explanation": "La Meuse traverse Namur, Liège (et Dinant) en Belgique.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-03",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel fleuve passe à Anvers ?",
+   "choices": [
+    "La Meuse",
+    "L’Escaut",
+    "L’Yser",
+    "La Semois"
+   ],
+   "answer": 1,
+   "explanation": "L’Escaut arrose Gand et Anvers.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-04",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle partie de la Belgique est la plus haute, avec les Ardennes ?",
+   "choices": [
+    "La Basse Belgique",
+    "Le Littoral",
+    "La Moyenne Belgique",
+    "La Haute Belgique"
+   ],
+   "answer": 3,
+   "explanation": "La Haute Belgique (Ardenne, Fagnes) a les plus hautes altitudes.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-05",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle partie de la Belgique est la plus plate, proche de la mer ?",
+   "choices": [
+    "La Basse Belgique",
+    "La Haute Belgique",
+    "Les Fagnes",
+    "L’Ardenne"
+   ],
+   "answer": 0,
+   "explanation": "La Basse Belgique est une plaine peu élevée.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-06",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est un élément qui caractérise une agglomération urbaine ?",
+   "choices": [
+    "Beaucoup d’habitations et de commerces serrés",
+    "De grands champs de blé",
+    "Des forêts sans routes",
+    "Peu d’habitants"
+   ],
+   "answer": 0,
+   "explanation": "Une agglomération urbaine rassemble de nombreux bâtiments, des routes, des services, des commerces et beaucoup d’habitants.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-07",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Sur un croquis cartographique, que représente la légende ?",
+   "choices": [
+    "Le titre de la carte",
+    "La date du voyage",
+    "Le nom du dessinateur",
+    "La signification des couleurs et des signes"
+   ],
+   "answer": 3,
+   "explanation": "La légende explique ce que représentent les couleurs et symboles de la carte.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-08",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Le long d’une rivière, qu’est-ce que l’amont ?",
+   "choices": [
+    "Le côté où l’eau se jette dans la mer",
+    "La rive gauche",
+    "Le fond du lit",
+    "Le côté d’où vient l’eau (la source)"
+   ],
+   "answer": 3,
+   "explanation": "L’amont est du côté de la source ; l’aval est du côté de l’embouchure.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-09",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quand on regarde vers l’aval, où se trouve la rive droite ?",
+   "choices": [
+    "À ma gauche",
+    "Derrière moi",
+    "À ma droite",
+    "Au fond de l’eau"
+   ],
+   "answer": 2,
+   "explanation": "On définit les rives en regardant dans le sens du courant : la rive droite est à droite.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-10",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Le lit d’une rivière, c’est…",
+   "choices": [
+    "l’endroit où coule l’eau",
+    "le sommet de la montagne",
+    "la rive",
+    "le pont"
+   ],
+   "answer": 0,
+   "explanation": "Le lit est le creux dans lequel l’eau s’écoule.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-11",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Le versant d’une vallée, c’est…",
+   "choices": [
+    "la pente qui descend vers le cours d’eau",
+    "le fond de l’eau",
+    "la source",
+    "l’embouchure"
+   ],
+   "answer": 0,
+   "explanation": "Les versants sont les pentes de chaque côté de la vallée.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc08-12",
+   "subject": "eveil",
+   "domain": "geographie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "La Semois est une rivière de…",
+   "choices": [
+    "la Côte belge",
+    "la Basse Belgique",
+    "la Campine",
+    "l’Ardenne"
+   ],
+   "answer": 3,
+   "explanation": "La Semois coule en Ardenne, dans la région de Bouillon.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc08"
+  },
+  {
+   "id": "i26-doc09-02",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel mot sert d’organisateur pour commencer un exposé oral ?",
+   "choices": [
+    "Pourtant",
+    "Peut-être",
+    "D’abord",
+    "Jamais"
+   ],
+   "answer": 2,
+   "explanation": "« D’abord » ouvre une suite d’idées, puis « ensuite », « enfin ».",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc09"
+  },
+  {
+   "id": "i26-doc09-03",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le bon ordre pour une prise de parole ?",
+   "choices": [
+    "Je conclus, j’introduis, je développe",
+    "Je développe, je conclus, j’introduis",
+    "Je conclus sans introduire",
+    "J’introduis, je développe, je conclus"
+   ],
+   "answer": 3,
+   "explanation": "Une bonne prise de parole a trois étapes dans cet ordre.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc09"
+  },
+  {
+   "id": "i26-doc09-04",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Pour bien parler devant un public, il faut…",
+   "choices": [
+    "parler assez fort, articuler et regarder son public",
+    "parler très vite",
+    "regarder le sol",
+    "parler très bas"
+   ],
+   "answer": 0,
+   "explanation": "Voix claire, débit régulier et regard vers le public : c’est ce qui rend ta prise de parole agréable.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc09"
+  },
+  {
+   "id": "i26-doc10-01",
+   "subject": "maths",
+   "domain": "statistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Pour trier des appareils avec le score énergétique A, quelle question poser ?",
+   "choices": [
+    "Cet appareil a-t-il le score énergétique A ?",
+    "Cet appareil est-il joli ?",
+    "Cet appareil est-il cher ?",
+    "Cet appareil est-il blanc ?"
+   ],
+   "answer": 0,
+   "explanation": "La question doit concerner le critère de tri : le score A, avec une réponse oui/non.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc10-02",
+   "subject": "maths",
+   "domain": "statistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Des bouchons sont classés par couleur. Quel est le critère de classement ?",
+   "choices": [
+    "La couleur",
+    "La taille",
+    "Le prix",
+    "La forme"
+   ],
+   "answer": 0,
+   "explanation": "Le critère est la caractéristique qui sert à trier : ici la couleur.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc10-03",
+   "subject": "maths",
+   "domain": "statistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un arbre de classement permet de…",
+   "choices": [
+    "mesurer la hauteur d’un arbre",
+    "dessiner une forêt",
+    "classer des éléments avec des questions successives",
+    "calculer une somme"
+   ],
+   "answer": 2,
+   "explanation": "Un arbre de classement pose des questions (oui/non) pour ranger les éléments.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc10-04",
+   "subject": "maths",
+   "domain": "statistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans un diagramme de Venn, où place-t-on un animal à la fois terrestre et aquatique (comme la grenouille) ?",
+   "choices": [
+    "Dans l’ensemble « terrestre » seul",
+    "En dehors des deux ensembles",
+    "Dans l’ensemble « aquatique » seul",
+    "Dans l’intersection des deux ensembles"
+   ],
+   "answer": 3,
+   "explanation": "Il appartient aux deux ensembles : on le place là où ils se recoupent.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc10-05",
+   "subject": "maths",
+   "domain": "statistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Où place-t-on le dauphin dans un diagramme « terrestre / aquatique » ?",
+   "choices": [
+    "Dans l’intersection",
+    "Dans l’ensemble « aquatique » seul",
+    "Dans « terrestre »",
+    "Dehors"
+   ],
+   "answer": 1,
+   "explanation": "Le dauphin vit dans l’eau.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc10-06",
+   "subject": "eveil",
+   "domain": "economie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un circuit court, c’est quand il y a au maximum…",
+   "choices": [
+    "un intermédiaire entre le producteur et le client",
+    "cinq intermédiaires",
+    "dix intermédiaires",
+    "un avion"
+   ],
+   "answer": 0,
+   "explanation": "Circuit court : le produit passe par au plus un intermédiaire.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc10-07",
+   "subject": "maths",
+   "domain": "statistique",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Produits et intermédiaires : œufs de la ferme 0, pommes du verger 1, thé importé 4, riz importé 3. Lesquels sont en circuit court ?",
+   "choices": [
+    "Le thé et le riz",
+    "Les œufs et le thé",
+    "Les œufs et les pommes",
+    "Les pommes et le riz"
+   ],
+   "answer": 2,
+   "explanation": "Circuit court = 0 ou 1 intermédiaire : œufs (0) et pommes (1).",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc10-08",
+   "subject": "maths",
+   "domain": "statistique",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Le « prix juste » demande un bénéfice égal au double du coût de production. Œufs : coût 2 €, vente 6 €. Obtient-il le label ?",
+   "choices": [
+    "Oui : le bénéfice est 4 €, le double de 2 €",
+    "Non : le bénéfice est 6 €",
+    "Non : le bénéfice est 2 €",
+    "On ne peut pas savoir"
+   ],
+   "answer": 0,
+   "explanation": "Bénéfice = 6 – 2 = 4 €. Le double du coût est 2 × 2 = 4 €. Il est égal : le label est accordé.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc10-09",
+   "subject": "maths",
+   "domain": "statistique",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Pommes du verger : coût 1,50 €, vente 4 €. Obtiennent-elles le label « prix juste » (bénéfice = double du coût) ?",
+   "choices": [
+    "Oui : bénéfice 4 €",
+    "Non : bénéfice 2,50 € alors qu’il faudrait 3 €",
+    "Oui : bénéfice 3 €",
+    "Non : le bénéfice est 5,50 €"
+   ],
+   "answer": 1,
+   "explanation": "Bénéfice = 4 – 1,5 = 2,5 €. Le double du coût est 3 €. 2,5 est plus petit : pas de label.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc10-10",
+   "subject": "maths",
+   "domain": "statistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un score énergétique A indique…",
+   "choices": [
+    "un appareil qui consomme beaucoup",
+    "un appareil cassé",
+    "un appareil très économe en énergie",
+    "un appareil très ancien"
+   ],
+   "answer": 2,
+   "explanation": "A est le meilleur score : appareil économe. G est le moins bon.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc10-11",
+   "subject": "maths",
+   "domain": "statistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel appareil est le moins économe en énergie ?",
+   "choices": [
+    "Un réfrigérateur A",
+    "Une ampoule non LED (score G)",
+    "Un lave-vaisselle A",
+    "Une machine à laver B"
+   ],
+   "answer": 1,
+   "explanation": "La lettre G signale la plus forte consommation.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc10"
+  },
+  {
+   "id": "i26-doc11-01",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est l’ordre du trajet des aliments ?",
+   "choices": [
+    "Estomac, bouche, intestin grêle, anus",
+    "Intestin grêle, bouche, estomac, anus",
+    "Bouche, anus, estomac, intestin grêle",
+    "Bouche, estomac, intestin grêle, anus"
+   ],
+   "answer": 3,
+   "explanation": "Les aliments sont mâchés, passent dans l’estomac, puis l’intestin grêle ; les déchets sortent par l’anus.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc11-02",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le rôle du sang dans la digestion ?",
+   "choices": [
+    "Il découpe les aliments",
+    "Il fabrique la salive",
+    "Il transporte les nutriments dans tout le corps",
+    "Il élimine les déchets par l’anus"
+   ],
+   "answer": 2,
+   "explanation": "Les nutriments passent de l’intestin grêle au sang qui les distribue aux organes.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc11-03",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Un animal carnivore mange surtout…",
+   "choices": [
+    "des plantes",
+    "des champignons seulement",
+    "de la viande (d’autres animaux)",
+    "des cailloux"
+   ],
+   "answer": 2,
+   "explanation": "Carnivore : mange d’autres animaux. Herbivore : plantes.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc11-04",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Une grenouille attrape une mouche. Qui est le prédateur ?",
+   "choices": [
+    "La mouche",
+    "La grenouille",
+    "La langue",
+    "L’eau"
+   ],
+   "answer": 1,
+   "explanation": "Le prédateur chasse ; la proie est chassée. La mouche est la proie.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc11-05",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "À quelle température l’eau liquide devient-elle solide (glace) ?",
+   "choices": [
+    "10 °C",
+    "100 °C",
+    "0 °C",
+    "37 °C"
+   ],
+   "answer": 2,
+   "explanation": "La solidification de l’eau se produit à 0 °C.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc11-06",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Comment s’appelle le changement de l’eau chauffée à 100 °C ?",
+   "choices": [
+    "La solidification",
+    "La fusion",
+    "L’ébullition",
+    "La condensation"
+   ],
+   "answer": 2,
+   "explanation": "À 100 °C, l’eau bout : c’est l’ébullition (elle devient vapeur).",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc11-07",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans le cycle de l’eau, que fait l’eau qui s’élève en vapeur sous l’effet du soleil ?",
+   "choices": [
+    "Les précipitations",
+    "Le ruissellement",
+    "L’évaporation",
+    "L’infiltration"
+   ],
+   "answer": 2,
+   "explanation": "Évaporation : l’eau liquide devient vapeur.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc11-08",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans le cycle de l’eau, l’eau qui tombe sous forme de pluie ou de neige, ce sont…",
+   "choices": [
+    "les précipitations",
+    "l’évaporation",
+    "l’infiltration",
+    "le ruissellement"
+   ],
+   "answer": 0,
+   "explanation": "Les précipitations : pluie, neige, grêle.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc11-09",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Par où circule l’information du cerveau vers les muscles ?",
+   "choices": [
+    "Par le sang",
+    "Par les nerfs",
+    "Par les os",
+    "Par la peau"
+   ],
+   "answer": 1,
+   "explanation": "Les nerfs transportent les messages (influx nerveux).",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc11-10",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel est le rôle du tendon ?",
+   "choices": [
+    "Il fabrique le sang",
+    "Il protège le cerveau",
+    "Il transmet la force du muscle à l’os",
+    "Il transporte l’oxygène"
+   ],
+   "answer": 2,
+   "explanation": "Le tendon relie le muscle à l’os.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc11-11",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel os protège le cerveau ?",
+   "choices": [
+    "Le fémur",
+    "L’ulna (cubitus)",
+    "Le crâne",
+    "Le sternum"
+   ],
+   "answer": 2,
+   "explanation": "Le crâne enferme et protège le cerveau.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc11"
+  },
+  {
+   "id": "i26-doc12-01",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "800 g de pain : quelle grandeur mesure-t-on ?",
+   "choices": [
+    "La capacité",
+    "La longueur",
+    "La masse",
+    "L’aire"
+   ],
+   "answer": 2,
+   "explanation": "Le gramme mesure une masse.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-02",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "50 cl de lait : quelle grandeur mesure-t-on ?",
+   "choices": [
+    "La masse",
+    "La longueur",
+    "La durée",
+    "La capacité"
+   ],
+   "answer": 3,
+   "explanation": "Le centilitre mesure une capacité (un volume de liquide).",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-03",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "qcm",
+   "prompt": "Quelle expression parle d’une durée ?",
+   "choices": [
+    "Une date de naissance",
+    "Le prix d’un livre",
+    "Une garantie de 2 ans",
+    "Une heure de départ"
+   ],
+   "answer": 2,
+   "explanation": "Une durée est un intervalle de temps : 2 ans.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-04",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "50 cl = ? L (écris un nombre décimal)",
+   "accepted": [
+    "0,5",
+    "0.5"
+   ],
+   "explanation": "1 L = 100 cl, donc 50 cl = 0,5 L.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-05",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "3 kg = ? g",
+   "accepted": [
+    "3 000",
+    "3000"
+   ],
+   "explanation": "1 kg = 1 000 g, donc 3 kg = 3 000 g.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-06",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle est la masse la plus juste d’un œuf de poule ?",
+   "choices": [
+    "6 kg",
+    "6 mg",
+    "60 g",
+    "600 g"
+   ],
+   "answer": 2,
+   "explanation": "Un œuf pèse environ 60 g.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-07",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 4,
+   "type": "saisie",
+   "prompt": "Une décennie dure combien d’années ?",
+   "accepted": [
+    "10",
+    "dix"
+   ],
+   "explanation": "Une décennie = 10 ans.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-08",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Un polygone a des côtés de 4 cm, 3 cm, 5 cm et 2 cm. Quel est son périmètre en cm ?",
+   "accepted": [
+    "14"
+   ],
+   "explanation": "4 + 3 + 5 + 2 = 14 cm.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-09",
+   "subject": "maths",
+   "domain": "grandeurs",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Un rectangle mesure 6 cm sur 3 cm. Quelle est son aire en cm² ?",
+   "accepted": [
+    "18"
+   ],
+   "explanation": "Aire = longueur × largeur = 6 × 3 = 18 cm².",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-10",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans la fraction 3/4, quel nombre indique en combien de parts égales l’unité est partagée ?",
+   "choices": [
+    "Le dénominateur, 4",
+    "Le numérateur, 3",
+    "Le 3 et le 4",
+    "Aucun"
+   ],
+   "answer": 0,
+   "explanation": "Le dénominateur dit en combien de parts égales on partage l’unité.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-11",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Compare 2/3 et 4/6.",
+   "choices": [
+    "2/3 est plus petit que 4/6",
+    "2/3 est plus grand que 4/6",
+    "On ne peut pas comparer",
+    "Elles sont égales"
+   ],
+   "answer": 3,
+   "explanation": "4/6 = 2/3 : on a multiplié le haut et le bas par 2.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-12",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Compare 3/2 et 3/4.",
+   "choices": [
+    "3/2 est plus petit que 3/4",
+    "Elles sont égales",
+    "On ne peut pas comparer",
+    "3/2 est plus grand que 3/4"
+   ],
+   "answer": 3,
+   "explanation": "Avec le même numérateur, la fraction au plus petit dénominateur est la plus grande : des moitiés sont plus grandes que des quarts.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-13",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Calcule 1/8 + 3/8 + 2/8.",
+   "choices": [
+    "6/24",
+    "6/8 = 4/3",
+    "6/8 = 3/4",
+    "5/8"
+   ],
+   "answer": 2,
+   "explanation": "Même dénominateur : 1 + 3 + 2 = 6, donc 6/8. On simplifie par 2 : 3/4.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-14",
+   "subject": "maths",
+   "domain": "fractions",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Calcule 2/12 × 3 et simplifie.",
+   "choices": [
+    "5/12",
+    "2/36",
+    "6/12 = 1/2",
+    "6/36"
+   ],
+   "answer": 2,
+   "explanation": "2/12 × 3 = 6/12 = 1/2.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-15",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Deux gourdes pour quatre élèves chaque jour. Combien de gourdes pour 132 élèves ?",
+   "accepted": [
+    "66"
+   ],
+   "explanation": "132 : 4 = 33 groupes de 4 élèves ; 33 × 2 = 66 gourdes.",
+   "hint": "Passe par un tableau de proportionnalité.",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-16",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Magasin A : gourde à 5 €, « 3 pour le prix de 2 ». Magasin B : gourde à 4 €, la 2ᵉ à moitié prix. Pour 18 gourdes, combien (en €) paie-t-on au magasin A ?",
+   "accepted": [
+    "60"
+   ],
+   "explanation": "18 gourdes = 6 groupes de 3. Chaque groupe coûte 2 × 5 = 10 €. 6 × 10 = 60 €.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-17",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "saisie",
+   "prompt": "Pour 18 gourdes au magasin B (4 € la 1ʳᵉ, la 2ᵉ à moitié prix), combien paie-t-on en € ?",
+   "accepted": [
+    "54"
+   ],
+   "explanation": "Une paire coûte 4 + 2 = 6 €. 18 : 2 = 9 paires. 9 × 6 = 54 €.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc12-18",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Pour 18 gourdes, quel magasin est le plus avantageux (A : 60 €, B : 54 €) ?",
+   "choices": [
+    "Le magasin A",
+    "Les deux pareil",
+    "On ne peut pas savoir",
+    "Le magasin B"
+   ],
+   "answer": 3,
+   "explanation": "54 € est plus petit que 60 € : le magasin B est le moins cher.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc12"
+  },
+  {
+   "id": "i26-doc13-01",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quelle hypothèse explique que l’huile ne se mélange pas à l’eau ?",
+   "choices": [
+    "L’huile est plus jaune que l’eau",
+    "L’huile est plus légère que l’eau",
+    "L’huile est plus chère",
+    "L’huile a un nom plus long"
+   ],
+   "answer": 1,
+   "explanation": "Une bonne hypothèse relie une propriété (la masse pour un même volume) au résultat observé.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc13"
+  },
+  {
+   "id": "i26-doc13-02",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Pour 10 ml : eau 10 g, huile 7 g, sirop 14 g, sauce soja 10 g. Que fait l’huile versée dans l’eau ?",
+   "choices": [
+    "Elle coule, car sa masse est supérieure",
+    "Elle se mélange",
+    "Elle disparaît",
+    "Elle flotte, car sa masse est inférieure"
+   ],
+   "answer": 3,
+   "explanation": "7 g < 10 g : à volume égal, l’huile est plus légère et flotte.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc13"
+  },
+  {
+   "id": "i26-doc13-03",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Que fait le sirop (14 g) versé dans l’eau (10 g) pour le même volume ?",
+   "choices": [
+    "Il flotte, car sa masse est inférieure",
+    "Il coule, car sa masse est supérieure",
+    "Il flotte, car sa masse est identique",
+    "Il disparaît"
+   ],
+   "answer": 1,
+   "explanation": "14 g > 10 g : plus lourd que l’eau, il coule.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc13"
+  },
+  {
+   "id": "i26-doc13-04",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "La sauce soja (10 g) et l’eau (10 g) ont la même masse pour 10 ml. On obtient…",
+   "choices": [
+    "un mélange hétérogène",
+    "deux couches séparées",
+    "de la glace",
+    "un mélange homogène"
+   ],
+   "answer": 3,
+   "explanation": "Les deux liquides se mélangent et on ne distingue plus l’eau à l’œil nu : mélange homogène.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc13"
+  },
+  {
+   "id": "i26-doc13-05",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Mélange eau + huile : on voit deux couches. C’est un mélange…",
+   "choices": [
+    "homogène",
+    "identique",
+    "hétérogène",
+    "uniforme"
+   ],
+   "answer": 2,
+   "explanation": "Hétérogène : les constituants restent visibles et séparés.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc13"
+  },
+  {
+   "id": "i26-doc13-06",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Mélange homogène : on…",
+   "choices": [
+    "ne distingue plus les constituants à l’œil nu",
+    "distingue toujours les couches",
+    "voit des bulles de couleurs",
+    "ne peut pas le boire"
+   ],
+   "answer": 0,
+   "explanation": "Homogène : le mélange paraît uniforme, un seul liquide.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc13"
+  },
+  {
+   "id": "i26-doc13-07",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Quel élément influence la flottaison d’un liquide sur l’eau (à volume égal) ?",
+   "choices": [
+    "La masse",
+    "La couleur",
+    "Le prix",
+    "Le nom"
+   ],
+   "answer": 0,
+   "explanation": "Un liquide de masse inférieure (à volume égal) flotte ; supérieure, il coule.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc13"
+  },
+  {
+   "id": "i26-doc13-08",
+   "subject": "eveil",
+   "domain": "sciences",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "Dans une démarche scientifique, que fait-on après avoir observé et mesuré ?",
+   "choices": [
+    "On efface les mesures",
+    "On confronte les résultats à l’hypothèse",
+    "On change d’avis sans raison",
+    "On recommence sans noter"
+   ],
+   "answer": 1,
+   "explanation": "On compare les résultats avec l’hypothèse pour la valider ou non.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc13"
+  },
+  {
+   "id": "i26-doc14-01",
+   "subject": "eveil",
+   "domain": "economie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Parmi ces dépenses d’un ménage, lesquelles sont des dépenses d’alimentation ?",
+   "choices": [
+    "Le loyer",
+    "L’électricité",
+    "L’abonnement de bus",
+    "Le pain et le lait"
+   ],
+   "answer": 3,
+   "explanation": "Alimentation : ce qu’on mange. Logement : loyer. Énergie : électricité. Transport : bus.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc14"
+  },
+  {
+   "id": "i26-doc14-02",
+   "subject": "eveil",
+   "domain": "economie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "L’électricité et le chauffage sont des dépenses d’…",
+   "choices": [
+    "alimentation",
+    "habillement",
+    "loisirs",
+    "énergie"
+   ],
+   "answer": 3,
+   "explanation": "Électricité, gaz et mazout forment la catégorie « énergie ».",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc14"
+  },
+  {
+   "id": "i26-doc14-03",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Sofiane achète 1 L de lait à 1,20 €, de la farine à 1,30 € et 10 œufs à 3,00 €. Combien paie-t-il (en €, avec une virgule) ?",
+   "accepted": [
+    "5,5",
+    "5,50",
+    "5.5",
+    "5.50"
+   ],
+   "explanation": "1,20 + 1,30 + 3,00 = 5,50 €.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc14"
+  },
+  {
+   "id": "i26-doc14-04",
+   "subject": "maths",
+   "domain": "problemes",
+   "level": 5,
+   "type": "saisie",
+   "prompt": "Iris achète 6 berlingots de lait à 1,80 €, de la farine à 1,30 € et 6 œufs à 2,50 €. Combien paie-t-elle (en €) ?",
+   "accepted": [
+    "5,6",
+    "5,60",
+    "5.6",
+    "5.60"
+   ],
+   "explanation": "1,80 + 1,30 + 2,50 = 5,60 €.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc14"
+  },
+  {
+   "id": "i26-doc14-05",
+   "subject": "eveil",
+   "domain": "economie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Le budget est de 6,50 €. Sofiane paie 5,50 €. Peut-il acheter en plus du raisin sec à 1,50 € ?",
+   "choices": [
+    "Oui : il reste assez d’argent",
+    "Non : 5,50 + 1,50 = 7 €, c’est trop",
+    "Oui : le raisin est gratuit",
+    "On ne peut pas savoir"
+   ],
+   "answer": 1,
+   "explanation": "6,50 – 5,50 = 1,00 € de reste, moins que 1,50 €.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc14"
+  },
+  {
+   "id": "i26-doc14-06",
+   "subject": "eveil",
+   "domain": "economie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Iris paie 5,60 €. Peut-elle acheter en plus du raisin sec à 1,50 € (budget 6,50 €) ?",
+   "choices": [
+    "Oui : il lui reste 2 €",
+    "Non : il lui reste 0,90 €",
+    "Oui : il lui reste 1,50 €",
+    "On ne peut pas savoir"
+   ],
+   "answer": 1,
+   "explanation": "6,50 – 5,60 = 0,90 €, moins que 1,50 €.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc14"
+  },
+  {
+   "id": "i26-doc14-07",
+   "subject": "eveil",
+   "domain": "citoyennete",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans un arbre généalogique, la maman de ma maman est…",
+   "choices": [
+    "ma tante",
+    "ma cousine",
+    "ma grand-mère",
+    "ma sœur"
+   ],
+   "answer": 2,
+   "explanation": "Les parents de mes parents sont mes grands-parents.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc14"
+  },
+  {
+   "id": "i26-doc14-08",
+   "subject": "eveil",
+   "domain": "economie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle action écologique faisaient les grands-parents quand ils étaient enfants ?",
+   "choices": [
+    "Trier le PMC dans trois poubelles",
+    "Utiliser une gourde en plastique",
+    "Réparer au lieu de jeter",
+    "Commander sur Internet"
+   ],
+   "answer": 2,
+   "explanation": "Selon l’analyse, les grands-parents apprenaient à réparer, jardiner et ne pas gaspiller.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc14"
+  },
+  {
+   "id": "i26-doc14-09",
+   "subject": "eveil",
+   "domain": "economie",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel geste est cité par les enfants d’aujourd’hui ?",
+   "choices": [
+    "Faire du compost uniquement",
+    "Faire le tri des déchets",
+    "Réparer les objets",
+    "Jardiner avec Papi"
+   ],
+   "answer": 1,
+   "explanation": "Les enfants citent le tri, éteindre les lumières et économiser l’eau.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc14"
+  },
+  {
+   "id": "i26-doc15-03",
+   "subject": "eveil",
+   "domain": "citoyennete",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle proposition favorise la coopération ?",
+   "choices": [
+    "Les élèves se disputent",
+    "Les élèves s’écoutent",
+    "Un élève coupe la parole",
+    "Chacun fait ce qu’il veut"
+   ],
+   "answer": 1,
+   "explanation": "Coopérer, c’est écouter les autres et travailler ensemble.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc15"
+  },
+  {
+   "id": "i26-doc15-04",
+   "subject": "eveil",
+   "domain": "citoyennete",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quand un élève est animateur d’un groupe, il aide en…",
+   "choices": [
+    "parlant tout seul",
+    "faisant le travail à la place des autres",
+    "écrivant sans demander",
+    "donnant la parole à chacun"
+   ],
+   "answer": 3,
+   "explanation": "L’animateur organise les échanges et veille à ce que tous participent.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc15"
+  },
+  {
+   "id": "i26-doc15-05",
+   "subject": "eveil",
+   "domain": "citoyennete",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans l’histoire de Jules, quelles valeurs le grand-père transmet-il ?",
+   "choices": [
+    "La compétition et la vitesse",
+    "La ruse et le secret",
+    "L’orgueil et la jalousie",
+    "L’entraide et le respect de l’environnement"
+   ],
+   "answer": 3,
+   "explanation": "En réparant avec son petit-fils, il montre l’entraide et le soin des objets.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc15"
+  },
+  {
+   "id": "i26-doc15-06",
+   "subject": "eveil",
+   "domain": "citoyennete",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quand quelqu’un casse un jouet, quelle émotion peut-il ressentir ?",
+   "choices": [
+    "De la joie",
+    "De la curiosité pour l’aventure",
+    "De la tristesse",
+    "Aucune émotion"
+   ],
+   "answer": 2,
+   "explanation": "On peut être triste, déçu ou fâché quand on casse un objet auquel on tient.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc15"
+  },
+  {
+   "id": "i26-doc16-01",
+   "subject": "eveil",
+   "domain": "artistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Une pulsation, c’est…",
+   "choices": [
+    "une mélodie très aiguë",
+    "un instrument",
+    "un chant sans paroles",
+    "un battement régulier, comme un tic-tac"
+   ],
+   "answer": 3,
+   "explanation": "La pulsation est le battement régulier de la musique, qu’on peut taper dans les mains.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc16"
+  },
+  {
+   "id": "i26-doc16-02",
+   "subject": "eveil",
+   "domain": "artistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quel instrument fait partie de la famille des aérophones ?",
+   "choices": [
+    "Le piano",
+    "La flûte traversière",
+    "Le tambour",
+    "Le violon"
+   ],
+   "answer": 1,
+   "explanation": "Les aérophones produisent le son avec l’air : flûte, trombone…",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc16"
+  },
+  {
+   "id": "i26-doc16-03",
+   "subject": "eveil",
+   "domain": "artistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Comment s’appelle le signe en forme de spirale placé au début d’une portée pour situer les notes ?",
+   "choices": [
+    "Une clé de sol",
+    "Une note",
+    "Une portée",
+    "Une partition"
+   ],
+   "answer": 0,
+   "explanation": "La clé de sol se place au début de la portée pour situer les notes.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc16"
+  },
+  {
+   "id": "i26-doc16-04",
+   "subject": "eveil",
+   "domain": "artistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Les cinq lignes sur lesquelles on écrit les notes forment…",
+   "choices": [
+    "la partition",
+    "la clé",
+    "la portée",
+    "la note"
+   ],
+   "answer": 2,
+   "explanation": "La portée a cinq lignes ; la partition est l’ensemble de la musique écrite.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc16"
+  },
+  {
+   "id": "i26-doc16-05",
+   "subject": "eveil",
+   "domain": "artistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans un tableau, un dégradé, c’est…",
+   "choices": [
+    "un trait noir très épais",
+    "un passage progressif d’une couleur ou d’une nuance à une autre",
+    "un collage de papiers",
+    "un tableau sans couleur"
+   ],
+   "answer": 1,
+   "explanation": "Dégradé : les nuances changent petit à petit.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc16"
+  },
+  {
+   "id": "i26-doc16-06",
+   "subject": "eveil",
+   "domain": "artistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Bordalo II crée des œuvres à partir de…",
+   "choices": [
+    "marbre uniquement",
+    "peinture à l’huile seulement",
+    "photographies",
+    "déchets récupérés"
+   ],
+   "answer": 3,
+   "explanation": "Cet artiste portugais crée de grands animaux avec des déchets : un art de récupération.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc16"
+  },
+  {
+   "id": "i26-doc16-07",
+   "subject": "eveil",
+   "domain": "artistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Pour obtenir un papillon aux ailes identiques, on plie la feuille en deux et on découpe. Quelle propriété obtient-on ?",
+   "choices": [
+    "La rotation",
+    "Le glissement",
+    "L’agrandissement",
+    "La symétrie"
+   ],
+   "answer": 3,
+   "explanation": "Le pli sert d’axe de symétrie : les deux ailes sont identiques.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc16"
+  },
+  {
+   "id": "i26-doc16-08",
+   "subject": "eveil",
+   "domain": "artistique",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans un théâtre, la partie où jouent les acteurs s’appelle…",
+   "choices": [
+    "les coulisses",
+    "les gradins",
+    "le balcon",
+    "la scène"
+   ],
+   "answer": 3,
+   "explanation": "La scène est l’endroit des comédiens ; le public s’assied face à elle.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc16"
+  },
+  {
+   "id": "i26-doc17-01",
+   "subject": "eveil",
+   "domain": "religion",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Saint François d’Assise est né…",
+   "choices": [
+    "au 2ᵉ siècle",
+    "au 20ᵉ siècle",
+    "au 5ᵉ siècle",
+    "au 12ᵉ siècle"
+   ],
+   "answer": 3,
+   "explanation": "François d’Assise est né vers 1181-1182, au 12ᵉ siècle.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc17"
+  },
+  {
+   "id": "i26-doc17-02",
+   "subject": "eveil",
+   "domain": "religion",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Dans « Sur la route avec François », il bénit les oiseaux. Quelle conviction cela montre-t-il ?",
+   "choices": [
+    "Il respecte et aime la nature",
+    "Il a peur des oiseaux",
+    "Il veut les attraper",
+    "Il ne s’intéresse pas à la nature"
+   ],
+   "answer": 0,
+   "explanation": "François appelle les êtres de la nature « frères » et « sœurs » : il les respecte.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc17"
+  },
+  {
+   "id": "i26-doc17-03",
+   "subject": "eveil",
+   "domain": "religion",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle question est fermée (elle a une réponse précise) ?",
+   "choices": [
+    "Avec qui François marche-t-il ?",
+    "Qu’est-ce qui rend de bonne humeur ?",
+    "Pourquoi aime-t-on la nature ?",
+    "Comment être heureux ?"
+   ],
+   "answer": 0,
+   "explanation": "Une question fermée a une seule réponse précise dans le texte.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc17"
+  },
+  {
+   "id": "i26-doc17-04",
+   "subject": "eveil",
+   "domain": "religion",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quelle question est ouverte ?",
+   "choices": [
+    "Quel jour François est-il né ?",
+    "Combien de frères avait-il ?",
+    "Qu’est-ce qui peut rendre quelqu’un heureux ?",
+    "Dans quel pays vit-il ?"
+   ],
+   "answer": 2,
+   "explanation": "Une question ouverte demande de réfléchir : plusieurs réponses sont possibles.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc17"
+  },
+  {
+   "id": "i26-doc17-05",
+   "subject": "eveil",
+   "domain": "religion",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Que montre une céramique où François s’occupe des malades ?",
+   "choices": [
+    "Il prend soin des malades",
+    "Il construit une maison",
+    "Il fait du sport",
+    "Il cueille des fruits"
+   ],
+   "answer": 0,
+   "explanation": "Les images racontent ses convictions : prendre soin des pauvres, des malades, des personnes différentes et de la nature.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc17"
+  },
+  {
+   "id": "i26-doc17-06",
+   "subject": "eveil",
+   "domain": "religion",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Quels mots de l’histoire montrent que la nature est importante pour François ?",
+   "choices": [
+    "peur, dispute, colère, haine",
+    "argent, voiture, télé, jeu",
+    "frère, sœur, paix, joie",
+    "mur, fermer, crier, fuir"
+   ],
+   "answer": 2,
+   "explanation": "Il parle de « frère » Soleil et « sœur » Lune et il ressent paix et joie.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc17"
+  },
+  {
+   "id": "i26-doc17-07",
+   "subject": "eveil",
+   "domain": "religion",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Une conviction peut entraîner…",
+   "choices": [
+    "un choix de vie",
+    "un jeu de société",
+    "une pluie de printemps",
+    "une recette de cuisine"
+   ],
+   "answer": 0,
+   "explanation": "Ce qu’on pense important (ses valeurs) nous guide dans nos choix de vie.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc17"
+  },
+  {
+   "id": "i26-doc17-08",
+   "subject": "eveil",
+   "domain": "religion",
+   "level": 5,
+   "type": "qcm",
+   "prompt": "Solidarité et entraide sont…",
+   "choices": [
+    "des maladies",
+    "des valeurs",
+    "des animaux",
+    "des couleurs"
+   ],
+   "answer": 1,
+   "explanation": "Les valeurs sont ce qui est important pour nous et guide nos actions.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc17"
+  },
+  {
+   "id": "i26-doc17-09",
+   "subject": "eveil",
+   "domain": "religion",
+   "level": 6,
+   "type": "qcm",
+   "prompt": "François a choisi de vivre dans la pauvreté plutôt que dans le confort. Quelle valeur l’a guidé ?",
+   "choices": [
+    "Le partage",
+    "La richesse",
+    "La compétition",
+    "Le secret"
+   ],
+   "answer": 0,
+   "explanation": "Il a donné ce qu’il avait aux pauvres : il partageait.",
+   "hint": "",
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc17"
+  }
+ ],
+ "passages": [
+  {
+   "id": "i26-p-doc01-a",
+   "title": "Zéro déchet à la maison",
+   "text": "Chaque année, une famille jette des centaines de kilos de déchets. Pourtant, on peut en produire beaucoup moins !\n\nPremière règle : refuser ce qui ne sert pas. Un sac en plastique de plus ou un prospectus inutile finissent vite à la poubelle.\n\nDeuxième règle : réutiliser. Un pot de confiture vide devient une boîte à crayons, et une vieille chemise devient un chiffon.\n\nTroisième règle : trier. Le carton va avec le papier, les bouteilles en plastique, les boîtes de conserve et les briques de lait vont avec les PMC, et les épluchures vont au compost. Ce qui reste, ce sont les déchets résiduels : ils sont brûlés dans une usine spéciale.\n\nQuatrième règle : composter. Les épluchures et les restes de repas se transforment en terreau pour le jardin.\n\nCinquième règle : réparer plutôt que jeter. Un jouet cassé peut souvent retrouver une seconde vie.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 5,
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-p-doc01-b",
+   "title": "Le chêne de Papi",
+   "text": "Quand je suis arrivé à l’école ce matin, Zélie m’attendait près de la grille.\n\n– Tu sais que le chêne du jardin de ton grand-père va être coupé ? m’a-t-elle dit. Ça m’a bouleversée.\n\nJe n’y croyais pas. Ce chêne, c’était mon arbre : Papi l’avait planté le jour de ma naissance. Je me suis mis à courir jusqu’à la maison, le cœur battant, et Zélie m’a suivi en s’essoufflant.\n\n– Attends ! a-t-elle crié. Je veux t’aider.\n\nÀ midi, nous avons écrit une pétition. Tout le quartier l’a signée. Quand les voisins sont venus voir le chêne, ils ont décidé de le sauver. Zélie m’a pris la main et m’a fait un clin d’œil.",
+   "subject": "francais",
+   "domain": "lecture",
+   "level": 6,
+   "source": "inspire_2026",
+   "exam2026": "doc01"
+  },
+  {
+   "id": "i26-p-doc04-a",
+   "title": "Une interview sur la lecture",
+   "text": "Voici l’interview de trois élèves qui racontent comment elles lisent.\n\n– Bonjour Lina, Maé et Ilana. De quoi allons-nous parler ?\n– De la lecture ! répond Lina. Moi, j’adore ça. Quand j’ouvre un livre, c’est comme si j’entrais dans un autre monde.\n– Maé, tu préfères les livres avec ou sans images ?\n– Moi, j’aime les livres avec beaucoup d’images, parce qu’elles m’aident à comprendre l’histoire.\n– Ilana, et toi, que fais-tu quand tu ne connais pas un mot ?\n– Je regarde les images et je lis la phrase en entier. Si ça ne suffit pas, je cherche dans le dictionnaire.\n– Lina, tu t’identifies parfois à un personnage ?\n– Oui, je me mets à sa place pour mieux comprendre ce qu’il ressent.\n– Merci, les filles ! Je vous souhaite de belles lectures.",
+   "subject": "francais",
+   "domain": "ecoute",
+   "level": 5,
+   "source": "inspire_2026",
+   "exam2026": "doc04"
+  }
+ ],
+ "openTasks": [
+  {
+   "id": "i26-o-doc07-11",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 6,
+   "prompt": "Écris la suite de l’histoire « Le chêne de Papi » en 4 parties (Alors… Soudain… Ensuite… Finalement…). Utilise au moins 2 substituts (le grand arbre, le feuillu, la jeune fille…) et au moins 4 mots de la banque : arbre – branche – racine – tronc – sauver – colère – courage – amitié – jardin.",
+   "rubric": [
+    "J’ai écrit au moins une phrase pour chaque partie.",
+    "J’ai utilisé au moins deux substituts différents.",
+    "J’ai utilisé au moins quatre mots de la banque de vocabulaire.",
+    "J’ai respecté les temps des verbes.",
+    "J’ai mis des majuscules et des points et j’ai vérifié l’orthographe."
+   ],
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc07"
+  },
+  {
+   "id": "i26-o-doc09-01",
+   "subject": "francais",
+   "domain": "expression",
+   "level": 5,
+   "prompt": "Tu as écouté l’interview sur la lecture. Présente à l’oral trois informations que tu as retenues et ton avis. Utilise au moins quatre mots parmi : plaisir – histoire – imaginaire – stratégies – aventure – héros – vocabulaire, et trois organisateurs (d’abord, ensuite, enfin…).",
+   "rubric": [
+    "J’ai introduit, développé et conclu.",
+    "J’ai donné trois informations retenues.",
+    "J’ai donné mon avis.",
+    "J’ai utilisé au moins quatre mots de la banque et trois organisateurs.",
+    "J’ai parlé assez fort, en articulant, sans aller trop vite."
+   ],
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc09"
+  },
+  {
+   "id": "i26-o-doc15-01",
+   "subject": "eveil",
+   "domain": "citoyennete",
+   "level": 5,
+   "prompt": "Écoute (ou lis) cette histoire : Jules casse sa petite voiture. Son grand-père lui propose de la réparer ensemble plutôt que d’en acheter une neuve. Écris en une phrase quelque chose qui t’étonne et une question à discuter en classe sur « la réparation d’objets ».",
+   "rubric": [
+    "J’ai écrit une phrase qui commence par « Je m’étonne ».",
+    "J’ai écrit une question ouverte (qui demande de réfléchir).",
+    "Ma question est en lien avec la réparation d’objets."
+   ],
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc15"
+  },
+  {
+   "id": "i26-o-doc15-02",
+   "subject": "eveil",
+   "domain": "citoyennete",
+   "level": 6,
+   "prompt": "Grand-père a-t-il raison de vouloir aider Jules à réparer la voiture ? Réponds OUI ou NON, justifie en une phrase et propose un argument pour répondre à un élève qui n’est pas d’accord.",
+   "rubric": [
+    "J’ai donné mon avis (oui ou non).",
+    "J’ai écrit une raison en une phrase.",
+    "J’ai proposé un argument respectueux."
+   ],
+   "passage": null,
+   "source": "inspire_2026",
+   "exam2026": "doc15"
+  }
+ ]
+}
