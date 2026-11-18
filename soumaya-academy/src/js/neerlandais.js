@@ -11,6 +11,7 @@ import { asset } from './asset.js';
 import { playFile } from './papa.js';
 import { burst, shuffle } from './workshop.js';
 import * as VL from './vlaanderen.js';
+import GEO from './belgique.json';
 
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 const star = (n = 1) => { const b = S.get(); b.bonusStars = (b.bonusStars || 0) + n; b.coins += 2 * n; S.save(); };
@@ -123,6 +124,66 @@ function dieren(body, talk) {
       act.replaceChildren(...Q.o.map((o) => h('button', { class: 'choice', type: 'button', 'data-k': o === Q.r ? 0 : 1, onclick: (e) => { act.querySelectorAll('button').forEach((b) => { b.disabled = true; if (b.textContent === Q.r) b.classList.add('ok'); });
         if (o === Q.r) { ok++; Sfx.ok(); talk(`Goed zo ! ${Q.nl} — ${Q.fr}`, false); } else { e.currentTarget.classList.add('ko'); Sfx.ko(); talk(`Nee. ${Q.nl} — ${Q.fr}`, false); }
         speakNL(Q.nl); n++; setTimeout(next, 3600); } }, o)));
+    };
+    next();
+  };
+  les();
+}
+
+// ---------- De provincies van België (carte numérotée, provinces en néerlandais, chefs-lieux en français) ----------
+const PV = [ // [n°, id belgique.json, nl, fr, chef-lieu (fr)]
+  [1, 'West Flanders', 'West-Vlaanderen', 'Flandre-Occidentale', 'Bruges'], [2, 'East Flanders', 'Oost-Vlaanderen', 'Flandre-Orientale', 'Gand'],
+  [3, 'Antwerp', 'Antwerpen', 'Anvers', 'Anvers'], [4, 'Limburg', 'Limburg', 'Limbourg', 'Hasselt'], [5, 'Flemish Brabant', 'Vlaams-Brabant', 'Brabant flamand', 'Louvain'],
+  [6, 'Walloon Brabant', 'Waals-Brabant', 'Brabant wallon', 'Wavre'], [7, 'Hainaut', 'Henegouwen', 'Hainaut', 'Mons'], [8, 'Namur', 'Namen', 'Namur', 'Namur'],
+  [9, 'Liege', 'Luik', 'Liège', 'Liège'], [10, 'Luxembourg', 'Luxemburg', 'Luxembourg', 'Arlon'],
+];
+const PV_POS = { 'Flemish Brabant': [585, 255] }; // décale le n° 5 pour ne pas toucher Bruxelles
+const PVR = { F: '#ffe08a', W: '#ffb8a8', B: '#a9c4ff' };
+const SVGNS = 'http://www.w3.org/2000/svg';
+const svgEl = (tag, attrs = {}, ...kids) => { const e = document.createElementNS(SVGNS, tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); kids.forEach((c) => c != null && e.append(c)); return e; };
+function pvMap(onPick) {
+  const svg = svgEl('svg', { viewBox: '0 15 1000 770', class: 'nlp-map', role: 'img', 'aria-label': 'Carte des provinces de Belgique avec des numéros' });
+  const marks = {};
+  for (const pr of GEO.prov) svg.append(svgEl('path', { d: pr.d, 'fill-rule': 'evenodd', fill: PVR[pr.reg], stroke: '#7a5a3a', 'stroke-width': 1.8, 'stroke-linejoin': 'round', 'data-id': pr.id }));
+  const br = GEO.prov.find((x) => x.reg === 'B'); svg.append(svgEl('text', { x: br.c[0] - 92, y: br.c[1] - 34, class: 'nlp-bru' }, 'Brussel'));
+  for (const [n, id] of PV) {
+    const pr = GEO.prov.find((x) => x.id === id), [x, y] = PV_POS[id] || pr.c;
+    const g = svgEl('g', { class: 'nlp-num', 'data-n': n, 'data-testid': 'nlp-n' + n, tabindex: 0, role: 'button', 'aria-label': 'Numéro ' + n }, svgEl('circle', { cx: x, cy: y, r: 30 }), svgEl('text', { x, y: y + 11 }, String(n)));
+    g.addEventListener('click', () => onPick && onPick(n)); g.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onPick && onPick(n); } });
+    svg.append(g); marks[n] = g;
+  }
+  return { svg, marks };
+}
+function provincies(body, talk) {
+  const les = () => {
+    const { svg } = pvMap(null);
+    const tab = h('table', { class: 'xb-tab' }, h('tr', null, h('th', null, 'N°'), h('th', null, 'Provincie (NL)'), h('th', null, 'Province (FR)'), h('th', null, 'Chef-lieu')),
+      ...PV.map(([n, , nl, fr, cl]) => h('tr', null, h('td', null, h('b', null, n)), h('td', null, hear(nl), ' ', h('b', null, nl)), h('td', null, fr), h('td', null, cl))));
+    body.replaceChildren(h('h3', null, '🗺️ De provincies van België — Les provinces de Belgique'),
+      h('p', null, 'België heeft ', h('b', null, '10 provincies'), ' : 5 in Vlaanderen 🟨 en 5 in Wallonië 🟥. Brussel 🟦 is geen provincie. ', h('small', { class: 'muted' }, '(La Belgique a 10 provinces : 5 en Flandre et 5 en Wallonie. Bruxelles n’est pas une province.)')),
+      h('div', { class: 'nlp-wrap' }, svg), tab,
+      h('p', { class: 'vi-memo' }, '💡 Truc : Luik = Liège · Namen = Namur · Henegouwen = Hainaut · « Vlaams » = flamand · « Waals » = wallon · « West » = occidentale · « Oost » = orientale.'),
+      h('div', { class: 'actions wrap' }, h('button', { class: 'btn primary', type: 'button', 'data-testid': 'nlp-go', onclick: oef }, '✏️ Oefenen ! (10 vragen)')));
+    talk('België heeft tien provincies. Regarde la carte : chaque province a un numéro.');
+  };
+  const KIND = [
+    () => { const p = pick(PV); return { map: true, q: `Welke provincie is nummer ${p[0]}? (Quelle province porte le n° ${p[0]} ?)`, hi: p[0], o: shuffle([p, ...shuffle(PV.filter((x) => x !== p)).slice(0, 2)]).map((x) => x[2]), r: p[2], nl: `Nummer ${p[0]} is ${p[2]}.`, fr: `${p[2]} = ${p[3]}.` }; },
+    () => { const p = pick(PV); return { map: true, tap: true, q: `Waar ligt ${p[2]}? Tik op het juiste nummer. (Où se trouve ${p[2]} ? Touche le bon numéro.)`, r: p[0], nl: `${p[2]} is nummer ${p[0]}.`, fr: `${p[2]} = ${p[3]}.` }; },
+    () => { const p = pick(PV); return { q: `Wat is de hoofdplaats van ${p[2]}? (Quel est le chef-lieu ?)`, o: shuffle([p[4], ...shuffle(PV.filter((x) => x[4] !== p[4])).slice(0, 2).map((x) => x[4])]), r: p[4], nl: `De hoofdplaats van ${p[2]} is ${p[4]}.`, fr: `Le chef-lieu de la province (${p[3]}) est ${p[4]}.` }; },
+    () => { const p = pick(PV); return { map: true, q: `${p[4]} is de hoofdplaats van welke provincie? (${p[4]} est le chef-lieu de quelle province ?)`, o: shuffle([p, ...shuffle(PV.filter((x) => x !== p)).slice(0, 2)]).map((x) => x[2]), r: p[2], nl: `${p[4]} ligt in ${p[2]}.`, fr: `${p[4]} est le chef-lieu de la province ${p[3]} (n° ${p[0]}).`, show: p[0] }; },
+  ];
+  const oef = () => {
+    let n = 0, ok = 0; const N = 10; const head = h('p', { class: 'prompt' }), zone = h('div'), act = h('div', { class: 'answers nlp-ans' });
+    body.replaceChildren(h('div', { class: 'actions wrap' }, h('button', { class: 'btn small', type: 'button', onclick: les }, '📖 De les (la leçon)')), head, zone, act);
+    const next = () => {
+      if (n >= N) { head.textContent = `Goed zo ! ${ok}/${N}`; talk(`Goed zo ! ${ok} sur ${N}.`); zone.replaceChildren(); act.replaceChildren(h('button', { class: 'btn primary', type: 'button', onclick: oef }, '↻ Nieuwe vragen'), h('button', { class: 'btn', type: 'button', onclick: les }, '📖 De les')); star(ok >= 8 ? 2 : 1); if (ok >= 8) { Sfx.win(); burst(body); } return; }
+      const Q = KIND[n % KIND.length](); let done = false;
+      const finish = (good) => { if (done) return; done = true; if (good) { ok++; Sfx.ok(); talk(`Goed zo ! ${Q.nl} — ${Q.fr}`, false); } else { Sfx.ko(); talk(`Nee. ${Q.nl} — ${Q.fr}`, false); } speakNL(Q.nl); n++; setTimeout(next, 3800); };
+      const m = Q.map ? pvMap(Q.tap ? (k) => { if (done) return; Object.values(m.marks).forEach((g) => g.classList.remove('hi')); m.marks[Q.r].classList.add('ok'); if (k !== Q.r) m.marks[k].classList.add('ko'); finish(k === Q.r); } : null) : null;
+      if (m && Q.hi) m.marks[Q.hi].classList.add('hi');
+      zone.replaceChildren(...(m ? [h('div', { class: 'nlp-wrap nlp-q' + (Q.tap ? ' tap' : '') }, m.svg)] : [h('div', { class: 'vi-card' }, h('span', { class: 'vi-big' }, '🏛️'))]));
+      head.textContent = `${Q.q} (${n + 1}/${N})`; speakNL(Q.q.replace(/\(.*\)/, ''));
+      act.replaceChildren(...(Q.o || []).map((o) => h('button', { class: 'choice', type: 'button', 'data-k': o === Q.r ? 0 : 1, onclick: (e) => { if (done) return; act.querySelectorAll('button').forEach((b) => { b.disabled = true; if (b.textContent === Q.r) b.classList.add('ok'); }); if (o !== Q.r) e.currentTarget.classList.add('ko'); if (m && Q.show) m.marks[Q.show].classList.add('ok'); finish(o === Q.r); } }, o)));
     };
     next();
   };
@@ -429,7 +490,7 @@ export function open(tab = 'moi') {
   const sayEl = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { sayEl.textContent = s; if (v) Voice.speak(s); };
   const body = h('div'), head = h('div');
-  const T = [...THEMES.map(([k, l]) => [k, l, (b, t) => cartes(b, t, k)]), ['quiz', '🎧 Écoute et trouve', quiz], ['dialogue', '💬 Petit dialogue', dialogue], ['dieren', '🦊 Wat eten de dieren?', dieren], ['hikma', '🏫 Ma journée à El Hikma', hikma], ['flandre', '🗺️ Missions en Flandre', VL.missions], ['motsbe', '🧠 Mots de Belgique', VL.mots], ['bilan', '📋 Bilan pour Papa', VL.bilan], ['zidane', '⚽ Mon exposé : Zidane', () => { setTimeout(() => openExpose('nl'), 50); }]];
+  const T = [...THEMES.map(([k, l]) => [k, l, (b, t) => cartes(b, t, k)]), ['quiz', '🎧 Écoute et trouve', quiz], ['dialogue', '💬 Petit dialogue', dialogue], ['dieren', '🦊 Wat eten de dieren?', dieren], ['provincies', '🗺️ De provincies', provincies], ['hikma', '🏫 Ma journée à El Hikma', hikma], ['flandre', '🗺️ Missions en Flandre', VL.missions], ['motsbe', '🧠 Mots de Belgique', VL.mots], ['bilan', '📋 Bilan pour Papa', VL.bilan], ['zidane', '⚽ Mon exposé : Zidane', () => { setTimeout(() => openExpose('nl'), 50); }]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'nl-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel ea-panel' }, UI.closeButton(), h('h2', null, '🌷 La Maison du Néerlandais'), head, h('div', { class: 'actions wrap' }, ...tabs), body, sayEl), { label: 'La Maison du Néerlandais', onClose: () => { Voice.stop(); if (zxStop) { zxStop(); zxStop = null; } } });
   function go(k) { Voice.stop(); if (zxStop) { zxStop(); zxStop = null; } const st = ST(); head.replaceChildren(st.badge ? h('b', { class: 'tb-badge' }, '🌷 Petite néerlandophone !') : h('small', { class: 'muted' }, `${Object.keys(st.heard).length}/${W.length} mots écoutés`), h('small', { class: 'muted vl-head' }, ` · ${VL.NV().stars} ⭐ · ${VL.NV().badges.length} badge(s)`)); tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); T.find((x) => x[0] === k)[2](body, talk); }

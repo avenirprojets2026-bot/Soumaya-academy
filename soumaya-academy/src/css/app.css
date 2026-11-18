@@ -2080,3 +2080,19 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .lv-final{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
 .lv-final span{padding:10px 14px;border-radius:14px;background:#ffd84a;color:#3a2a00;font-weight:700}
 @media (prefers-reduced-motion:reduce){.lv-globe,.lv-orbit,.lv-cat.walk{animation:none}}
+
+/* De provincies (Maison du Néerlandais) */
+.nlp-wrap{display:flex;justify-content:center;margin:.4rem 0}
+.nlp-map{display:block;aspect-ratio:1000/770;width:min(100%,620px,calc(52dvh * 1.3));height:auto;background:#bfe3f7;border-radius:14px}
+.nlp-num circle{fill:#fff;stroke:#3b2a6b;stroke-width:4}
+.nlp-num text{font:800 32px system-ui,sans-serif;text-anchor:middle;fill:#3b2a6b;pointer-events:none}
+.nlp-wrap.tap .nlp-num{cursor:pointer}
+.nlp-wrap.tap .nlp-num:hover circle{fill:#fff6c8}
+.nlp-num.hi circle{fill:#ffd84a;stroke:#c8102e;stroke-width:6}
+.nlp-num.ok circle{fill:#7be08a;stroke:#1d7a32}
+.nlp-num.ko circle{fill:#ff9a9a;stroke:#b3261e}
+.nlp-bru{font:700 26px system-ui,sans-serif;fill:#1d3f8a}
+.nlp-q .nlp-map{width:min(100%,560px,calc(40dvh * 1.3))}
+.nlp-ans{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.5rem}
+.nlp-ans .choice{padding:.55rem .8rem;min-height:0}
+.nlp-num:focus{outline:none}.nlp-num:focus-visible circle{stroke:#c8102e;stroke-width:6}
