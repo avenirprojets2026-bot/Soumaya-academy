@@ -78,6 +78,8 @@ export const SCENES = {
       { id: 'nl-journee', label: 'Ma journée', icon: '🌙', x: 0.79, y: 0.27, stand: { x: 0.76, y: 0.84 }, act: { type: 'panel', panel: 'nl-journee' } },
       { id: 'nl-quiz', label: 'Écoute et trouve', icon: '🎧', x: 0.66, y: 0.58, stand: { x: 0.64, y: 0.86 }, act: { type: 'panel', panel: 'nl-quiz' } },
       { id: 'nl-dial', label: 'Petit dialogue', icon: '💬', x: 0.3, y: 0.6, stand: { x: 0.32, y: 0.86 }, act: { type: 'panel', panel: 'nl-dialogue' } },
+      { id: 'nl-provincies', label: 'De provincies', icon: '🗺️', x: 0.8, y: 0.64, stand: { x: 0.78, y: 0.88 }, act: { type: 'panel', panel: 'nl-provincies' } },
+      { id: 'nl-dieren', label: 'Wat eten de dieren?', icon: '🦊', x: 0.48, y: 0.62, stand: { x: 0.48, y: 0.88 }, act: { type: 'panel', panel: 'nl-dieren' } },
     ],
   },
   anglais: {
