@@ -28,6 +28,7 @@ import * as DC from './decimals.js';
 import * as AB from './abaque.js';
 import * as AG from './grandeurs.js';
 import * as OM from './omtrek.js';
+import * as FL from './fluence.js';
 import * as INF from './infinitif.js';
 import * as CAH from './cahier.js';
 import * as EXA from './examens.js';
@@ -263,6 +264,7 @@ function openPanel(p) {
   else if (p === 'abaque-nombres') AB.open();
   else if (p === 'abaque-grandeurs') AG.open();
   else if (p === 'omtrek') OM.open();
+  else if (p === 'vlot-lezen') FL.open();
   else if (p === 'nl-omtrek') OM.open(null, 'nl');
   else if (p === 'abaque-grandeurs-eval') AG.open('eval');
   else if (p === 'abaque-grandeurs-evall') AG.open('evall');
