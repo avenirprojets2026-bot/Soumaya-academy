@@ -5,7 +5,10 @@ Document de reprise rédigé le 9 novembre 2026, mis à jour le 18 novembre 2026
 - **[C]** information venant de la conversation (décision ou demande de Karim), non revérifiable dans le code ;
 - **[?]** incertitude.
 
-## 0. Mise à jour du 18 novembre 2026
+## 0. Mises à jour des 18 et 19 novembre 2026
+
+- 19 nov. : atelier **« 🧵 Le périmètre — De omtrek »** (`src/js/omtrek.js`) : leçon + vocabulaire NL, 8 entraînements (virgules, entourer, ranger, comparer, même périmètre, tracer sur quadrillage, chemin, vrai/faux). Version française dans l'Atelier des merveilles (route `omtrek`), version **entièrement néerlandaise** dans la Maison du Néerlandais (route `nl-omtrek`). « 📏 Le contour déplié » (modèle interdiocésaine 2026, doc 12 Q5) dans `quest.js` (porte magique, route `contour-deplie`) ; figures colorées ajoutées au « Soleil du périmètre ». **Publié** (commit `94cb231`, « success ») ; sources sur `sauvegarde-source-2026-11-18` (`4c6e321`) [V].
+- 2025 : aucune question de périmètre dans les interdiocésaines ; 2026 : une seule (contour déplié d'un pentagone, 15 cm d'après le dessin) [V].
 
 - **Sources les plus récentes** : branche **`sauvegarde-source-2026-11-18`** (part de `livre-monde-2026-11-15`, qui contenait les ajouts Livre-Monde et Interdiocésaines juin 2026 faits dans une autre session) [V].
 - Le conteneur de session a été remplacé : `/home/claude/work/` est recréé à partir de cette branche (`git archive … | tar -x`) puis `npm ci` [V].
