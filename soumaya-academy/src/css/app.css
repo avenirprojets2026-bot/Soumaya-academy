@@ -2096,3 +2096,55 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .nlp-ans{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.5rem}
 .nlp-ans .choice{padding:.55rem .8rem;min-height:0}
 .nlp-num:focus{outline:none}.nlp-num:focus-visible circle{stroke:#c8102e;stroke-width:6}
+
+/* Le contour déplié (porte magique) */
+.cd-wrap{display:flex;justify-content:center;overflow-x:auto}
+.cd-fig{width:min(100%,640px);max-height:44dvh}
+.cd-v{fill:#fff;font-size:14px;font-weight:800;text-anchor:middle}
+.cd-piece{stroke:#8a8a9a;stroke-width:7;stroke-linecap:butt}
+.cd-piece.on{stroke-width:8}
+.cd-piece.bad{stroke-dasharray:6 5}
+.cd-hit{stroke:transparent;stroke-width:30;cursor:pointer}
+.cd-dot{fill:#1b1030;stroke:#fff;stroke-width:2}
+.cd-pal{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;margin:.3rem 0}
+.cd-col{display:inline-flex;align-items:center;gap:.35rem;padding:.35rem .7rem;border-radius:999px;border:2px solid #ffffff55;background:#ffffff14;color:#fff;font-weight:800;cursor:pointer}
+.cd-col.sel{border-color:var(--c);box-shadow:0 0 0 3px var(--c)}
+.cd-sw{width:22px;height:8px;border-radius:4px;background:var(--c);display:inline-block}
+.cd-msg{margin:.35rem 0}
+.cd-fig g:focus{outline:none}.cd-fig g:focus-visible .cd-piece{filter:drop-shadow(0 0 4px #fff)}
+/* Le périmètre — De omtrek */
+.om-fig{display:block;width:min(100%,360px);max-height:34dvh;margin:0 auto}
+.om-grid{stroke:#ffffff26;stroke-width:1}
+.om-grid.strong{stroke:#ffffff44}
+.om-shape{fill:#ffe36b22;stroke:#ffe36b;stroke-width:3.5;stroke-linejoin:round}
+.om-lbl{fill:#ffe9a8;font-size:16px;font-weight:800;text-anchor:middle}
+.om-letter{fill:#fff;font-size:20px;font-weight:900;text-anchor:middle}
+.om-pair{display:flex;gap:.6rem;justify-content:center;align-items:flex-end;flex-wrap:wrap}
+.om-pair>div{flex:1 1 140px;max-width:240px}
+.om-pair .om-fig{max-height:26dvh}
+.om-cards{display:flex;flex-wrap:wrap;gap:.45rem;justify-content:center}
+.om-card{background:#ffffff10;border:2px solid #ffffff33;border-radius:12px;padding:.25rem;cursor:pointer;flex:0 1 150px}
+.om-card .om-fig{width:100%;max-height:20dvh}
+.om-card.sel{border-color:#ffd84a;box-shadow:0 0 0 3px #ffd84a88}
+.om-card.ok{border-color:#3ee08f;box-shadow:0 0 0 3px #3ee08f88}
+.om-order{text-align:center;font-size:1.3rem;font-weight:900;letter-spacing:.05em;margin:.3rem 0}
+.om-wrap{display:flex;justify-content:center}
+.om-draw{width:min(100%,520px);max-height:46dvh;cursor:crosshair;touch-action:manipulation}
+.om-rect{fill:#4da3ff44;stroke:#4da3ff;stroke-width:4}
+.om-rect.ok{fill:#3ee08f44;stroke:#3ee08f}
+.om-rect.ko{fill:#ff5a5a33;stroke:#ff5a5a}
+.om-dot{fill:#ffd84a;stroke:#fff;stroke-width:2}
+.om-mini .om-fig{width:120px}
+.om-nl{margin:.1rem 0 .3rem;opacity:.85;font-style:italic}
+.om-head{display:flex;align-items:center;gap:.5rem}.om-head h3{margin:.2rem 0}
+.om-lesson{background:#ffffff0f;border-radius:14px;padding:.5rem .8rem;margin-bottom:.6rem}
+.om-lesson p{margin:.3rem 0}
+.om-tip{color:#ffe9a8}
+.om-voc{display:flex;flex-wrap:wrap;gap:.35rem}
+.om-w{background:#ffffff14;border:1px solid #ffffff33;border-radius:999px;color:#fff;padding:.25rem .6rem;cursor:pointer;font-size:.9rem}
+.om-menu{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.5rem}
+.om-act{display:flex;align-items:center;gap:.6rem;text-align:left;background:#ffffff14;border:2px solid #ffffff2e;border-radius:14px;color:#fff;padding:.55rem .7rem;cursor:pointer}
+.om-act:hover{border-color:#ffd84a}
+.om-act b{display:block}.om-act small{opacity:.75}
+.om-ic{font-size:1.6rem}
+.om-info{text-align:center;margin:.3rem 0}

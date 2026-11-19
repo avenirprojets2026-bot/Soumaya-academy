@@ -27,6 +27,7 @@ import * as DR from './drawing.js';
 import * as DC from './decimals.js';
 import * as AB from './abaque.js';
 import * as AG from './grandeurs.js';
+import * as OM from './omtrek.js';
 import * as INF from './infinitif.js';
 import * as CAH from './cahier.js';
 import * as EXA from './examens.js';
@@ -93,7 +94,7 @@ export function boot() {
   // scène de fond pour l'écran-titre
   enterScene('hall', { quiet: true });
   titleScreen();
-  window.__game = { openPanel: (p) => handleAct({ type: 'panel', panel: p }),  goScene, get scene() { return sceneId; }, get room() { return room; }, S, C };
+  window.__game = { openPanel: (p) => handleAct({ type: 'panel', panel: p }),  goScene, get scene() { return sceneId; }, get room() { return room; }, S, C, OM };
 }
 
 function updateHud() {
@@ -254,12 +255,15 @@ function openPanel(p) {
   else if (p === 'solides') WS.solides();
   else if (p === 'fractions') WS.chaudron();
   else if (p === 'porte') QS.porte();
+  else if (p === 'contour-deplie') QS.porte({ contour: true });
   else if (p === 'potion') QS.mission();
   else if (p === 'micro') MI.open();
   else if (p === 'dessin') DR.open();
   else if (p === 'decimaux') DC.open();
   else if (p === 'abaque-nombres') AB.open();
   else if (p === 'abaque-grandeurs') AG.open();
+  else if (p === 'omtrek') OM.open();
+  else if (p === 'nl-omtrek') OM.open(null, 'nl');
   else if (p === 'abaque-grandeurs-eval') AG.open('eval');
   else if (p === 'abaque-grandeurs-evall') AG.open('evall');
   else if (p === 'abaque-grandeurs-masses') AG.open('masses');

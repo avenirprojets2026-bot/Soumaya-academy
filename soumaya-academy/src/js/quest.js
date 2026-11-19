@@ -81,6 +81,7 @@ const GEN = {
     const t = ri(0, 2);
     if (t === 0) { const c = randShape(), p = perim(c); return { pic: () => gridShape(c), q: 'Chaque carreau mesure 1 cm de côté. Quel est le périmètre de la figure ?', opts: opts3(p, [c.length, p + 2, p - 2, p + 4], ' cm'), why: `On fait le tour de la figure en comptant les côtés des carreaux : ${p} cm.` }; }
     if (t === 1) { const L = ri(4, 12), l = ri(2, L - 1), p = 2 * (L + l); return { pic: () => rectLabeled(L, l), q: `Ce rectangle mesure ${L} cm de long et ${l} cm de large. Quel est son périmètre ?`, opts: opts3(p, [L * l, L + l, 2 * L + l, p + 2], ' cm'), why: `Périmètre = ${L} + ${l} + ${L} + ${l} = ${p} cm.` }; }
+    if (ri(0, 2) === 0) { const sh = polyShape(), sd = sidesOf(sh), p = sd.reduce((t, x) => t + x.L, 0); return { pic: () => polyLabeled(sh), q: `Voici ${sh.nom}. Chaque carreau mesure 1 cm de côté. Quel est son périmètre ?`, opts: opts3(p, [p - 2, p + 2, p - sd[0].L, p + 1], ' cm'), why: `On additionne tous les côtés : ${sd.map((x) => x.L).join(' + ')} = ${p} cm.` }; }
     const c = ri(3, 12), p = 4 * c; return { pic: () => rectLabeled(c, c), q: `Un carré a des côtés de ${c} cm. Quel est son périmètre ?`, opts: opts3(p, [c * c, 2 * c, c + 4, p + 4], ' cm'), why: `Un carré a 4 côtés égaux : 4 × ${c} = ${p} cm.` };
   },
   air() {
@@ -109,6 +110,89 @@ const GEN = {
     ]);
   },
 };
+
+// ---------- polygones (côtés horizontaux, verticaux ou en biais 3-4-5 : longueurs entières en cm) ----------
+const SIDE_COL = [['#ff5a5a', 'rouge'], ['#4da3ff', 'bleu'], ['#3ee08f', 'vert'], ['#ffb020', 'orange'], ['#c77dff', 'violet'], ['#d9d9d9', 'gris']];
+const seg = (a, b) => Math.round(Math.hypot(b[0] - a[0], b[1] - a[1]));
+function polyShape() {
+  const t = ri(0, 5);
+  if (t === 0) { const b = ri(1, 3); return { nom: 'un trapèze', v: [[0, 4], [3, 0], [3 + b, 0], [6 + b, 4]] }; }
+  if (t === 1) { const b = ri(2, 5); return { nom: 'un trapèze', v: [[0, 0], [b, 0], [b + 3, 4], [0, 4]] }; }
+  if (t === 2) return pick([{ nom: 'un triangle', v: [[0, 4], [3, 0], [6, 4]] }, { nom: 'un triangle', v: [[0, 0], [4, 0], [0, 3]] }, { nom: 'un triangle', v: [[0, 4], [4, 1], [4, 4]] }]);
+  if (t === 3) { const k = ri(2, 3); return { nom: 'un pentagone (une maison)', v: [[0, 4 + k], [0, 4], [3, 0], [6, 4], [6, 4 + k]] }; }
+  if (t === 4) { const a = ri(4, 6), b = ri(3, 4), c = ri(2, a - 2), d = ri(1, b - 1); return { nom: 'un hexagone (une figure en L)', v: [[0, 0], [c, 0], [c, d], [a, d], [a, b], [0, b]] }; }
+  const b = ri(1, 3); return { nom: 'un pentagone', v: [[0, 5], [0, 3], [4, 0], [4 + b, 0], [4 + b, 5]] };
+}
+function sidesOf(sh) { const v = sh.v; return v.map((a, i) => ({ a, b: v[(i + 1) % v.length], L: seg(a, v[(i + 1) % v.length]), n: String.fromCharCode(65 + i) + String.fromCharCode(65 + ((i + 1) % v.length)) })); }
+
+function polyLabeled(sh) {
+  const sd = sidesOf(sh), W = Math.max(...sh.v.map((p) => p[0])) + 2, H = Math.max(...sh.v.map((p) => p[1])) + 2;
+  const svg = sv('svg', { viewBox: `0 0 ${W * U} ${H * U}`, class: 'q-fig' });
+  for (let x = 0; x <= W; x++) svg.append(sv('line', { x1: x * U, x2: x * U, y1: 0, y2: H * U, class: 'q-grid' }));
+  for (let y = 0; y <= H; y++) svg.append(sv('line', { y1: y * U, y2: y * U, x1: 0, x2: W * U, class: 'q-grid' }));
+  sd.forEach((x, i) => svg.append(sv('line', { x1: (x.a[0] + 1) * U, y1: (x.a[1] + 1) * U, x2: (x.b[0] + 1) * U, y2: (x.b[1] + 1) * U, stroke: SIDE_COL[i][0], 'stroke-width': 4, 'stroke-linecap': 'round' })));
+  return svg;
+}
+// ---------- le contour déplié (comme l'interdiocésaine P4 2026, doc 12, question 5) ----------
+function contourDeplie(body, talk, back) {
+  let n = 0, ok = 0; const N = 4;
+  const round = () => {
+    if (n >= N) {
+      WS.log('enigmes', ok >= 3 ? 1 : 0); if (ok >= 3) { Sfx.win(); WS.burst(body); }
+      body.replaceChildren(h('h3', null, '📏 Le contour déplié'), h('p', { class: 'prompt' }, `Bravo ! ${ok}/${N} figures réussies du premier coup.`), h('div', { class: 'actions' }, h('button', { class: 'btn', type: 'button', onclick: () => contourDeplie(body, talk, back) }, '↻ Rejouer'), h('button', { class: 'btn primary', type: 'button', onclick: back }, '⬅️ Retour à la porte')));
+      talk(`Bravo ! ${ok} figures sur ${N}.`); return;
+    }
+    const sh = polyShape(), sd = sidesOf(sh), P = sd.reduce((t, x) => t + x.L, 0);
+    const pw = Math.max(...sh.v.map((p) => p[0])), ph = Math.max(...sh.v.map((p) => p[1]));
+    const W = Math.max(pw, P) + 2, ly = ph + 3, H = ly + 2;
+    const svg = sv('svg', { viewBox: `0 0 ${W * U} ${H * U}`, class: 'q-fig cd-fig' });
+    for (let x = 0; x <= W; x++) svg.append(sv('line', { x1: x * U, x2: x * U, y1: 0, y2: H * U, class: 'q-grid' }));
+    for (let y = 0; y <= H; y++) svg.append(sv('line', { y1: y * U, y2: y * U, x1: 0, x2: W * U, class: 'q-grid' }));
+    sd.forEach((x, i) => svg.append(sv('line', { x1: (x.a[0] + 1) * U, y1: (x.a[1] + 1) * U, x2: (x.b[0] + 1) * U, y2: (x.b[1] + 1) * U, stroke: SIDE_COL[i][0], 'stroke-width': 5, 'stroke-linecap': 'round' })));
+    const cx = sh.v.reduce((t, p) => t + p[0], 0) / sh.v.length, cy = sh.v.reduce((t, p) => t + p[1], 0) / sh.v.length;
+    sh.v.forEach((p, i) => { const dx = p[0] - cx, dy = p[1] - cy, d = Math.hypot(dx, dy) || 1; svg.append(sv('text', { x: (p[0] + 1) * U + (dx / d) * 14, y: (p[1] + 1) * U + (dy / d) * 14 + 5, class: 'cd-v' }, String.fromCharCode(65 + i))); });
+    const pieces = []; let cum = 0; const pick1 = { i: null };
+    sd.forEach((x, i) => {
+      const x1 = (cum + 1) * U, x2 = (cum + x.L + 1) * U, y = (ly + 1) * U; cum += x.L;
+      const vis = sv('line', { x1, x2, y1: y, y2: y, class: 'cd-piece' });
+      const hit = sv('line', { x1: x1 + 3, x2: x2 - 3, y1: y, y2: y, class: 'cd-hit', 'data-testid': 'cd-p' + i });
+      const g = sv('g', { role: 'button', tabindex: 0, 'aria-label': `Morceau ${i + 1} du contour déplié` }, vis, hit); svg.append(g);
+      const piece = { L: x.L, col: null, vis }; pieces.push(piece);
+      const paint = () => { if (pick1.i == null) { talk('Choisis d’abord une couleur (un côté), puis touche le morceau.'); return; } piece.col = pick1.i; vis.style.stroke = SIDE_COL[pick1.i][0]; vis.classList.add('on'); vis.classList.remove('bad'); Sfx.tap && Sfx.tap(); };
+      g.addEventListener('click', paint); g.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); paint(); } });
+    });
+    for (let k = 0, c = 0; k <= sd.length; k++) { svg.append(sv('circle', { cx: (c + 1) * U, cy: (ly + 1) * U, r: 4.5, class: 'cd-dot' })); if (k < sd.length) c += sd[k].L; }
+    const pal = h('div', { class: 'cd-pal' }, ...sd.map((x, i) => h('button', { class: 'cd-col', type: 'button', 'data-testid': 'cd-c' + i, style: `--c:${SIDE_COL[i][0]}`, onclick: (e) => { pick1.i = i; pal.querySelectorAll('.cd-col').forEach((b) => b.classList.remove('sel')); e.currentTarget.classList.add('sel'); } }, h('span', { class: 'cd-sw' }), ` ${x.n}`)));
+    const msg = h('p', { class: 'cd-msg' }), act = h('div', { class: 'actions wrap' });
+    let tries = 0;
+    const step2 = () => {
+      const o = shuffle([P, ...shuffle([...new Set([P - 2, P + 2, P - 1, P + 1, P + sd[0].L].filter((x) => x > 0 && x !== P))]).slice(0, 2)]);
+      msg.textContent = 'En observant le contour déplié, le périmètre de ce polygone est égal à … cm.'; talk('Maintenant, lis le contour déplié : quel est le périmètre ?');
+      act.replaceChildren(...o.map((v) => h('button', { class: 'choice', type: 'button', 'data-k': v === P ? 0 : 1, onclick: (e) => {
+        act.querySelectorAll('button').forEach((b) => { b.disabled = true; if (b.dataset.k === '0') b.classList.add('ok'); }); const good = v === P; if (!good) e.currentTarget.classList.add('ko');
+        if (good && tries === 0) ok++; if (good) Sfx.ok(); else Sfx.ko();
+        const why = `${sd.map((x) => x.L).join(' + ')} = ${P} cm. Le périmètre, c’est la longueur de tout le tour de la figure.`;
+        msg.textContent = (good ? 'Bravo ! ' : 'Pas tout à fait. ') + why; talk((good ? 'Bravo ! ' : 'Regarde : ') + why);
+        act.append(h('button', { class: 'btn primary', type: 'button', 'data-testid': 'cd-next', onclick: () => { n++; round(); } }, n + 1 < N ? '➡️ Figure suivante' : '🏁 Terminer'));
+      } }, `${v} cm`)));
+    };
+    const check = () => {
+      if (pieces.some((p) => p.col == null)) { msg.textContent = 'Il reste des morceaux gris : colorie chaque morceau du contour déplié.'; talk(msg.textContent); return; }
+      let bad = 0; pieces.forEach((p) => { if (sd[p.col].L !== p.L) { bad++; p.vis.classList.add('bad'); } });
+      const used = new Set(pieces.map((p) => p.col)).size;
+      if (!bad && used === sd.length) { Sfx.ok(); msg.textContent = 'Parfait ! Chaque morceau a la même longueur que le côté de sa couleur.'; step2(); return; }
+      tries++; Sfx.ko();
+      msg.textContent = bad ? `${bad} morceau${bad > 1 ? 'x n’ont' : ' n’a'} pas la bonne longueur (barré en pointillé). Compte les carreaux : un morceau doit avoir la même longueur que le côté de sa couleur.` : 'Chaque couleur doit être utilisée une fois : un morceau par côté.';
+      talk(msg.textContent);
+    };
+    act.replaceChildren(h('button', { class: 'btn primary', type: 'button', 'data-testid': 'cd-check', onclick: check }, '✔️ Vérifier mes couleurs'));
+    body.replaceChildren(h('h3', null, `📏 Le contour déplié — figure ${n + 1}/${N}`),
+      h('p', { class: 'cd-msg' }, `Observe ${sh.nom} et son contour déplié dans le quadrillage dont les cases font 1 cm de côté. `, h('b', null, 'Repasse sur le contour déplié en respectant les couleurs : '), 'choisis une couleur, puis touche le morceau de même longueur.'),
+      h('div', { class: 'cd-wrap' }, svg), pal, msg, act);
+    talk(n === 0 ? 'Le contour déplié, c’est le tour de la figure étalé sur une ligne droite. Choisis une couleur, puis touche le morceau qui a la même longueur.' : 'Nouvelle figure !');
+  };
+  round();
+}
 const FAM = [
   ['per', '☀️', 'Le soleil du périmètre', '#ffd84a'],
   ['ang', '🔺', 'Le triangle des angles', '#3fa9ff'],
@@ -137,7 +221,8 @@ export function porte(o = {}) {
     const n = FAM.filter(([k]) => state[k]).length;
     body.replaceChildren(h('div', { class: 'ws-lab' }, dw, h('div', { class: 'ws-side' },
       h('p', { class: 'prompt' }, n === 4 ? 'La porte magique est ouverte ! Tu as résolu toutes les énigmes. Tu peux rejouer chaque symbole.' : `La porte est fermée par 4 symboles magiques. Touche un symbole et résous ses énigmes pour l’allumer (${n}/4).`),
-      ...FAM.map(([k, ic, name]) => h('button', { class: 'btn small' + (state[k] ? ' primary' : ''), type: 'button', onclick: () => fam(k) }, `${ic} ${name}${state[k] ? ' ✓' : ''}`)))));
+      ...FAM.map(([k, ic, name]) => h('button', { class: 'btn small' + (state[k] ? ' primary' : ''), type: 'button', onclick: () => fam(k) }, `${ic} ${name}${state[k] ? ' ✓' : ''}`)),
+      h('button', { class: 'btn small cd-btn', type: 'button', 'data-testid': 'q-contour', onclick: () => { body.replaceChildren(); contourDeplie(body, talk, home); } }, '📏 Le contour déplié (comme l’interdiocésaine 2026)'))));
     talk(n === 4 ? 'La porte magique est ouverte !' : 'Touche un symbole de la porte pour résoudre ses énigmes.');
   }
   function fam(k) {
@@ -163,6 +248,7 @@ export function porte(o = {}) {
     });
     return;
   }
+  if (o.contour) { contourDeplie(body, talk, home); return; }
   home();
 }
 
