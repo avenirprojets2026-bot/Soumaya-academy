@@ -2148,3 +2148,31 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .om-act b{display:block}.om-act small{opacity:.75}
 .om-ic{font-size:1.6rem}
 .om-info{text-align:center;margin:.3rem 0}
+/* Vlot lezen — Fluence */
+.fl-intro{margin:.2rem 0 .6rem}
+.fl-shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.5rem}
+.fl-card{display:flex;flex-direction:column;gap:.15rem;text-align:left;background:#ffffff12;border:2px solid var(--c);border-left-width:8px;border-radius:12px;color:#fff;padding:.55rem .7rem;cursor:pointer}
+.fl-card small{opacity:.8}.fl-meta{font-size:.8rem;opacity:.75}
+.fl-book{display:flex;flex-direction:column;gap:.2rem;align-items:flex-start;margin-top:.8rem}
+.fl-book small{opacity:.75}
+.fl-top{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap}.fl-top h3{margin:.2rem 0}
+.fl-tools{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin:.3rem 0}
+.fl-speed{border-radius:999px;padding:.3rem .5rem;background:#ffffff18;color:#fff;border:1px solid #ffffff44}
+.fl-speed option{color:#000}
+.fl-clock{font:800 1.3rem ui-monospace,monospace;color:#ffd84a;min-width:3.2em;text-align:center}
+.fl-info{margin:.2rem 0 .4rem;color:#ffe9a8;font-weight:700}
+.fl-text{list-style:none;margin:0;padding:.6rem .8rem;background:#fffdf6;color:#222;border-radius:14px;max-height:52dvh;overflow:auto;font:500 1.15rem/1.55 "Andika","Comic Sans MS",system-ui,sans-serif}
+.fl-line{display:flex;gap:.6rem;padding:.1rem .35rem;border-radius:8px;cursor:pointer}
+.fl-line:hover{background:#fff3c4}
+.fl-n{color:#9a8a6a;min-width:1.8em;text-align:right;font-variant-numeric:tabular-nums}
+.fl-line.on{background:#ffe36b}
+.fl-line.done .fl-tx{color:#2f7d4a}
+.fl-line.end{outline:3px solid #2f7d4a}
+.fl-sec{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:.7rem 0 .3rem}.fl-sec h3{margin:0}
+.fl-import{background:#ffffff10;border:2px dashed #ffffff44;border-radius:14px;padding:.6rem .8rem}
+.fl-import p{margin:.2rem 0 .5rem}
+.fl-line.gap{margin-bottom:.7rem}
+.fl-prog{display:grid;gap:.5rem}
+.fl-pr{display:grid;gap:.15rem;background:#ffffff10;border-radius:12px;padding:.5rem .7rem}
+.fl-pr small{opacity:.75}
+.fl-spark{width:180px;height:40px}
