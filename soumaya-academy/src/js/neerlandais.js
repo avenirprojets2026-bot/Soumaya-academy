@@ -91,39 +91,44 @@ const DA = [ // [emoji, dier, fr, type (index DP)]
 const cap = (t) => t[0].toUpperCase() + t.slice(1);
 const pick = (a) => a[Math.floor(Math.random() * a.length)];
 const hear = (t) => h('button', { class: 'btn small', type: 'button', 'aria-label': 'Écouter ' + t, onclick: () => speakNL(t) }, '🔊');
+// « Wat eten de dieren? » : voix flamande enregistrée (Bram) — assets/voice/nl/dieren/<id>.ogg ; aucune voix de l'appareil dans cet onglet
+const sayD = (id) => { if (!Sfx.soundOn()) return; try { speechSynthesis.cancel(); } catch (e) { /* */ } playFile(`assets/voice/nl/dieren/${id}.ogg`); };
+const hearD = (id, t) => h('button', { class: 'btn small', type: 'button', 'aria-label': 'Écouter ' + t, onclick: () => sayD(id) }, '🔊');
+const vb = (d) => (d === DP[2] ? 'drinkt' : 'eet');
+const aId = (a) => 'a' + DA.indexOf(a);
 function dieren(body, talk) {
   const les = () => {
     const t1 = h('table', { class: 'xb-tab' }, h('tr', null, h('th', null, 'Nederlands'), h('th', null, 'Hij/zij eet…'), h('th', null, 'Voorbeelden'), h('th', null, 'Français')),
-      ...DG.map((g) => h('tr', null, h('td', null, hear(g.nl), ' ', h('b', null, g.nl), h('br'), h('small', null, g.sci)), h('td', null, g.eet), h('td', null, g.ex.map((e) => e.join(' ')).join(', ')), h('td', null, g.fr))));
+      ...DG.map((g) => h('tr', null, h('td', null, hearD('g' + DG.indexOf(g), g.nl), ' ', h('b', null, g.nl), h('br'), h('small', null, g.sci)), h('td', null, g.eet), h('td', null, g.ex.map((e) => e.join(' ')).join(', ')), h('td', null, g.fr))));
     const t2 = h('table', { class: 'xb-tab' }, h('tr', null, h('th', null, 'Nederlands'), h('th', null, 'Hij eet vooral…'), h('th', null, 'Voorbeelden'), h('th', null, 'Français')),
-      ...DP.map((d, i) => h('tr', null, h('td', null, hear(d[0]), ' ', h('b', null, d[0]), h('br'), h('small', null, d[1])), h('td', null, d[3]), h('td', null, DA.filter((a) => a[3] === i).map((a) => a[0] + ' ' + a[1]).join(', ')), h('td', null, d[2] + ' : ' + d[4]))));
+      ...DP.map((d, i) => h('tr', null, h('td', null, hearD('p' + i, d[0]), ' ', h('b', null, d[0]), h('br'), h('small', null, d[1])), h('td', null, d[3]), h('td', null, DA.filter((a) => a[3] === i).map((a) => a[0] + ' ' + a[1]).join(', ')), h('td', null, d[2] + ' : ' + d[4]))));
     body.replaceChildren(h('h3', null, '🦊 Wat eten de dieren? — Que mangent les animaux ?'),
       h('p', null, 'Er zijn ', h('b', null, 'drie grote groepen'), ' : de planteneters, de vleeseters en de alleseters. ', h('small', { class: 'muted' }, '(Il y a trois grands groupes.)')), t1,
       h('p', null, 'Sommige dieren eten ', h('b', null, 'vooral één soort voedsel'), '. ', h('small', { class: 'muted' }, '(Certains animaux mangent surtout une sorte de nourriture.)')), t2,
       h('p', { class: 'vi-memo' }, '💡 Truc : ', h('b', null, 'plant + eter'), ' = planteneter · ', h('b', null, 'vlees + eter'), ' = vleeseter · ', h('b', null, 'alles + eter'), ' = alleseter. « eter » = celui qui mange.'),
       h('p', { class: 'muted' }, '🗣️ Zeg het : « De koala eet bladeren. Hij is een bladeter. » — Le koala mange des feuilles. C’est un folivore.'),
       h('div', { class: 'actions wrap' }, h('button', { class: 'btn primary', type: 'button', 'data-testid': 'nl-dier-go', onclick: oef }, '✏️ Oefenen ! (10 vragen)')));
-    talk('Wat eten de dieren ? Il y a trois grands groupes : de planteneters, de vleeseters en de alleseters.');
+    talk('Que mangent les animaux ? Il y a trois grands groupes. Touche les haut-parleurs pour écouter les mots en flamand.');
   };
   const GEN = [
-    () => { const a = pick(DA), d = DP[a[3]]; return { ic: a[0], t: cap(a[1]), sub: `${cap(a[1])} eet vooral ${d[3]}.`, q: `Wat is ${a[1]}?`, o: shuffle([d[0], ...shuffle(DP.filter((x) => x !== d)).slice(0, 2).map((x) => x[0])]), r: d[0], nl: `${cap(a[1])} eet ${d[3]}. Hij is ${d[0].replace('de ', 'een ')}.`, fr: `${cap(a[2])} mange ${d[4]} : c’est un ${d[2]}.` }; },
-    () => { const d = pick(DP); return { ic: '📖', t: d[0], q: `Wat betekent « ${d[0]} » ? (Que veut dire…)`, o: shuffle([d[2], ...shuffle(DP.filter((x) => x !== d)).slice(0, 2).map((x) => x[2])]), r: d[2], nl: `${cap(d[0])} eet vooral ${d[3]}.`, fr: `« ${d[0]} » = ${d[2]} : il mange surtout ${d[4]}.` }; },
-    () => { const g = pick(DG), e = pick(g.ex); return { ic: e[0], t: cap(e[1]), q: `Is ${e[1]} een planteneter, een vleeseter of een alleseter?`, o: DG.map((x) => x.nl.replace('de ', 'een ')), r: g.nl.replace('de ', 'een '), nl: `${cap(e[1])} is ${g.nl.replace('de ', 'een ')}: dit dier eet ${g.eet}.`, fr: `C’est un ${g.fr}.` }; },
-    () => { const a = pick(DA), d = DP[a[3]]; return { ic: a[0], t: cap(a[1]), q: `${cap(a[1])} eet ___ .`, o: shuffle([d[3], ...shuffle(DP.filter((x) => x !== d)).slice(0, 2).map((x) => x[3])]), r: d[3], nl: `${cap(a[1])} eet ${d[3]}.`, fr: `${cap(a[2])} mange ${d[4]}.`, say: true }; },
-    () => { const a = pick(DA), d = DP[a[3]], ok = Math.random() < 0.5, d2 = ok ? d : pick(DP.filter((x) => x !== d)); return { ic: a[0], t: cap(a[1]), q: `Waar of niet waar? « ${cap(a[1])} is ${d2[0].replace('de ', 'een ')}. »`, o: ['waar', 'niet waar'], r: ok ? 'waar' : 'niet waar', nl: `${cap(a[1])} is ${d[0].replace('de ', 'een ')}.`, fr: `${ok ? 'Vrai' : 'Faux'} : ${a[2]} est ${d[2]}.` }; },
-    () => { const i = Math.floor(Math.random() * DP.length), d = DP[i], ins = shuffle(DA.filter((a) => a[3] === i)).slice(0, 2), x = pick(DA.filter((a) => a[3] !== i)); return { ic: '🔎', t: 'Wie hoort er niet bij?', q: `Welk dier is GEEN ${d[0].replace('de ', '')}? (Lequel n’est PAS ${d[2]} ?)`, o: shuffle([...ins, x]).map((a) => a[0] + ' ' + a[1]), r: x[0] + ' ' + x[1], nl: `${cap(x[1])} is ${DP[x[3]][0].replace('de ', 'een ')}.`, fr: `${cap(x[2])} est ${DP[x[3]][2]}, pas ${d[2]}.` }; },
+    () => { const a = pick(DA), d = DP[a[3]]; return { ic: a[0], t: cap(a[1]), sub: `${cap(a[1])} ${vb(d)} vooral ${d[3]}.`, q: `Wat is ${a[1]}?`, o: shuffle([d[0], ...shuffle(DP.filter((x) => x !== d)).slice(0, 2).map((x) => x[0])]), r: d[0], nl: `${cap(a[1])} ${vb(d)} vooral ${d[3]}. Hij is ${d[0].replace('de ', 'een ')}.`, id: aId(a), fr: `${cap(a[2])} mange ${d[4]} : c’est un ${d[2]}.` }; },
+    () => { const d = pick(DP); return { ic: '📖', t: d[0], q: `Wat betekent « ${d[0]} » ? (Que veut dire…)`, o: shuffle([d[2], ...shuffle(DP.filter((x) => x !== d)).slice(0, 2).map((x) => x[2])]), r: d[2], nl: `${cap(d[0].replace('de ', 'een '))} ${vb(d)} vooral ${d[3]}.`, id: 'd' + DP.indexOf(d), hid: 'p' + DP.indexOf(d), fr: `« ${d[0]} » = ${d[2]} : il mange surtout ${d[4]}.` }; },
+    () => { const g = pick(DG), e = pick(g.ex); return { ic: e[0], t: cap(e[1]), q: `Is ${e[1]} een planteneter, een vleeseter of een alleseter?`, o: DG.map((x) => x.nl.replace('de ', 'een ')), r: g.nl.replace('de ', 'een '), nl: `${cap(e[1])} is ${g.nl.replace('de ', 'een ')}.`, id: 'b' + (DG.indexOf(g) * 4 + g.ex.indexOf(e)), fr: `C’est un ${g.fr} : il mange ${g.eet}.` }; },
+    () => { const a = pick(DA), d = DP[a[3]]; return { ic: a[0], t: cap(a[1]), q: `${cap(a[1])} ${vb(d)} ___ .`, o: shuffle([d[3], ...shuffle(DP.filter((x) => x !== d)).slice(0, 2).map((x) => x[3])]), r: d[3], nl: `${cap(a[1])} ${vb(d)} vooral ${d[3]}. Hij is ${d[0].replace('de ', 'een ')}.`, id: aId(a), fr: `${cap(a[2])} mange ${d[4]}.`, say: true }; },
+    () => { const a = pick(DA), d = DP[a[3]], ok = Math.random() < 0.5, d2 = ok ? d : pick(DP.filter((x) => x !== d)); return { ic: a[0], t: cap(a[1]), q: `Waar of niet waar? « ${cap(a[1])} is ${d2[0].replace('de ', 'een ')}. »`, o: ['waar', 'niet waar'], r: ok ? 'waar' : 'niet waar', nl: `${cap(a[1])} ${vb(d)} vooral ${d[3]}. Hij is ${d[0].replace('de ', 'een ')}.`, id: aId(a), fr: `${ok ? 'Vrai' : 'Faux'} : ${a[2]} est ${d[2]}.` }; },
+    () => { const i = Math.floor(Math.random() * DP.length), d = DP[i], ins = shuffle(DA.filter((a) => a[3] === i)).slice(0, 2), x = pick(DA.filter((a) => a[3] !== i)); return { ic: '🔎', t: 'Wie hoort er niet bij?', q: `Welk dier is GEEN ${d[0].replace('de ', '')}? (Lequel n’est PAS ${d[2]} ?)`, o: shuffle([...ins, x]).map((a) => a[0] + ' ' + a[1]), r: x[0] + ' ' + x[1], nl: `${cap(x[1])} ${vb(DP[x[3]])} vooral ${DP[x[3]][3]}. Hij is ${DP[x[3]][0].replace('de ', 'een ')}.`, id: aId(x), fr: `${cap(x[2])} est ${DP[x[3]][2]}, pas ${d[2]}.` }; },
   ];
   const oef = () => {
     let n = 0, ok = 0; const N = 10; const head = h('p', { class: 'prompt' }), card = h('div', { class: 'vi-card' }), act = h('div', { class: 'answers' });
     body.replaceChildren(h('div', { class: 'actions wrap' }, h('button', { class: 'btn small', type: 'button', onclick: les }, '📖 De les (la leçon)')), head, card, act);
     const next = () => {
-      if (n >= N) { head.textContent = `Goed zo ! ${ok}/${N}`; talk(`Goed zo ! ${ok} sur ${N}.`); card.replaceChildren(); act.replaceChildren(h('button', { class: 'btn primary', type: 'button', onclick: oef }, '↻ Nieuwe vragen'), h('button', { class: 'btn', type: 'button', onclick: les }, '📖 De les')); star(ok >= 8 ? 2 : 1); if (ok >= 8) { Sfx.win(); burst(body); } return; }
+      if (n >= N) { head.textContent = `Goed zo ! ${ok}/${N}`; talk(`Bravo ! ${ok} sur ${N}.`); card.replaceChildren(); act.replaceChildren(h('button', { class: 'btn primary', type: 'button', onclick: oef }, '↻ Nieuwe vragen'), h('button', { class: 'btn', type: 'button', onclick: les }, '📖 De les')); star(ok >= 8 ? 2 : 1); if (ok >= 8) { Sfx.win(); burst(body); } return; }
       const Q = GEN[n % GEN.length]();
-      card.replaceChildren(h('span', { class: 'vi-big' }, Q.ic), h('b', null, Q.t), ...(Q.sub ? [h('small', null, Q.sub)] : []), hear(Q.sub || Q.q.replace(/\(.*\)/, '').replace('___', '…')));
-      head.textContent = `${Q.q} (${n + 1}/${N})`; speakNL(Q.sub || Q.q.replace(/\(.*\)/, '').replace('___', ''));
+      card.replaceChildren(h('span', { class: 'vi-big' }, Q.ic), h('b', null, Q.t), ...(Q.sub ? [h('small', null, Q.sub)] : []), ...(Q.hid ? [hearD(Q.hid, Q.t)] : []));
+      head.textContent = `${Q.q} (${n + 1}/${N})`; if (Q.hid) sayD(Q.hid);
       act.replaceChildren(...Q.o.map((o) => h('button', { class: 'choice', type: 'button', 'data-k': o === Q.r ? 0 : 1, onclick: (e) => { act.querySelectorAll('button').forEach((b) => { b.disabled = true; if (b.textContent === Q.r) b.classList.add('ok'); });
         if (o === Q.r) { ok++; Sfx.ok(); talk(`Goed zo ! ${Q.nl} — ${Q.fr}`, false); } else { e.currentTarget.classList.add('ko'); Sfx.ko(); talk(`Nee. ${Q.nl} — ${Q.fr}`, false); }
-        speakNL(Q.nl); n++; setTimeout(next, 3600); } }, o)));
+        if (Q.id) sayD(Q.id); n++; setTimeout(next, 4300); } }, o)));
     };
     next();
   };
