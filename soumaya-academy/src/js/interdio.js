@@ -1,4 +1,4 @@
-// Évaluations interdiocésaines P4 des autres années (2022, 2024) : l'épreuve officielle en version interactive
+// Évaluations interdiocésaines P4 des autres années (2015, 2022, 2024) : l'épreuve officielle en version interactive
 // + un entraînement « même type, nouveaux nombres » généré à chaque partie.
 import * as UI from './ui.js';
 import { h } from './ui.js';
@@ -6,6 +6,7 @@ import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
 import { burst, shuffle, ri } from './workshop.js';
+import { DOCS2015 } from './interdio2015.js';
 
 const star = (n = 1) => { const b = S.get(); b.bonusStars = (b.bonusStars || 0) + n; b.coins += 2 * n; S.save(); };
 const pick = (a) => a[ri(0, a.length - 1)];
@@ -172,7 +173,12 @@ export function open() {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
+  const all15 = DOCS2015.flatMap(([, , qs]) => qs);
   const home = () => body.replaceChildren(
+    h('div', { class: 'ch-cat' }, h('h3', null, '📅 Juin 2015 · L’alimentation (documents 1 à 5)'),
+      h('div', { class: 'actions wrap' }, h('button', { class: 'btn primary', type: 'button', 'data-testid': 'id15-all', onclick: () => quiz(body, talk, all15, '2015 · toute l’épreuve', home) }, `🏆 Toute l’épreuve de 2015 (${all15.length} questions)`),
+        ...DOCS2015.map(([k, t, qs]) => h('button', { class: 'btn', type: 'button', 'data-testid': 'id15-' + k, onclick: () => quiz(body, talk, qs, '2015 · ' + t.replace(/^\S+ /, ''), home) }, `${t} (${qs.length})`))),
+      h('p', { class: 'muted' }, 'Les questions qui demandent la revue, le portefeuille de lecture ou l’enregistrement de l’école (Écouter) se font sur papier : ici, seulement celles qu’on peut faire sans.')),
     h('div', { class: 'ch-cat' }, h('h3', null, '📅 Juin 2022 · Document 2 · Les nombres'),
       h('div', { class: 'actions wrap' }, h('button', { class: 'btn primary', type: 'button', 'data-testid': 'id22-off', onclick: () => quiz(body, talk, OFF2022, '2022 · épreuve officielle', home) }, `🏆 L’épreuve de 2022 (${OFF2022.length} questions)`),
         h('button', { class: 'btn', type: 'button', 'data-testid': 'id22-train', onclick: () => { const run = () => quiz(body, talk, shuffle(GEN).slice(0, 12).map((g) => g()), 'Entraînement · nouveaux nombres', run); run(); } }, '🔁 Entraînement : même type, nouveaux nombres'),
@@ -184,7 +190,7 @@ export function open() {
         h('a', { class: 'doc-link', href: url('p4_2024_doc08_ecrire_lire.pdf'), target: '_blank', rel: 'noopener' }, '📄 Le document officiel (8 pages, à imprimer)')),
       h('p', { class: 'muted' }, 'Les textes « Sam se fait son cinéma » et « Les coulisses du cinéma » sont dans le carnet de lecture de l’école : les questions 3, 4, 8, 11 a et 12 se font sur le document imprimé.')),
     h('p', { class: 'muted' }, 'Les documents de juin 2025 sont dans le grimoire des Grands Explorateurs (Archives du temps).'));
-  UI.openDialog(h('div', { class: 'panel be-panel ws-panel ab-panel' }, UI.closeButton(), h('h2', null, '📚 Évaluations interdiocésaines P4 · 2022 et 2024'), body, say), { label: 'Évaluations interdiocésaines 2022 et 2024', onClose: () => Voice.stop() });
+  UI.openDialog(h('div', { class: 'panel be-panel ws-panel ab-panel' }, UI.closeButton(), h('h2', null, '📚 Évaluations interdiocésaines P4 · 2015, 2022 et 2024'), body, say), { label: 'Évaluations interdiocésaines 2015, 2022 et 2024', onClose: () => Voice.stop() });
   home();
   talk('Choisis une année : l’épreuve officielle, ou un entraînement avec de nouveaux nombres.');
 }
