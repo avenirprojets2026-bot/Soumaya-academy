@@ -6,6 +6,7 @@ import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
 import { burst, shuffle, ri, qcm } from './workshop.js';
+import * as BD from './bd.js';
 
 const star = (n = 1) => { const b = S.get(); b.bonusStars = (b.bonusStars || 0) + n; b.coins += 2 * n; S.save(); };
 const pick = (a) => a[ri(0, a.length - 1)];
@@ -172,11 +173,57 @@ function fete(body, talk) {
   go('budget');
 }
 
+
+// ---------- la famille et l'arbre généalogique (FES : évaluations P4 juin 2025 doc 9 et juin 2026 doc 14) ----------
+const BD_FAM = ['La famille, c’est un groupe de personnes liées par des liens de parenté : les parents, les enfants, les grands-parents, les oncles, les tantes, les cousins… qui se soutiennent et s’aiment.',
+  'Les liens de parenté. Le grand-père : le père de mon père ou de ma mère. La grand-mère : la mère de mon père ou de ma mère. L’oncle : le frère de mon père ou de ma mère. La tante : la sœur de mon père ou de ma mère.',
+  'Le frère : le garçon qui a les mêmes parents que moi. La sœur : la fille qui a les mêmes parents que moi. Le cousin ou la cousine : l’enfant de mon oncle ou de ma tante.',
+  'Un arbre généalogique est un schéma qui montre les membres d’une famille et les liens de parenté entre eux, sur plusieurs générations : les grands-parents, les parents, les enfants.',
+  'Grâce à l’arbre généalogique, on comprend mieux notre famille !'];
+function bdFamille(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-famille.webp', title: 'La famille et l’arbre généalogique', alt: 'BD : la famille, les liens de parenté et un arbre généalogique sur trois générations', lines: BD_FAM,
+    question: ['Qui est la sœur de ton père ? Et le fils de ton oncle ?', 'La sœur de ton père, c’est ta tante. Le fils de ton oncle, c’est ton cousin.'],
+    after: 'Ensuite, entraîne-toi avec « L’arbre généalogique » !' });
+}
+const PRE = { m: ['Pierre', 'Jean', 'Luc', 'Paul', 'Marc', 'Tom', 'Hugo', 'Karim', 'Adam', 'Louis', 'Noah', 'Yanis'], f: ['Marie', 'Rose', 'Anne', 'Sophie', 'Léa', 'Zoé', 'Inès', 'Nora', 'Emma', 'Sarah', 'Lina', 'Jade'] };
+function arbre(body, talk) {
+  const pm = shuffle(PRE.m), pf = shuffle(PRE.f);
+  const moiF = Math.random() < 0.5;
+  // gp1+gp2 → pere, tante ; gp3+gp4 → mere, oncle ; tante + oncleA → cousin, cousine ; pere + mere → moi, frere/soeur
+  const P = { gp1: pm[0], gp2: pf[0], gp3: pm[1], gp4: pf[1], pere: pm[2], tante: pf[2], mere: pf[3], oncle: pm[3], oncleA: pm[4], moi: moiF ? pf[4] : pm[5], fs: moiF ? pm[6] : pf[5], cousin: pm[7], cousine: pf[6] };
+  const fs = moiF ? 'le frère' : 'la sœur';
+  const REL = [['gp1', 'le grand-père'], ['gp3', 'le grand-père'], ['gp2', 'la grand-mère'], ['gp4', 'la grand-mère'], ['pere', 'le père'], ['mere', 'la mère'], ['tante', 'la tante'], ['oncle', 'l’oncle'], ['oncleA', 'l’oncle'], ['fs', fs], ['cousin', 'le cousin'], ['cousine', 'la cousine']];
+  const card = (k, extra = '') => h('div', { class: 'fa-card' + (k === 'moi' ? ' moi' : '') + extra, 'data-k': k }, h('span', null, ['gp1', 'gp3', 'pere', 'oncle', 'oncleA', 'cousin'].includes(k) || (k === 'fs' && moiF) || (k === 'moi' && !moiF) ? '👦' : '👧'), h('b', null, P[k]));
+  const couple = (a, b) => h('div', { class: 'fa-couple' }, card(a), h('span', { class: 'fa-heart' }, '❤️'), card(b));
+  const tree = h('div', { class: 'fa-tree' },
+    h('div', { class: 'fa-row' }, couple('gp1', 'gp2'), couple('gp3', 'gp4')),
+    h('div', { class: 'fa-row' }, card('tante'), h('span', { class: 'fa-heart' }, '❤️'), card('oncleA'), h('span', { class: 'fa-gap' }), couple('pere', 'mere'), h('span', { class: 'fa-gap' }), card('oncle')),
+    h('div', { class: 'fa-row' }, card('cousin'), card('cousine'), h('span', { class: 'fa-gap' }), card('moi'), card('fs')));
+  const legend = h('p', { class: 'muted' }, `Lignes : 1re génération (les grands-parents ${P.gp1}, ${P.gp2}, ${P.gp3}, ${P.gp4}) → 2e génération (leurs enfants : ${P.pere} et ${P.tante} ; ${P.mere} et ${P.oncle}) → 3e génération (les petits-enfants). ${P.oncleA} est le mari de ${P.tante}. ⭐ = ${P.moi}.`);
+  const Q = shuffle([
+    ...shuffle([...new Map(REL.map((x) => [x[1], x])).values()]).slice(0, 5).map(([k, r]) => ({ q: `Qui est ${r} de ${P.moi} ?`, ok: REL.filter((x) => x[1] === r).map((x) => P[x[0]]), opts: null })),
+    ...shuffle(REL).slice(0, 3).map(([k, r]) => ({ q: `${P[k]} est … de ${P.moi}.`, ok: [r], opts: [...new Set([r, ...shuffle(['le grand-père', 'la grand-mère', 'l’oncle', 'la tante', 'le cousin', 'la cousine', 'le père', 'la mère', fs]).filter((x) => x !== r).slice(0, 3)])] })),
+    { q: `Combien de générations vois-tu sur cet arbre ?`, ok: ['3'], opts: ['2', '3', '4'] },
+    { q: `Qui sont les parents de ${P.cousin} ?`, ok: [`${P.tante} et ${P.oncleA}`], opts: [`${P.tante} et ${P.oncleA}`, `${P.pere} et ${P.mere}`, `${P.gp1} et ${P.gp2}`] },
+  ]).slice(0, 8);
+  let i = 0, ok = 0; const zone = h('div');
+  const ask = () => {
+    if (i >= Q.length) { zone.replaceChildren(h('p', { class: 'tb-res' }, `${ok}/${Q.length}`), h('button', { class: 'btn primary', type: 'button', onclick: () => arbre(body, talk) }, '🔄 Une autre famille')); if (ok >= 6) { Sfx.win(); burst(body); star(2); } talk(`${ok} sur ${Q.length}.`); return; }
+    const q = Q[i];
+    let opts = q.opts;
+    if (!opts) { const others = shuffle(Object.keys(P).filter((k) => k !== 'moi').map((k) => P[k]).filter((n) => !q.ok.includes(n))).slice(0, 3); opts = [q.ok[ri(0, q.ok.length - 1)], ...others]; }
+    zone.replaceChildren(h('p', { class: 'prompt' }, `(${i + 1}/${Q.length}) ${q.q}`), h('div', { class: 'actions wrap' }, ...shuffle(opts).map((o) => h('button', { class: 'btn', type: 'button', 'data-testid': 'fa-opt', onclick: () => { const good = q.ok.includes(o); if (good) { ok++; Sfx.coin(); talk('Oui !', false); } else { Sfx.tap(); talk(`Non : ${q.ok.join(' ou ')}.`, false); } i++; setTimeout(ask, good ? 700 : 2200); } }, o))));
+    talk(q.q);
+  };
+  body.replaceChildren(h('p', { class: 'prompt' }, `🌳 Voici l’arbre généalogique de ${P.moi} (⭐). Observe-le et réponds.`), tree, legend, zone);
+  ask();
+}
+
 export function open(tab = 'marche') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['marche', '🧺 Le marché', marche], ['horloge', '🕰️ L’horloge et les horaires', horloge], ['peinture', '🖌️ Peindre la maison', peinture], ['conseil', '🏛️ Le Conseil des sages', conseil], ['fete', '🎉 La fête du village', fete]];
+  const T = [['marche', '🧺 Le marché', marche], ['horloge', '🕰️ L’horloge et les horaires', horloge], ['peinture', '🖌️ Peindre la maison', peinture], ['conseil', '🏛️ Le Conseil des sages', conseil], ['fete', '🎉 La fête du village', fete], ['bdfamille', '📖 BD la famille', bdFamille], ['arbre', '🌳 L’arbre généalogique', arbre]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'vl-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel vl-panel' }, UI.closeButton(), h('h2', null, '🏘️ Le Village des Petits Citoyens'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Village', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }

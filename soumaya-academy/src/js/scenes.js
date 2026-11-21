@@ -462,6 +462,7 @@ export const SCENES = {
     id: 'village', title: 'Village des Petits Citoyens', img: 'assets/scenes/village.webp', ar: 2688 / 1520, tint: '#ffd8a0',
     walk: { x0: 0.15, x1: 0.85, y0: 0.78, y1: 0.97, yh: 0.6, fx0: 0.25, fx1: 0.75 }, start: { x: 0.5, y: 0.9 }, mimiBase: 0.12, heroH: 0.38,
     hotspots: [
+      { id: 'vg-famille', label: 'La famille et l’arbre généalogique', icon: '🌳', cls: 'hs-actu', x: 0.3, y: 0.22, stand: { x: 0.32, y: 0.86 }, act: { type: 'panel', panel: 'village-bdfamille' } },
       { id: 'vg-marche', label: 'Le marché', icon: '🧺', x: 0.1, y: 0.72, stand: { x: 0.2, y: 0.88 }, act: { type: 'panel', panel: 'village-marche' } },
       { id: 'vg-boulangerie', label: 'La fête du village', icon: '🎉', x: 0.16, y: 0.45, stand: { x: 0.24, y: 0.86 }, act: { type: 'panel', panel: 'village-fete' } },
       { id: 'vg-horloge', label: 'L’horloge et les horaires', icon: '🕰️', x: 0.435, y: 0.3, stand: { x: 0.44, y: 0.84 }, act: { type: 'panel', panel: 'village-horloge' } },
