@@ -26,6 +26,7 @@ import * as MI from './micro.js';
 import * as DR from './drawing.js';
 import * as DC from './decimals.js';
 import * as AB from './abaque.js';
+import * as BDS from './bd.js';
 import * as AG from './grandeurs.js';
 import * as OM from './omtrek.js';
 import * as FL from './fluence.js';
@@ -262,6 +263,7 @@ function openPanel(p) {
   else if (p === 'dessin') DR.open();
   else if (p.startsWith('dessin-')) DR.open(p.slice(7));
   else if (p === 'decimaux') DC.open();
+  else if (p === 'bd-operations') BDS.openSet('➕ Les BD des opérations', BD_OPS);
   else if (p === 'abaque-nombres') AB.open();
   else if (p === 'abaque-grandeurs') AG.open();
   else if (p === 'omtrek') OM.open();
@@ -580,6 +582,22 @@ const DOCS2026 = [
   ['doc13', 'sciences_dis', 'Document 13 · Sciences (démarche d’investigation)'], ['doc14', 'fes', 'Document 14 · Formation économique et sociale'],
   ['doc15', 'epc', 'Document 15 · Éducation à la philosophie et à la citoyenneté'], ['doc16', 'eca', 'Document 16 · Éducation culturelle et artistique'],
   ['doc17', 'religion', 'Document 17 · Religion'],
+];
+
+const BD_OPS = [
+  { tab: 'Les 4 opérations', img: 'assets/bd/comics4-operations.webp', title: 'Maths Comics 4 – Les opérations mathématiques', alt: 'BD : addition, soustraction, multiplication, division, vocabulaire, commutativité, associativité et priorité des opérations',
+    lines: ['En quatrième, on maîtrise les quatre opérations : l’addition pour réunir, la soustraction pour enlever ou comparer, la multiplication pour répéter une même quantité, et la division pour partager équitablement.',
+      'Le vocabulaire : la somme est le résultat d’une addition, la différence celui d’une soustraction, le produit celui d’une multiplication, et le quotient celui d’une division. Le dividende est le nombre que l’on partage, le diviseur le nombre de parts.',
+      'La commutativité : on peut changer l’ordre des nombres sans changer le résultat, pour l’addition et la multiplication. 8 plus 5 égale 5 plus 8.',
+      'L’associativité : on peut regrouper les nombres différemment sans changer le résultat, pour l’addition et la multiplication.',
+      'La priorité des opérations : d’abord les parenthèses, ensuite les multiplications et les divisions, et en dernier les additions et les soustractions. 12 plus, entre parenthèses, 6 fois 4, moins 8 : 12 plus 24 moins 8, égale 28.'],
+    question: ['Je m’entraîne : 50 − (7 × 4) ; (36 + 24) ÷ 6 ; 8 + 5 × 3 − 6.', '50 − 28 = 22 ; 60 ÷ 6 = 10 ; 8 + 15 − 6 = 17 (la multiplication d’abord !). Et : 345 + 267 = 612 ; 802 − 479 = 323 ; 36 × 7 = 252 ; 648 ÷ 8 = 81.'] },
+  { tab: 'Les grands nombres', img: 'assets/bd/comics4-grands-nombres.webp', title: 'Maths Comics 4 – Calculer avec de grands nombres', alt: 'BD : l’addition 576 + 48, la soustraction 742 − 56 et la multiplication 23 × 14 en colonnes',
+    lines: ['Pour calculer avec de grands nombres, on aligne bien les chiffres et on suit des étapes précises !',
+      'L’addition 576 plus 48 : 6 plus 8, 14, on écrit 4 et on retient 1. 7 plus 4 plus 1, 12, on écrit 2 et on retient 1. 5 plus 1, 6. Donc 624.',
+      'La soustraction 742 moins 56 : 2 moins 6, impossible, on emprunte une dizaine : 12 moins 6, 6. 3 moins 5, impossible, on emprunte une centaine : 13 moins 5, 8. Puis 6 moins 0, 6. Donc 686.',
+      'La multiplication 23 fois 14 : 23 fois 4, 92. 23 fois 10, 230. On additionne : 230 plus 92, 322.'],
+    question: ['Je m’entraîne : 458 + 37 ; 729 + 64 ; 387 + 89 ; 623 − 47 ; 812 − 56 ; 901 − 68 ; 26 × 12 ; 34 × 15 ; 47 × 13.', '495 ; 793 ; 476 ; 576 ; 756 ; 833 ; 312 ; 510 ; 611.'] },
 ];
 // Juin 2026 : les épreuves les plus récentes, proposées en premier
 function doc2026() {

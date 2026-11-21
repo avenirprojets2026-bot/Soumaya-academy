@@ -8,6 +8,7 @@ import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
 import { burst, shuffle, ri } from './workshop.js';
+import * as BD from './bd.js';
 
 const ST = () => { const b = S.get(); b.tables = b.tables || { box: {} }; b.tables.box = b.tables.box || {}; return b.tables; };
 const key = (a, b) => `${Math.min(a, b)}x${Math.max(a, b)}`;
@@ -203,11 +204,24 @@ function vitraux() {
   return h('div', { class: 'tb-vitraux', 'aria-label': 'Tables maîtrisées' }, ...Array.from({ length: 10 }, (_, i) => h('span', { class: 'tb-vit' + (maitrise(i + 1) ? ' on' : ''), title: `Table de ${i + 1}` }, `×${i + 1}`)), st.badge ? h('b', { class: 'tb-badge' }, '👑 Maîtresse des tables') : null);
 }
 
+
+// ---------- la BD « Maths Comics 4 – La table de multiplication » (image fournie par Papa) ----------
+const BD_TAB = ['La multiplication est une addition répétée. Par exemple, 4 fois 3, c’est 3 plus 3 plus 3 plus 3, égale 12.',
+  'Le vocabulaire : les facteurs sont les nombres que l’on multiplie. Le produit est le résultat de la multiplication.',
+  'Les astuces : apprends les tables dans l’ordre. Utilise les doubles : 4 fois 6, c’est le double de 2 fois 6. Repère les carrés : 1, 4, 9, 16, 25, 36, 49, 64, 81, 100.',
+  'La table de 5 se termine toujours par 0 ou 5. La table de 10 : on ajoute simplement un zéro. La table de 9 : la somme des chiffres du résultat vaut 9, comme 63, 6 plus 3.',
+  'Les cas particuliers : 0 fois n égale 0. 1 fois n égale n. Et a fois b égale b fois a : c’est la commutativité.'];
+function bdTables(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-tables.webp', title: 'Maths Comics 4 – La table de multiplication', alt: 'BD : la grande table de 1 à 10, le vocabulaire, les astuces et les cas particuliers', lines: BD_TAB,
+    question: ['Retrouve le nombre manquant : … × 7 = 56 ; 9 × … = 81 ; 5 × … = 45 ; … × 6 = 48.', '8 × 7 = 56 ; 9 × 9 = 81 ; 5 × 9 = 45 ; 8 × 6 = 48.'],
+    after: 'Ensuite, entraîne-toi avec « La grande grille » et « Les jeux » !' });
+}
+
 export function open(tab = 'comprendre') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div'), vit = h('div'); let stop = null;
-  const T = [['comprendre', '⭐ Comprendre', comprendre], ['astuces', '💡 Les astuces', astuces], ['grille', '🔲 La grande grille', grille], ['comptine', '🎵 La comptine', comptine], ['jeux', '🎮 Les jeux', jeux], ['revision', '🧠 La révision', revision]];
+  const T = [['bd', '📖 La BD', bdTables], ['comprendre', '⭐ Comprendre', comprendre], ['astuces', '💡 Les astuces', astuces], ['grille', '🔲 La grande grille', grille], ['comptine', '🎵 La comptine', comptine], ['jeux', '🎮 Les jeux', jeux], ['revision', '🧠 La révision', revision]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'tb-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel tb-panel' }, UI.closeButton(), h('h2', null, '✖️ L’Atelier des Tables'), vit, h('div', { class: 'actions wrap' }, ...tabs), body, say),
     { label: 'L’Atelier des Tables', onClose: () => { Voice.stop(); if (stop) stop(); } });

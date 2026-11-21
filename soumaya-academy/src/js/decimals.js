@@ -5,6 +5,7 @@ import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
 import { burst, shuffle, ri, qcm } from './workshop.js';
+import * as BD from './bd.js';
 
 const star = (n = 1) => { const b = S.get(); b.bonusStars = (b.bonusStars || 0) + n; b.coins += 2 * n; S.save(); };
 const pick = (a) => a[ri(0, a.length - 1)];
@@ -148,11 +149,26 @@ function probleme(body, talk) {
   draw(); run();
 }
 
+
+// ---------- la BD « Maths Comics 4 – L'abaque avec les nombres à virgule » (image fournie par Papa) ----------
+const BD_VIR = ['Un nombre à virgule est composé d’une partie entière et d’une partie décimale, séparées par une virgule.',
+  'Les rangs de l’abaque : la partie entière, avec les milliers, les centaines, les dizaines et les unités. Puis la partie décimale : les dixièmes, les centièmes et les millièmes.',
+  'Lire un nombre à virgule : 426,35 se lit quatre cent vingt-six virgule trente-cinq.',
+  'Écrire 72,48 sur l’abaque : le 7 dans les dizaines, le 2 dans les unités, puis le 4 dans les dixièmes et le 8 dans les centièmes.',
+  'Décomposer : 72,48 égale 70 plus 2 plus 0,4 plus 0,08. Soit 7 dizaines, 2 unités, 4 dixièmes et 8 centièmes.',
+  'Comparer : on compare d’abord la partie entière, puis les dixièmes, puis les centièmes. 5,37 est plus grand que 5,29, car 3 dixièmes, c’est plus que 2 dixièmes.',
+  'À retenir : un dixième égale 0,1 ; un centième égale 0,01 ; un millième égale 0,001.'];
+function bdVirgule(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-abaque-virgule.webp', title: 'Maths Comics 4 – L’abaque avec les nombres à virgule', alt: 'BD : partie entière et partie décimale, dixièmes, centièmes, millièmes, lire, décomposer et comparer', lines: BD_VIR,
+    question: ['Je m’entraîne : 58,29 et 403,16 décomposés ; et compare 7,45 … 7,54 ; 12,30 … 12,3 ; 9,08 … 9,8 ; 105,25 … 105,20.', '58,29 = 50 + 8 + 0,2 + 0,09 ; 403,16 = 400 + 3 + 0,1 + 0,06 ; 9,75 = 9 + 0,7 + 0,05. Comparer : 7,45 < 7,54 ; 12,30 = 12,3 ; 9,08 < 9,8 ; 105,25 > 105,20. ⚠️ Dans la BD, 72,48 doit s’écrire avec le 7 dans les dizaines (D) et le 2 dans les unités (U).'],
+    after: 'Ensuite, va dans « Construire » et « Lire et comparer » pour t’entraîner !' });
+}
+
 export function open(tab = 'construire') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['construire', '🧱 Construire', construire], ['lire', '🔍 Lire et comparer', lireComparer], ['droite', '📏 Droite graduée', droite], ['astuces', '⚡ Calculs astucieux', astuces], ['probleme', '🪜 L’escalier des problèmes', probleme]];
+  const T = [['bd', '📖 La BD', bdVirgule], ['construire', '🧱 Construire', construire], ['lire', '🔍 Lire et comparer', lireComparer], ['droite', '📏 Droite graduée', droite], ['astuces', '⚡ Calculs astucieux', astuces], ['probleme', '🪜 L’escalier des problèmes', probleme]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'dc-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel' }, UI.closeButton(), h('h2', null, '🪙 Le comptoir des décimaux'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Comptoir des décimaux', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }

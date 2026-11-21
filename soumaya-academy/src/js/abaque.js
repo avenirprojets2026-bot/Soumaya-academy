@@ -6,6 +6,7 @@ import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
 import { burst, shuffle, ri } from './workshop.js';
+import * as BD from './bd.js';
 
 const star = (n = 1) => { const b = S.get(); b.bonusStars = (b.bonusStars || 0) + n; b.coins += 2 * n; S.save(); };
 const ST = () => { const b = S.get(); b.abaqueN = b.abaqueN || { done: 0 }; return b.abaqueN; };
@@ -231,11 +232,25 @@ function astuces(body, talk) {
   talk('Voici les astuces : trois colonnes par classe, un seul chiffre par colonne, et la virgule juste après les unités.');
 }
 
+
+// ---------- la BD « Maths Comics 4 – Les abaques » (image fournie par Papa) ----------
+const BD_AB = ['L’abaque est un tableau qui permet de lire, d’écrire et de décomposer un nombre en milliers, centaines, dizaines et unités.',
+  'Les quatre rangs : M, les milliers, qui valent 1 000. C, les centaines, 100. D, les dizaines, 10. U, les unités, 1.',
+  'À retenir : chaque chiffre a une valeur selon sa place. 1 millier égale 10 centaines, 100 dizaines, 1 000 unités. 1 centaine égale 10 dizaines, 100 unités. 1 dizaine égale 10 unités.',
+  'Lire un nombre : 3, 5, 2, 7 dans l’abaque, c’est 3 527, trois mille cinq cent vingt-sept. Le décomposer : 3 000 plus 500 plus 20 plus 7.',
+  'Composer : 2 milliers, 4 centaines, 6 dizaines et 3 unités, cela fait 2 463.',
+  'Les échanges : 10 unités font 1 dizaine, et 10 dizaines font 1 centaine.'];
+function bdAbaque(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-abaques.webp', title: 'Maths Comics 4 – Les abaques', alt: 'BD : l’abaque M C D U, lire, décomposer, composer un nombre et les échanges', lines: BD_AB,
+    question: ['Je m’entraîne : 4 739 et 6 052 ; 2 715, 6 308 et 5 490 décomposés ; 7 milliers, 2 centaines, 8 dizaines et 4 unités ; 3 milliers et 9 unités ; 6 centaines et 5 dizaines ; 9 milliers, 1 centaine et 7 unités.', '2 715 = 2 000 + 700 + 10 + 5 ; 6 308 = 6 000 + 300 + 8 ; 5 490 = 5 000 + 400 + 90. Les nombres : 7 284 ; 3 009 ; 650 ; 9 107.'],
+    after: 'Ensuite, va dans « Placer » et « Décomposer » pour t’entraîner !' });
+}
+
 export function open(tab = 'astuces') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['astuces', '💡 Astuces', astuces], ['placer', '✍️ Placer', placer], ['lire', '🔍 Lire', lire], ['colonne', '👆 La bonne colonne', colonne], ['decomposer', '🧩 Décomposer', decomposer]];
+  const T = [['bd', '📖 La BD', bdAbaque], ['astuces', '💡 Astuces', astuces], ['placer', '✍️ Placer', placer], ['lire', '🔍 Lire', lire], ['colonne', '👆 La bonne colonne', colonne], ['decomposer', '🧩 Décomposer', decomposer]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'ab-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel ab-panel' }, UI.closeButton(), h('h2', null, '📊 Mon abaque des nombres'),
     h('p', { class: 'ab-rule' }, '❗ J’écris un seul chiffre par colonne.'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Mon abaque des nombres', onClose: () => Voice.stop() });
