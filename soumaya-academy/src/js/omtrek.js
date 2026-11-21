@@ -5,6 +5,7 @@ import { h } from './ui.js';
 import * as Sfx from './sfx.js';
 import * as WS from './workshop.js';
 import { porte } from './quest.js';
+import * as BD from './bd.js';
 
 const { shell, burst, star, shuffle, ri, log } = WS;
 const NS = 'http://www.w3.org/2000/svg';
@@ -207,6 +208,19 @@ const ACT = [ // [clé, icône, titre fr, titre nl, fonction]
 ];
 const VOC = [['de omtrek', 'le périmètre'], ['de zijde', 'le côté'], ['het vierkant', 'le carré'], ['de rechthoek', 'le rectangle'], ['de driehoek', 'le triangle'], ['het trapezium', 'le trapèze'], ['bereken', 'calcule'], ['meet', 'mesure']];
 
+
+// ---------- la BD « Maths Comics 4 – Les périmètres » (image fournie par Papa) ----------
+const BD_PER = ['Le périmètre, c’est la longueur totale du contour d’une figure. On additionne tous ses côtés !',
+  'Les formules à retenir : le carré, P égale 4 fois le côté. Le rectangle, P égale 2 fois longueur plus largeur. Le triangle, P égale a plus b plus c.',
+  'La démarche : un, identifier la figure. Deux, repérer la longueur de chaque côté. Trois, utiliser la bonne formule. Quatre, calculer le périmètre et écrire l’unité.',
+  'Le carré de 5 centimètres : 4 fois 5, 20 centimètres. Le rectangle de 8 sur 4 : 2 fois 12, 24 centimètres. Le triangle de 5, 5 et 6 centimètres : 16 centimètres.',
+  'À retenir : on exprime le résultat avec une unité de longueur, comme les centimètres ou les mètres.'];
+function bdPer(box, talk, back) {
+  BD.show(box, talk, { img: 'assets/bd/comics4-perimetres.webp', title: 'Maths Comics 4 – Les périmètres', alt: 'BD : le périmètre du carré, du rectangle et du triangle, formules, démarche et exemples', lines: BD_PER,
+    question: ['Je m’entraîne : le carré de 6 cm, le rectangle de 9 cm sur 3 cm, le triangle de 4 cm, 3 cm et 5 cm.', 'Carré : 4 × 6 = 24 cm. Rectangle : 2 × (9 + 3) = 24 cm. Triangle : 4 + 3 + 5 = 12 cm.'] });
+  box.append(h('div', { class: 'actions' }, h('button', { class: 'btn', type: 'button', onclick: back }, '⬅️ Retour aux entraînements')));
+}
+
 export function open(start, lang = 'fr') {
   NL = lang === 'nl';
   shell(NL ? '🧵 De omtrek' : '🧵 Le périmètre — De omtrek', NL ? 'Omtrek' : 'Périmètre', (box, talk0) => {
@@ -221,6 +235,7 @@ export function open(start, lang = 'fr') {
           h('p', { class: 'om-tip' }, NL ? '💡 Schrijf eerst de lengte van elke zijde op, en bereken dan de omtrek!' : '💡 Avant de calculer, note la mesure de chaque côté ! Les côtés d’un carré sont égaux ; dans un rectangle, les côtés opposés sont égaux.'),
           h('div', { class: 'om-voc' }, ...VOC.map(([nl, fr]) => h('button', { class: 'om-w', type: 'button', onclick: () => speakNL(nl) }, '🔊 ', h('b', null, nl), ` = ${fr}`)))),
         h('div', { class: 'om-menu' }, ...ACT.map(([k, ic, fr, nl, fn]) => h('button', { class: 'om-act', type: 'button', 'data-testid': 'om-' + k, onclick: () => fn(box, talk, menu, `${ic} ${title(fr, nl)}`, nl) }, h('span', { class: 'om-ic' }, ic), h('span', null, h('b', null, title(fr, nl)), h('small', null, NL ? fr : nl)))),
+          NL ? null : h('button', { class: 'om-act', type: 'button', 'data-testid': 'om-bd', onclick: () => bdPer(box, talk, menu) }, h('span', { class: 'om-ic' }, '📖'), h('span', null, h('b', null, 'La BD des périmètres'), h('small', null, ' formules, démarche et exemples'))),
           NL ? null : h('button', { class: 'om-act', type: 'button', 'data-testid': 'om-contour', onclick: () => porte({ contour: true }) }, h('span', { class: 'om-ic' }, '📏'), h('span', null, h('b', null, 'Le contour déplié'), h('small', null, 'comme l’interdiocésaine 2026')))));
       talk(NL ? 'De omtrek is de rand rondom een figuur. Kies een oefening!' : 'Le périmètre, c’est le tour d’une figure. Choisis un entraînement !');
     };

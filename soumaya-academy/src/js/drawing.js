@@ -311,11 +311,26 @@ function bdFig(body, talk) {
     after: 'Ensuite, va dans « Perpendiculaires et parallèles » et « Reproduire » pour t’entraîner !' });
 }
 
+
+// ---------- la BD « Maths Comics 4 – Droites, segments, positions et directions » (image fournie par Papa) ----------
+const BD_DRO = ['Une droite est une ligne infinie, sans début ni fin. On la nomme avec une lettre : d, e, f.',
+  'Un segment est une partie de droite limitée par deux points. On le note A B entre crochets.',
+  'Deux droites parallèles ne se coupent jamais : elles restent toujours à la même distance.',
+  'Deux droites perpendiculaires se coupent en formant un angle droit, de 90 degrés.',
+  'Deux droites sécantes se coupent en un seul point.',
+  'Le sens indique dans quelle direction on se déplace sur une droite, par exemple de A vers B. La direction est l’orientation d’une droite : horizontale, verticale ou oblique.',
+  'Dans la vie quotidienne : les lignes du passage pour piétons sont parallèles, le cadre d’une fenêtre a des droites perpendiculaires, et les rails sont deux droites parallèles.'];
+function bdDroites(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-droites.webp', title: 'Maths Comics 4 – Droites, segments, positions et directions', alt: 'BD : droite, segment, droites parallèles, perpendiculaires et sécantes, sens et direction', lines: BD_DRO,
+    question: ['Je m’entraîne : deux droites qui se croisent en faisant un angle droit sont… ? Et le segment C D, dans quel sens ?', 'Perpendiculaires (⊥). Elles sont aussi sécantes, car elles se coupent ! Le segment se note [CD] ; le sens va de C vers D (C → D). Les directions : horizontale, verticale, oblique.'],
+    after: 'Ensuite, va dans « Perpendiculaires et parallèles » pour t’entraîner !' });
+}
+
 export function open(tab = 'droites') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['bdfig', '📖 BD les figures', bdFig], ['droites', '📐 Perpendiculaires et parallèles', droites], ['symetrie', '🦋 Symétrie', symetrie], ['coord', '🗺️ Coordonnées', coord], ['bdcoord', '📖 BD s’orienter', bdCoord1], ['bdplan', '📖 BD le plan', bdCoord2], ['repro', '✏️ Reproduire', reproduire], ['prog', '🌟 Programme de construction', programme]];
+  const T = [['bdfig', '📖 BD les figures', bdFig], ['bddroites', '📖 BD les droites', bdDroites], ['droites', '📐 Perpendiculaires et parallèles', droites], ['symetrie', '🦋 Symétrie', symetrie], ['coord', '🗺️ Coordonnées', coord], ['bdcoord', '📖 BD s’orienter', bdCoord1], ['bdplan', '📖 BD le plan', bdCoord2], ['repro', '✏️ Reproduire', reproduire], ['prog', '🌟 Programme de construction', programme]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'dr-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel dr-panel' }, UI.closeButton(), h('h2', null, '📏 La table à dessin magique'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Table à dessin', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }

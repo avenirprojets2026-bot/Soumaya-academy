@@ -219,11 +219,25 @@ function arbre(body, talk) {
   ask();
 }
 
+
+// ---------- la BD « Maths Comics 4 – Les surfaces (l'aire) » (image fournie par Papa) ----------
+const BD_AIRE = ['La surface, qu’on appelle aussi l’aire, est la mesure de l’espace occupé par une figure. On la calcule avec une formule différente selon la figure.',
+  'Le carré : S égale côté fois côté. Par exemple, un carré de 4 centimètres de côté : 4 fois 4, 16 centimètres carrés.',
+  'Le rectangle : S égale longueur fois largeur. Par exemple, 7 centimètres sur 3 centimètres : 7 fois 3, 21 centimètres carrés.',
+  'Le triangle : S égale base fois hauteur, divisé par 2. Par exemple, base 6 centimètres et hauteur 4 centimètres : 6 fois 4, 24, divisé par 2, 12 centimètres carrés.',
+  'À retenir : la surface se mesure en unités carrées : centimètres carrés, décimètres carrés, mètres carrés.',
+  'Défi : une pièce rectangulaire mesure 6 mètres de longueur et 4 mètres de largeur. Quelle est sa surface ?'];
+function bdAire(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-aire.webp', title: 'Maths Comics 4 – Les surfaces (l’aire)', alt: 'BD : l’aire du carré, du rectangle et du triangle avec leurs formules et des exemples', lines: BD_AIRE,
+    question: ['Je m’entraîne : le carré de 5 cm, le rectangle de 8 cm sur 4 cm, le triangle de base 10 cm et de hauteur 6 cm. Et le défi : la pièce de 6 m sur 4 m ?', 'Carré : 5 × 5 = 25 cm². Rectangle : 8 × 4 = 32 cm². Triangle : (10 × 6) : 2 = 30 cm². Défi : 6 × 4 = 24 m².'],
+    after: 'Ensuite, va dans « Peindre la maison » pour calculer l’aire des pièces !' });
+}
+
 export function open(tab = 'marche') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['marche', '🧺 Le marché', marche], ['horloge', '🕰️ L’horloge et les horaires', horloge], ['peinture', '🖌️ Peindre la maison', peinture], ['conseil', '🏛️ Le Conseil des sages', conseil], ['fete', '🎉 La fête du village', fete], ['bdfamille', '📖 BD la famille', bdFamille], ['arbre', '🌳 L’arbre généalogique', arbre]];
+  const T = [['marche', '🧺 Le marché', marche], ['horloge', '🕰️ L’horloge et les horaires', horloge], ['bdaire', '📖 BD l’aire', bdAire], ['peinture', '🖌️ Peindre la maison', peinture], ['conseil', '🏛️ Le Conseil des sages', conseil], ['fete', '🎉 La fête du village', fete], ['bdfamille', '📖 BD la famille', bdFamille], ['arbre', '🌳 L’arbre généalogique', arbre]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'vl-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel vl-panel' }, UI.closeButton(), h('h2', null, '🏘️ Le Village des Petits Citoyens'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Village', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }
