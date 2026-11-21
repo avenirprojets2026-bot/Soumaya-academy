@@ -296,11 +296,26 @@ function bdCoord2(body, talk) {
     after: 'Ensuite, va dans l’onglet « Coordonnées » pour t’entraîner !' });
 }
 
+
+// ---------- la BD « Maths Comics 4 – Les figures géométriques » (image fournie par Papa) ----------
+const BD_FIG = ['Une figure géométrique est une forme plane limitée par des segments de droite. On reconnaît chaque figure grâce à ses côtés, ses angles et au parallélisme de ses côtés.',
+  'Le carré : 4 côtés de même longueur, 4 angles droits, et les côtés opposés parallèles. Par exemple un damier ou un carreau.',
+  'Le rectangle : 4 côtés, les côtés opposés de même longueur et parallèles, et 4 angles droits. Par exemple une fenêtre, un livre, un écran.',
+  'Le triangle : 3 côtés, 3 sommets et 3 angles. Par exemple un panneau, une part de pizza, une équerre.',
+  'Le parallélogramme : 4 côtés, les côtés opposés parallèles et de même longueur.',
+  'Le losange : 4 côtés de même longueur, les côtés opposés parallèles, et des angles qui ne sont pas forcément droits. Par exemple un cerf-volant ou un panneau de priorité.',
+  'Plusieurs figures ont 4 côtés, mais leurs longueurs et leurs angles les distinguent ! Et attention : un carré est aussi un rectangle et un losange, car il a 4 angles droits et 4 côtés égaux.'];
+function bdFig(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-figures.webp', title: 'Maths Comics 4 – Les figures géométriques', alt: 'BD : le carré, le rectangle, le triangle, le parallélogramme et le losange, leurs caractéristiques et des exemples', lines: BD_FIG,
+    question: ['Quelle différence entre un losange et un carré ?', 'Les deux ont 4 côtés de même longueur. Le carré a en plus 4 angles droits. Un carré est donc un losange particulier (et aussi un rectangle particulier).'],
+    after: 'Ensuite, va dans « Perpendiculaires et parallèles » et « Reproduire » pour t’entraîner !' });
+}
+
 export function open(tab = 'droites') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['droites', '📐 Perpendiculaires et parallèles', droites], ['symetrie', '🦋 Symétrie', symetrie], ['coord', '🗺️ Coordonnées', coord], ['bdcoord', '📖 BD s’orienter', bdCoord1], ['bdplan', '📖 BD le plan', bdCoord2], ['repro', '✏️ Reproduire', reproduire], ['prog', '🌟 Programme de construction', programme]];
+  const T = [['bdfig', '📖 BD les figures', bdFig], ['droites', '📐 Perpendiculaires et parallèles', droites], ['symetrie', '🦋 Symétrie', symetrie], ['coord', '🗺️ Coordonnées', coord], ['bdcoord', '📖 BD s’orienter', bdCoord1], ['bdplan', '📖 BD le plan', bdCoord2], ['repro', '✏️ Reproduire', reproduire], ['prog', '🌟 Programme de construction', programme]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'dr-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel dr-panel' }, UI.closeButton(), h('h2', null, '📏 La table à dessin magique'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Table à dessin', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }
