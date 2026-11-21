@@ -233,11 +233,23 @@ function bdAire(body, talk) {
     after: 'Ensuite, va dans « Peindre la maison » pour calculer l’aire des pièces !' });
 }
 
+
+// ---------- la BD « Maths Comics 4 – Comparer les prix d'un magasin à l'autre » (image fournie par Papa) ----------
+const BD_PRIX = ['On peut comparer les prix dans différents magasins pour payer moins cher ! On compare les prix article par article, puis on calcule le total pour trouver le moins cher.',
+  'Ma méthode pas à pas : un, je lis les prix des deux magasins. Deux, je compare chaque article : le prix le plus petit est le moins cher. Trois, je calcule le total de chaque magasin. Quatre, je compare les deux totaux. Cinq, je calcule l’économie.',
+  'Exemple : le lait et les pommes sont moins chers au magasin B, le pain et les pâtes au magasin A. Total du magasin A : 6 euros 46. Total du magasin B : 6 euros 46 aussi. Les deux magasins ont le même total : il n’y a pas d’économie.',
+  'À retenir : l’économie, c’est la différence entre les deux prix. Par exemple, 7 euros 50 moins 6 euros 90, égale 60 centimes.'];
+function bdPrix(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-comparer-prix.webp', title: 'Maths Comics 4 – Comparer les prix d’un magasin à l’autre', alt: 'BD : comparer les prix de deux magasins article par article, calculer les totaux et l’économie', lines: BD_PRIX,
+    question: ['Je m’entraîne : jus, fromage et yaourts. Quel magasin est le moins cher ? Quelle est l’économie ?', 'Jus : le prix le plus bas est 1,49 € (B). Fromage : le prix le plus haut est 2,89 € (A). Total A : 1,69 + 2,89 + 1,20 = 5,78 €. Total B : 1,49 + 2,79 + 1,40 = 5,68 €. Le magasin B est le moins cher : économie 5,78 − 5,68 = 0,10 €.'],
+    after: 'Ensuite, va au « Marché » pour payer avec la monnaie !' });
+}
+
 export function open(tab = 'marche') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['marche', '🧺 Le marché', marche], ['horloge', '🕰️ L’horloge et les horaires', horloge], ['bdaire', '📖 BD l’aire', bdAire], ['peinture', '🖌️ Peindre la maison', peinture], ['conseil', '🏛️ Le Conseil des sages', conseil], ['fete', '🎉 La fête du village', fete], ['bdfamille', '📖 BD la famille', bdFamille], ['arbre', '🌳 L’arbre généalogique', arbre]];
+  const T = [['bdprix', '📖 BD comparer les prix', bdPrix], ['marche', '🧺 Le marché', marche], ['horloge', '🕰️ L’horloge et les horaires', horloge], ['bdaire', '📖 BD l’aire', bdAire], ['peinture', '🖌️ Peindre la maison', peinture], ['conseil', '🏛️ Le Conseil des sages', conseil], ['fete', '🎉 La fête du village', fete], ['bdfamille', '📖 BD la famille', bdFamille], ['arbre', '🌳 L’arbre généalogique', arbre]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'vl-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel vl-panel' }, UI.closeButton(), h('h2', null, '🏘️ Le Village des Petits Citoyens'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Village', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }
