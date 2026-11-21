@@ -4,7 +4,7 @@ import { h } from './ui.js';
 import * as Voice from './voice.js';
 import { asset } from './asset.js';
 
-export function show(body, talk, { img, title, alt, lines, after, question }) {
+export function show(body, talk, { img, title, alt, lines, after, question, note }) {
   const src = asset(img);
   let id = 0;
   const lire = async () => { const me = ++id; for (const t of lines) { if (me !== id || !body.isConnected) return; talk(t, false); await new Promise((ok) => { let d = 0; const f = () => { if (!d) { d = 1; setTimeout(ok, 500); } }; const sp = Voice.speak(t, { onEnd: f }); setTimeout(f, sp ? 3500 + t.length * 95 : 1500 + t.length * 45); }); } };
@@ -16,6 +16,7 @@ export function show(body, talk, { img, title, alt, lines, after, question }) {
       h('button', { class: 'btn primary', type: 'button', 'data-testid': 'bd-lire', onclick: lire }, '🔊 Lis-moi la BD'),
       h('button', { class: 'btn', type: 'button', onclick: () => { id++; Voice.stop(); talk('', false); } }, '⏹️ Stop'),
       h('a', { class: 'btn', href: src, target: '_blank', rel: 'noopener' }, '🔍 Agrandir')),
+    note ? h('div', { class: 'bd-note' }, h('b', null, '⚠️ Attention, piège ! '), note) : null,
     rep, after ? h('p', { class: 'muted' }, after) : null);
   talk('Lis la BD, ou appuie sur « Lis-moi la BD ».', false);
 }
