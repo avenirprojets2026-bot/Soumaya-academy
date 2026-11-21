@@ -243,7 +243,7 @@ export const SCENES = {
     walk: { x0: 0.1, x1: 0.9, y0: 0.74, y1: 0.97 , yh: 0.55, fx0: 0.35, fx1: 0.75 }, start: { x: 0.25, y: 0.88 }, mimiBase: 0.12, heroH: 0.38,
     hotspots: [
       { id: 'f-key', label: 'La clé des phrases', icon: '🗝️', x: 0.84, y: 0.2, stand: { x: 0.8, y: 0.84 }, leap: { say: 'Je vais attraper la clé !', cine: 'assets/cine/cle.webm' }, act: { type: 'mission', subject: 'francais', domains: ['grammaire'], title: 'La clé des phrases' } },
-      { id: 'f-bdphrase', label: 'La BD de la phrase', icon: '📖', cls: 'hs-actu', x: 0.47, y: 0.18, stand: { x: 0.47, y: 0.86 }, act: { type: 'panel', panel: 'bd-francais' } },
+      { id: 'f-bdphrase', label: 'Les BD de français', icon: '📖', cls: 'hs-actu', x: 0.47, y: 0.18, stand: { x: 0.47, y: 0.86 }, act: { type: 'panel', panel: 'bd-francais' } },
       { id: 'f-mush', label: 'Les verbes champignons', icon: '🍄', x: 0.1, y: 0.47, stand: { x: 0.2, y: 0.86 }, act: { type: 'mission', subject: 'francais', domains: ['conjugaison'], title: 'Les verbes champignons' } },
       { id: 'f-flower', label: 'Accords & orthographe', icon: '🌸', x: 0.66, y: 0.72, stand: { x: 0.62, y: 0.9 }, act: { type: 'mission', subject: 'francais', domains: ['orthographe'], title: 'Le sentier des accords' } },
       { id: 'f-quill', label: 'Écrire une histoire', icon: '🪶', x: 0.32, y: 0.2, stand: { x: 0.3, y: 0.84 }, climb: { path: [{ x: 0.25, y: 0.66 }, { x: 0.22, y: 0.48 }, { x: 0.22, y: 0.36 }, { x: 0.26, y: 0.27 }], endScale: 0.62, say: 'Je grimpe dans l’arbre !', topSay: 'J’ai attrapé la feuille magique !', grab: { x: 0.32, y: 0.2 }, cine: 'assets/cine/arbre.webm' }, act: { type: 'open', subject: 'francais', domain: 'expression' } },
