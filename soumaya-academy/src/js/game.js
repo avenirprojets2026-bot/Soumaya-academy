@@ -595,7 +595,8 @@ function doc2026() {
       h('div', { class: 'actions wrap' },
         qs.length ? h('button', { class: 'btn small', type: 'button', 'data-testid': 'i26-' + id, onclick: () => practice2025(id, t.replace(/^Document \d+ · /, ''), null, '2026') }, `🏆 Je relève le défi (${qs.length})${best[id] ? ' · ✓ ' + best[id] : ''}`) : null,
         ps.length ? h('button', { class: 'btn small', type: 'button', onclick: () => practice2025(id, t, ps, '2026') }, ps[0].domain === 'ecoute' ? '🎧 Écouter un texte' : '📖 Lire un texte') : null,
-        tasks.length ? h('button', { class: 'btn small', type: 'button', onclick: () => { UI.closeDialog(); openTask2025(tasks, '2026'); } }, '🪶 Écrire / dire') : null));
+        tasks.length ? h('button', { class: 'btn small', type: 'button', onclick: () => { UI.closeDialog(); openTask2025(tasks, '2026'); } }, '🪶 Écrire / dire') : null,
+        id === 'doc08' ? h('button', { class: 'btn small', type: 'button', 'data-testid': 'i26-doc08-ateliers', onclick: () => { UI.closeDialog(); setTimeout(() => PA.open('photo'), 80); } }, '🖍️ Croquis et vallée') : null));
   };
   UI.openDialog(h('div', { class: 'panel gb-panel' }, UI.closeButton(), h('h2', null, '📘 Les Défis des Grands Explorateurs · Juin 2026'),
     h('p', { class: 'gb-intro' }, 'Les épreuves les plus récentes, sur le thème des déchets, de l’eau et de la lecture. Pas de chronomètre, pas de note : relève les défis à ton rythme !'),

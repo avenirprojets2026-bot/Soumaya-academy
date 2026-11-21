@@ -2176,3 +2176,7 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .fl-pr{display:grid;gap:.15rem;background:#ffffff10;border-radius:12px;padding:.5rem .7rem}
 .fl-pr small{opacity:.75}
 .fl-spark{width:180px;height:40px}
+
+.cq-wrap{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}.cq-wrap figure{margin:0;text-align:center}.cq-wrap figcaption{font-weight:700;margin-top:4px}
+.cq-wrap .pa-croquis{width:min(380px,86vw)}.cq-legend{flex-direction:row;flex-wrap:wrap;justify-content:center;margin-top:8px}
+.pa-vp [data-z]{cursor:pointer}

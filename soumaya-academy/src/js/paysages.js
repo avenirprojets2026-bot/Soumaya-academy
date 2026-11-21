@@ -1,7 +1,7 @@
 // La Vallée des Paysages de Belgique (formation géographique, évaluation P4 doc 11) : les grands paysages
 // (Ardenne, sillon Sambre-et-Meuse, plateaux limoneux, littoral) et Basse / Moyenne / Haute Belgique,
 // la rivière (amont, aval, rive droite, rive gauche, lit, confluent, méandre), le bloc-diagramme (versant)
-// et le croquis du paysage avec sa légende.
+// et le croquis du paysage avec sa légende ; de la photo au croquis et la vallée en perspective (juin 2026, doc 8).
 import * as UI from './ui.js';
 import { h } from './ui.js';
 import * as S from './save.js';
@@ -114,11 +114,97 @@ function croquis(body, talk) {
   talk('Colorie le croquis du paysage avec les couleurs de la légende.');
 }
 
+
+// ---------- 5. de la photo au croquis (évaluation P4 juin 2026, doc 8, Q3) ----------
+// une « photo » aérienne dessinée et son croquis à colorier : la route, les champs, les habitations.
+const LAY = [
+  { R: [['habitations', 'M0,0 L224,0 L204,260 L0,260 Z'], ['route', 'M224,0 L240,0 L276,260 L204,260 Z', [232, 0, 240, 260]], ['habitations', 'M240,0 L400,0 L400,44 L246,44 Z'], ['champs', 'M246,44 L400,44 L400,260 L276,260 Z']] },
+  { R: [['champs', 'M0,0 L400,0 L400,110 L0,124 Z'], ['route', 'M0,124 L400,110 L400,134 L0,150 Z', [0, 137, 400, 122]], ['habitations', 'M0,150 L400,134 L400,260 L0,260 Z']] },
+  { R: [['champs', 'M0,0 L150,0 L20,260 L0,260 Z'], ['route', 'M150,0 L180,0 L52,260 L20,260 Z', [165, 0, 36, 260]], ['habitations', 'M180,0 L400,0 L400,150 L120,150 Z'], ['champs', 'M120,150 L400,150 L400,260 L52,260 Z']] },
+];
+const CQ = { route: ['la route', '#3f6fd8'], champs: ['les champs', '#22b24c'], habitations: ['les habitations', '#e23030'] };
+function photoDefs(svg, id) {
+  const d = sv('defs');
+  const ph = sv('pattern', { id: id + 'h', width: 20, height: 20, patternUnits: 'userSpaceOnUse' });
+  ph.append(sv('rect', { width: 20, height: 20, fill: '#a9b98f' }), sv('rect', { x: 2, y: 2, width: 9, height: 7, fill: '#cf5a36' }), sv('rect', { x: 12, y: 10, width: 6, height: 7, fill: '#e9e1cf' }), sv('circle', { cx: 5, cy: 15, r: 3, fill: '#4f8a3a' }), sv('rect', { x: 13, y: 2, width: 5, height: 5, fill: '#b8482c' }));
+  const pc = sv('pattern', { id: id + 'c', width: 70, height: 50, patternUnits: 'userSpaceOnUse', patternTransform: 'rotate(-12)' });
+  pc.append(sv('rect', { width: 35, height: 25, fill: '#7cc04a' }), sv('rect', { x: 35, width: 35, height: 25, fill: '#e2bd56' }), sv('rect', { y: 25, width: 35, height: 25, fill: '#d6a548' }), sv('rect', { x: 35, y: 25, width: 35, height: 25, fill: '#9ccd52' }));
+  d.append(ph, pc); svg.append(d);
+}
+function croquisPhoto(body, talk) {
+  const L = pick(LAY), mir = Math.random() < 0.5, id = 'cq' + ri(1000, 9999);
+  const tf = mir ? 'translate(400 0) scale(-1 1)' : '';
+  const photo = sv('svg', { viewBox: '0 0 400 260', class: 'pa-croquis pa-photo' }); photoDefs(photo, id);
+  const pg = sv('g', { transform: tf }); photo.append(pg);
+  L.R.forEach(([k, d, mid]) => { pg.append(sv('path', { d, fill: k === 'route' ? '#7c7c82' : `url(#${id}${k === 'habitations' ? 'h' : 'c'})` })); if (mid) pg.append(sv('line', { x1: mid[0], y1: mid[1], x2: mid[2], y2: mid[3], stroke: '#fff', 'stroke-width': 2, 'stroke-dasharray': '10 8' })); });
+  const croq = sv('svg', { viewBox: '0 0 400 260', class: 'pa-croquis' }); const cg = sv('g', { transform: tf }); croq.append(cg);
+  let col = null, done = 0, err = 0; const good = new Set();
+  const regs = L.R.map(([k, d], i) => { const p = sv('path', { d, fill: '#fff', stroke: '#2b2440', 'stroke-width': 2.5, 'data-testid': 'cq-reg', 'data-k': k }); cg.append(p);
+    p.addEventListener('click', () => {
+      if (!col) { talk('Choisis d’abord une couleur dans la légende.', false); return; }
+      p.setAttribute('fill', CQ[col][1]);
+      if (col === k) { if (!good.has(i)) { good.add(i); star(); Sfx.coin(); } talk(`Oui, ici ce sont ${CQ[k][0]}.`, false); } else { good.delete(i); err++; Sfx.tap(); talk(`Regarde la photo : à cet endroit, ce ne sont pas ${CQ[col][0]}.`, false); }
+      if (good.size === L.R.length && !done) { done = 1; Sfx.win(); burst(body); talk(err ? `Bravo, le croquis est juste ! (${err} erreur${err > 1 ? 's' : ''} corrigée${err > 1 ? 's' : ''})` : 'Parfait ! Ton croquis correspond à la photo.'); }
+    }); return p; });
+  const legend = Object.entries(CQ).map(([k, [n, c]]) => h('button', { class: 'pa-leg', type: 'button', 'data-testid': 'cq-leg-' + k, onclick: (e) => { col = k; legend.forEach((b) => b.classList.remove('on')); e.currentTarget.classList.add('on'); } }, h('span', { style: `background:${c}` }), n[0].toUpperCase() + n.slice(1)));
+  body.replaceChildren(
+    h('p', { class: 'prompt' }, 'Observe la photo. Puis colorie le croquis en suivant le code couleur de la légende.'),
+    h('div', { class: 'cq-wrap' }, h('figure', null, photo, h('figcaption', null, '📷 La photo (vue du ciel)')), h('figure', null, croq, h('figcaption', null, '🖍️ Le croquis'))),
+    h('div', { class: 'pa-legend cq-legend' }, h('b', null, 'Légende'), ...legend),
+    h('div', { class: 'actions' }, h('button', { class: 'btn', type: 'button', 'data-testid': 'cq-new', onclick: () => croquisPhoto(body, talk) }, '🔄 Une autre photo')));
+  talk('Observe la photo vue du ciel. Choisis une couleur dans la légende, puis touche la bonne zone du croquis.');
+  return regs;
+}
+
+// ---------- 6. la vallée vue en perspective (évaluation P4 juin 2026, doc 8, Q5 : Bouillon et la Semois) ----------
+function valleePersp(body, talk) {
+  const down = Math.random() < 0.5; // true : l'eau coule vers nous (du fond vers le bas de l'image)
+  const svg = sv('svg', { viewBox: '0 0 500 320', class: 'pa-river pa-vp' });
+  const xl = (y) => 243 - (y - 118) * 73 / 202, xr = (y) => 257 + (y - 118) * 73 / 202;
+  const riv = (y1, y2) => `M${xl(y1)},${y1} L${xr(y1)},${y1} L${xr(y2)},${y2} L${xl(y2)},${y2} Z`;
+  svg.append(sv('rect', { width: 500, height: 320, fill: '#cfe8ff' }), sv('path', { d: 'M0,70 Q120,30 250,95 Q380,30 500,70 L500,130 L0,130 Z', fill: '#9cc58a' }));
+  const Z = {
+    vg: sv('path', { d: 'M0,60 Q130,70 232,118 L100,320 L0,320 Z', fill: '#5f9e45', 'data-z': 'versant-g' }),
+    vd: sv('path', { d: 'M500,60 Q370,70 268,118 L400,320 L500,320 Z', fill: '#5a9640', 'data-z': 'versant-d' }),
+    fg: sv('path', { d: 'M232,118 L243,118 L170,320 L100,320 Z', fill: '#a6d873', 'data-z': 'rive-g' }),
+    fd: sv('path', { d: 'M257,118 L268,118 L400,320 L330,320 Z', fill: '#a6d873', 'data-z': 'rive-d' }),
+    top: sv('path', { d: riv(118, 168), fill: '#5aa6e8', 'data-z': down ? 'amont' : 'aval' }),
+    mid: sv('path', { d: riv(168, 262), fill: '#4a9ae0', 'data-z': 'lit' }),
+    bot: sv('path', { d: riv(262, 320), fill: '#3f8fd8', 'data-z': down ? 'aval' : 'amont' }),
+  };
+  Object.values(Z).forEach((z) => { z.setAttribute('data-testid', 'vp-zone'); svg.append(z); });
+  for (let i = 0; i < 9; i++) { const x = 30 + i * 22, y = 150 + (i % 3) * 45; svg.append(sv('circle', { cx: x, cy: y, r: 7, fill: '#3d7a30', 'pointer-events': 'none' }), sv('circle', { cx: 500 - x, cy: y + 10, r: 7, fill: '#3d7a30', 'pointer-events': 'none' })); }
+  svg.append(sv('path', { d: 'M150,250 l12,-10 l12,10 v14 h-24 Z', fill: '#e9dcc4', stroke: '#7a5a3a', 'pointer-events': 'none' }), sv('path', { d: 'M146,251 l16,-14 l16,14', fill: 'none', stroke: '#b8482c', 'stroke-width': 4, 'pointer-events': 'none' }));
+  const ar = (y) => down ? `M250,${y - 14} L250,${y + 10} M242,${y + 2} L250,${y + 12} L258,${y + 2}` : `M250,${y + 14} L250,${y - 10} M242,${y - 2} L250,${y - 12} L258,${y - 2}`;
+  [190, 235].forEach((y) => svg.append(sv('path', { d: ar(y), stroke: '#fff', 'stroke-width': 4, fill: 'none', 'stroke-linecap': 'round', 'pointer-events': 'none' })));
+  // rive droite : on regarde vers l'aval. Si l'eau vient vers nous, on se retourne : sa droite est à notre gauche.
+  const RD = down ? ['rive-g', 'versant-g'] : ['rive-d', 'versant-d'], RG = down ? ['rive-d', 'versant-d'] : ['rive-g', 'versant-g'];
+  const Q = [
+    ['amont', 'l’amont', ['amont'], 'C’est le côté d’où vient l’eau, vers la source : les flèches partent de là.'],
+    ['aval', 'l’aval', ['aval'], 'C’est le côté où va l’eau : les flèches vont vers là.'],
+    ['lit', 'le lit de la rivière', ['lit', 'amont', 'aval'], 'C’est le creux où coule l’eau.'],
+    ['versant', 'un versant', ['versant-g', 'versant-d'], 'C’est une pente de la vallée, qui descend vers la rivière.'],
+    ['rd', 'la rive droite', RD, down ? 'L’eau vient vers toi : tourne-toi comme un bateau qui descend la rivière. Sa droite est à TA gauche !' : 'L’eau s’éloigne de toi : tu regardes déjà vers l’aval, la rive droite est à ta droite.'],
+    ['rg', 'la rive gauche', RG, down ? 'L’eau vient vers toi : pour un bateau qui descend, la gauche est à TA droite !' : 'Tu regardes vers l’aval : la rive gauche est à ta gauche.'],
+  ];
+  const order = shuffle(Q); let i = 0, ok = 0; const head = h('p', { class: 'prompt' });
+  const ask = () => { if (i >= order.length) { head.textContent = `Bravo ! ${ok}/${order.length}.`; talk(head.textContent); if (ok >= 5) { Sfx.win(); burst(body); } return; } head.textContent = `Touche ${order[i][1]}. (${i + 1}/${order.length})`; talk(`Touche ${order[i][1]}.`); };
+  svg.addEventListener('click', (e) => {
+    const z = e.target.closest('[data-z]'); if (!z || i >= order.length) return;
+    const q = order[i];
+    if (q[2].includes(z.dataset.z)) { ok++; star(); Sfx.coin(); talk(`Oui ! ${q[3]}`, false); } else { Sfx.tap(); talk(`Pas tout à fait. ${q[1][0].toUpperCase() + q[1].slice(1)} : ${q[3]}`, false); }
+    i++; setTimeout(ask, 2800);
+  });
+  body.replaceChildren(h('p', { class: 'muted' }, `Une vallée comme celle de la Semois à Bouillon. Les flèches blanches montrent le sens du courant : ici, l’eau ${down ? 'vient vers toi' : 's’éloigne de toi'}.`), head, h('div', { class: 'dr-wrap' }, svg),
+    h('div', { class: 'actions' }, h('button', { class: 'btn', type: 'button', 'data-testid': 'vp-new', onclick: () => valleePersp(body, talk) }, '🔄 Une autre vallée')));
+  ask();
+}
+
 export function open(tab = 'panorama') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['panorama', '🇧🇪 Les paysages', panorama], ['riviere', '🌊 La rivière', riviere], ['bloc', '⛰️ Le bloc-diagramme', bloc], ['croquis', '🖍️ Le croquis', croquis]];
+  const T = [['panorama', '🇧🇪 Les paysages', panorama], ['riviere', '🌊 La rivière', riviere], ['bloc', '⛰️ Le bloc-diagramme', bloc], ['croquis', '🖍️ Le croquis', croquis], ['photo', '📷 Photo → croquis', croquisPhoto], ['vallee', '🏞️ La vallée en 3D', valleePersp]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'pa-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel pa-panel' }, UI.closeButton(), h('h2', null, '🇧🇪 La Vallée des Paysages de Belgique'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Vallée de Belgique', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }
