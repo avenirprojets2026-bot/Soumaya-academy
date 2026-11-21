@@ -10,6 +10,7 @@ import * as Voice from './voice.js';
 import { asset } from './asset.js';
 import { SCENES } from './scenes.js';
 import { burst, shuffle, ri, qcm } from './workshop.js';
+import * as BD from './bd.js';
 
 const star = (n = 1) => { const b = S.get(); b.bonusStars = (b.bonusStars || 0) + n; b.coins += 2 * n; S.save(); };
 const pick = (a) => a[ri(0, a.length - 1)];
@@ -200,11 +201,41 @@ function valleePersp(body, talk) {
   ask();
 }
 
+
+// ---------- la BD « Sciences Comics 4 – Les grands paysages de Belgique » (image fournie par Papa) ----------
+const BD_PAY = ['La Belgique est un petit pays, mais elle présente des paysages très variés. Découvrons ensemble les grands paysages !',
+  'Un : le littoral. Au bord de la mer du Nord. Plage, dunes et polders. Un relief très plat, de basse altitude.',
+  'Deux : les plateaux limoneux. Dans le centre du pays. Des sols fertiles, le limon, pour l’agriculture. Un paysage de grandes plaines et de douces collines.',
+  'Trois : le sillon Sambre-et-Meuse. Une vallée qui suit les rivières Sambre et Meuse. Relativement basse et encaissée. Des villes, des industries et des voies de transport.',
+  'Quatre : l’Ardenne. Au sud et au sud-est de la Belgique. Un relief élevé et vallonné. Des forêts, des rivières et des plateaux rocheux. Une région de nature et de tourisme.',
+  'Cinq : les trois régions selon l’altitude. La Basse Belgique, de 0 à 100 mètres. La Moyenne Belgique, de 100 à 200 mètres. La Haute Belgique, de 200 à 700 mètres.',
+  'Quel paysage dans quelle région ? Le littoral est en Basse Belgique. Les plateaux limoneux et le sillon Sambre-et-Meuse sont en Moyenne Belgique. L’Ardenne est en Haute Belgique.',
+  'Chaque paysage a ses caractéristiques propres : le relief, le sol, la végétation et les activités humaines.'];
+function bdPay(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-paysages-belgique.webp', title: 'Sciences Comics 4 – Les grands paysages de Belgique', alt: 'BD : le littoral, les plateaux limoneux, le sillon Sambre-et-Meuse, l’Ardenne et la Basse, Moyenne et Haute Belgique', lines: BD_PAY,
+    question: ['Sur une photo, tu vois des usines, une rivière, une ville et un train. Quel paysage est-ce ?', 'Le sillon Sambre-et-Meuse : une vallée avec des villes, des industries et des voies de transport (comme à Charleroi ou Liège).'],
+    after: 'Ensuite, va dans « Les paysages » pour les retrouver sur le panorama !' });
+}
+
+
+// ---------- la BD « Sciences Comics 4 – Ce qui caractérise une ville » (image fournie par Papa) ----------
+const BD_VIL = ['Qu’est-ce qu’une ville ? Une ville est une grande agglomération urbaine, où beaucoup de personnes vivent, habitent, travaillent et se déplacent ensemble.',
+  'Une agglomération urbaine, c’est un ensemble continu de bâtiments, des maisons, des immeubles, des commerces, des usines, avec une forte densité de population.',
+  'Les caractéristiques d’une ville : beaucoup d’habitants, de nombreux bâtiments, des commerces et des services, des emplois variés, des écoles et des hôpitaux, des lieux de culture et de loisirs, et des transports développés : bus, tram, train, métro.',
+  'Les fonctions d’une ville : habiter, travailler, consommer, apprendre, se soigner, se distraire et se déplacer.',
+  'Ville et village : dans la ville, il y a beaucoup d’habitants, de bâtiments, de services et de grands moyens de transport. Dans le village, il y a moins d’habitants, moins de bâtiments, moins de services et des transports plus limités.',
+  'En Belgique, on trouve de grandes villes comme Bruxelles, la capitale, Liège, Charleroi, Anvers, Gand et Namur. Ce sont toutes des agglomérations urbaines.'];
+function bdVille(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-ville.webp', title: 'Sciences Comics 4 – Ce qui caractérise une ville', alt: 'BD : la ville, l’agglomération urbaine, ses caractéristiques et ses fonctions, ville et village', lines: BD_VIL,
+    question: ['Écris deux éléments qui caractérisent une agglomération urbaine (question de l’épreuve de juin 2026).', 'Par exemple : beaucoup d’habitants ; des bâtiments serrés et des immeubles ; beaucoup de commerces et de services ; des transports en commun développés (bus, tram, train) ; des écoles, des hôpitaux.'],
+    after: 'Ensuite, essaie « Photo → croquis » : route, champs et habitations !' });
+}
+
 export function open(tab = 'panorama') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['panorama', '🇧🇪 Les paysages', panorama], ['riviere', '🌊 La rivière', riviere], ['bloc', '⛰️ Le bloc-diagramme', bloc], ['croquis', '🖍️ Le croquis', croquis], ['photo', '📷 Photo → croquis', croquisPhoto], ['vallee', '🏞️ La vallée en 3D', valleePersp]];
+  const T = [['bd', '📖 BD paysages', bdPay], ['bdville', '📖 BD la ville', bdVille], ['panorama', '🇧🇪 Les paysages', panorama], ['riviere', '🌊 La rivière', riviere], ['bloc', '⛰️ Le bloc-diagramme', bloc], ['croquis', '🖍️ Le croquis', croquis], ['photo', '📷 Photo → croquis', croquisPhoto], ['vallee', '🏞️ La vallée en 3D', valleePersp]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'pa-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel pa-panel' }, UI.closeButton(), h('h2', null, '🇧🇪 La Vallée des Paysages de Belgique'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Vallée de Belgique', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }

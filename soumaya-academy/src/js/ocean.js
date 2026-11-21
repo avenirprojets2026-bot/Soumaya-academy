@@ -7,6 +7,7 @@ import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
 import { qcm, burst, shuffle, ri } from './workshop.js';
+import * as BD from './bd.js';
 
 const star = (n = 1) => { const b = S.get(); b.bonusStars = (b.bonusStars || 0) + n; b.coins += 2 * n; S.save(); };
 
@@ -147,11 +148,27 @@ function merdunord(body, talk) {
   ]).slice(0, 4), (n) => { if (n >= 3) done('merdunord'); host.append(h('div', { class: 'actions' }, h('button', { class: 'btn primary', type: 'button', onclick: () => merdunord(body, talk) }, '↻ Encore'))); }), 3500);
 }
 
+
+// ---------- la BD « Sciences Comics 4 – L'environnement, les déchets et le tri » (image fournie par Papa) ----------
+const BD_ENV = ['L’environnement, c’est tout ce qui nous entoure : l’air, l’eau, le sol, les plantes, les animaux et les êtres humains.',
+  'Pourquoi le protéger ? Parce qu’il nous fournit ce dont nous avons besoin pour vivre : de l’air pour respirer, de l’eau pour boire, de la nourriture pour grandir et un lieu de vie agréable.',
+  'Le problème des déchets : trop de déchets polluent la nature. Ils salissent les sols, les rivières et les mers, et peuvent blesser les animaux.',
+  'Réduire les déchets, les bons gestes : réduire, en évitant les emballages inutiles. Réutiliser, avec une gourde ou une boîte. Réparer plutôt que jeter. Recycler, pour donner une nouvelle vie aux matériaux.',
+  'Le tri des déchets en Belgique : le sac bleu P M C, pour les emballages en plastique, en métal et les cartons à boissons, comme les bouteilles, les canettes et les briques. Le conteneur jaune pour les papiers et cartons. Le conteneur vert pour le verre : bouteilles, bocaux et flacons, sans bouchon ni couvercle. Le conteneur brun pour les déchets organiques : restes de repas, épluchures, marc de café. Et le sac ou conteneur gris pour les déchets résiduels, ce qui ne peut pas être trié.',
+  'Un déchet est un objet ou un reste que l’on ne veut plus. Trier, réduire, réutiliser et recycler, c’est protéger l’environnement !',
+  'Les bons réflexes : trier correctement ses déchets, ne rien jeter dans la nature, utiliser une gourde et une boîte réutilisable, économiser l’eau et l’énergie, participer aux actions de nettoyage.',
+  'Grâce aux petits gestes de chacun, nous pouvons garder une Belgique propre et une planète en bonne santé. Muezza compte sur toi pour bien trier !'];
+function bdEnv(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-environnement-dechets.webp', title: 'Sciences Comics 4 – L’environnement, les déchets et le tri en Belgique', alt: 'BD : l’environnement, les déchets, réduire, réutiliser, réparer, recycler et le tri dans la bonne poubelle', lines: BD_ENV,
+    question: ['Dans quelle poubelle mets-tu une canette, un journal, un trognon de pomme et un pot de confiture vide ?', 'Canette → PMC. Journal → papiers-cartons. Trognon de pomme → déchets organiques (compost). Pot de confiture en verre → verre (conteneur vert). Canette → sac bleu PMC ; journal → conteneur jaune ; trognon → conteneur brun.'],
+    after: 'Ensuite, va « Sauver la cité » pour nettoyer l’océan des plastiques !' });
+}
+
 export function open(tab = 'plongee') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div', { class: 'oc-body' });
-  const T = [['plongee', '🤿 La grande plongée', plongee], ['chaine', '🦈 La chaîne alimentaire', chaine], ['flotte', '🛟 Ça flotte ou ça coule ?', flotte], ['plastique', '♻️ Sauver la cité', plastique], ['animaux', '🐢 Les animaux marins', animaux], ['merdunord', '🇧🇪 La mer du Nord', merdunord]];
+  const T = [['bd', '📖 La BD environnement', bdEnv], ['plongee', '🤿 La grande plongée', plongee], ['chaine', '🦈 La chaîne alimentaire', chaine], ['flotte', '🛟 Ça flotte ou ça coule ?', flotte], ['plastique', '♻️ Sauver la cité', plastique], ['animaux', '🐢 Les animaux marins', animaux], ['merdunord', '🇧🇪 La mer du Nord', merdunord]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'oc-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel oc-panel' }, UI.closeButton(), h('h2', null, '🌊 La Cité sous l’Océan'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Cité sous l’Océan', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }

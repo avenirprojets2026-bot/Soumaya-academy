@@ -6,6 +6,7 @@ import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
 import { burst, shuffle, ri, log } from './workshop.js';
+import * as BD from './bd.js';
 
 const NS = 'http://www.w3.org/2000/svg';
 const sv = (tag, attrs = {}, ...kids) => { const e = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); kids.forEach((c) => c != null && e.append(c)); return e; };
@@ -272,11 +273,34 @@ function programme(body, talk) {
   go();
 }
 
+
+// ---------- les BD « S'orienter et lire des coordonnées sur un quadrillage » (images fournies par Papa) ----------
+const BD_CO1 = ['S’orienter, c’est savoir où l’on est, trouver une direction et se repérer sur un plan, une carte ou un quadrillage.',
+  'La rose des vents : le Nord, le Sud, l’Est et l’Ouest, et entre eux le Nord-Est, le Nord-Ouest, le Sud-Est et le Sud-Ouest.',
+  'La coordonnée d’un point s’écrit avec une lettre, la colonne, et un chiffre, la ligne. On lit d’abord la lettre, puis le chiffre ! Par exemple, le pont est en C3.',
+  'Pour aller d’un point à un autre, on indique la direction et le nombre de cases. De B1 à E1 : 3 cases vers l’Est. De A4 à C3 : 2 cases vers l’Est et 1 case vers le Sud.',
+  'À toi ! Quelle est la coordonnée de la tente, de la maison, de la montagne, du rocher et du trésor ?'];
+const BD_CO2 = ['Pour trouver un endroit sur une carte, on utilise un quadrillage, des coordonnées et les points cardinaux : le Nord, le Sud, l’Est et l’Ouest.',
+  'Un quadrillage est un réseau de lignes qui forme des cases. On repère un point grâce à deux repères : d’abord celui de l’horizontale, la lettre, puis celui de la verticale, le nombre. Par exemple C,3.',
+  'Sur le plan : le château est en A,7, le village en C,5, le lac en B,2, la forêt en F,6, le moulin en H,4, le camping en F,2 et la montagne en G,8.',
+  'Pour se déplacer, on peut lire les coordonnées d’un lieu, donner les coordonnées d’un lieu ou suivre un itinéraire.',
+  'À toi de jouer : donne les coordonnées de la forêt, de la montagne et du pont. Puis cherche la direction à prendre depuis le village pour aller au château, à la forêt et au camping.'];
+function bdCoord1(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-coordonnees.webp', title: 'Géographie Comics 4 – S’orienter et lire des coordonnées', alt: 'BD : la rose des vents, le quadrillage, lire une coordonnée et se déplacer case par case', lines: BD_CO1,
+    question: ['Je m’entraîne : la tente, la maison, la montagne, le rocher et le trésor sont en quelles cases ?', 'La tente : A4. La maison : B1. La montagne : E5. Le rocher : F3. Le trésor : E1.'],
+    after: 'Ensuite, va dans l’onglet « Coordonnées » pour t’entraîner !' });
+}
+function bdCoord2(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-coordonnees-plan.webp', title: 'Géographie et maths P4 – Lire des coordonnées sur un plan', alt: 'BD : un plan quadrillé avec château, village, lac, forêt, moulin, camping et montagne', lines: BD_CO2,
+    question: ['Depuis le village (C,5), quelle direction prendre pour aller au château, à la forêt et au camping ?', 'Château (A,7) : vers le nord-ouest (le nord et l’ouest). Forêt (F,6) : vers l’est (un peu vers le nord). Camping (F,2) : vers le sud-est (le sud et l’est). Les coordonnées : la forêt F,6 ; la montagne G,8 ; le pont environ E,3. Attention : sur un quadrillage, on avance d’une case horizontalement ou verticalement, pas en diagonale.'],
+    after: 'Ensuite, va dans l’onglet « Coordonnées » pour t’entraîner !' });
+}
+
 export function open(tab = 'droites') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['droites', '📐 Perpendiculaires et parallèles', droites], ['symetrie', '🦋 Symétrie', symetrie], ['coord', '🗺️ Coordonnées', coord], ['repro', '✏️ Reproduire', reproduire], ['prog', '🌟 Programme de construction', programme]];
+  const T = [['droites', '📐 Perpendiculaires et parallèles', droites], ['symetrie', '🦋 Symétrie', symetrie], ['coord', '🗺️ Coordonnées', coord], ['bdcoord', '📖 BD s’orienter', bdCoord1], ['bdplan', '📖 BD le plan', bdCoord2], ['repro', '✏️ Reproduire', reproduire], ['prog', '🌟 Programme de construction', programme]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'dr-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel dr-panel' }, UI.closeButton(), h('h2', null, '📏 La table à dessin magique'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Table à dessin', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }

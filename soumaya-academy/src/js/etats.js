@@ -6,6 +6,7 @@ import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
 import { burst, shuffle, qcm } from './workshop.js';
+import * as BD from './bd.js';
 
 const star = (n = 1) => { const b = S.get(); b.bonusStars = (b.bonusStars || 0) + n; b.coins += 2 * n; S.save(); };
 const ST = () => { const b = S.get(); b.etats = b.etats || { ok: {} }; return b.etats; };
@@ -107,11 +108,27 @@ function dissoudre(body, talk) {
   talk('Que se passe-t-il quand on verse quelque chose dans l’eau ?');
 }
 
+
+// ---------- la BD « Sciences Comics 4 – La matière et les états de l'eau » (image fournie par Papa) ----------
+const BD_EAU = ['Un. Qu’est-ce que la matière ? La matière, c’est tout ce qui nous entoure, qui a une masse et qui occupe une place : un volume. Une pierre, de l’eau, de l’air.',
+  'Deux. Les trois états de la matière. La même matière peut exister sous trois états : solide, liquide et gazeux. Le solide a une forme fixe, on peut le tenir. Le liquide coule et prend la forme du récipient. Le gaz est invisible et remplit tout l’espace.',
+  'Trois. Les états de l’eau. L’eau existe sous trois états : la glace, c’est l’eau solide ; l’eau liquide ; et la vapeur d’eau, c’est l’eau gazeuse.',
+  'Quatre. Les transformations de l’eau. Avec de la chaleur : la fusion, la glace fond ; la vaporisation, l’eau se transforme en vapeur. Avec du froid : la condensation, la vapeur redevient de l’eau ; la solidification, l’eau se retransforme en glace.',
+  'Cinq. Le cycle de l’eau dans la nature. L’évaporation : le liquide devient gaz. La condensation forme les nuages. Puis les précipitations : pluie, neige, grêle. Enfin le ruissellement : l’eau retourne vers les rivières, les lacs et la mer.',
+  'Six. Dans la vie de tous les jours, on retrouve les trois états de l’eau partout : la glace dans le congélateur, l’eau liquide que l’on boit, la vapeur d’eau qui sort de la bouilloire.',
+  'À retenir : la matière existe sous trois états. L’eau passe d’un état à un autre grâce à la chaleur ou au froid. Dans la nature, l’eau circule en permanence : c’est le cycle de l’eau.',
+  'Muezza te pose une question : donne un exemple de l’eau sous chacune de ses trois formes !'];
+function bdEau(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-etats-eau.webp', title: 'Sciences Comics 4 – La matière et les états de l’eau', alt: 'BD : la matière, les trois états de l’eau, ses transformations et le cycle de l’eau', lines: BD_EAU,
+    question: ['Donne un exemple de l’eau sous chacune de ses trois formes.', 'Solide : un glaçon, la neige, la grêle, un lac gelé. Liquide : l’eau du robinet, la pluie, la mer. Gazeuse : la vapeur de la bouilloire ou de la douche, la vapeur d’eau dans l’air.'],
+    after: 'Ensuite, essaie « Le thermomètre magique » et « Le cycle de l’eau » pour t’entraîner !' });
+}
+
 export function open(tab = 'thermo') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div'); let stop = null;
-  const T = [['thermo', '🌡️ Le thermomètre magique', thermo], ['lire', '🔢 Lire la température', lire], ['rev', '🍫 Réversible ou pas ?', reversible], ['cycle', '🌦️ Le cycle de l’eau', cycle], ['diss', '🧂 Mélanges', dissoudre]];
+  const T = [['bd', '📖 La BD', bdEau], ['thermo', '🌡️ Le thermomètre magique', thermo], ['lire', '🔢 Lire la température', lire], ['rev', '🍫 Réversible ou pas ?', reversible], ['cycle', '🌦️ Le cycle de l’eau', cycle], ['diss', '🧂 Mélanges', dissoudre]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'et-tab-' + k, onclick: () => go(k) }, l));
   const head = h('div');
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel ea-panel' }, UI.closeButton(), h('h2', null, '⚗️ Le Laboratoire des Trois États'), head, h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Le Laboratoire des Trois États', onClose: () => { Voice.stop(); if (stop) stop(); } });

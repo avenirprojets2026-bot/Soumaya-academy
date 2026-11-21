@@ -7,6 +7,7 @@ import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
 import { burst, shuffle, ri, qcm } from './workshop.js';
+import * as BD from './bd.js';
 
 const star = (n = 1) => { const b = S.get(); b.bonusStars = (b.bonusStars || 0) + n; b.coins += 2 * n; S.save(); };
 const pick = (a) => a[ri(0, a.length - 1)];
@@ -259,11 +260,26 @@ function eau(body, talk) {
   go('etats');
 }
 
+
+// ---------- la BD « Sciences Comics 4 – Les régimes alimentaires » (image fournie par Papa) ----------
+const BD_REG = ['Les régimes alimentaires : la façon dont un être vivant se nourrit, selon les aliments qu’il mange.',
+  'Le régime alimentaire, c’est l’ensemble des aliments qu’un être vivant mange pour vivre, grandir et avoir de l’énergie. Les êtres vivants ne mangent pas tous les mêmes aliments.',
+  'Herbivore : il se nourrit uniquement de végétaux, comme le lapin, la vache, le cheval. Carnivore : il se nourrit d’animaux, comme le lion, le loup, l’aigle. Omnivore : il mange des végétaux et des animaux, comme l’ours, l’être humain, le sanglier.',
+  'Frugivore : il se nourrit principalement de fruits, comme le singe ou le toucan. Granivore : surtout de graines, comme le moineau, le pigeon, la perdrix. Insectivore : principalement d’insectes, comme le hérisson, la chauve-souris, la grenouille. Piscivore : principalement de poissons, comme le martin-pêcheur, la loutre, le phoque.',
+  'Une chaîne alimentaire : l’herbe est mangée par la sauterelle, la sauterelle par la grenouille, la grenouille par le serpent. C’est une suite d’êtres vivants où chacun mange le précédent.',
+  'Plusieurs chaînes qui s’entrecroisent forment un réseau alimentaire.',
+  'À retenir : les êtres vivants sont liés entre eux par des chaînes et des réseaux alimentaires. Et Muezza est carnivore : elle se nourrit surtout de viande !'];
+function bdReg(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-regimes-alimentaires.webp', title: 'Sciences Comics 4 – Les régimes alimentaires', alt: 'BD : herbivore, carnivore, omnivore, frugivore, granivore, insectivore, piscivore, chaîne et réseau alimentaires', lines: BD_REG,
+    question: ['Quel est le régime alimentaire du hérisson ? Et celui de l’être humain ?', 'Le hérisson est insectivore (il mange surtout des insectes, des vers, des limaces). L’être humain est omnivore : il mange des végétaux et des animaux.'],
+    after: 'Ensuite, entraîne-toi avec « Les régimes alimentaires » et « Les chaînes alimentaires » !' });
+}
+
 export function open(tab = 'regimes') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['regimes', '🥕 Les régimes alimentaires', regimes], ['regimes2', '📖 Leçon + autres régimes', regimes2], ['chaine', '🔗 Les chaînes alimentaires', chaine], ['doc', '📖 Le documentaire', documentaire], ['nuit', '🌙 Jour ou nuit ?', nuit], ['eau', '💧 Le voyage de l’eau', eau]];
+  const T = [['bd', '📖 La BD', bdReg], ['regimes', '🥕 Les régimes alimentaires', regimes], ['regimes2', '📖 Leçon + autres régimes', regimes2], ['chaine', '🔗 Les chaînes alimentaires', chaine], ['doc', '📖 Le documentaire', documentaire], ['nuit', '🌙 Jour ou nuit ?', nuit], ['eau', '💧 Le voyage de l’eau', eau]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'vi-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel vi-panel' }, UI.closeButton(), h('h2', null, '🌿 La Forêt des Mystères Vivants'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Forêt vivante', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }

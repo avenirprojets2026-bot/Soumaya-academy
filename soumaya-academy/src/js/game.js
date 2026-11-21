@@ -260,6 +260,7 @@ function openPanel(p) {
   else if (p === 'potion') QS.mission();
   else if (p === 'micro') MI.open();
   else if (p === 'dessin') DR.open();
+  else if (p.startsWith('dessin-')) DR.open(p.slice(7));
   else if (p === 'decimaux') DC.open();
   else if (p === 'abaque-nombres') AB.open();
   else if (p === 'abaque-grandeurs') AG.open();
@@ -596,6 +597,7 @@ function doc2026() {
         qs.length ? h('button', { class: 'btn small', type: 'button', 'data-testid': 'i26-' + id, onclick: () => practice2025(id, t.replace(/^Document \d+ · /, ''), null, '2026') }, `🏆 Je relève le défi (${qs.length})${best[id] ? ' · ✓ ' + best[id] : ''}`) : null,
         ps.length ? h('button', { class: 'btn small', type: 'button', onclick: () => practice2025(id, t, ps, '2026') }, ps[0].domain === 'ecoute' ? '🎧 Écouter un texte' : '📖 Lire un texte') : null,
         tasks.length ? h('button', { class: 'btn small', type: 'button', onclick: () => { UI.closeDialog(); openTask2025(tasks, '2026'); } }, '🪶 Écrire / dire') : null,
+        id === 'doc11' ? h('button', { class: 'btn small', type: 'button', 'data-testid': 'i26-doc11-bd', onclick: () => { UI.closeDialog(); setTimeout(() => CO.open('bd'), 80); } }, '📖 BD digestion') : null,
         id === 'doc08' ? h('button', { class: 'btn small', type: 'button', 'data-testid': 'i26-doc08-ateliers', onclick: () => { UI.closeDialog(); setTimeout(() => PA.open('photo'), 80); } }, '🖍️ Croquis et vallée') : null));
   };
   UI.openDialog(h('div', { class: 'panel gb-panel' }, UI.closeButton(), h('h2', null, '📘 Les Défis des Grands Explorateurs · Juin 2026'),

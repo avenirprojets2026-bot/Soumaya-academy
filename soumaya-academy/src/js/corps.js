@@ -6,6 +6,7 @@ import { h } from './ui.js';
 import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
+import * as BD from './bd.js';
 import { burst, shuffle, ri, qcm } from './workshop.js';
 import { play as playNote, preload } from './theatre.js';
 
@@ -333,11 +334,24 @@ function medecin(body, talk) {
   go('stetho');
 }
 
+
+// ---------- la BD « Comics 4 – Le corps et la digestion » (image fournie par Papa) ----------
+const BD4 = ['Bonjour ! Je suis Soumaya ! Aujourd’hui, je vais découvrir comment mon corps digère les aliments !',
+  'Un : la bouche. Je commence par mâcher les aliments. Mes dents les découpent et ma salive les ramollit. Ils deviennent une bouillie.',
+  'Deux : l’œsophage. Ensuite, la bouillie, qu’on appelle le bol alimentaire, descend dans un tube : l’œsophage. Elle va vers l’estomac.',
+  'Trois : l’estomac. Les aliments sont brassés et mélangés à des sucs digestifs. Ils se transforment en une sorte de soupe.',
+  'Quatre : l’intestin grêle. C’est là que mon corps prend les nutriments, l’énergie et les matières utiles, qui passent dans le sang.',
+  'Cinq : le gros intestin. Ce qui n’est pas utile va vers le gros intestin. Il récupère l’eau, forme les selles, qui sont éliminées par les toilettes.',
+  'Et voilà, c’est la digestion ! Grâce à elle, mon corps reçoit l’énergie et les éléments dont il a besoin pour vivre, grandir et être en forme !'];
+function bd(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-digestion.webp', title: 'Comics 4 – Le corps et la digestion', alt: 'BD : Soumaya découvre le parcours de la digestion, de la bouche au gros intestin', lines: BD4, after: 'Ensuite, va dans « La digestion » pour suivre le voyage d’une bouchée et faire le quiz !' });
+}
+
 export function open(tab = 'squelette') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['squelette', '🦴 Le squelette', squelette], ['mannequin', '🫀 Le mannequin transparent', mannequin], ['digestion', '🍎 La digestion', digestion], ['sens', '👁️ Les cinq sens', sens], ['voyage', '🚀 Le voyage miniature', voyage], ['medecin', '🩺 Le petit médecin', medecin]];
+  const T = [['squelette', '🦴 Le squelette', squelette], ['mannequin', '🫀 Le mannequin transparent', mannequin], ['digestion', '🍎 La digestion', digestion], ['bd', '📖 La BD de la digestion', bd], ['sens', '👁️ Les cinq sens', sens], ['voyage', '🚀 Le voyage miniature', voyage], ['medecin', '🩺 Le petit médecin', medecin]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'co-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel co-panel' }, UI.closeButton(), h('h2', null, '🫀 Le Sanctuaire du Corps Humain'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Sanctuaire du corps', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }

@@ -2180,3 +2180,6 @@ canvas.globe-spin.stop{box-shadow:0 0 0 3px #ffe08a,0 0 30px 8px #ffd96acc}
 .cq-wrap{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}.cq-wrap figure{margin:0;text-align:center}.cq-wrap figcaption{font-weight:700;margin-top:4px}
 .cq-wrap .pa-croquis{width:min(380px,86vw)}.cq-legend{flex-direction:row;flex-wrap:wrap;justify-content:center;margin-top:8px}
 .pa-vp [data-z]{cursor:pointer}
+
+.co-bd{display:block;width:min(900px,92vw);height:auto;border-radius:14px;margin:6px auto;box-shadow:0 4px 18px #0006}.co-bd-link{display:block}
+.bd-q{max-width:900px;margin:8px auto;padding:10px 14px;border-radius:12px;background:#ffffff12;border:2px solid #ffd84a55}.bd-q summary{cursor:pointer;font-weight:700}
