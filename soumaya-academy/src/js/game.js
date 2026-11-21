@@ -263,6 +263,7 @@ function openPanel(p) {
   else if (p === 'dessin') DR.open();
   else if (p.startsWith('dessin-')) DR.open(p.slice(7));
   else if (p === 'decimaux') DC.open();
+  else if (p === 'bd-francais') BDS.openSet('📖 Les BD de français', BD_FR);
   else if (p === 'bd-operations') BDS.openSet('➕ Les BD des opérations', BD_OPS);
   else if (p === 'abaque-nombres') AB.open();
   else if (p === 'abaque-grandeurs') AG.open();
@@ -598,6 +599,18 @@ const BD_OPS = [
       'La soustraction 742 moins 56 : 2 moins 6, impossible, on emprunte une dizaine : 12 moins 6, 6. 3 moins 5, impossible, on emprunte une centaine : 13 moins 5, 8. Puis 6 moins 0, 6. Donc 686.',
       'La multiplication 23 fois 14 : 23 fois 4, 92. 23 fois 10, 230. On additionne : 230 plus 92, 322.'],
     question: ['Je m’entraîne : 458 + 37 ; 729 + 64 ; 387 + 89 ; 623 − 47 ; 812 − 56 ; 901 − 68 ; 26 × 12 ; 34 × 15 ; 47 × 13.', '495 ; 793 ; 476 ; 576 ; 756 ; 833 ; 312 ; 510 ; 611.'] },
+];
+
+const BD_FR = [
+  { tab: 'La phrase', img: 'assets/bd/comics4-phrase.webp', title: 'Français Comics 4 – La phrase et ses compléments', alt: 'BD : déterminants définis et indéfinis, sujet, verbe, prédicat et adjectifs',
+    lines: ['Une phrase est un groupe de mots qui a un sens. Elle est construite autour d’un verbe. Dans une phrase, on trouve un sujet et un prédicat : les mots sont reliés et ont chacun un rôle !',
+      'Le sujet, c’est de qui ou de quoi on parle. Dans « Les petits élèves lisent un grand livre », le sujet est « Les petits élèves ». Pour le trouver, on peut l’encadrer par « C’est… qui » : C’est les petits élèves qui lisent.',
+      'Le verbe indique l’action, ce que fait le sujet : « lisent ». Le prédicat, c’est ce qu’on dit du sujet : le verbe et ses compléments, « lisent un grand livre ».',
+      'Le déterminant accompagne le nom. L’article défini désigne quelque chose de précis : le, la, l’, les. L’article indéfini désigne quelque chose de général : un, une, des.',
+      'L’adjectif qualificatif donne une qualité du nom : sa couleur, sa forme, sa taille, son caractère. Un grand livre, une maison bleue, un chien gentil.',
+      'Attention : trois, plusieurs et quelques ne sont pas des adjectifs, ce sont des déterminants. Ils indiquent une quantité : trois pommes, plusieurs enfants, quelques livres.'],
+    note: 'Deux précisions avec les mots de la grammaire belge d’aujourd’hui. 1) Le sujet est tout le groupe « Les petits élèves » (pas seulement « élèves »), et le prédicat est « lisent un grand livre » (le verbe en fait partie). 2) « trois », « plusieurs », « quelques » sont des déterminants (numéral et indéfinis), pas des adjectifs : dans l’exercice 3, ils vont avec les déterminants.',
+    question: ['Je m’entraîne : souligne le sujet, entoure le verbe : « Les chiens jouent dans le jardin. » « Une voiture roule sur la route. » « Le petit chat dort sur le canapé. » Puis D ou I : le vélo, une fleur, les crayons, un ballon, la forêt, des livres.', 'Sujets : Les chiens / Une voiture / Le petit chat. Verbes : jouent / roule / dort. Prédicats : jouent dans le jardin / roule sur la route / dort sur le canapé. Défini (D) : le vélo, les crayons, la forêt. Indéfini (I) : une fleur, un ballon, des livres. Adjectifs qualificatifs : rouge, grand, petite. Déterminants de quantité : trois, plusieurs, quelques.'] },
 ];
 // Juin 2026 : les épreuves les plus récentes, proposées en premier
 function doc2026() {
