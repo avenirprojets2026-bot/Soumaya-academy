@@ -160,7 +160,7 @@ const BD_VIR = ['Un nombre à virgule est composé d’une partie entière et d�
   'À retenir : un dixième égale 0,1 ; un centième égale 0,01 ; un millième égale 0,001.'];
 function bdVirgule(body, talk) {
   BD.show(body, talk, { img: 'assets/bd/comics4-abaque-virgule.webp', title: 'Maths Comics 4 – L’abaque avec les nombres à virgule', alt: 'BD : partie entière et partie décimale, dixièmes, centièmes, millièmes, lire, décomposer et comparer', lines: BD_VIR,
-    question: ['Je m’entraîne : 58,29 et 403,16 décomposés ; et compare 7,45 … 7,54 ; 12,30 … 12,3 ; 9,08 … 9,8 ; 105,25 … 105,20.', '58,29 = 50 + 8 + 0,2 + 0,09 ; 403,16 = 400 + 3 + 0,1 + 0,06 ; 9,75 = 9 + 0,7 + 0,05. Comparer : 7,45 < 7,54 ; 12,30 = 12,3 ; 9,08 < 9,8 ; 105,25 > 105,20. ⚠️ Dans la BD, 72,48 doit s’écrire avec le 7 dans les dizaines (D) et le 2 dans les unités (U).'],
+    question: ['Je m’entraîne : 58,29 et 403,16 décomposés ; et compare 7,45 … 7,54 ; 12,30 … 12,3 ; 9,08 … 9,8 ; 105,25 … 105,20.', '58,29 = 50 + 8 + 0,2 + 0,09 ; 403,16 = 400 + 3 + 0,1 + 0,06 ; 9,75 = 9 + 0,7 + 0,05. Comparer : 7,45 < 7,54 ; 12,30 = 12,3 ; 9,08 < 9,8 ; 105,25 > 105,20.'],
     after: 'Ensuite, va dans « Construire » et « Lire et comparer » pour t’entraîner !' });
 }
 

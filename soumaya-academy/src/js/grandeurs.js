@@ -6,6 +6,7 @@ import * as S from './save.js';
 import * as Sfx from './sfx.js';
 import * as Voice from './voice.js';
 import { burst, shuffle, ri } from './workshop.js';
+import * as BD from './bd.js';
 
 const star = (n = 1) => { const b = S.get(); b.bonusStars = (b.bonusStars || 0) + n; b.coins += 2 * n; S.save(); };
 const ST = () => { const b = S.get(); b.abaqueG = b.abaqueG || { done: 0 }; return b.abaqueG; };
@@ -459,11 +460,25 @@ function astuces(body, talk) {
   talk('Voici les astuces : un seul chiffre par colonne, le chiffre des unités dans la colonne de l’unité, puis on déplace la virgule ou on ajoute des zéros.');
 }
 
+
+// ---------- la BD « Maths Comics 4 – Les unités de mesure » (image fournie par Papa) ----------
+const BD_UM = ['On mesure des longueurs, des masses et des capacités avec des unités. Les unités sont rangées dans un tableau : chaque passage d’une colonne à l’autre multiplie ou divise par 10 !',
+  'La règle à retenir : vers la droite, on multiplie par 10, l’unité devient 10 fois plus petite. Vers la gauche, on divise par 10, l’unité devient 10 fois plus grande.',
+  'La longueur : kilomètre, hectomètre, décamètre, mètre, décimètre, centimètre, millimètre. 1 mètre égale 100 centimètres. 1 kilomètre égale 1 000 mètres.',
+  'La masse : kilogramme, hectogramme, décagramme, gramme, décigramme, centigramme, milligramme. 1 kilogramme égale 1 000 grammes.',
+  'La capacité : kilolitre, hectolitre, décalitre, litre, décilitre, centilitre, millilitre. 1 litre égale 100 centilitres.',
+  'Des exemples : 3,5 mètres égale 350 centimètres. 2 400 millimètres égale 2,4 mètres. 4,2 kilogrammes égale 4 200 grammes. 750 grammes égale 0,75 kilogramme. 3 litres égale 300 centilitres. 450 millilitres égale 0,45 litre.'];
+function bdUnites(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/comics4-unites-mesure.webp', title: 'Maths Comics 4 – Les unités de mesure', alt: 'BD : les tableaux de longueur, de masse et de capacité, la règle × 10 et ÷ 10 et des conversions', lines: BD_UM,
+    question: ['Je m’entraîne : 5 m ; 720 cm ; 2,5 kg ; 4 500 g ; 6 L ; 350 mL. Et vrai ou faux : 1,2 m = 120 cm ; 3 kg = 300 g ; 1 L = 1 000 mL ; 50 cL = 0,5 L ; 4 000 mm = 4 m.', '5 m = 500 cm ; 720 cm = 7,2 m ; 2,5 kg = 2 500 g ; 4 500 g = 4,5 kg ; 6 L = 600 cL ; 350 mL = 0,35 L. Vrai ou faux : vrai ; faux (3 kg = 3 000 g) ; vrai ; vrai ; vrai.'],
+    after: 'Ensuite, va dans « Convertir avec l’abaque » pour t’entraîner !' });
+}
+
 export function open(tab = 'astuces') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['astuces', '💡 Astuces', astuces], ['placer', '✍️ Placer', placer], ['abaque', '📊 Convertir avec l’abaque', convertirAbaque], ['tete', '🧠 Convertir de tête', convertir], ['comparer', '⚖️ Comparer', comparer],
+  const T = [['bd', '📖 La BD', bdUnites], ['astuces', '💡 Astuces', astuces], ['placer', '✍️ Placer', placer], ['abaque', '📊 Convertir avec l’abaque', convertirAbaque], ['tete', '🧠 Convertir de tête', convertir], ['comparer', '⚖️ Comparer', comparer],
     ['ranger', '🔢 Le plus grand ?', ranger], ['unite', '🎯 La bonne unité', unite], ['probleme', '🧩 Problèmes', probleme],
     ['pichet', '🧪 Le pichet gradué', pichet], ['unitem', '❓ L’unité qui manque', uniteManquante], ['addition', '➕ Additionner', addition], ['relier', '🔗 Relier', relier], ['eval', '📝 Évaluation', evaluation],
     ['mesurer', '📏 Mesurer à la règle', mesurer], ['tracer', '✏️ Tracer', tracer], ['egal', '🟰 Compléter les égalités', egalites], ['evall', '⭐ Évaluation longueurs', evalLongueurs], ['masses', '⚖️ Les masses (t, q, kg…)', masses]];
