@@ -232,23 +232,23 @@ function bdVille(body, talk) {
 }
 
 
-// ---------- la BD « Géo Comics 4 – Le vocabulaire d'une rivière » (image fournie par Papa) ----------
-const BD_RIV = ['L’amont, c’est la partie haute de la rivière, vers la source. L’aval, c’est la partie basse, vers l’embouchure, là où la rivière se jette.',
-  'Un versant, c’est une pente du relief, qui dirige les eaux vers la rivière. Le lit, c’est le creux dans lequel coule l’eau.',
-  'Important : pour trouver la rive gauche et la rive droite, je me place dans le sens du courant, de l’amont vers l’aval, comme un bateau qui descend la rivière. La rive droite est à ma droite, la rive gauche à ma gauche.',
-  'Attention au piège : sur le grand dessin, l’eau vient vers toi. Pour regarder vers l’aval, tu dois te retourner ! Alors la rive droite est du côté gauche du dessin, et la rive gauche du côté droit.'];
-function bdRiviere(body, talk) {
-  BD.show(body, talk, { img: 'assets/bd/comics4-riviere.webp', title: 'Géo Comics 4 – Le vocabulaire d’une rivière', alt: 'BD : amont, aval, versant, lit, rive gauche et rive droite', lines: BD_RIV,
-    note: 'Sur le grand dessin, l’eau descend de la montagne et vient VERS TOI. Pour regarder vers l’aval, il faut te retourner : la rive droite est donc à GAUCHE du dessin, et la rive gauche à DROITE. Les étiquettes du dessin sont inversées ! C’est exactement le piège de l’épreuve de juin 2026 (la Semois à Bouillon).',
-    question: ['Je m’entraîne : où est l’amont ? Où est l’aval ? Si je regarde vers l’aval, où est la rive droite ?', 'L’amont est en haut, vers la source dans la montagne. L’aval est en bas, vers l’embouchure. En regardant vers l’aval (dans le sens du courant), la rive droite est à ma droite. Un versant est une pente qui descend vers la rivière.'],
-    after: 'Ensuite, va dans « La vallée en 3D » pour t’entraîner avec l’eau qui vient vers toi ou qui s’éloigne !' });
+// ---------- schéma « Rive droite ou rive gauche ? » (dessiné pour Soumaya Academy) ----------
+const BD_RIVES = ['Le vocabulaire de la rivière. L’amont, c’est vers la source, d’où vient l’eau. L’aval, c’est vers l’embouchure, là où va l’eau. Le lit, c’est le creux où coule l’eau. Un versant, c’est une pente qui descend vers la rivière.',
+  'Rive droite ou rive gauche ? Je monte dans le bateau et je regarde où va l’eau, vers l’aval. Ma main droite montre la rive droite.',
+  'Un : l’eau s’éloigne de toi. On voit l’enfant de dos : sa droite, c’est ta droite. La rive droite est à droite de l’image.',
+  'Deux : l’eau vient vers toi. C’est le piège ! L’enfant te fait face : sa droite, c’est ta gauche. La rive droite est à gauche de l’image.',
+  'À retenir : on regarde toujours vers l’aval, dans le sens du courant. Sur une photo, cherche d’abord la flèche du courant avant de nommer les rives.'];
+function bdRives(body, talk) {
+  BD.show(body, talk, { img: 'assets/bd/rive-droite-gauche.webp', title: 'Rive droite ou rive gauche ?', alt: 'Schéma : quand l’eau s’éloigne, la rive droite est à droite de l’image ; quand l’eau vient vers toi, elle est à gauche', lines: BD_RIVES,
+    question: ['Sur la photo de Bouillon (épreuve 2026), la flèche montre que l’eau vient vers le photographe. Où est la rive droite ?', 'L’eau vient vers toi : tu te retournes pour regarder vers l’aval. La rive droite est donc du côté gauche de la photo (la rive de devant, avec les maisons en bas).'],
+    after: 'Ensuite, entraîne-toi dans « La vallée en 3D » !' });
 }
 
 export function open(tab = 'panorama') {
   const say = h('div', { class: 'be-say cc-say', 'aria-live': 'polite' });
   const talk = (s, v = true) => { say.textContent = s; if (v) Voice.speak(s); };
   const body = h('div');
-  const T = [['bd', '📖 BD paysages', bdPay], ['bdville', '📖 BD la ville', bdVille], ['panorama', '🇧🇪 Les paysages', panorama], ['bdriviere', '📖 BD la rivière', bdRiviere], ['riviere', '🌊 La rivière', riviere], ['bloc', '⛰️ Le bloc-diagramme', bloc], ['croquis', '🖍️ Le croquis', croquis], ['photo', '📷 Photo → croquis', croquisPhoto], ['vallee', '🏞️ La vallée en 3D', valleePersp]];
+  const T = [['bd', '📖 BD paysages', bdPay], ['bdville', '📖 BD la ville', bdVille], ['panorama', '🇧🇪 Les paysages', panorama], ['bdriviere', '🛶 Rive droite ou gauche ?', bdRives], ['riviere', '🌊 La rivière', riviere], ['bloc', '⛰️ Le bloc-diagramme', bloc], ['croquis', '🖍️ Le croquis', croquis], ['photo', '📷 Photo → croquis', croquisPhoto], ['vallee', '🏞️ La vallée en 3D', valleePersp]];
   const tabs = T.map(([k, l]) => h('button', { class: 'btn small', type: 'button', 'data-testid': 'pa-tab-' + k, onclick: () => go(k) }, l));
   UI.openDialog(h('div', { class: 'panel be-panel ws-panel pa-panel' }, UI.closeButton(), h('h2', null, '🇧🇪 La Vallée des Paysages de Belgique'), h('div', { class: 'actions wrap' }, ...tabs), body, say), { label: 'Vallée de Belgique', onClose: () => Voice.stop() });
   function go(k) { tabs.forEach((t, i) => t.classList.toggle('primary', T[i][0] === k)); Voice.stop(); talk('', false); T.find((x) => x[0] === k)[2](body, talk); }
